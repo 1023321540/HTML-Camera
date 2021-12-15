@@ -4477,7 +4477,7 @@ const keycloakConfig = {
 };
 const environment = {
     production: false,
-    API_END_POINT: 'https://192.168.60.2:8060',
+    API_END_POINT: 'http://192.168.60.2:8060',
     keycloak: keycloakConfig
 };
 /*

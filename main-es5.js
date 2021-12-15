@@ -3319,7 +3319,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           var data = this.managerObj.signaturePad.toDataURL('image/svg+xml');
           var path = atob(data.split(',')[1]);
           host.managerObj.signature = Object(_utils_judge_data__WEBPACK_IMPORTED_MODULE_3__["svgPathToGeoJson"])(path); //console output signature format
-          //console.log(JSON.stringify(host.managerObj.signature)); 
+          //console.log(JSON.stringify(host.managerObj.signature));
         }
       }, {
         key: "resizeCanvas",
@@ -3646,7 +3646,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
                     //     canvas: canvas, //自定义 canvas
                     //     width: width, //dom 原始宽度
                     //     height: height,
-                    //     scrollY: 0, 
+                    //     scrollY: 0,
                     //     scrollX: 0,
                     //     x: 0, // x坐标
                     //     y: 0, // y坐标
@@ -3720,7 +3720,10 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
                 // width:331,
                 // height:176,
                 width: _this10.ocr.nativeElement.clientWidth - 4,
-                height: _this10.ocr.nativeElement.clientHeight - 4
+                height: _this10.ocr.nativeElement.clientHeight - 4,
+                facingMode: {
+                  exact: "environment"
+                }
               },
               audio: false
             };
@@ -3766,7 +3769,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           this.isShowVideo = false;
           this.getMedia();
         } // // 打开摄像机
-        // openCapture(){  
+        // openCapture(){
         //   // 旧版本浏览器可能根本不支持mediaDevices，我们首先设置一个空对象
         //   if(navigator.mediaDevices === undefined){
         //     Object.defineProperty(navigator,'mediaDevices',{
@@ -7491,7 +7494,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     };
     var environment = {
       production: false,
-      API_END_POINT: 'http://192.168.60.2:8060',
+      API_END_POINT: 'https://192.168.60.2:8060',
       keycloak: keycloakConfig
     };
     /*

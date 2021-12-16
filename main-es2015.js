@@ -1131,20 +1131,30 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var html2canvas__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(html2canvas__WEBPACK_IMPORTED_MODULE_5__);
 /* harmony import */ var _app_core_pipes_locale_filter_pipe__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @app/core/pipes/locale-filter.pipe */ "./src/app/core/pipes/locale-filter.pipe.ts");
 /* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! rxjs/operators */ "./node_modules/rxjs/_esm2015/operators/index.js");
-/* harmony import */ var _app_core_services_api_service_member_service__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @app/core/services/api-service/member.service */ "./src/app/core/services/api-service/member.service.ts");
-/* harmony import */ var _ngx_translate_core__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @ngx-translate/core */ "./node_modules/@ngx-translate/core/__ivy_ngcc__/fesm2015/ngx-translate-core.js");
-/* harmony import */ var _app_core_services_front_end_service_session_service__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @app/core/services/front-end-service/session.service */ "./src/app/core/services/front-end-service/session.service.ts");
-/* harmony import */ var _app_core_services_front_end_service_layout_service__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! @app/core/services/front-end-service/layout.service */ "./src/app/core/services/front-end-service/layout.service.ts");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/__ivy_ngcc__/fesm2015/router.js");
-/* harmony import */ var _angular_material_icon__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! @angular/material/icon */ "./node_modules/@angular/material/__ivy_ngcc__/fesm2015/icon.js");
-/* harmony import */ var _angular_material_select__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! @angular/material/select */ "./node_modules/@angular/material/__ivy_ngcc__/fesm2015/select.js");
-/* harmony import */ var _angular_material_core__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! @angular/material/core */ "./node_modules/@angular/material/__ivy_ngcc__/fesm2015/core.js");
-/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js");
-/* harmony import */ var _angular_material_button__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! @angular/material/button */ "./node_modules/@angular/material/__ivy_ngcc__/fesm2015/button.js");
-/* harmony import */ var _angular_flex_layout_extended__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! @angular/flex-layout/extended */ "./node_modules/@angular/flex-layout/__ivy_ngcc__/esm2015/extended.js");
-/* harmony import */ var _angular_material_radio__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! @angular/material/radio */ "./node_modules/@angular/material/__ivy_ngcc__/fesm2015/radio.js");
-/* harmony import */ var _angular_material_form_field__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! @angular/material/form-field */ "./node_modules/@angular/material/__ivy_ngcc__/fesm2015/form-field.js");
-/* harmony import */ var _angular_material_checkbox__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! @angular/material/checkbox */ "./node_modules/@angular/material/__ivy_ngcc__/fesm2015/checkbox.js");
+/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! rxjs */ "./node_modules/rxjs/_esm2015/index.js");
+/* harmony import */ var _app_core_models_scan_card_card_request__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @app/core/models/scan-card/card-request */ "./src/app/core/models/scan-card/card-request.ts");
+/* harmony import */ var _app_core_utils_area__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @app/core/utils/area */ "./src/app/core/utils/area.ts");
+/* harmony import */ var _app_core_services_api_service_member_service__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! @app/core/services/api-service/member.service */ "./src/app/core/services/api-service/member.service.ts");
+/* harmony import */ var _ngx_translate_core__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! @ngx-translate/core */ "./node_modules/@ngx-translate/core/__ivy_ngcc__/fesm2015/ngx-translate-core.js");
+/* harmony import */ var _app_core_services_front_end_service_session_service__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! @app/core/services/front-end-service/session.service */ "./src/app/core/services/front-end-service/session.service.ts");
+/* harmony import */ var _app_core_services_front_end_service_layout_service__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! @app/core/services/front-end-service/layout.service */ "./src/app/core/services/front-end-service/layout.service.ts");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/__ivy_ngcc__/fesm2015/router.js");
+/* harmony import */ var _app_core_services_api_service_customer_information_service__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! @app/core/services/api-service/customer_information.service */ "./src/app/core/services/api-service/customer_information.service.ts");
+/* harmony import */ var ngx_toastr__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ngx-toastr */ "./node_modules/ngx-toastr/__ivy_ngcc__/fesm2015/ngx-toastr.js");
+/* harmony import */ var _angular_material_icon__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! @angular/material/icon */ "./node_modules/@angular/material/__ivy_ngcc__/fesm2015/icon.js");
+/* harmony import */ var _angular_material_select__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! @angular/material/select */ "./node_modules/@angular/material/__ivy_ngcc__/fesm2015/select.js");
+/* harmony import */ var _angular_material_core__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! @angular/material/core */ "./node_modules/@angular/material/__ivy_ngcc__/fesm2015/core.js");
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js");
+/* harmony import */ var _angular_material_button__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! @angular/material/button */ "./node_modules/@angular/material/__ivy_ngcc__/fesm2015/button.js");
+/* harmony import */ var _angular_flex_layout_extended__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! @angular/flex-layout/extended */ "./node_modules/@angular/flex-layout/__ivy_ngcc__/esm2015/extended.js");
+/* harmony import */ var _angular_material_radio__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! @angular/material/radio */ "./node_modules/@angular/material/__ivy_ngcc__/fesm2015/radio.js");
+/* harmony import */ var _angular_material_form_field__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! @angular/material/form-field */ "./node_modules/@angular/material/__ivy_ngcc__/fesm2015/form-field.js");
+/* harmony import */ var _angular_material_checkbox__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! @angular/material/checkbox */ "./node_modules/@angular/material/__ivy_ngcc__/fesm2015/checkbox.js");
+
+
+
+
+
 
 
 
@@ -1328,7 +1338,7 @@ function MemberInfoRegisterComponent_span_49_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](3);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipeBind1"](7, 6, "PRE_REGISTER.REQUIRED_FIELD"));
 } }
-function MemberInfoRegisterComponent_div_93_Template(rf, ctx) { if (rf & 1) {
+function MemberInfoRegisterComponent_div_100_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 126);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](1, "mat-icon");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](2, "error");
@@ -1342,7 +1352,7 @@ function MemberInfoRegisterComponent_div_93_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](4);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipeBind1"](5, 1, "PRE_REGISTER.ERR_TIP_CN_FULLNAME"));
 } }
-function MemberInfoRegisterComponent_div_94_Template(rf, ctx) { if (rf & 1) {
+function MemberInfoRegisterComponent_div_101_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 126);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](1, "mat-icon");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](2, "error");
@@ -1356,7 +1366,7 @@ function MemberInfoRegisterComponent_div_94_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](4);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipeBind1"](5, 1, "PRE_REGISTER.ERR_TIP_CN_FIRSTNAME"));
 } }
-function MemberInfoRegisterComponent_div_95_Template(rf, ctx) { if (rf & 1) {
+function MemberInfoRegisterComponent_div_102_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 126);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](1, "mat-icon");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](2, "error");
@@ -1370,7 +1380,7 @@ function MemberInfoRegisterComponent_div_95_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](4);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipeBind1"](5, 1, "PRE_REGISTER.ERR_TIP_CN_LASTNAME"));
 } }
-function MemberInfoRegisterComponent_div_107_Template(rf, ctx) { if (rf & 1) {
+function MemberInfoRegisterComponent_div_114_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 126);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](1, "mat-icon");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](2, "error");
@@ -1384,7 +1394,7 @@ function MemberInfoRegisterComponent_div_107_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](4);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipeBind1"](5, 1, "PRE_REGISTER.ERR_TIP_EN_FULLNAME"));
 } }
-function MemberInfoRegisterComponent_div_108_Template(rf, ctx) { if (rf & 1) {
+function MemberInfoRegisterComponent_div_115_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 126);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](1, "mat-icon");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](2, "error");
@@ -1398,7 +1408,7 @@ function MemberInfoRegisterComponent_div_108_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](4);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipeBind1"](5, 1, "PRE_REGISTER.ERR_TIP_EN_FIRSTNAME"));
 } }
-function MemberInfoRegisterComponent_div_109_Template(rf, ctx) { if (rf & 1) {
+function MemberInfoRegisterComponent_div_116_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 126);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](1, "mat-icon");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](2, "error");
@@ -1412,10 +1422,10 @@ function MemberInfoRegisterComponent_div_109_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](4);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipeBind1"](5, 1, "PRE_REGISTER.ERR_TIP_EN_LASTNAME"));
 } }
-function MemberInfoRegisterComponent_mat_option_136_Template(rf, ctx) { if (rf & 1) {
+function MemberInfoRegisterComponent_mat_option_143_Template(rf, ctx) { if (rf & 1) {
     const _r41 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵgetCurrentView"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "mat-option", 127);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("click", function MemberInfoRegisterComponent_mat_option_136_Template_mat_option_click_0_listener() { _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵrestoreView"](_r41); const item_r39 = ctx.$implicit; const ctx_r40 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"](); return ctx_r40.selectIdCardCategory(item_r39); });
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("click", function MemberInfoRegisterComponent_mat_option_143_Template_mat_option_click_0_listener() { _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵrestoreView"](_r41); const item_r39 = ctx.$implicit; const ctx_r40 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"](); return ctx_r40.selectIdCardCategory(item_r39); });
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 } if (rf & 2) {
@@ -1425,7 +1435,7 @@ function MemberInfoRegisterComponent_mat_option_136_Template(rf, ctx) { if (rf &
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate1"](" ", ctx_r22.getNameByI18String(item_r39.text), " ");
 } }
-function MemberInfoRegisterComponent_div_143_Template(rf, ctx) { if (rf & 1) {
+function MemberInfoRegisterComponent_div_150_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 126);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](1, "mat-icon");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](2, "error");
@@ -1439,10 +1449,10 @@ function MemberInfoRegisterComponent_div_143_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](4);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipeBind1"](5, 1, "PRE_REGISTER.ERR_TIP_IDNUMBER"));
 } }
-function MemberInfoRegisterComponent_mat_option_154_Template(rf, ctx) { if (rf & 1) {
+function MemberInfoRegisterComponent_mat_option_161_Template(rf, ctx) { if (rf & 1) {
     const _r44 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵgetCurrentView"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "mat-option", 127);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("click", function MemberInfoRegisterComponent_mat_option_154_Template_mat_option_click_0_listener() { _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵrestoreView"](_r44); const item_r42 = ctx.$implicit; const ctx_r43 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"](); return ctx_r43.selectOption(item_r42, "bornYear"); });
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("click", function MemberInfoRegisterComponent_mat_option_161_Template_mat_option_click_0_listener() { _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵrestoreView"](_r44); const item_r42 = ctx.$implicit; const ctx_r43 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"](); return ctx_r43.selectOption(item_r42, "bornYear"); });
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 } if (rf & 2) {
@@ -1451,10 +1461,10 @@ function MemberInfoRegisterComponent_mat_option_154_Template(rf, ctx) { if (rf &
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate1"](" ", item_r42, " ");
 } }
-function MemberInfoRegisterComponent_mat_option_158_Template(rf, ctx) { if (rf & 1) {
+function MemberInfoRegisterComponent_mat_option_165_Template(rf, ctx) { if (rf & 1) {
     const _r47 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵgetCurrentView"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "mat-option", 127);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("click", function MemberInfoRegisterComponent_mat_option_158_Template_mat_option_click_0_listener() { _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵrestoreView"](_r47); const item_r45 = ctx.$implicit; const ctx_r46 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"](); return ctx_r46.selectOption(item_r45, "bornMonth"); });
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("click", function MemberInfoRegisterComponent_mat_option_165_Template_mat_option_click_0_listener() { _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵrestoreView"](_r47); const item_r45 = ctx.$implicit; const ctx_r46 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"](); return ctx_r46.selectOption(item_r45, "bornMonth"); });
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 } if (rf & 2) {
@@ -1463,10 +1473,10 @@ function MemberInfoRegisterComponent_mat_option_158_Template(rf, ctx) { if (rf &
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate1"](" ", item_r45, " ");
 } }
-function MemberInfoRegisterComponent_mat_option_162_Template(rf, ctx) { if (rf & 1) {
+function MemberInfoRegisterComponent_mat_option_169_Template(rf, ctx) { if (rf & 1) {
     const _r50 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵgetCurrentView"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "mat-option", 127);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("click", function MemberInfoRegisterComponent_mat_option_162_Template_mat_option_click_0_listener() { _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵrestoreView"](_r50); const item_r48 = ctx.$implicit; const ctx_r49 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"](); return ctx_r49.selectOption(item_r48, "bornDay"); });
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("click", function MemberInfoRegisterComponent_mat_option_169_Template_mat_option_click_0_listener() { _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵrestoreView"](_r50); const item_r48 = ctx.$implicit; const ctx_r49 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"](); return ctx_r49.selectOption(item_r48, "bornDay"); });
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 } if (rf & 2) {
@@ -1475,7 +1485,7 @@ function MemberInfoRegisterComponent_mat_option_162_Template(rf, ctx) { if (rf &
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate1"](" ", item_r48, " ");
 } }
-function MemberInfoRegisterComponent_div_163_Template(rf, ctx) { if (rf & 1) {
+function MemberInfoRegisterComponent_div_170_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 126);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](1, "mat-icon");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](2, "error");
@@ -1489,7 +1499,7 @@ function MemberInfoRegisterComponent_div_163_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](4);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipeBind1"](5, 1, "PRE_REGISTER.ERR_TIP_BORNDATE"));
 } }
-function MemberInfoRegisterComponent_div_165_Template(rf, ctx) { if (rf & 1) {
+function MemberInfoRegisterComponent_div_172_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 17);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](1, "img", 128);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](2, "span");
@@ -1501,10 +1511,10 @@ function MemberInfoRegisterComponent_div_165_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](3);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipeBind1"](4, 1, "PRE_REGISTER.COM_INFO"));
 } }
-function MemberInfoRegisterComponent_mat_option_177_Template(rf, ctx) { if (rf & 1) {
+function MemberInfoRegisterComponent_mat_option_184_Template(rf, ctx) { if (rf & 1) {
     const _r53 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵgetCurrentView"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "mat-option", 129);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("click", function MemberInfoRegisterComponent_mat_option_177_Template_mat_option_click_0_listener() { _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵrestoreView"](_r53); const item_r51 = ctx.$implicit; const ctx_r52 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"](); return ctx_r52.selectPhoneAreaCode(item_r51); });
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("click", function MemberInfoRegisterComponent_mat_option_184_Template_mat_option_click_0_listener() { _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵrestoreView"](_r53); const item_r51 = ctx.$implicit; const ctx_r52 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"](); return ctx_r52.selectPhoneAreaCode(item_r51); });
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 } if (rf & 2) {
@@ -1512,7 +1522,7 @@ function MemberInfoRegisterComponent_mat_option_177_Template(rf, ctx) { if (rf &
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate1"](" ", item_r51, " ");
 } }
-function MemberInfoRegisterComponent_div_181_Template(rf, ctx) { if (rf & 1) {
+function MemberInfoRegisterComponent_div_188_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 126);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](1, "mat-icon");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](2, "error");
@@ -1526,7 +1536,7 @@ function MemberInfoRegisterComponent_div_181_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](4);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipeBind1"](5, 1, "PRE_REGISTER.ERR_TIP_PHONENUMBER"));
 } }
-function MemberInfoRegisterComponent_div_191_Template(rf, ctx) { if (rf & 1) {
+function MemberInfoRegisterComponent_div_198_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 126);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](1, "mat-icon");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](2, "error");
@@ -1540,7 +1550,7 @@ function MemberInfoRegisterComponent_div_191_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](4);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipeBind1"](5, 1, "PRE_REGISTER.ERR_TIP_EMAIL"));
 } }
-function MemberInfoRegisterComponent_div_193_Template(rf, ctx) { if (rf & 1) {
+function MemberInfoRegisterComponent_div_200_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 58);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipe"](2, "translate");
@@ -1549,10 +1559,10 @@ function MemberInfoRegisterComponent_div_193_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipeBind1"](2, 1, "PRE_REGISTER.ADRESS"));
 } }
-function MemberInfoRegisterComponent_div_194_mat_option_4_Template(rf, ctx) { if (rf & 1) {
+function MemberInfoRegisterComponent_div_201_mat_option_4_Template(rf, ctx) { if (rf & 1) {
     const _r59 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵgetCurrentView"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "mat-option", 127);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("click", function MemberInfoRegisterComponent_div_194_mat_option_4_Template_mat_option_click_0_listener() { _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵrestoreView"](_r59); const item_r57 = ctx.$implicit; const ctx_r58 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"](2); return ctx_r58.selectOption(item_r57, "countiesId"); });
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("click", function MemberInfoRegisterComponent_div_201_mat_option_4_Template_mat_option_click_0_listener() { _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵrestoreView"](_r59); const item_r57 = ctx.$implicit; const ctx_r58 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"](2); return ctx_r58.selectOption(item_r57, "countiesId"); });
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 } if (rf & 2) {
@@ -1562,10 +1572,10 @@ function MemberInfoRegisterComponent_div_194_mat_option_4_Template(rf, ctx) { if
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate1"](" ", ctx_r54.getNameByCurrentLang(item_r57.name), " ");
 } }
-function MemberInfoRegisterComponent_div_194_mat_option_9_Template(rf, ctx) { if (rf & 1) {
+function MemberInfoRegisterComponent_div_201_mat_option_9_Template(rf, ctx) { if (rf & 1) {
     const _r62 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵgetCurrentView"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "mat-option", 127);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("click", function MemberInfoRegisterComponent_div_194_mat_option_9_Template_mat_option_click_0_listener() { _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵrestoreView"](_r62); const item_r60 = ctx.$implicit; const ctx_r61 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"](2); return ctx_r61.selectOption(item_r60, "regionsId"); });
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("click", function MemberInfoRegisterComponent_div_201_mat_option_9_Template_mat_option_click_0_listener() { _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵrestoreView"](_r62); const item_r60 = ctx.$implicit; const ctx_r61 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"](2); return ctx_r61.selectOption(item_r60, "regionsId"); });
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 } if (rf & 2) {
@@ -1575,10 +1585,10 @@ function MemberInfoRegisterComponent_div_194_mat_option_9_Template(rf, ctx) { if
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate1"](" ", ctx_r55.getNameByCurrentLang(item_r60.name), " ");
 } }
-function MemberInfoRegisterComponent_div_194_mat_option_14_Template(rf, ctx) { if (rf & 1) {
+function MemberInfoRegisterComponent_div_201_mat_option_14_Template(rf, ctx) { if (rf & 1) {
     const _r65 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵgetCurrentView"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "mat-option", 127);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("click", function MemberInfoRegisterComponent_div_194_mat_option_14_Template_mat_option_click_0_listener() { _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵrestoreView"](_r65); const item_r63 = ctx.$implicit; const ctx_r64 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"](2); return ctx_r64.selectOption(item_r63, "districtsId"); });
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("click", function MemberInfoRegisterComponent_div_201_mat_option_14_Template_mat_option_click_0_listener() { _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵrestoreView"](_r65); const item_r63 = ctx.$implicit; const ctx_r64 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"](2); return ctx_r64.selectOption(item_r63, "districtsId"); });
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 } if (rf & 2) {
@@ -1588,26 +1598,26 @@ function MemberInfoRegisterComponent_div_194_mat_option_14_Template(rf, ctx) { i
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate1"](" ", ctx_r56.getNameByCurrentLang(item_r63.name), " ");
 } }
-function MemberInfoRegisterComponent_div_194_Template(rf, ctx) { if (rf & 1) {
+function MemberInfoRegisterComponent_div_201_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 80);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](1, "mat-form-field", 74);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](2, "mat-select", 130);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipe"](3, "translate");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](4, MemberInfoRegisterComponent_div_194_mat_option_4_Template, 2, 2, "mat-option", 76);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](4, MemberInfoRegisterComponent_div_201_mat_option_4_Template, 2, 2, "mat-option", 76);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipe"](5, "async");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](6, "mat-form-field", 74);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](7, "mat-select", 131);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipe"](8, "translate");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](9, MemberInfoRegisterComponent_div_194_mat_option_9_Template, 2, 2, "mat-option", 76);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](9, MemberInfoRegisterComponent_div_201_mat_option_9_Template, 2, 2, "mat-option", 76);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipe"](10, "async");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](11, "mat-form-field", 74);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](12, "mat-select", 132);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipe"](13, "translate");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](14, MemberInfoRegisterComponent_div_194_mat_option_14_Template, 2, 2, "mat-option", 76);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](14, MemberInfoRegisterComponent_div_201_mat_option_14_Template, 2, 2, "mat-option", 76);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipe"](15, "async");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
@@ -1627,7 +1637,7 @@ function MemberInfoRegisterComponent_div_194_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngForOf", _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipeBind1"](15, 19, ctx_r33.areaGroup3Options) || ctx_r33.managerObj.districts);
 } }
-function MemberInfoRegisterComponent_input_195_Template(rf, ctx) { if (rf & 1) {
+function MemberInfoRegisterComponent_input_202_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](0, "input", 133);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipe"](1, "translate");
 } if (rf & 2) {
@@ -1635,7 +1645,7 @@ function MemberInfoRegisterComponent_input_195_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵclassProp"]("formallayout", ctx_r34.managerStatus.formalMember);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("placeholder", _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipeBind1"](1, 3, "PRE_REGISTER.ADDRESS_PLAC"));
 } }
-function MemberInfoRegisterComponent_div_212_Template(rf, ctx) { if (rf & 1) {
+function MemberInfoRegisterComponent_div_219_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 126);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](1, "mat-icon");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](2, "error");
@@ -1649,7 +1659,7 @@ function MemberInfoRegisterComponent_div_212_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](4);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipeBind1"](5, 1, "PRE_REGISTER.ERR_TIP_CONSENT1"));
 } }
-function MemberInfoRegisterComponent_div_227_Template(rf, ctx) { if (rf & 1) {
+function MemberInfoRegisterComponent_div_234_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 126);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](1, "mat-icon");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](2, "error");
@@ -1663,7 +1673,7 @@ function MemberInfoRegisterComponent_div_227_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](4);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipeBind1"](5, 1, "PRE_REGISTER.ERR_TIP_CONSENT2"));
 } }
-function MemberInfoRegisterComponent_div_242_Template(rf, ctx) { if (rf & 1) {
+function MemberInfoRegisterComponent_div_249_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 126);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](1, "mat-icon", 134);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](2, "error");
@@ -1689,7 +1699,7 @@ var CountryType;
     CountryType["OTHERS"] = "\u5176\u4ED6:OTHERS";
 })(CountryType || (CountryType = {}));
 class MemberInfoRegisterComponent {
-    constructor(formBulider, memberService, translateService, sessionService, layoutService, route, renderer) {
+    constructor(formBulider, memberService, translateService, sessionService, layoutService, route, renderer, customerInformationService, toastrService) {
         this.formBulider = formBulider;
         this.memberService = memberService;
         this.translateService = translateService;
@@ -1697,6 +1707,8 @@ class MemberInfoRegisterComponent {
         this.layoutService = layoutService;
         this.route = route;
         this.renderer = renderer;
+        this.customerInformationService = customerInformationService;
+        this.toastrService = toastrService;
         this.managerId = {
             tempUmhBookingId: undefined,
             shopId: undefined,
@@ -1797,6 +1809,17 @@ class MemberInfoRegisterComponent {
         this.idCardIndex = 0;
         this.isShowVideo = false;
         this.isShowCanvas = true;
+        this.imageBase64 = '';
+        this.areaArray1 = [];
+        this.areaByOcr = {
+            areaValue1: '',
+            areaValue2: '',
+            areaValue3: '',
+        };
+        this.ocrArea = {
+            province: '',
+            city: '',
+        };
         this.managerStatus.submitted = false;
         this.managerObj.canvas = null;
     }
@@ -1859,6 +1882,9 @@ class MemberInfoRegisterComponent {
                     // if(!this.managerId.countiesId){
                     //   this.managerId.countiesId = data.find((item)=> item.countryCode == '1').id;
                     // }
+                    if (this.areaArray1.length == 0) {
+                        this.areaArray1 = JSON.parse(JSON.stringify(data));
+                    }
                     this.managerId.countiesId = data.find((item) => item.countryCode == '1').id;
                     this.f.areaGroup1.setValue(this.getNameByCurrentLang(data.find((item) => item.countryCode == '1').name));
                     this.managerObj.counties = data;
@@ -1874,16 +1900,26 @@ class MemberInfoRegisterComponent {
                         //   this.managerObj.districts =  data.filter((item)=> regionsCodeSet.has(item.regionCode))
                         // })
                     });
-                    this.areaGroup2Options = this.f.areaGroup1.valueChanges.pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_7__["switchMap"])(() => this.memberService.getRegions()), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_7__["map"])((arr) => arr.filter((item) => { var _a, _b; return ((_a = item.countryCode) === null || _a === void 0 ? void 0 : _a.toString()) === ((_b = this.managerStatus.countryCode) === null || _b === void 0 ? void 0 : _b.toString()); })), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_7__["tap"])(() => {
+                    this.areaGroup2Options = this.f.areaGroup1.valueChanges.pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_7__["switchMap"])(() => this.memberService.getRegions()), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_7__["map"])((arr) => arr.filter((item) => { var _a, _b; return ((_a = item.countryCode) === null || _a === void 0 ? void 0 : _a.toString()) === ((_b = this.managerStatus.countryCode) === null || _b === void 0 ? void 0 : _b.toString()); })), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_7__["tap"])((val) => {
                         this.managerId.districtsId = undefined;
                         this.managerId.regionsId = undefined;
                         this.f.areaGroup2.setValue(null);
                         this.f.areaGroup3.setValue(null);
                         this.managerStatus.regionCode = undefined;
+                        if (this.ocrArea.province != '') {
+                            let areaValue2 = val.find((item) => item.name.find(res => this.ocrArea.province.includes(res.value)));
+                            this.setAreaByOcr(areaValue2, 'regionsId', 'areaGroup2');
+                            this.ocrArea.province = '';
+                        }
                     }));
-                    this.areaGroup3Options = this.f.areaGroup2.valueChanges.pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_7__["switchMap"])(() => this.memberService.getDistricts()), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_7__["map"])((arr) => arr.filter((item) => { var _a, _b; return ((_a = item.regionCode) === null || _a === void 0 ? void 0 : _a.toString()) === ((_b = this.managerStatus.regionCode) === null || _b === void 0 ? void 0 : _b.toString()); })), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_7__["tap"])(() => {
+                    this.areaGroup3Options = this.f.areaGroup2.valueChanges.pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_7__["switchMap"])(() => this.memberService.getDistricts()), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_7__["map"])((arr) => arr.filter((item) => { var _a, _b; return ((_a = item.regionCode) === null || _a === void 0 ? void 0 : _a.toString()) === ((_b = this.managerStatus.regionCode) === null || _b === void 0 ? void 0 : _b.toString()); })), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_7__["tap"])((val) => {
                         this.managerId.districtsId = undefined;
                         this.f.areaGroup3.setValue(null);
+                        if (this.ocrArea.city != '') {
+                            let areaValue3 = val.find((item) => item.name.find(res => this.ocrArea.city.includes(res.value)));
+                            this.setAreaByOcr(areaValue3, 'districtsId', 'areaGroup3');
+                            this.ocrArea.city = '';
+                        }
                     }));
                 });
             });
@@ -1919,7 +1955,7 @@ class MemberInfoRegisterComponent {
         let path = atob(data.split(',')[1]);
         host.managerObj.signature = Object(_utils_judge_data__WEBPACK_IMPORTED_MODULE_3__["svgPathToGeoJson"])(path);
         //console output signature format
-        //console.log(JSON.stringify(host.managerObj.signature));
+        //console.log(JSON.stringify(host.managerObj.signature)); 
     }
     resizeCanvas() {
         try {
@@ -2069,12 +2105,20 @@ class MemberInfoRegisterComponent {
                 break;
         }
     }
+    setAreaByOcr(item, name, area) {
+        this.selectOption(item, name);
+        this.f[area].setValue(this.getNameByCurrentLang(item.name));
+    }
     selectIdCardCategory(item) {
         this.managerStatus.idCardCategoryByVal = item.val;
         this.managerStatus.idCardCategoryByValid = item.key;
         this.f.idcardNumber.clearValidators();
         this.f.idcardNumber.setValidators(Object(_utils_judge_data__WEBPACK_IMPORTED_MODULE_3__["idcardValidators"])(this.managerStatus.idCardCategoryByValid));
         this.f.idcardNumber.updateValueAndValidity();
+    }
+    setIdCardValueByOcr(item) {
+        this.f.idcardCategory.setValue(item.text);
+        this.selectIdCardCategory(item);
     }
     getAllBeforeYear() {
         let currentYear = new Date().getFullYear();
@@ -2168,7 +2212,7 @@ class MemberInfoRegisterComponent {
             //     canvas: canvas, //自定义 canvas
             //     width: width, //dom 原始宽度
             //     height: height,
-            //     scrollY: 0,
+            //     scrollY: 0, 
             //     scrollX: 0,
             //     x: 0, // x坐标
             //     y: 0, // y坐标
@@ -2189,8 +2233,6 @@ class MemberInfoRegisterComponent {
     // 打开OCR
     openOcr() {
         this.isShowOcr = true;
-        console.log('ocr ==>', this.ocr.nativeElement.clientWidth);
-        console.log('ocr ==>', this.ocr.nativeElement.clientHeight);
         this.renderer.removeClass(document.body, 'overflow-auto');
         this.renderer.addClass(document.body, 'overflow-hidden');
         this.getMedia();
@@ -2212,19 +2254,12 @@ class MemberInfoRegisterComponent {
     // 获取video
     getMedia() {
         this.stopCapture();
-        console.log('起始', this.video.nativeElement.srcObject);
-        console.log('ocr ==>', this.ocr.nativeElement.clientWidth);
         const _self = this;
         setTimeout(() => {
-            console.log('====>', this.ocr);
-            console.log('ocr ==>', this.ocr.nativeElement.clientHeight);
             let constraints = {
                 video: {
-                    // width:331,
-                    // height:176,
                     width: this.ocr.nativeElement.clientWidth - 4,
                     height: this.ocr.nativeElement.clientHeight - 4,
-                    facingMode: { exact: "environment" },
                 },
                 audio: false,
             };
@@ -2234,29 +2269,21 @@ class MemberInfoRegisterComponent {
                 _self.video.nativeElement.onloadedmetadata = () => {
                     _self.video.nativeElement.play();
                 };
-                console.log('开启', _self.video.nativeElement.srcObject);
             })
                 .catch(function (err) { console.log(err.name + ": " + err.message); });
         });
-        console.log('video ==>', this.video.nativeElement.clientWidth);
-        console.log('video ==>', this.video.nativeElement.clientHeight);
     }
     getPhone() {
         this.isShowVideo = true;
         this.isShowCanvas = false;
-        console.log('getPhone');
-        // this.video.nativeElement.srcObject.getTracks()[0].stop();
         this.video.nativeElement.pause();
-        console.log(this.video.nativeElement.clientWidth);
-        console.log(this.video.nativeElement.clientHeight);
         this.canvas.nativeElement.width = this.video.nativeElement.clientWidth;
         this.canvas.nativeElement.height = this.video.nativeElement.clientHeight;
         let ctx = this.canvas.nativeElement.getContext("2d");
         ctx.drawImage(this.video.nativeElement, 0, 0, this.video.nativeElement.clientWidth, this.video.nativeElement.clientHeight);
         let imgData = this.canvas.nativeElement.toDataURL();
         let photo = imgData.substr(22);
-        console.log(imgData);
-        // console.log(photo);
+        this.imageBase64 = imgData;
         this.stopCapture();
     }
     setPhone() {
@@ -2265,7 +2292,7 @@ class MemberInfoRegisterComponent {
         this.getMedia();
     }
     // // 打开摄像机
-    // openCapture(){
+    // openCapture(){  
     //   // 旧版本浏览器可能根本不支持mediaDevices，我们首先设置一个空对象
     //   if(navigator.mediaDevices === undefined){
     //     Object.defineProperty(navigator,'mediaDevices',{
@@ -2287,7 +2314,6 @@ class MemberInfoRegisterComponent {
     // 停止摄像机
     stopCapture() {
         var video = this.video.nativeElement;
-        console.log('停止前 ===> ', video.srcObject);
         if (!video.srcObject)
             return;
         let stream = video.srcObject;
@@ -2295,10 +2321,88 @@ class MemberInfoRegisterComponent {
         tracks.forEach(track => {
             track.stop();
         });
-        console.log('停止后 ===> ', video.srcObject);
+    }
+    // 提交OCR
+    submmitOcr() {
+        if (this.imageBase64 == '')
+            return;
+        this.layoutService.showLoading();
+        let cardRequest = new _app_core_models_scan_card_card_request__WEBPACK_IMPORTED_MODULE_9__["CardRequest"]();
+        cardRequest.imageBase64 = this.imageBase64;
+        cardRequest.idCardType = this.idCardIndex == 0 ? 'HK' : 'CN';
+        let scanOcr = this.customerInformationService.scanOcr(cardRequest).pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_7__["catchError"])((error) => {
+            scanOcr.unsubscribe();
+            this.toastrService.error(this.translateService.instant(`${error.errors[0].errorMsg}`));
+            return Object(rxjs__WEBPACK_IMPORTED_MODULE_8__["of"])(null);
+        }), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_7__["finalize"])(() => {
+            this.closeOcr();
+            this.layoutService.closeLoading();
+        })).subscribe((res) => {
+            this.f.chLastName.setValue(res.cnName.slice(0, 1));
+            this.f.chFirstName.setValue(res.cnName.substr(1));
+            if (res.objectType == 'HKIDCard') {
+                this.setDataHkByOcr(res);
+            }
+            else {
+                this.setDataCnByOcr(res);
+            }
+            this.f.idcardNumber.setValue(res.idNum);
+            this.f.sex.setValue(res.sex);
+        });
+    }
+    // OCR处理香港身份证信息
+    setDataHkByOcr(data) {
+        if (data.enName.indexOf(',') > -1) {
+            this.f.enLastName.setValue(data.enName.split(',')[0]);
+            this.f.enFirstName.setValue(data.enName.split(',')[1]);
+        }
+        else if (data.enName.indexOf('.') > -1) {
+            this.f.enLastName.setValue(data.enName.split('.')[0]);
+            this.f.enFirstName.setValue(data.enName.split('.')[1]);
+        }
+        else {
+            this.f.enLastName.setValue(data.enName.split(' ')[0]);
+            this.f.enFirstName.setValue(data.enName.split(' ')[1]);
+        }
+        this.setIdCardValueByOcr({
+            key: 'HKID',
+            text: "PRE_REGISTER.HK_IDCARD",
+            val: CountryType.HONG_KONG
+        });
+        this.f.bornYear.setValue(+data.birthday.split('-')[0]);
+        this.f.bornMonth.setValue(+data.birthday.split('-')[1]);
+        this.f.bornDay.setValue(+data.birthday.split('-')[2]);
+    }
+    // OCR处理中国内地身份证信息
+    setDataCnByOcr(data) {
+        this.setIdCardValueByOcr({
+            key: 'CHID',
+            text: "PRE_REGISTER.CH_IDCARD",
+            val: CountryType.CHINA
+        });
+        this.f.bornYear.setValue(+data.birthday.split('/')[0]);
+        this.f.bornMonth.setValue(+data.birthday.split('/')[1]);
+        this.f.bornDay.setValue(+data.birthday.split('/')[2]);
+        this.ocrArea.province = Object.values(this.manageAreaData(_app_core_utils_area__WEBPACK_IMPORTED_MODULE_10__["PROVINCE_LIST"]).find(item => Object.keys(item)[0].substr(0, 2) == data.idNum.substr(0, 2)))[0];
+        this.ocrArea.city = Object.values(this.manageAreaData(_app_core_utils_area__WEBPACK_IMPORTED_MODULE_10__["CITY_LISTt"]).find(item => Object.keys(item)[0].substr(0, 4) == data.idNum.substr(0, 4)))[0];
+        let areaValue1 = this.areaArray1.find((item) => item.name.find((val) => val.value == '中国'));
+        this.setAreaByOcr(areaValue1, 'countiesId', 'areaGroup1');
+        this.f.detailAddress.setValue(data.address.split(`${this.ocrArea.city}`)[1]);
+    }
+    // 处理地址数据
+    manageAreaData(data) {
+        let keys = Object.keys(data);
+        let values = Object.values(data);
+        let result = [];
+        keys.forEach((item, index) => {
+            let obj = {};
+            obj[`${item}`] = values[index];
+            result.push(obj);
+        });
+        return result;
     }
 }
-MemberInfoRegisterComponent.ɵfac = function MemberInfoRegisterComponent_Factory(t) { return new (t || MemberInfoRegisterComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](_angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormBuilder"]), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](_app_core_services_api_service_member_service__WEBPACK_IMPORTED_MODULE_8__["MemberService"]), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](_ngx_translate_core__WEBPACK_IMPORTED_MODULE_9__["TranslateService"]), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](_app_core_services_front_end_service_session_service__WEBPACK_IMPORTED_MODULE_10__["SessionService"]), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](_app_core_services_front_end_service_layout_service__WEBPACK_IMPORTED_MODULE_11__["LayoutService"]), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_12__["ActivatedRoute"]), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](_angular_core__WEBPACK_IMPORTED_MODULE_1__["Renderer2"])); };
+MemberInfoRegisterComponent.ɵfac = function MemberInfoRegisterComponent_Factory(t) { return new (t || MemberInfoRegisterComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](_angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormBuilder"]), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](_app_core_services_api_service_member_service__WEBPACK_IMPORTED_MODULE_11__["MemberService"]), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](_ngx_translate_core__WEBPACK_IMPORTED_MODULE_12__["TranslateService"]), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](_app_core_services_front_end_service_session_service__WEBPACK_IMPORTED_MODULE_13__["SessionService"]), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](_app_core_services_front_end_service_layout_service__WEBPACK_IMPORTED_MODULE_14__["LayoutService"]), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_15__["ActivatedRoute"]), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](_angular_core__WEBPACK_IMPORTED_MODULE_1__["Renderer2"]), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](_app_core_services_api_service_customer_information_service__WEBPACK_IMPORTED_MODULE_16__["CustomerInformationService"]), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](ngx_toastr__WEBPACK_IMPORTED_MODULE_17__["ToastrService"])); };
 MemberInfoRegisterComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineComponent"]({ type: MemberInfoRegisterComponent, selectors: [["app-member-info-register"]], viewQuery: function MemberInfoRegisterComponent_Query(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵviewQuery"](_c0, true);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵviewQuery"](_c1, true);
@@ -2312,7 +2416,7 @@ MemberInfoRegisterComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_1__["
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵqueryRefresh"](_t = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵloadQuery"]()) && (ctx.video = _t.first);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵqueryRefresh"](_t = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵloadQuery"]()) && (ctx.canvas = _t.first);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵqueryRefresh"](_t = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵloadQuery"]()) && (ctx.ocr = _t.first);
-    } }, decls: 256, vars: 248, consts: [["id", "wrapper-memberinfo-register", 1, "wrapper-memberinfo-register"], ["myBox", ""], [1, "logobar"], ["src", "assets/icon/logo2.png", 1, "logo"], [1, "select-language"], [3, "placeholder"], ["value", "English", 3, "click"], ["value", "\u7E41\u9AD4\u4E2D\u6587", 3, "click"], ["value", "\u7B80\u4F53\u4E2D\u6587", 3, "click"], [1, "contentpane"], [1, "textarea-title", "effect-padding-inner", 3, "hidden"], ["class", "title", 4, "ngIf"], ["class", "text-tip", 4, "ngIf"], ["class", "text-tip formallayout", 4, "ngIf"], ["class", "successpage", 4, "ngIf"], [1, "mainform", "effect-padding-inner", 3, "formGroup", "hidden"], [1, "invoice-message"], [1, "title", "subtitle"], [1, "text"], ["src", "assets/icon/invoice.png"], [1, "textarea", "effect-padding-inner"], [1, "bar-username", "bar"], [1, "text-username"], [1, "bar-date", "bar"], ["class", "text-date", 4, "ngIf"], [1, "bar-location", "bar"], ["src", "assets/icon/location.png"], ["text-location", ""], [1, "person-message", 3, "hidden"], [1, "title"], ["src", "assets/icon/user.png"], [4, "ngIf"], ["class", "sub", 4, "ngIf"], [1, "ocr-but-box", 3, "click"], ["mat-flat-button", "", 1, "ocr-but"], ["src", "assets/icon/scan_id_card.svg", "alt", ""], [3, "hidden"], [1, "ocr-mask-layer"], [1, "ocr-box"], [1, "ocr-content"], [1, "close-ocr", "d-flex", "justify-content-end"], [3, "click"], [1, "text-center"], [1, "ocr-title"], [1, "id-card-box"], [1, "ocr-ground"], [1, "ocr"], ["ocr", ""], [3, "hidden", "click"], ["canvas", ""], ["autoplay", "autoplay", 3, "hidden", "click"], ["video", ""], [1, "ocr-describe"], [1, "d-flex", "flex-column"], ["type", "submit", "mat-flat-button", "", 1, "ocr-submit"], ["type", "submit", "mat-stroked-button", "", 1, "ocr-back", 3, "click"], [1, "effect-padding-inner"], [1, "field-chname", "field", 3, "hidden"], [1, "tip"], [1, "textarea-input"], ["formControlName", "chLastName", 3, "placeholder", "ngClass"], ["formControlName", "chFirstName", 3, "placeholder", "ngClass"], ["class", "tip-invalid", 4, "ngIf"], [1, "field-enname", "field", 3, "hidden"], [1, "effect-font-imp"], ["formControlName", "enLastName", 3, "placeholder", "ngClass"], ["formControlName", "enFirstName", 3, "placeholder", "ngClass"], [1, "field-sex", "field", 3, "hidden"], [1, "select-input"], ["aria-label", "Select an option", "formControlName", "sex"], ["value", "M"], ["value", "F"], [1, "field-idcard"], [1, "field-idcard-category", "field", 3, "hidden"], ["floatLabel", "never"], ["formControlName", "idcardCategory", "panelClass", "matOptions"], [3, "value", "click", 4, "ngFor", "ngForOf"], [1, "field-idcard-number", "field", 3, "hidden"], ["formControlName", "idcardNumber", 3, "placeholder", "ngClass"], [1, "field-borndate", "field", 3, "hidden"], [1, "subfield"], ["floatLabel", "never", 3, "ngClass"], ["formControlName", "bornYear", "panelClass", "matOptions", 3, "placeholder"], ["formControlName", "bornMonth", "panelClass", "matOptions", 3, "placeholder"], ["formControlName", "bornDay", "panelClass", "matOptions", 3, "placeholder"], [1, "contact-info"], ["class", "title subtitle", 4, "ngIf"], [1, "field-phone", "field", 3, "hidden"], [1, "position-relative"], [1, "info-input"], ["floatLabel", "never", 1, "phoneAreaCode", 3, "ngClass"], ["formControlName", "phoneAreaCode", "panelClass", "matOptions", "placeholder", "852"], ["value", "item", 3, "click", 4, "ngFor", "ngForOf"], [1, "wallline"], ["formControlName", "phoneNumber", 1, "phoneNumber", 3, "placeholder", "ngClass"], [1, "field-email", "field", 3, "hidden"], ["formControlName", "email", 3, "placeholder", "ngClass"], [1, "field-address", "field"], ["class", "tip", 4, "ngIf"], ["class", "subfield", 4, "ngIf"], ["class", "detailAddress", "formControlName", "detailAddress", 3, "formallayout", "placeholder", 4, "ngIf"], [1, "consents", 3, "hidden"], ["formControlName", "consent1", 1, "custom-frame", 3, "ngClass"], [1, "agree", 3, "ngClass"], [3, "ngClass"], ["target", "_blank", 3, "href"], [1, "des"], ["formControlName", "consent2", 1, "custom-frame", 3, "ngClass"], ["formControlName", "consent3", 1, "custom-frame"], [1, "fontblack"], [1, "signature", 3, "hidden"], ["src", "assets/icon/signature.png"], [1, "wrapper"], ["id", "signature-pad", 1, "signature-pad"], ["signaturePad", ""], ["id", "clear"], [1, "toolbar-btn"], [1, "btn-submitted", 3, "hidden"], ["mat-button", "", 3, "hidden", "click"], [1, "text-tip"], [1, "text-tip", "formallayout"], [1, "successpage"], ["src", "assets/icon/check-circle.png"], [1, "complete-text-secondary-part"], [1, "text-date"], [1, "sub"], [1, "tip-invalid"], [3, "value", "click"], ["src", "assets/icon/phone.png"], ["value", "item", 3, "click"], ["formControlName", "areaGroup1", 3, "panelClass", "placeholder"], ["formControlName", "areaGroup2", 3, "panelClass", "placeholder"], ["formControlName", "areaGroup3", 3, "panelClass", "placeholder"], ["formControlName", "detailAddress", 1, "detailAddress", 3, "placeholder"], [1, "error"]], template: function MemberInfoRegisterComponent_Template(rf, ctx) { if (rf & 1) {
+    } }, decls: 263, vars: 269, consts: [["id", "wrapper-memberinfo-register", 1, "wrapper-memberinfo-register"], ["myBox", ""], [1, "logobar"], ["src", "assets/icon/logo2.png", 1, "logo"], [1, "select-language"], [3, "placeholder"], ["value", "English", 3, "click"], ["value", "\u7E41\u9AD4\u4E2D\u6587", 3, "click"], ["value", "\u7B80\u4F53\u4E2D\u6587", 3, "click"], [1, "contentpane"], [1, "textarea-title", "effect-padding-inner", 3, "hidden"], ["class", "title", 4, "ngIf"], ["class", "text-tip", 4, "ngIf"], ["class", "text-tip formallayout", 4, "ngIf"], ["class", "successpage", 4, "ngIf"], [1, "mainform", "effect-padding-inner", 3, "formGroup", "hidden"], [1, "invoice-message"], [1, "title", "subtitle"], [1, "text"], ["src", "assets/icon/invoice.png"], [1, "textarea", "effect-padding-inner"], [1, "bar-username", "bar"], [1, "text-username"], [1, "bar-date", "bar"], ["class", "text-date", 4, "ngIf"], [1, "bar-location", "bar"], ["src", "assets/icon/location.png"], ["text-location", ""], [1, "person-message", 3, "hidden"], [1, "title"], ["src", "assets/icon/user.png"], [4, "ngIf"], ["class", "sub", 4, "ngIf"], [1, "ocr-but-box", 3, "click"], ["mat-flat-button", "", 1, "ocr-but"], ["src", "assets/icon/scan_id_card.svg", "alt", ""], [3, "hidden"], [1, "ocr-mask-layer"], [1, "ocr-box"], [1, "ocr-content"], [1, "close-ocr", "d-flex", "justify-content-end"], [3, "click"], [1, "text-center"], [1, "ocr-title"], [1, "id-card-box"], [1, "ocr-ground"], [1, "ocr"], ["ocr", ""], [3, "hidden", "click"], ["canvas", ""], ["autoplay", "autoplay", 3, "hidden", "click"], ["video", ""], [1, "ocr-describe"], [1, "d-flex", "flex-column"], ["type", "submit", "mat-flat-button", "", 1, "ocr-submit", 3, "click"], ["type", "submit", "mat-stroked-button", "", 1, "ocr-back", 3, "click"], [1, "effect-padding-inner"], [1, "field-chname", "field", 3, "hidden"], [1, "tip"], [1, "textarea-input"], ["formControlName", "chLastName", 3, "placeholder", "ngClass"], ["formControlName", "chFirstName", 3, "placeholder", "ngClass"], ["class", "tip-invalid", 4, "ngIf"], [1, "field-enname", "field", 3, "hidden"], [1, "effect-font-imp"], ["formControlName", "enLastName", 3, "placeholder", "ngClass"], ["formControlName", "enFirstName", 3, "placeholder", "ngClass"], [1, "field-sex", "field", 3, "hidden"], [1, "select-input"], ["aria-label", "Select an option", "formControlName", "sex"], ["value", "M"], ["value", "F"], [1, "field-idcard"], [1, "field-idcard-category", "field", 3, "hidden"], ["floatLabel", "never"], ["formControlName", "idcardCategory", "panelClass", "matOptions"], [3, "value", "click", 4, "ngFor", "ngForOf"], [1, "field-idcard-number", "field", 3, "hidden"], ["formControlName", "idcardNumber", 3, "placeholder", "ngClass"], [1, "field-borndate", "field", 3, "hidden"], [1, "subfield"], ["floatLabel", "never", 3, "ngClass"], ["formControlName", "bornYear", "panelClass", "matOptions", 3, "placeholder"], ["formControlName", "bornMonth", "panelClass", "matOptions", 3, "placeholder"], ["formControlName", "bornDay", "panelClass", "matOptions", 3, "placeholder"], [1, "contact-info"], ["class", "title subtitle", 4, "ngIf"], [1, "field-phone", "field", 3, "hidden"], [1, "position-relative"], [1, "info-input"], ["floatLabel", "never", 1, "phoneAreaCode", 3, "ngClass"], ["formControlName", "phoneAreaCode", "panelClass", "matOptions", "placeholder", "852"], ["value", "item", 3, "click", 4, "ngFor", "ngForOf"], [1, "wallline"], ["formControlName", "phoneNumber", 1, "phoneNumber", 3, "placeholder", "ngClass"], [1, "field-email", "field", 3, "hidden"], ["formControlName", "email", 3, "placeholder", "ngClass"], [1, "field-address", "field"], ["class", "tip", 4, "ngIf"], ["class", "subfield", 4, "ngIf"], ["class", "detailAddress", "formControlName", "detailAddress", 3, "formallayout", "placeholder", 4, "ngIf"], [1, "consents", 3, "hidden"], ["formControlName", "consent1", 1, "custom-frame", 3, "ngClass"], [1, "agree", 3, "ngClass"], [3, "ngClass"], ["target", "_blank", 3, "href"], [1, "des"], ["formControlName", "consent2", 1, "custom-frame", 3, "ngClass"], ["formControlName", "consent3", 1, "custom-frame"], [1, "fontblack"], [1, "signature", 3, "hidden"], ["src", "assets/icon/signature.png"], [1, "wrapper"], ["id", "signature-pad", 1, "signature-pad"], ["signaturePad", ""], ["id", "clear"], [1, "toolbar-btn"], [1, "btn-submitted", 3, "hidden"], ["mat-button", "", 3, "hidden", "click"], [1, "text-tip"], [1, "text-tip", "formallayout"], [1, "successpage"], ["src", "assets/icon/check-circle.png"], [1, "complete-text-secondary-part"], [1, "text-date"], [1, "sub"], [1, "tip-invalid"], [3, "value", "click"], ["src", "assets/icon/phone.png"], ["value", "item", 3, "click"], ["formControlName", "areaGroup1", 3, "panelClass", "placeholder"], ["formControlName", "areaGroup2", 3, "panelClass", "placeholder"], ["formControlName", "areaGroup3", 3, "panelClass", "placeholder"], ["formControlName", "detailAddress", 1, "detailAddress", 3, "placeholder"], [1, "error"]], template: function MemberInfoRegisterComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 0, 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](2, "div", 2);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](3, "img", 3);
@@ -2388,309 +2492,317 @@ MemberInfoRegisterComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_1__["
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("click", function MemberInfoRegisterComponent_Template_div_click_50_listener() { return ctx.openOcr(); });
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](51, "button", 34);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](52, "img", 35);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](53, " \u6383\u7784\u8EAB\u5206\u8B49\u5FEB\u901F\u586B\u5BEB\u8CC7\u6599 ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](53);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipe"](54, "translate");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](54, "div", 36);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](55, "div", 37);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](56, "div", 38);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](57, "div", 39);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](58, "div", 40);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](59, "mat-icon", 41);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("click", function MemberInfoRegisterComponent_Template_mat_icon_click_59_listener() { return ctx.closeOcr(); });
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](60, "close");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](55, "div", 36);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](56, "div", 37);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](57, "div", 38);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](58, "div", 39);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](59, "div", 40);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](60, "mat-icon", 41);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("click", function MemberInfoRegisterComponent_Template_mat_icon_click_60_listener() { return ctx.closeOcr(); });
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](61, "close");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](61, "div", 42);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](62, "div", 43);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](63, "\u8ACB\u5728\u6846\u67B6\u5167\u5C0D\u6E96\u8EAB\u4EFD\u8B49");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](62, "div", 42);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](63, "div", 43);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](64);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipe"](65, "translate");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](64, "div", 44);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](65, "div", 41);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("click", function MemberInfoRegisterComponent_Template_div_click_65_listener() { return ctx.selectIdCard(0); });
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](66, "\u9999\u6E2F\u667A\u80FD\u8EAB\u4EFD\u8B49");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](66, "div", 44);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](67, "div", 41);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("click", function MemberInfoRegisterComponent_Template_div_click_67_listener() { return ctx.selectIdCard(1); });
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](68, "\u4E2D\u570B\u5C45\u6C11\u8EAB\u4EFD\u8B49");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("click", function MemberInfoRegisterComponent_Template_div_click_67_listener() { return ctx.selectIdCard(0); });
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](68);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipe"](69, "translate");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](70, "div", 41);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("click", function MemberInfoRegisterComponent_Template_div_click_70_listener() { return ctx.selectIdCard(1); });
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](71);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipe"](72, "translate");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](69, "div", 45);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](70, "div", 46, 47);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](72, "canvas", 48, 49);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("click", function MemberInfoRegisterComponent_Template_canvas_click_72_listener() { return ctx.setPhone(); });
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](73, "div", 45);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](74, "div", 46, 47);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](76, "canvas", 48, 49);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("click", function MemberInfoRegisterComponent_Template_canvas_click_76_listener() { return ctx.setPhone(); });
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](74, "video", 50, 51);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("click", function MemberInfoRegisterComponent_Template_video_click_74_listener() { return ctx.getPhone(); });
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](76, "div", 52);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](77, "[ \u9EDE\u64CA ] \u4E00\u4E0B\u6846\u67B6\uFF0C\u4EE5\u62CD\u651D\u8EAB\u4EFD\u8B49\u3002\u5982\u9700\u8981\u91CD\u65B0\u62CD\u651D\u8EAB\u5206\u8B49\uFF0C\u53EF\u5728\u63D0\u4EA4\u524D\uFF0C\u518D\u6B21\u9EDE\u64CA\u6846\u67B6\u3002");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](78, "div", 53);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](79, "button", 54);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](80, "\u63D0\u4EA4");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](81, "button", 55);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("click", function MemberInfoRegisterComponent_Template_button_click_81_listener() { return ctx.closeOcr(); });
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](82, "\u8FD4\u56DE");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](78, "video", 50, 51);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("click", function MemberInfoRegisterComponent_Template_video_click_78_listener() { return ctx.getPhone(); });
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](80, "div", 52);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](81);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipe"](82, "translate");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](83, "div", 56);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](84, "div", 57);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](85, "div", 58);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](86);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipe"](87, "translate");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](83, "div", 53);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](84, "button", 54);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("click", function MemberInfoRegisterComponent_Template_button_click_84_listener() { return ctx.submmitOcr(); });
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](85);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipe"](86, "translate");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](88, "div", 59);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](89, "input", 60);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipe"](90, "translate");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](91, "input", 61);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipe"](92, "translate");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](87, "button", 55);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("click", function MemberInfoRegisterComponent_Template_button_click_87_listener() { return ctx.closeOcr(); });
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](88);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipe"](89, "translate");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](93, MemberInfoRegisterComponent_div_93_Template, 6, 3, "div", 62);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](94, MemberInfoRegisterComponent_div_94_Template, 6, 3, "div", 62);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](95, MemberInfoRegisterComponent_div_95_Template, 6, 3, "div", 62);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](96, "div", 63);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](97, "div", 58);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](98);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](90, "div", 56);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](91, "div", 57);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](92, "div", 58);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](93);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipe"](94, "translate");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](95, "div", 59);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](96, "input", 60);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipe"](97, "translate");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](98, "input", 61);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipe"](99, "translate");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](100, "span", 64);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](101, "*");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](100, MemberInfoRegisterComponent_div_100_Template, 6, 3, "div", 62);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](101, MemberInfoRegisterComponent_div_101_Template, 6, 3, "div", 62);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](102, MemberInfoRegisterComponent_div_102_Template, 6, 3, "div", 62);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](102, "div", 59);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](103, "input", 65);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipe"](104, "translate");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](105, "input", 66);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](103, "div", 63);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](104, "div", 58);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](105);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipe"](106, "translate");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](107, "span", 64);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](108, "*");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](107, MemberInfoRegisterComponent_div_107_Template, 6, 3, "div", 62);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](108, MemberInfoRegisterComponent_div_108_Template, 6, 3, "div", 62);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](109, MemberInfoRegisterComponent_div_109_Template, 6, 3, "div", 62);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](110, "div", 67);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](111, "div", 58);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](112);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](109, "div", 59);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](110, "input", 65);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipe"](111, "translate");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](112, "input", 66);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipe"](113, "translate");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](114, "span", 64);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](115, "*");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](114, MemberInfoRegisterComponent_div_114_Template, 6, 3, "div", 62);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](115, MemberInfoRegisterComponent_div_115_Template, 6, 3, "div", 62);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](116, MemberInfoRegisterComponent_div_116_Template, 6, 3, "div", 62);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](116, "div", 68);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](117, "mat-radio-group", 69);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](118, "mat-radio-button", 70);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](117, "div", 67);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](118, "div", 58);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](119);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipe"](120, "translate");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](121, "mat-radio-button", 71);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](122);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipe"](123, "translate");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](121, "span", 64);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](122, "*");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](123, "div", 68);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](124, "mat-radio-group", 69);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](125, "mat-radio-button", 70);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](126);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipe"](127, "translate");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](124, "div", 72);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](125, "div", 73);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](126, "div", 58);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](127);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipe"](128, "translate");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](129, "span", 64);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](130, "*");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](131, "mat-form-field", 74);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](132, "mat-label");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](133);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipe"](134, "translate");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](135, "mat-select", 75);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](136, MemberInfoRegisterComponent_mat_option_136_Template, 2, 2, "mat-option", 76);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](128, "mat-radio-button", 71);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](129);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipe"](130, "translate");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](137, "div", 77);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](138, "div", 58);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](139, "span", 64);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](140, "div");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](141, "input", 78);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipe"](142, "translate");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](131, "div", 72);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](132, "div", 73);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](133, "div", 58);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](134);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipe"](135, "translate");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](136, "span", 64);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](137, "*");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](143, MemberInfoRegisterComponent_div_143_Template, 6, 3, "div", 62);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](138, "mat-form-field", 74);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](139, "mat-label");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](140);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipe"](141, "translate");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](142, "mat-select", 75);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](143, MemberInfoRegisterComponent_mat_option_143_Template, 2, 2, "mat-option", 76);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](144, "div", 79);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](144, "div", 77);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](145, "div", 58);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](146);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipe"](147, "translate");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](148, "span", 64);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](149, "*");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](146, "span", 64);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](147, "div");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](148, "input", 78);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipe"](149, "translate");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](150, MemberInfoRegisterComponent_div_150_Template, 6, 3, "div", 62);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](150, "div", 80);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](151, "mat-form-field", 81);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](152, "mat-select", 82);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipe"](153, "translate");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](154, MemberInfoRegisterComponent_mat_option_154_Template, 2, 2, "mat-option", 76);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](151, "div", 79);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](152, "div", 58);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](153);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipe"](154, "translate");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](155, "span", 64);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](156, "*");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](155, "mat-form-field", 81);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](156, "mat-select", 83);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipe"](157, "translate");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](158, MemberInfoRegisterComponent_mat_option_158_Template, 2, 2, "mat-option", 76);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](157, "div", 80);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](158, "mat-form-field", 81);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](159, "mat-select", 82);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipe"](160, "translate");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](161, MemberInfoRegisterComponent_mat_option_161_Template, 2, 2, "mat-option", 76);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](159, "mat-form-field", 81);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](160, "mat-select", 84);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipe"](161, "translate");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](162, MemberInfoRegisterComponent_mat_option_162_Template, 2, 2, "mat-option", 76);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](162, "mat-form-field", 81);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](163, "mat-select", 83);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipe"](164, "translate");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](165, MemberInfoRegisterComponent_mat_option_165_Template, 2, 2, "mat-option", 76);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](163, MemberInfoRegisterComponent_div_163_Template, 6, 3, "div", 62);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](164, "div", 85);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](165, MemberInfoRegisterComponent_div_165_Template, 5, 3, "div", 86);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](166, "div", 56);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](167, "div", 87);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](168, "div", 58);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](169);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipe"](170, "translate");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](171, "span", 64);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](172, "*");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](173, "div", 88);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](174, "div", 89);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](175, "mat-form-field", 90);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](176, "mat-select", 91);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](177, MemberInfoRegisterComponent_mat_option_177_Template, 2, 1, "mat-option", 92);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](178, "span", 93);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](179, "input", 94);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipe"](180, "translate");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](181, MemberInfoRegisterComponent_div_181_Template, 6, 3, "div", 62);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](182, "div", 95);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](183, "div", 58);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](184);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipe"](185, "translate");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](186, "span", 64);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](187, "*");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](188, "div", 89);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](189, "input", 96);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipe"](190, "translate");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](191, MemberInfoRegisterComponent_div_191_Template, 6, 3, "div", 62);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](192, "div", 97);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](193, MemberInfoRegisterComponent_div_193_Template, 3, 3, "div", 98);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](194, MemberInfoRegisterComponent_div_194_Template, 16, 21, "div", 99);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](195, MemberInfoRegisterComponent_input_195_Template, 2, 5, "input", 100);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](166, "mat-form-field", 81);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](167, "mat-select", 84);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipe"](168, "translate");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](169, MemberInfoRegisterComponent_mat_option_169_Template, 2, 2, "mat-option", 76);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](196, "div", 101);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](197, "div", 56);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](198, "div");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](199, "mat-checkbox", 102);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](200, "div", 103);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](201, "div", 104);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](202);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipe"](203, "translate");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](204, "div", 104);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](205, "a", 105);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipe"](206, "translate");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](207);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipe"](208, "translate");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](170, MemberInfoRegisterComponent_div_170_Template, 6, 3, "div", 62);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](209, "div", 106);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](210);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipe"](211, "translate");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](171, "div", 85);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](172, MemberInfoRegisterComponent_div_172_Template, 5, 3, "div", 86);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](173, "div", 56);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](174, "div", 87);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](175, "div", 58);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](176);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipe"](177, "translate");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](178, "span", 64);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](179, "*");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](212, MemberInfoRegisterComponent_div_212_Template, 6, 3, "div", 62);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](180, "div", 88);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](181, "div", 89);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](182, "mat-form-field", 90);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](183, "mat-select", 91);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](184, MemberInfoRegisterComponent_mat_option_184_Template, 2, 1, "mat-option", 92);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](213, "div");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](214, "mat-checkbox", 107);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](215, "div", 103);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](216, "div", 104);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](185, "span", 93);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](186, "input", 94);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipe"](187, "translate");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](188, MemberInfoRegisterComponent_div_188_Template, 6, 3, "div", 62);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](189, "div", 95);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](190, "div", 58);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](191);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipe"](192, "translate");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](193, "span", 64);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](194, "*");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](195, "div", 89);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](196, "input", 96);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipe"](197, "translate");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](198, MemberInfoRegisterComponent_div_198_Template, 6, 3, "div", 62);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](199, "div", 97);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](200, MemberInfoRegisterComponent_div_200_Template, 3, 3, "div", 98);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](201, MemberInfoRegisterComponent_div_201_Template, 16, 21, "div", 99);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](202, MemberInfoRegisterComponent_input_202_Template, 2, 5, "input", 100);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](203, "div", 101);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](204, "div", 56);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](205, "div");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](206, "mat-checkbox", 102);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](207, "div", 103);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](208, "div", 104);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](209);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipe"](210, "translate");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](211, "div", 104);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](212, "a", 105);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipe"](213, "translate");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](214);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipe"](215, "translate");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](216, "div", 106);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](217);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipe"](218, "translate");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](219, "div", 104);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](220, "a", 105);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipe"](221, "translate");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](222);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipe"](223, "translate");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](219, MemberInfoRegisterComponent_div_219_Template, 6, 3, "div", 62);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](220, "div");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](221, "mat-checkbox", 107);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](222, "div", 103);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](223, "div", 104);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](224);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipe"](225, "translate");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](226, "div", 104);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](227, "a", 105);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipe"](228, "translate");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](229);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipe"](230, "translate");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](224, "div", 106);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](225);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipe"](226, "translate");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](231, "div", 106);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](232);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipe"](233, "translate");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](227, MemberInfoRegisterComponent_div_227_Template, 6, 3, "div", 62);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](228, "div");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](229, "mat-checkbox", 108);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](230, "div", 109);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](231);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipe"](232, "translate");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](233, "div", 106);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](234);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipe"](235, "translate");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](234, MemberInfoRegisterComponent_div_234_Template, 6, 3, "div", 62);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](235, "div");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](236, "mat-checkbox", 108);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](237, "div", 109);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](238);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipe"](239, "translate");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](240, "div", 106);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](241);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipe"](242, "translate");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](236, "div", 110);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](237, "div", 29);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](238, "img", 111);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](239, "span");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](240);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipe"](241, "translate");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](242, MemberInfoRegisterComponent_div_242_Template, 6, 3, "div", 62);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](243, "div", 112);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](244, "canvas", 113, 114);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](246, "mat-icon", 115);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](247, "refresh");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](248, "div", 116);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](243, "div", 110);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](244, "div", 29);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](245, "img", 111);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](246, "span");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](247);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipe"](248, "translate");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](249, "div", 117);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](250, "button", 118);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("click", function MemberInfoRegisterComponent_Template_button_click_250_listener() { return ctx.submitForm(); });
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](251);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipe"](252, "translate");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](249, MemberInfoRegisterComponent_div_249_Template, 6, 3, "div", 62);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](253, "button", 118);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("click", function MemberInfoRegisterComponent_Template_button_click_253_listener() { return ctx.submitForm(); });
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](254);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipe"](255, "translate");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](250, "div", 112);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](251, "canvas", 113, 114);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](253, "mat-icon", 115);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](254, "refresh");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](255, "div", 116);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](256, "div", 117);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](257, "button", 118);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("click", function MemberInfoRegisterComponent_Template_button_click_257_listener() { return ctx.submitForm(); });
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](258);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipe"](259, "translate");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](260, "button", 118);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("click", function MemberInfoRegisterComponent_Template_button_click_260_listener() { return ctx.submitForm(); });
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](261);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipe"](262, "translate");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
@@ -2698,7 +2810,7 @@ MemberInfoRegisterComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_1__["
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
     } if (rf & 2) {
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](7);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("placeholder", _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipeBind1"](8, 144, "PRE_REGISTER.LANGUAGE"));
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("placeholder", _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipeBind1"](8, 151, "PRE_REGISTER.LANGUAGE"));
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](9);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("hidden", ctx.managerStatus.complete);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
@@ -2721,7 +2833,7 @@ MemberInfoRegisterComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_1__["
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵclassProp"]("fonteffect", !ctx.managerStatus.formalMember);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](5);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipeBind1"](31, 146, "PRE_REGISTER.BOOKING_INFO"));
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipeBind1"](31, 153, "PRE_REGISTER.BOOKING_INFO"));
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](5);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](ctx.getNameByCurrentLang(ctx.managerValue.bookingName));
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](3);
@@ -2739,24 +2851,38 @@ MemberInfoRegisterComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_1__["
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngIf", !ctx.managerStatus.formalMember);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngIf", ctx.managerStatus.formalMember);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate1"](" ", _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipeBind1"](54, 155, "OCR.OCR_BUTTON"), " ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("hidden", !ctx.isShowOcr);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](11);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipeBind1"](65, 157, "OCR.OCR_DESCRIBE"));
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](3);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵclassProp"]("active", ctx.idCardIndex == 0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipeBind1"](69, 159, "OCR.OCR_HKID"));
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵclassProp"]("active", ctx.idCardIndex == 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipeBind1"](72, 161, "OCR.OCR_CNID"));
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](5);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("hidden", ctx.isShowCanvas);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("hidden", ctx.isShowVideo);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](10);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipeBind1"](82, 163, "OCR.OCR_EXPLAIN"));
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipeBind1"](86, 165, "OCR.OCR_SUBMIT"));
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipeBind1"](89, 167, "OCR.OCR_BACK"));
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](3);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("hidden", !ctx.managerStatus.isScNameShow || !ctx.managerStatus.isTcNameShow);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipeBind1"](87, 148, "PRE_REGISTER.CH_NAME"));
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipeBind1"](94, 169, "PRE_REGISTER.CH_NAME"));
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("placeholder", _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipeBind1"](90, 150, "PRE_REGISTER.CH_LASTNAME_PLAC"))("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpureFunction1"](214, _c5, ctx.managerStatus.submitted && !ctx.f.chLastName.valid));
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("placeholder", _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipeBind1"](97, 171, "PRE_REGISTER.CH_LASTNAME_PLAC"))("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpureFunction1"](235, _c5, ctx.managerStatus.submitted && !ctx.f.chLastName.valid));
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("placeholder", _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipeBind1"](92, 152, "PRE_REGISTER.CH_FIRSTNAME_PLAC"))("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpureFunction1"](216, _c5, ctx.managerStatus.submitted && !ctx.f.chFirstName.valid));
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("placeholder", _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipeBind1"](99, 173, "PRE_REGISTER.CH_FIRSTNAME_PLAC"))("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpureFunction1"](237, _c5, ctx.managerStatus.submitted && !ctx.f.chFirstName.valid));
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngIf", ctx.managerStatus.submitted && !ctx.f.chFirstName.valid && !ctx.f.chLastName.valid);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
@@ -2766,11 +2892,11 @@ MemberInfoRegisterComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_1__["
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("hidden", !ctx.managerStatus.isEnNameShow);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipeBind1"](99, 154, "PRE_REGISTER.EN_NAME"));
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipeBind1"](106, 175, "PRE_REGISTER.EN_NAME"));
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](5);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("placeholder", _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipeBind1"](104, 156, "PRE_REGISTER.EN_LASTNAME_PLAC"))("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpureFunction1"](218, _c5, ctx.managerStatus.submitted && !ctx.f.enLastName.valid));
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("placeholder", _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipeBind1"](111, 177, "PRE_REGISTER.EN_LASTNAME_PLAC"))("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpureFunction1"](239, _c5, ctx.managerStatus.submitted && !ctx.f.enLastName.valid));
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("placeholder", _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipeBind1"](106, 158, "PRE_REGISTER.EN_FIRSTNAME_PLAC"))("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpureFunction1"](220, _c5, ctx.managerStatus.submitted && !ctx.f.enFirstName.valid));
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("placeholder", _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipeBind1"](113, 179, "PRE_REGISTER.EN_FIRSTNAME_PLAC"))("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpureFunction1"](241, _c5, ctx.managerStatus.submitted && !ctx.f.enFirstName.valid));
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngIf", ctx.managerStatus.submitted && !ctx.f.enFirstName.valid && !ctx.f.enLastName.valid);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
@@ -2780,46 +2906,46 @@ MemberInfoRegisterComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_1__["
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("hidden", !ctx.managerStatus.isGenderShow);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipeBind1"](113, 160, "PRE_REGISTER.SEX"));
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipeBind1"](120, 181, "PRE_REGISTER.SEX"));
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](7);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipeBind1"](120, 162, "PRE_REGISTER.MALE"));
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipeBind1"](127, 183, "PRE_REGISTER.MALE"));
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipeBind1"](123, 164, "PRE_REGISTER.FEMALE"));
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipeBind1"](130, 185, "PRE_REGISTER.FEMALE"));
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](3);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("hidden", !ctx.managerStatus.isIdCardShow);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipeBind1"](128, 166, "PRE_REGISTER.IDCARD"));
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipeBind1"](135, 187, "PRE_REGISTER.IDCARD"));
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipeBind1"](134, 168, "PRE_REGISTER.HK_IDCARD"));
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipeBind1"](141, 189, "PRE_REGISTER.HK_IDCARD"));
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](3);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngForOf", ctx.managerObj.idcardCategory);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵclassProp"]("pcviewlayout", ctx.managerStatus.submitted && !ctx.f.idcardNumber.valid);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("hidden", !ctx.managerStatus.isIdCardShow);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("placeholder", _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipeBind1"](142, 170, "PRE_REGISTER.IDCARD_NUMBER_PLAC"))("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpureFunction1"](222, _c5, ctx.managerStatus.submitted && !ctx.f.idcardNumber.valid));
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("placeholder", _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipeBind1"](149, 191, "PRE_REGISTER.IDCARD_NUMBER_PLAC"))("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpureFunction1"](243, _c5, ctx.managerStatus.submitted && !ctx.f.idcardNumber.valid));
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngIf", ctx.managerStatus.submitted && !ctx.f.idcardNumber.valid);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("hidden", !ctx.managerStatus.isBornDateShow);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipeBind1"](147, 172, "PRE_REGISTER.BORNDATE"));
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipeBind1"](154, 193, "PRE_REGISTER.BORNDATE"));
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](5);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpureFunction1"](224, _c5, ctx.managerStatus.submitted && !ctx.f.bornYear.valid));
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpureFunction1"](245, _c5, ctx.managerStatus.submitted && !ctx.f.bornYear.valid));
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("placeholder", _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipeBind1"](153, 174, "PRE_REGISTER.YEAR"));
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("placeholder", _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipeBind1"](160, 195, "PRE_REGISTER.YEAR"));
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngForOf", ctx.getAllBeforeYear());
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpureFunction1"](226, _c5, ctx.managerStatus.submitted && !ctx.f.bornMonth.valid));
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpureFunction1"](247, _c5, ctx.managerStatus.submitted && !ctx.f.bornMonth.valid));
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("placeholder", _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipeBind1"](157, 176, "PRE_REGISTER.MONTH"));
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("placeholder", _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipeBind1"](164, 197, "PRE_REGISTER.MONTH"));
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngForOf", ctx.getAllMonth());
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpureFunction1"](228, _c5, ctx.managerStatus.submitted && !ctx.f.bornDay.valid));
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpureFunction1"](249, _c5, ctx.managerStatus.submitted && !ctx.f.bornDay.valid));
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("placeholder", _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipeBind1"](161, 178, "PRE_REGISTER.DAY"));
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("placeholder", _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipeBind1"](168, 199, "PRE_REGISTER.DAY"));
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngForOf", ctx.getAllDay());
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
@@ -2832,24 +2958,24 @@ MemberInfoRegisterComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_1__["
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵclassProp"]("resizebyborn", ctx.managerStatus.isBornDateShow);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("hidden", !ctx.managerStatus.isPhoneNumberShow);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipeBind1"](170, 180, "PRE_REGISTER.PHONE_NUMBER"));
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipeBind1"](177, 201, "PRE_REGISTER.PHONE_NUMBER"));
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpureFunction1"](230, _c5, ctx.managerStatus.submitted && !ctx.f.phoneNumber.valid));
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpureFunction1"](251, _c5, ctx.managerStatus.submitted && !ctx.f.phoneNumber.valid));
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngForOf", ctx.managerObj.phoneAreaCodeArray);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵclassProp"]("invalidfix", ctx.managerStatus.submitted && !ctx.f.phoneNumber.valid);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("placeholder", _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipeBind1"](180, 182, "PRE_REGISTER.PHONE_NUMBER_PLAC"))("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpureFunction1"](232, _c5, ctx.managerStatus.submitted && !ctx.f.phoneNumber.valid));
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("placeholder", _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipeBind1"](187, 203, "PRE_REGISTER.PHONE_NUMBER_PLAC"))("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpureFunction1"](253, _c5, ctx.managerStatus.submitted && !ctx.f.phoneNumber.valid));
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngIf", ctx.managerStatus.submitted && !ctx.f.phoneNumber.valid);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵclassProp"]("resizebyborn", ctx.managerStatus.isBornDateShow);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("hidden", !ctx.managerStatus.isEmailShow);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipeBind1"](185, 184, "PRE_REGISTER.EMAIL"));
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipeBind1"](192, 205, "PRE_REGISTER.EMAIL"));
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](5);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("placeholder", _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipeBind1"](190, 186, "PRE_REGISTER.EMAIL_PLAC"))("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpureFunction1"](234, _c5, ctx.managerStatus.submitted && !ctx.f.email.valid));
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("placeholder", _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipeBind1"](197, 207, "PRE_REGISTER.EMAIL_PLAC"))("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpureFunction1"](255, _c5, ctx.managerStatus.submitted && !ctx.f.email.valid));
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngIf", ctx.managerStatus.submitted && !ctx.f.email.valid);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
@@ -2864,50 +2990,50 @@ MemberInfoRegisterComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_1__["
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵclassProp"]("formallayout", ctx.managerStatus.formalMember);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("hidden", ctx.checkAllFieldComplete());
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpureFunction1"](236, _c5, ctx.managerStatus.submitted && !ctx.f.consent1.value));
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpureFunction1"](257, _c5, ctx.managerStatus.submitted && !ctx.f.consent1.value));
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpureFunction1"](238, _c6, ctx.translateService.currentLang === "en"));
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpureFunction1"](259, _c6, ctx.translateService.currentLang === "en"));
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpureFunction0"](240, _c7));
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpureFunction0"](261, _c7));
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate1"]("", _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipeBind1"](203, 188, "PRE_REGISTER.AGREE"), "\u00A0");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate1"]("", _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipeBind1"](210, 209, "PRE_REGISTER.AGREE"), "\u00A0");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpureFunction0"](241, _c8));
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpureFunction0"](262, _c8));
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("href", _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipeBind1"](206, 190, "PRE_REGISTER.HREF_CONSENT1"), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsanitizeUrl"]);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("href", _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipeBind1"](213, 211, "PRE_REGISTER.HREF_CONSENT1"), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsanitizeUrl"]);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipeBind1"](208, 192, "PRE_REGISTER.CONSENT1_TITLE"));
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipeBind1"](215, 213, "PRE_REGISTER.CONSENT1_TITLE"));
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipeBind1"](211, 194, "PRE_REGISTER.CONSENT1_CONTENT"));
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipeBind1"](218, 215, "PRE_REGISTER.CONSENT1_CONTENT"));
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngIf", ctx.managerStatus.submitted && !ctx.f.consent1.value);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpureFunction1"](242, _c5, ctx.managerStatus.submitted && !ctx.f.consent2.value));
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpureFunction1"](263, _c5, ctx.managerStatus.submitted && !ctx.f.consent2.value));
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpureFunction1"](244, _c6, ctx.translateService.currentLang === "en"));
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpureFunction1"](265, _c6, ctx.translateService.currentLang === "en"));
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpureFunction0"](246, _c7));
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpureFunction0"](267, _c7));
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate1"]("", _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipeBind1"](218, 196, "PRE_REGISTER.AGREE"), "\u00A0");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate1"]("", _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipeBind1"](225, 217, "PRE_REGISTER.AGREE"), "\u00A0");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpureFunction0"](247, _c8));
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpureFunction0"](268, _c8));
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("href", _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipeBind1"](221, 198, "PRE_REGISTER.HREF_CONSENT2"), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsanitizeUrl"]);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("href", _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipeBind1"](228, 219, "PRE_REGISTER.HREF_CONSENT2"), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsanitizeUrl"]);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipeBind1"](223, 200, "PRE_REGISTER.CONSENT2_TITLE"));
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipeBind1"](230, 221, "PRE_REGISTER.CONSENT2_TITLE"));
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipeBind1"](226, 202, "PRE_REGISTER.CONSENT2_CONTENT"));
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipeBind1"](233, 223, "PRE_REGISTER.CONSENT2_CONTENT"));
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngIf", ctx.managerStatus.submitted && !ctx.f.consent2.value);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipeBind1"](232, 204, "PRE_REGISTER.CONSENT3_TITLE"));
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipeBind1"](239, 225, "PRE_REGISTER.CONSENT3_TITLE"));
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipeBind1"](235, 206, "PRE_REGISTER.CONSENT3_CONTENT"));
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipeBind1"](242, 227, "PRE_REGISTER.CONSENT3_CONTENT"));
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵclassProp"]("formallayout", ctx.managerStatus.formalMember);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("hidden", ctx.checkAllFieldComplete());
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipeBind1"](241, 208, "PRE_REGISTER.SIGNATURE"));
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipeBind1"](248, 229, "PRE_REGISTER.SIGNATURE"));
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngIf", ctx.managerStatus.submitted && ctx.managerObj.signaturePad.isEmpty());
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
@@ -2918,12 +3044,12 @@ MemberInfoRegisterComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_1__["
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("hidden", ctx.managerStatus.formalMember);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipeBind1"](252, 210, "PRE_REGISTER.COMPLETE_REGISTER"));
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipeBind1"](259, 231, "PRE_REGISTER.COMPLETE_REGISTER"));
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("hidden", !ctx.managerStatus.formalMember);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipeBind1"](255, 212, "PRE_REGISTER.COMPLETE_REGISTER"));
-    } }, directives: [_angular_material_icon__WEBPACK_IMPORTED_MODULE_13__["MatIcon"], _angular_material_select__WEBPACK_IMPORTED_MODULE_14__["MatSelect"], _angular_material_core__WEBPACK_IMPORTED_MODULE_15__["MatOption"], _angular_common__WEBPACK_IMPORTED_MODULE_16__["NgIf"], _angular_forms__WEBPACK_IMPORTED_MODULE_2__["ɵangular_packages_forms_forms_y"], _angular_forms__WEBPACK_IMPORTED_MODULE_2__["NgControlStatusGroup"], _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormGroupDirective"], _angular_material_button__WEBPACK_IMPORTED_MODULE_17__["MatButton"], _angular_forms__WEBPACK_IMPORTED_MODULE_2__["DefaultValueAccessor"], _angular_forms__WEBPACK_IMPORTED_MODULE_2__["NgControlStatus"], _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormControlName"], _angular_common__WEBPACK_IMPORTED_MODULE_16__["NgClass"], _angular_flex_layout_extended__WEBPACK_IMPORTED_MODULE_18__["DefaultClassDirective"], _angular_material_radio__WEBPACK_IMPORTED_MODULE_19__["MatRadioGroup"], _angular_material_radio__WEBPACK_IMPORTED_MODULE_19__["MatRadioButton"], _angular_material_form_field__WEBPACK_IMPORTED_MODULE_20__["MatFormField"], _angular_material_form_field__WEBPACK_IMPORTED_MODULE_20__["MatLabel"], _angular_common__WEBPACK_IMPORTED_MODULE_16__["NgForOf"], _angular_material_checkbox__WEBPACK_IMPORTED_MODULE_21__["MatCheckbox"]], pipes: [_ngx_translate_core__WEBPACK_IMPORTED_MODULE_9__["TranslatePipe"], _angular_common__WEBPACK_IMPORTED_MODULE_16__["AsyncPipe"]], styles: [".wrapper-memberinfo-register[_ngcontent-%COMP%] {\n  position: relative;\n  background-color: white;\n  font-family: NotoSansTC-Regular;\n  padding-bottom: 25px;\n  color: black;\n  width: 100%;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .contentpane[_ngcontent-%COMP%] {\n  max-width: 376px;\n  margin: 0 auto;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .textarea-title[_ngcontent-%COMP%] {\n  width: calc(100% - 60px);\n  text-align: center;\n  font-size: 10px;\n  padding-top: 70px;\n  font-family: NotoSansTC-Light;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .textarea-title[_ngcontent-%COMP%]   .title[_ngcontent-%COMP%] {\n  font-size: 20px;\n  font-family: NotoSansTC-Medium;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .textarea-title[_ngcontent-%COMP%]   .text-tip[_ngcontent-%COMP%] {\n  margin-top: 8px;\n  color: #7383A1;\n  margin-bottom: 50px;\n  font-size: 13px;\n  font-family: NotoSansTC-Regular;\n}\n@media screen and (min-width: 760px) {\n  .wrapper-memberinfo-register[_ngcontent-%COMP%]   .textarea-title[_ngcontent-%COMP%] {\n    padding-top: 90px;\n  }\n  .wrapper-memberinfo-register[_ngcontent-%COMP%]   .title[_ngcontent-%COMP%]   mat-icon[_ngcontent-%COMP%] {\n    font-size: 20px;\n  }\n  .wrapper-memberinfo-register[_ngcontent-%COMP%]   .contentpane[_ngcontent-%COMP%] {\n    max-width: 710px;\n    margin: 0 auto;\n  }\n  .wrapper-memberinfo-register[_ngcontent-%COMP%]   .phoneNumber[_ngcontent-%COMP%] {\n    border-left-color: transparent !important;\n  }\n  .wrapper-memberinfo-register[_ngcontent-%COMP%]   input[_ngcontent-%COMP%] {\n    border: 1px solid #E9EDF3 !important;\n    height: 42px !important;\n  }\n  .wrapper-memberinfo-register[_ngcontent-%COMP%]   .field-idcard-category[_ngcontent-%COMP%] {\n    margin-right: 12px;\n  }\n  .wrapper-memberinfo-register[_ngcontent-%COMP%]   .field-idcard[_ngcontent-%COMP%] {\n    display: flex;\n    width: 100%;\n    justify-content: space-between;\n  }\n  .wrapper-memberinfo-register[_ngcontent-%COMP%]   .field-idcard[_ngcontent-%COMP%]   .field-idcard-category[_ngcontent-%COMP%], .wrapper-memberinfo-register[_ngcontent-%COMP%]   .field-idcard[_ngcontent-%COMP%]   .field-idcard-number[_ngcontent-%COMP%] {\n    display: inline-block;\n    width: 48% !important;\n  }\n  .wrapper-memberinfo-register[_ngcontent-%COMP%]   .field-idcard[_ngcontent-%COMP%]   .field-idcard-number[_ngcontent-%COMP%] {\n    transform: translateY(0px) !important;\n  }\n  .wrapper-memberinfo-register[_ngcontent-%COMP%]   .field-idcard[_ngcontent-%COMP%]   .field-idcard-number[_ngcontent-%COMP%]   input[_ngcontent-%COMP%] {\n    display: inline-block !important;\n    width: 100%;\n  }\n  .wrapper-memberinfo-register[_ngcontent-%COMP%]   .complete-text-secondary-part[_ngcontent-%COMP%] {\n    margin-top: 0px !important;\n  }\n  .wrapper-memberinfo-register[_ngcontent-%COMP%]   .consents[_ngcontent-%COMP%] {\n    margin-top: 20px !important;\n  }\n  .wrapper-memberinfo-register[_ngcontent-%COMP%]   .field-address[_ngcontent-%COMP%]   .subfield[_ngcontent-%COMP%] {\n    flex-wrap: wrap;\n  }\n  .wrapper-memberinfo-register[_ngcontent-%COMP%]   .field-address[_ngcontent-%COMP%]   .subfield[_ngcontent-%COMP%]   mat-form-field[_ngcontent-%COMP%]:nth-child(1) {\n    width: 48% !important;\n  }\n  .wrapper-memberinfo-register[_ngcontent-%COMP%]   .field-address[_ngcontent-%COMP%]   .subfield[_ngcontent-%COMP%]   mat-form-field[_ngcontent-%COMP%]:nth-child(2) {\n    width: 48% !important;\n  }\n  .wrapper-memberinfo-register[_ngcontent-%COMP%]   .field-address[_ngcontent-%COMP%]   .subfield[_ngcontent-%COMP%]   mat-form-field[_ngcontent-%COMP%]:nth-child(3) {\n    width: 100% !important;\n  }\n  .wrapper-memberinfo-register[_ngcontent-%COMP%]   .field-address[_ngcontent-%COMP%]   .subfield[_ngcontent-%COMP%]   mat-form-field[_ngcontent-%COMP%] {\n    margin-bottom: 10px;\n  }\n  .wrapper-memberinfo-register[_ngcontent-%COMP%]   .field-borndate[_ngcontent-%COMP%]   .subfield[_ngcontent-%COMP%]   mat-form-field[_ngcontent-%COMP%] {\n    width: 32% !important;\n  }\n  .wrapper-memberinfo-register[_ngcontent-%COMP%]   .contact-info[_ngcontent-%COMP%]   .title[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n    transform: translateY(-4px) !important;\n    margin-right: 10px !important;\n    height: 20px !important;\n    width: 20px !important;\n  }\n  .wrapper-memberinfo-register[_ngcontent-%COMP%]   .signature[_ngcontent-%COMP%]   .title[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n    margin-right: 12px;\n    transform: translateY(-6px);\n  }\n  .wrapper-memberinfo-register[_ngcontent-%COMP%]   input[_ngcontent-%COMP%], .wrapper-memberinfo-register[_ngcontent-%COMP%]   .invalid[_ngcontent-%COMP%] {\n    border-radius: 8px !important;\n  }\n  .wrapper-memberinfo-register[_ngcontent-%COMP%]   .field-phone[_ngcontent-%COMP%]   mat-form-field[_ngcontent-%COMP%] {\n    width: 10% !important;\n  }\n  .wrapper-memberinfo-register[_ngcontent-%COMP%]   .field-phone[_ngcontent-%COMP%]   .wallline[_ngcontent-%COMP%] {\n    left: 10% !important;\n    width: 2px !important;\n  }\n  .wrapper-memberinfo-register[_ngcontent-%COMP%]   .phoneNumber[_ngcontent-%COMP%] {\n    border-top-left-radius: 0% !important;\n    border-bottom-left-radius: 0% !important;\n  }\n  .wrapper-memberinfo-register[_ngcontent-%COMP%]   .detailAddress[_ngcontent-%COMP%] {\n    height: 88px !important;\n  }\n  .wrapper-memberinfo-register[_ngcontent-%COMP%]   .logobar[_ngcontent-%COMP%] {\n    padding: 0px 20% !important;\n    height: 60px !important;\n  }\n  .wrapper-memberinfo-register[_ngcontent-%COMP%]   .logobar[_ngcontent-%COMP%]   .logo[_ngcontent-%COMP%] {\n    position: static !important;\n    height: 48px !important;\n    width: 150px !important;\n  }\n  .wrapper-memberinfo-register[_ngcontent-%COMP%]   .select-language[_ngcontent-%COMP%] {\n    color: #0A2749;\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n    transform: translate(0px, 3px);\n    font-family: NotoSansTC-Regular;\n  }\n  .wrapper-memberinfo-register[_ngcontent-%COMP%]   .title[_ngcontent-%COMP%] {\n    font-size: 20px !important;\n    transform: translateY(-5px);\n  }\n  .wrapper-memberinfo-register[_ngcontent-%COMP%]   .textarea-title[_ngcontent-%COMP%]   .title[_ngcontent-%COMP%] {\n    transform: translateY(0px);\n    font-size: 28px !important;\n    font-family: NotoSansTC-Medium;\n  }\n  .wrapper-memberinfo-register[_ngcontent-%COMP%]   .textarea-title[_ngcontent-%COMP%]   .text-tip[_ngcontent-%COMP%] {\n    font-size: 16px !important;\n    margin-bottom: 80px !important;\n  }\n  .wrapper-memberinfo-register[_ngcontent-%COMP%]   .signature[_ngcontent-%COMP%]   .tip-invalid[_ngcontent-%COMP%] {\n    font-size: 14px;\n    font-weight: normal;\n  }\n  .wrapper-memberinfo-register[_ngcontent-%COMP%]   .signature[_ngcontent-%COMP%]   .tip-invalid[_ngcontent-%COMP%]   .error[_ngcontent-%COMP%] {\n    transform: translate(6px, 3px) !important;\n  }\n  .wrapper-memberinfo-register[_ngcontent-%COMP%]   .invoice-message[_ngcontent-%COMP%] {\n    font-size: 14px !important;\n  }\n  .wrapper-memberinfo-register[_ngcontent-%COMP%]   .invoice-message[_ngcontent-%COMP%]   .subtitle[_ngcontent-%COMP%]   .text[_ngcontent-%COMP%]   span[_ngcontent-%COMP%] {\n    transform: translateY(2px) !important;\n  }\n  .wrapper-memberinfo-register[_ngcontent-%COMP%]   .invoice-message[_ngcontent-%COMP%]   .title[_ngcontent-%COMP%] {\n    margin-top: -40px !important;\n    padding-bottom: 10px !important;\n  }\n  .wrapper-memberinfo-register[_ngcontent-%COMP%]   .invoice-message[_ngcontent-%COMP%]   .title[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n    height: 20px !important;\n    width: 20px !important;\n    transform: translateY(0px) !important;\n  }\n  .wrapper-memberinfo-register[_ngcontent-%COMP%]   .invoice-message[_ngcontent-%COMP%]   .textarea[_ngcontent-%COMP%]   .bar[_ngcontent-%COMP%] {\n    padding: 6px 0px !important;\n  }\n  .wrapper-memberinfo-register[_ngcontent-%COMP%]   .invoice-message[_ngcontent-%COMP%]   .textarea[_ngcontent-%COMP%]   .bar[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n    height: 16px !important;\n    width: 16px !important;\n    margin-right: 8px !important;\n    margin-top: 2px !important;\n  }\n  .wrapper-memberinfo-register[_ngcontent-%COMP%]   .invoice-message[_ngcontent-%COMP%]   .textarea[_ngcontent-%COMP%]   .bar-location[_ngcontent-%COMP%] {\n    padding-bottom: 18px !important;\n  }\n  .wrapper-memberinfo-register[_ngcontent-%COMP%]   .invoice-message[_ngcontent-%COMP%]   .bar-username[_ngcontent-%COMP%] {\n    font-size: 16px !important;\n  }\n  .wrapper-memberinfo-register[_ngcontent-%COMP%]   .person-message[_ngcontent-%COMP%]   .title[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n    height: 20px !important;\n    width: 20px !important;\n    transform: translateY(-2px) !important;\n  }\n  .wrapper-memberinfo-register[_ngcontent-%COMP%]   .person-message[_ngcontent-%COMP%]   .title[_ngcontent-%COMP%]   span[_ngcontent-%COMP%] {\n    display: inline-block;\n    transform: translateY(2px);\n  }\n  .wrapper-memberinfo-register[_ngcontent-%COMP%]   .person-message[_ngcontent-%COMP%]   .title[_ngcontent-%COMP%]   .sub[_ngcontent-%COMP%] {\n    font-size: 14px !important;\n    margin-bottom: 15px !important;\n    font-size: 14px !important;\n    font-family: NotoSansTC-Regular;\n    font-weight: 400;\n    color: #7383A1;\n  }\n  .wrapper-memberinfo-register[_ngcontent-%COMP%]   .person-message[_ngcontent-%COMP%]   .title[_ngcontent-%COMP%]   .tip[_ngcontent-%COMP%] {\n    position: absolute !important;\n    right: -32px !important;\n    width: auto !important;\n    display: inline !important;\n    top: 50% !important;\n    transform: translateY(-50%) !important;\n    font-size: 14px !important;\n    color: #7383A1 !important;\n  }\n  .wrapper-memberinfo-register[_ngcontent-%COMP%]   .person-message[_ngcontent-%COMP%]   .title[_ngcontent-%COMP%]   .tip[_ngcontent-%COMP%]   .effect-font-imp[_ngcontent-%COMP%] {\n    position: absolute;\n    top: 0px;\n    left: -10px;\n  }\n  .wrapper-memberinfo-register[_ngcontent-%COMP%]   .custom-frame[_ngcontent-%COMP%]   .nowrap[_ngcontent-%COMP%] {\n    display: inline-block !important;\n  }\n  .wrapper-memberinfo-register[_ngcontent-%COMP%]   .invoice-message[_ngcontent-%COMP%]   .effect-padding-inner[_ngcontent-%COMP%] {\n    width: calc(100% - 45px) !important;\n    margin: 0 auto;\n  }\n  .wrapper-memberinfo-register[_ngcontent-%COMP%]   .effect-padding-inner[_ngcontent-%COMP%] {\n    width: calc(100% - 6px) !important;\n  }\n  .wrapper-memberinfo-register[_ngcontent-%COMP%]   .signature-pad[_ngcontent-%COMP%] {\n    width: 100%;\n    height: 188px !important;\n    border: 1px solid transparent;\n  }\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .person-message[_ngcontent-%COMP%]   .title[_ngcontent-%COMP%] {\n  transform: translateY(0px);\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .person-message[_ngcontent-%COMP%]   .title[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  height: 16px;\n  width: 16px;\n  transform: translateY(-4px);\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .person-message[_ngcontent-%COMP%]   .title[_ngcontent-%COMP%]   .tip[_ngcontent-%COMP%] {\n  position: absolute;\n  right: 10px;\n  width: auto;\n  display: inline;\n  top: 7%;\n  font-size: 12px;\n  color: #7383A1;\n  font-family: NotoSansTC-Regular;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .person-message[_ngcontent-%COMP%]   .title[_ngcontent-%COMP%]   .tip[_ngcontent-%COMP%]   .effect-font-imp[_ngcontent-%COMP%] {\n  position: absolute;\n  top: 0px;\n  left: -10px;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .person-message[_ngcontent-%COMP%]   .title[_ngcontent-%COMP%]   .formalfix.tip[_ngcontent-%COMP%] {\n  top: 52%;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .person-message[_ngcontent-%COMP%]   .title[_ngcontent-%COMP%]   .sub[_ngcontent-%COMP%] {\n  font-size: 13px;\n  margin-bottom: 10px;\n  font-family: NotoSansTC-Regular;\n  font-weight: 400;\n  color: #7383A1;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .person-message[_ngcontent-%COMP%]   .title[_ngcontent-%COMP%]   span[_ngcontent-%COMP%] {\n  position: relative;\n  white-space: pre-wrap;\n  text-align: left;\n  margin-bottom: 4px;\n  display: inline-block;\n  width: 90%;\n  vertical-align: text-top;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .person-message[_ngcontent-%COMP%]   .field-chname[_ngcontent-%COMP%] {\n  margin-top: 0px !important;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .contact-info[_ngcontent-%COMP%], .wrapper-memberinfo-register[_ngcontent-%COMP%]   .person-message[_ngcontent-%COMP%] {\n  padding-bottom: 20px;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .person-message.formallayout[_ngcontent-%COMP%] {\n  padding-bottom: 0px;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .field-email[_ngcontent-%COMP%], .wrapper-memberinfo-register[_ngcontent-%COMP%]   .field-address[_ngcontent-%COMP%] {\n  transform: translateY(-9px);\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .successpage[_ngcontent-%COMP%] {\n  display: inline-block;\n  margin: 60px auto;\n  position: fixed;\n  width: 330px;\n  font-weight: bold;\n  color: #0F4685;\n  font-size: 18px;\n  top: 60px;\n  left: 50%;\n  transform: translateX(-50%);\n  text-align: center;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .successpage[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  margin-top: 25px;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .successpage[_ngcontent-%COMP%]   div[_ngcontent-%COMP%] {\n  margin-top: 25px;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .fonteffect[_ngcontent-%COMP%] {\n  color: #ACACAC;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .logobar[_ngcontent-%COMP%] {\n  position: fixed;\n  top: 0px;\n  width: 100%;\n  height: 60px;\n  padding-left: 18px;\n  padding-right: 10px;\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  z-index: 900;\n  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.06);\n  background-color: white;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .logobar[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  position: relative;\n  left: 50%;\n  transform: translate(-50%, 0px);\n  height: 32px;\n  width: 100px;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .logobar[_ngcontent-%COMP%]   .select-language[_ngcontent-%COMP%] {\n  color: #0A2749;\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  transform: translate(0px, 3px);\n  font-family: NotoSansTC-Regular;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .logobar[_ngcontent-%COMP%]   .select-language[_ngcontent-%COMP%]   mat-icon[_ngcontent-%COMP%] {\n  color: #0A2749;\n  transform: translate(5px, 0px);\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .logobar[_ngcontent-%COMP%]   .select-language[_ngcontent-%COMP%]   mat-select[_ngcontent-%COMP%] {\n  width: 78px;\n  height: 30px;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .logobar[_ngcontent-%COMP%]   .select-language[_ngcontent-%COMP%]   .mat-select-arrow-wrapper[_ngcontent-%COMP%] {\n  transform: translateY(1.3px) !important;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .phoneNumber.invalid[_ngcontent-%COMP%] {\n  border-left-color: transparent !important;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .invalid[_ngcontent-%COMP%] {\n  border-radius: 5px;\n  border-color: red !important;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .invalid[_ngcontent-%COMP%]   .mat-checkbox-frame[_ngcontent-%COMP%] {\n  border-color: #F36A6A !important;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   mat-checkbox.invalid[_ngcontent-%COMP%] {\n  box-shadow: none !important;\n  border-radius: 0px !important;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .signature-pad[_ngcontent-%COMP%] {\n  width: 100%;\n  height: 140px;\n  border: 1px solid transparent;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .effect-font-imp[_ngcontent-%COMP%] {\n  color: red;\n  margin-left: 4px;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   mat-icon[_ngcontent-%COMP%] {\n  font-size: 16px;\n  color: #D1D1D1;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .phoneNumber[_ngcontent-%COMP%] {\n  border-left: none;\n  border-top-left-radius: 0%;\n  border-bottom-left-radius: 0%;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .phoneAreaCode[_ngcontent-%COMP%] {\n  position: relative;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .field-phone[_ngcontent-%COMP%]   .wallline[_ngcontent-%COMP%] {\n  position: absolute;\n  display: inline-block;\n  top: 46%;\n  transform: translateY(-50%);\n  left: 23%;\n  width: 1.5px;\n  height: 40%;\n  z-index: 100;\n  background-color: #D9DEE8;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   div[_ngcontent-%COMP%] {\n  margin: 0;\n  padding: 0;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .invalid[_ngcontent-%COMP%]   input[_ngcontent-%COMP%] {\n  border-color: transparent;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   input[_ngcontent-%COMP%] {\n  -webkit-appearance: none;\n  border-radius: 5px;\n  outline: none;\n  border: 1px solid #D9DEE8;\n  height: 48px;\n  padding-left: 10px;\n  text-overflow: ellipsis;\n  overflow: hidden;\n  white-space: nowrap;\n  font-family: NotoSansTC-Regular !important;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   input[_ngcontent-%COMP%]::-webkit-input-placeholder {\n  \n  font-family: NotoSansTC-Regular !important;\n  white-space: nowrap;\n  text-overflow: ellipsis;\n  overflow: hidden;\n  font-size: 14px;\n  color: grey;\n  font-weight: normal;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   input[_ngcontent-%COMP%]::-moz-placeholder {\n  \n  font-family: NotoSansTC-Regular !important;\n  white-space: nowrap;\n  text-overflow: ellipsis;\n  overflow: hidden;\n  font-size: 14px;\n  color: grey;\n  font-weight: normal;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   input[_ngcontent-%COMP%]::-ms-input-placeholder {\n  font-family: NotoSansTC-Regular !important;\n  font-weight: 400 !important;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   input[_ngcontent-%COMP%]::placeholder {\n  font-family: NotoSansTC-Regular !important;\n  font-weight: 400 !important;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   input[_ngcontent-%COMP%]:-ms-input-placeholder {\n  font-family: NotoSansTC-Regular !important;\n  font-weight: 400 !important;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .field[_ngcontent-%COMP%] {\n  margin-top: 14px;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .field[_ngcontent-%COMP%]   .tip[_ngcontent-%COMP%] {\n  padding-left: 1.2px;\n  padding-bottom: 3px;\n  font-size: 14px;\n  color: #0A2749;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .field[_ngcontent-%COMP%]   .tip-invalid[_ngcontent-%COMP%] {\n  font-family: NotoSansTC-Regular;\n  font-size: 12px;\n  display: flex;\n  align-items: center;\n  transform: translate(-4px, 0px);\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .field[_ngcontent-%COMP%]   .tip-invalid[_ngcontent-%COMP%]   mat-icon[_ngcontent-%COMP%] {\n  color: #F36A6A;\n  transform: translate(5px, 3.5px);\n  font-size: 18px;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .field[_ngcontent-%COMP%]   .tip-invalid[_ngcontent-%COMP%]   span[_ngcontent-%COMP%] {\n  color: #F36A6A;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .tip-invalid[_ngcontent-%COMP%] {\n  font-family: NotoSansTC-Regular;\n  font-size: 12px;\n  display: flex;\n  align-items: center;\n  transform: translate(-4px, 0px);\n  white-space: normal;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .tip-invalid[_ngcontent-%COMP%]   mat-icon[_ngcontent-%COMP%] {\n  color: #F36A6A;\n  transform: translate(5px, 3.5px);\n  font-size: 18px;\n  margin-right: 5px;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .tip-invalid[_ngcontent-%COMP%]   span[_ngcontent-%COMP%] {\n  color: #F36A6A;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .title[_ngcontent-%COMP%] {\n  font-size: 16px;\n  font-weight: 500;\n  color: #0A2749;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .title[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  margin-right: 5px;\n  height: 100%;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .title[_ngcontent-%COMP%]   span[_ngcontent-%COMP%] {\n  white-space: pre-wrap;\n  text-align: left;\n  font-family: NotoSansTC-Medium;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .tip[_ngcontent-%COMP%] {\n  font-size: 14px;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .invoice-message[_ngcontent-%COMP%]   .effect-padding-inner[_ngcontent-%COMP%] {\n  width: calc(100% - 20px);\n  margin: 0 auto;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .effect-padding-inner[_ngcontent-%COMP%] {\n  width: calc(100% - 6px);\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .mainform.effect-padding-inner[_ngcontent-%COMP%], .wrapper-memberinfo-register[_ngcontent-%COMP%]   .textarea-title.effect-padding-inner[_ngcontent-%COMP%] {\n  width: calc(100% - 45px);\n  margin: 0 auto;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .mainform[_ngcontent-%COMP%]    > div[_ngcontent-%COMP%] {\n  margin-top: 42px;\n  border: 1px solid transparent;\n  border-radius: 10px;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .mainform[_ngcontent-%COMP%]    > div[_ngcontent-%COMP%]    > .title[_ngcontent-%COMP%] {\n  margin-top: -20px;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .mainform[_ngcontent-%COMP%]   .person-message[_ngcontent-%COMP%]   .effect-padding-inner[_ngcontent-%COMP%], .wrapper-memberinfo-register[_ngcontent-%COMP%]   .mainform[_ngcontent-%COMP%]   .invoice-message[_ngcontent-%COMP%]   .effect-padding-inner[_ngcontent-%COMP%], .wrapper-memberinfo-register[_ngcontent-%COMP%]   .mainform[_ngcontent-%COMP%]   .contact-info[_ngcontent-%COMP%]   .effect-padding-inner[_ngcontent-%COMP%], .wrapper-memberinfo-register[_ngcontent-%COMP%]   .mainform[_ngcontent-%COMP%]   .consents[_ngcontent-%COMP%]   .effect-padding-inner[_ngcontent-%COMP%] {\n  padding-top: 5px;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .mainform[_ngcontent-%COMP%]   .consents[_ngcontent-%COMP%] {\n  color: #7383A1;\n  border: none !important;\n  margin-bottom: 70px;\n  margin-top: -20px;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .mainform[_ngcontent-%COMP%]   .consents[_ngcontent-%COMP%]   .effect-padding-inner[_ngcontent-%COMP%] {\n  border-color: transparent;\n  width: 98%;\n  margin-top: -10px;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .mainform[_ngcontent-%COMP%]   .formallayout.consents[_ngcontent-%COMP%] {\n  margin-top: 30px;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .mainform[_ngcontent-%COMP%]   .invoice-message[_ngcontent-%COMP%] {\n  margin-top: 65px;\n  margin-bottom: 60px;\n  font-family: NotoSansTC-Light;\n  color: #7383A1 !important;\n  background-color: #F7F7F7;\n  border-color: transparent;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .mainform[_ngcontent-%COMP%]   .invoice-message[_ngcontent-%COMP%]   .title[_ngcontent-%COMP%] {\n  margin-top: -30px;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .mainform[_ngcontent-%COMP%]   .invoice-message[_ngcontent-%COMP%]   .title[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  transform: translateY(-5px);\n  height: 16px;\n  width: 16px;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .mainform[_ngcontent-%COMP%]   .invoice-message[_ngcontent-%COMP%]   .bar[_ngcontent-%COMP%] {\n  display: flex;\n  padding: 6px 0px;\n  font-family: NotoSansTC-Regular;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .mainform[_ngcontent-%COMP%]   .invoice-message[_ngcontent-%COMP%]   .bar[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  height: 14px;\n  width: 14px;\n  margin-right: 8px;\n  margin-top: 3px;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .mainform[_ngcontent-%COMP%]   .invoice-message[_ngcontent-%COMP%]   .bar[_ngcontent-%COMP%]   span[_ngcontent-%COMP%] {\n  display: inline-block;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .mainform[_ngcontent-%COMP%]   .invoice-message[_ngcontent-%COMP%]   .bar-location[_ngcontent-%COMP%] {\n  padding-bottom: 18px;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .mainform[_ngcontent-%COMP%]   .invoice-message[_ngcontent-%COMP%]   .bar-username[_ngcontent-%COMP%] {\n  padding-top: 18px;\n  font-size: 16px;\n  color: #0A2749;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .mainform[_ngcontent-%COMP%]   .invoice-message[_ngcontent-%COMP%]   .tip[_ngcontent-%COMP%] {\n  float: right;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .mainform[_ngcontent-%COMP%]   .invoice-message[_ngcontent-%COMP%]   .subtitle[_ngcontent-%COMP%]   .text[_ngcontent-%COMP%]   mat-icon[_ngcontent-%COMP%] {\n  font-size: 20px;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .mainform[_ngcontent-%COMP%]   .invoice-message[_ngcontent-%COMP%]   .subtitle[_ngcontent-%COMP%]   .text[_ngcontent-%COMP%]   span[_ngcontent-%COMP%] {\n  display: inline-block;\n  transform: translateY(-3px);\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .mainform[_ngcontent-%COMP%]   .textarea-input[_ngcontent-%COMP%] {\n  display: flex;\n  justify-content: space-between;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .mainform[_ngcontent-%COMP%]   .textarea-input[_ngcontent-%COMP%]   input[_ngcontent-%COMP%]:nth-child(1) {\n  display: inline-block;\n  width: 100%;\n  flex-basis: 48%;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .mainform[_ngcontent-%COMP%]   .textarea-input[_ngcontent-%COMP%]   input[_ngcontent-%COMP%]:nth-child(2) {\n  display: inline-block;\n  width: 100%;\n  flex-basis: 48%;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .mainform[_ngcontent-%COMP%]   .field-idcard-category[_ngcontent-%COMP%]   mat-form-field[_ngcontent-%COMP%] {\n  display: inline-block;\n  width: 100%;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .mainform[_ngcontent-%COMP%]   .field-idcard-number[_ngcontent-%COMP%] {\n  transform: translateY(-6px);\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .mainform[_ngcontent-%COMP%]   .field-idcard-number[_ngcontent-%COMP%]   input[_ngcontent-%COMP%] {\n  display: inline-block;\n  width: 100%;\n  flex-basis: 100%;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .mainform[_ngcontent-%COMP%]   .field-borndate[_ngcontent-%COMP%]   .subfield[_ngcontent-%COMP%], .wrapper-memberinfo-register[_ngcontent-%COMP%]   .mainform[_ngcontent-%COMP%]   .field-address[_ngcontent-%COMP%]   .subfield[_ngcontent-%COMP%] {\n  display: flex;\n  flex-wrap: wrap;\n  justify-content: space-between;\n  margin-bottom: -8px;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .mainform[_ngcontent-%COMP%]   .field-borndate[_ngcontent-%COMP%]   .subfield[_ngcontent-%COMP%]   mat-form-field[_ngcontent-%COMP%], .wrapper-memberinfo-register[_ngcontent-%COMP%]   .mainform[_ngcontent-%COMP%]   .field-address[_ngcontent-%COMP%]   .subfield[_ngcontent-%COMP%]   mat-form-field[_ngcontent-%COMP%] {\n  text-align: unset;\n  width: 100%;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .mainform[_ngcontent-%COMP%]   .field-borndate[_ngcontent-%COMP%] {\n  transform: translateY(-4px);\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .mainform[_ngcontent-%COMP%]   .field-borndate[_ngcontent-%COMP%]   .subfield[_ngcontent-%COMP%]   mat-form-field[_ngcontent-%COMP%] {\n  width: 32%;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .mainform[_ngcontent-%COMP%]   .field-address[_ngcontent-%COMP%]   input[_ngcontent-%COMP%] {\n  margin-top: 8px;\n  height: 60px;\n  width: 100%;\n  font-family: NotoSansTC-Regular !important;\n  font-weight: 400;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .mainform[_ngcontent-%COMP%]   .field-address[_ngcontent-%COMP%]   input[_ngcontent-%COMP%]::-webkit-input-placeholder {\n  \n  font-family: NotoSansTC-Regular !important;\n  font-weight: 400;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .mainform[_ngcontent-%COMP%]   .field-address[_ngcontent-%COMP%]   input[_ngcontent-%COMP%]::-moz-placeholder {\n  \n  font-family: NotoSansTC-Regular !important;\n  font-weight: 400;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .mainform[_ngcontent-%COMP%]   .field-address[_ngcontent-%COMP%]   input[_ngcontent-%COMP%]::-ms-input-placeholder {\n  font-family: NotoSansTC-Regular !important;\n  font-weight: 400;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .mainform[_ngcontent-%COMP%]   .field-address[_ngcontent-%COMP%]   input[_ngcontent-%COMP%]::placeholder {\n  font-family: NotoSansTC-Regular !important;\n  font-weight: 400;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .mainform[_ngcontent-%COMP%]   .field-address[_ngcontent-%COMP%]   input[_ngcontent-%COMP%]:-ms-input-placeholder {\n  font-family: NotoSansTC-Regular !important;\n  font-weight: 400;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .mainform[_ngcontent-%COMP%]   .contact-info[_ngcontent-%COMP%]   .info-input[_ngcontent-%COMP%] {\n  display: flex;\n  justify-content: space-between;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .mainform[_ngcontent-%COMP%]   .contact-info[_ngcontent-%COMP%]   .info-input[_ngcontent-%COMP%]   input[_ngcontent-%COMP%] {\n  flex: 1;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .mainform[_ngcontent-%COMP%]   .contact-info[_ngcontent-%COMP%]   .title[_ngcontent-%COMP%] {\n  margin-top: -10px;\n  margin-bottom: 5px;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .mainform[_ngcontent-%COMP%]   .contact-info[_ngcontent-%COMP%]   .title[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  height: 16px;\n  width: 16px;\n  transform: translateY(-5px);\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .mainform[_ngcontent-%COMP%]   .contact-info[_ngcontent-%COMP%]   .title[_ngcontent-%COMP%]   span[_ngcontent-%COMP%] {\n  display: inline-block;\n  transform: translateY(-3px);\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .mainform[_ngcontent-%COMP%]   .contact-info[_ngcontent-%COMP%]   .field-phone[_ngcontent-%COMP%] {\n  margin-top: 0px !important;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .mainform[_ngcontent-%COMP%]   .contact-info[_ngcontent-%COMP%]   .field-phone[_ngcontent-%COMP%]   mat-form-field[_ngcontent-%COMP%] {\n  width: 25%;\n  border-right: none;\n  margin-right: -2px;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .mainform[_ngcontent-%COMP%]   .custom-frame[_ngcontent-%COMP%] {\n  width: 100%;\n  word-wrap: break-word;\n  word-break: normal;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .mainform[_ngcontent-%COMP%]   .custom-frame[_ngcontent-%COMP%]   .invalid[_ngcontent-%COMP%] {\n  display: inline-block;\n  box-shadow: none !important;\n  border-color: red;\n  border-radius: 0%;\n  text-decoration: none;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .mainform[_ngcontent-%COMP%]   .custom-frame[_ngcontent-%COMP%]   .inline[_ngcontent-%COMP%] {\n  display: inline-block;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .mainform[_ngcontent-%COMP%]   .custom-frame[_ngcontent-%COMP%]   .fontbold[_ngcontent-%COMP%] {\n  font-weight: bold;\n  font-family: NotoSansTC-Regular;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .mainform[_ngcontent-%COMP%]   .custom-frame[_ngcontent-%COMP%]   .fontblack[_ngcontent-%COMP%] {\n  color: black;\n  font-family: NotoSansTC-Regular;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .mainform[_ngcontent-%COMP%]   .custom-frame[_ngcontent-%COMP%]   .des[_ngcontent-%COMP%] {\n  margin-top: 5px;\n  font-family: NotoSansTC-Regular;\n  line-height: 20px;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .mainform[_ngcontent-%COMP%]   .signature[_ngcontent-%COMP%] {\n  border-color: transparent;\n  margin-top: 40px !important;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .mainform[_ngcontent-%COMP%]   .signature[_ngcontent-%COMP%]   .wrapper[_ngcontent-%COMP%] {\n  position: relative;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .mainform[_ngcontent-%COMP%]   .signature[_ngcontent-%COMP%]   canvas[_ngcontent-%COMP%] {\n  border-radius: 16px;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .mainform[_ngcontent-%COMP%]   .signature[_ngcontent-%COMP%]   .toolbar-btn[_ngcontent-%COMP%] {\n  display: flex;\n  justify-content: flex-end;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .mainform[_ngcontent-%COMP%]   .signature[_ngcontent-%COMP%]   .toolbar-btn[_ngcontent-%COMP%]   button[_ngcontent-%COMP%] {\n  border: 1px solid #ACACAC;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .mainform[_ngcontent-%COMP%]   .signature[_ngcontent-%COMP%]   .tip-invalid[_ngcontent-%COMP%] {\n  font-size: 12px;\n  font-weight: normal;\n  margin-bottom: 12px;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .mainform[_ngcontent-%COMP%]   .signature[_ngcontent-%COMP%]   .tip-invalid[_ngcontent-%COMP%]   .error[_ngcontent-%COMP%] {\n  transform: translate(6px, -4px);\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .mainform[_ngcontent-%COMP%]   .signature[_ngcontent-%COMP%]   .tip-invalid[_ngcontent-%COMP%]   span[_ngcontent-%COMP%] {\n  display: inline-block;\n  transform: translate(4px, 0px) !important;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .mainform[_ngcontent-%COMP%]   .signature[_ngcontent-%COMP%]   .title[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  height: 16px;\n  width: 16px;\n  transform: translateY(-5px);\n  margin-right: 10px;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .mainform[_ngcontent-%COMP%]   .signature[_ngcontent-%COMP%]   .title[_ngcontent-%COMP%]   span[_ngcontent-%COMP%] {\n  display: inline-block;\n  transform: translate(-3px, -3px);\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .mainform[_ngcontent-%COMP%]   .btn-submitted[_ngcontent-%COMP%] {\n  width: 100%;\n  display: flex;\n  justify-content: center;\n  border-color: transparent;\n  margin-top: 24px;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .mainform[_ngcontent-%COMP%]   .btn-submitted[_ngcontent-%COMP%]   button[_ngcontent-%COMP%] {\n  line-height: 35px;\n  height: 44px;\n  font-size: 14px;\n  width: 100%;\n  background-color: #1893FF;\n  color: white;\n  font-family: NotoSansTC-Regular;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .person-message.formallayout[_ngcontent-%COMP%] {\n  margin-top: 50px !important;\n  border-bottom: none !important;\n  border-bottom-left-radius: 0px !important;\n  border-bottom-right-radius: 0px !important;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .invalidfix.contact-info[_ngcontent-%COMP%] {\n  margin-top: 60px !important;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .contact-info[_ngcontent-%COMP%] {\n  border-top: none !important;\n  margin-top: 65px !important;\n  transform: translateY(-35px);\n  padding-bottom: 0px;\n  border-top-left-radius: 0px !important;\n  border-top-right-radius: 0px !important;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .contact-info[_ngcontent-%COMP%]   .field-phone.resizebyborn[_ngcontent-%COMP%] {\n  transform: translateY(-4px);\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .contact-info[_ngcontent-%COMP%]   .field-email.resizebyborn[_ngcontent-%COMP%], .wrapper-memberinfo-register[_ngcontent-%COMP%]   .contact-info[_ngcontent-%COMP%]   .field-address.resizebyborn[_ngcontent-%COMP%] {\n  transform: translateY(-12px);\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .contact-info.formallayout[_ngcontent-%COMP%] {\n  transform: translateY(-52px);\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .contact-info.formallayout.layoutmodel[_ngcontent-%COMP%] {\n  transform: translateY(-52px);\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .contact-info.formallayout.layoutmodel[_ngcontent-%COMP%]   .wallline[_ngcontent-%COMP%] {\n  display: none !important;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .consents.formallayout[_ngcontent-%COMP%], .wrapper-memberinfo-register[_ngcontent-%COMP%]   .signature.formallayout[_ngcontent-%COMP%], .wrapper-memberinfo-register[_ngcontent-%COMP%]   .btn-submitted.formallayout[_ngcontent-%COMP%] {\n  transform: translateY(-36px);\n}\n.agree[_ngcontent-%COMP%] {\n  display: flex;\n}\n.padding-0[_ngcontent-%COMP%] {\n  padding-top: 0 !important;\n}\ninput[_ngcontent-%COMP%] {\n  padding: 10px;\n}\n.phone[_ngcontent-%COMP%]::before {\n  content: \"\";\n  position: absolute;\n  width: 1.5px;\n  height: 50%;\n  background-color: red;\n}\n.ocr-but-box[_ngcontent-%COMP%] {\n  padding-top: 5px;\n  padding-bottom: 10px;\n}\n.ocr-but[_ngcontent-%COMP%] {\n  height: 48px;\n  width: 100%;\n  border: 2px solid #1893FF;\n  color: #1893FF;\n  font-size: 14px;\n  font-weight: bold;\n}\n.ocr-but[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  width: 24px;\n  height: 24px;\n  margin-right: 10px;\n}\n@media screen and (min-width: 760px) {\n  .ocr-but[_ngcontent-%COMP%] {\n    height: 42px;\n  }\n}\n.ocr-mask-layer[_ngcontent-%COMP%] {\n  position: fixed;\n  width: 100vw;\n  height: 100vh;\n  background: #fff;\n  top: 0;\n  left: 0;\n  z-index: 999;\n}\n.ocr-box[_ngcontent-%COMP%] {\n  position: fixed;\n  width: 100vw;\n  height: 100vh;\n  background: rgba(0, 0, 0, 0.5);\n  top: 0;\n  left: 0;\n  z-index: 1000;\n}\n.ocr-content[_ngcontent-%COMP%] {\n  width: 100%;\n  height: 100%;\n  color: #FFFFFF;\n  padding: 59px 20px 34px 20px !important;\n  display: flex;\n  flex-direction: column;\n  justify-content: space-between;\n}\n.ocr-submit[_ngcontent-%COMP%], .ocr-back[_ngcontent-%COMP%] {\n  height: 44px;\n  border-radius: 5px;\n  font-size: 18px;\n}\n.ocr-submit[_ngcontent-%COMP%] {\n  color: #1893FF;\n}\n.ocr-back[_ngcontent-%COMP%] {\n  border: 1.5px solid #FFFFFF;\n  color: #FFFFFF;\n  margin-top: 12px;\n}\n.ocr-title[_ngcontent-%COMP%] {\n  font-size: 14px;\n  opacity: 0.8;\n  margin-bottom: 20px !important;\n}\n.id-card-box[_ngcontent-%COMP%] {\n  display: flex;\n  font-size: 16px;\n}\n.id-card-box[_ngcontent-%COMP%]   div[_ngcontent-%COMP%] {\n  flex: 1;\n  padding: 10px 0;\n  opacity: 0.8;\n}\n.id-card-box[_ngcontent-%COMP%]   .active[_ngcontent-%COMP%] {\n  border-bottom: 3px solid #fff;\n  border-radius: 3px;\n  opacity: 1 !important;\n}\n.ocr-describe[_ngcontent-%COMP%] {\n  font-size: 14px;\n  opacity: 0.8;\n}\n.ocr-ground[_ngcontent-%COMP%] {\n  margin: 33px 0 !important;\n  width: 100%;\n  height: 180px;\n  border: 2px solid #929292;\n  position: relative;\n  border-radius: 5px;\n}\n.ocr[_ngcontent-%COMP%] {\n  background: linear-gradient(#fff, #fff) left top, linear-gradient(#fff, #fff) left top, linear-gradient(#fff, #fff) right top, linear-gradient(#fff, #fff) right top, linear-gradient(#fff, #fff) right bottom, linear-gradient(#fff, #fff) right bottom, linear-gradient(#fff, #fff) left bottom, linear-gradient(#fff, #fff) left bottom;\n  background-repeat: no-repeat;\n  background-size: 2px 30px, 30px 2px;\n  height: 180px;\n  width: calc(100% + 4px);\n  position: absolute;\n  top: -2px;\n  left: -2px;\n  border-radius: 5px;\n}\nvideo[_ngcontent-%COMP%] {\n  position: absolute;\n  width: calc(100% - 4px);\n  height: calc(100% - 4px);\n  -o-object-fit: cover;\n     object-fit: cover;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  background: #ccc;\n}\ncanvas[_ngcontent-%COMP%] {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29yZS9jb21wb25lbnRzL21lbWJlci1pbmZvLXJlZ2lzdGVyL0Q6XFxMWkZcXEhLXFx1bWgtZ2xvYmFsLXByb2ZpbGVcXHByZS1yZWdpc3RyYXRpb24td2ViL3NyY1xcYXBwXFxjb3JlXFxjb21wb25lbnRzXFxtZW1iZXItaW5mby1yZWdpc3RlclxcbWVtYmVyLWluZm8tcmVnaXN0ZXIuY29tcG9uZW50LnNjc3MiLCJzcmMvYXBwL2NvcmUvY29tcG9uZW50cy9tZW1iZXItaW5mby1yZWdpc3Rlci9tZW1iZXItaW5mby1yZWdpc3Rlci5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFLQTtFQUNFLGtCQUFBO0VBQ0EsdUJBQUE7RUFDQSwrQkFBQTtFQUNBLG9CQUFBO0VBQ0EsWUFBQTtFQUNBLFdBQUE7QUNKRjtBRE1FO0VBQ0UsZ0JBQUE7RUFDQSxjQUFBO0FDSko7QURNRTtFQUNFLHdCQUFBO0VBQ0Esa0JBQUE7RUFDQSxlQUFBO0VBQ0EsaUJBQUE7RUFDQSw2QkFBQTtBQ0pKO0FES0k7RUFDRSxlQUFBO0VBQ0EsOEJBQUE7QUNITjtBRFdJO0VBQ0UsZUFBQTtFQUNBLGNBQUE7RUFDQSxtQkFBQTtFQUNBLGVBQUE7RUFDQSwrQkFBQTtBQ1ROO0FEYUU7RUFFRTtJQUNFLGlCQUFBO0VDWko7RURnQkk7SUFDRSxlQUFBO0VDZE47RURrQkU7SUFDRSxnQkFBQTtJQUNBLGNBQUE7RUNoQko7RURtQkU7SUFDRSx5Q0FBQTtFQ2pCSjtFRG9CRTtJQUNFLG9DQUFBO0lBQ0EsdUJBQUE7RUNsQko7RURxQkU7SUFDRSxrQkFBQTtFQ25CSjtFRHNCRTtJQUNFLGFBQUE7SUFDQSxXQUFBO0lBQ0EsOEJBQUE7RUNwQko7RURxQkk7SUFDRSxxQkFBQTtJQUNBLHFCQUFBO0VDbkJOO0VEc0JJO0lBQ0UscUNBQUE7RUNwQk47RURxQk07SUFDRSxnQ0FBQTtJQUNBLFdBQUE7RUNuQlI7RUR5QkU7SUFDRSwwQkFBQTtFQ3ZCSjtFRHlCRTtJQUNFLDJCQUFBO0VDdkJKO0VEeUNJO0lBQ0UsZUFBQTtFQ3ZDTjtFRHdDTTtJQUNFLHFCQUFBO0VDdENSO0VEd0NNO0lBQ0UscUJBQUE7RUN0Q1I7RUR3Q007SUFDRSxzQkFBQTtFQ3RDUjtFRHlDTTtJQUNFLG1CQUFBO0VDdkNSO0VEZ0RNO0lBQ0UscUJBQUE7RUM5Q1I7RURxRE07SUFDRSxzQ0FBQTtJQUNBLDZCQUFBO0lBQ0EsdUJBQUE7SUFDQSxzQkFBQTtFQ25EUjtFRDBETTtJQUNFLGtCQUFBO0lBQ0EsMkJBQUE7RUN4RFI7RUQ2REU7SUFDRSw2QkFBQTtFQzNESjtFRGdFSTtJQUNFLHFCQUFBO0VDOUROO0VEaUVJO0lBQ0Usb0JBQUE7SUFDQSxxQkFBQTtFQy9ETjtFRG9FRTtJQUNFLHFDQUFBO0lBQ0Esd0NBQUE7RUNsRUo7RURxRUU7SUFDRSx1QkFBQTtFQ25FSjtFRHNFRTtJQUVFLDJCQUFBO0lBQ0EsdUJBQUE7RUNyRUo7RURzRUk7SUFDRSwyQkFBQTtJQUNBLHVCQUFBO0lBQ0EsdUJBQUE7RUNwRU47RUQ4RUU7SUFDRSxjQUFBO0lBQ0EsYUFBQTtJQUNBLDhCQUFBO0lBQ0EsbUJBQUE7SUFDQSw4QkFBQTtJQUNBLCtCQUFBO0VDNUVKO0VEK0VFO0lBQ0UsMEJBQUE7SUFDQSwyQkFBQTtFQzdFSjtFRGlGSTtJQUNFLDBCQUFBO0lBQ0EsMEJBQUE7SUFDQSw4QkFBQTtFQy9FTjtFRGtGSTtJQUNFLDBCQUFBO0lBQ0EsOEJBQUE7RUNoRk47RURzRkk7SUFDRSxlQUFBO0lBQ0EsbUJBQUE7RUNwRk47RURzRk07SUFDRSx5Q0FBQTtFQ3BGUjtFRDBGRTtJQUNFLDBCQUFBO0VDeEZKO0VEMkZRO0lBQ0UscUNBQUE7RUN6RlY7RUQ4Rkk7SUFDRSw0QkFBQTtJQUNBLCtCQUFBO0VDNUZOO0VENkZNO0lBQ0UsdUJBQUE7SUFDQSxzQkFBQTtJQUNBLHFDQUFBO0VDM0ZSO0VEaUdNO0lBQ0UsMkJBQUE7RUMvRlI7RURnR1E7SUFDRSx1QkFBQTtJQUNBLHNCQUFBO0lBQ0EsNEJBQUE7SUFDQSwwQkFBQTtFQzlGVjtFRGtHTTtJQUNFLCtCQUFBO0VDaEdSO0VEb0dJO0lBQ0UsMEJBQUE7RUNsR047RUR3R007SUFDRSx1QkFBQTtJQUNBLHNCQUFBO0lBQ0Esc0NBQUE7RUN0R1I7RUR3R007SUFDRSxxQkFBQTtJQUNBLDBCQUFBO0VDdEdSO0VEd0dNO0lBQ0UsMEJBQUE7SUFDQSw4QkFBQTtJQUNBLDBCQUFBO0lBQ0EsK0JBQUE7SUFDQSxnQkFBQTtJQUNBLGNBQUE7RUN0R1I7RUQyR007SUFDRSw2QkFBQTtJQUNBLHVCQUFBO0lBQ0Esc0JBQUE7SUFDQSwwQkFBQTtJQUNBLG1CQUFBO0lBQ0Esc0NBQUE7SUFDQSwwQkFBQTtJQUNBLHlCQUFBO0VDekdSO0VEMEdRO0lBQ0Usa0JBQUE7SUFDQSxRQUFBO0lBQ0EsV0FBQTtFQ3hHVjtFRGlISTtJQUNFLGdDQUFBO0VDL0dOO0VEb0hFO0lBQ0UsbUNBQUE7SUFDQSxjQUFBO0VDbEhKO0VEcUhFO0lBQ0Usa0NBQUE7RUNuSEo7RURzSEU7SUFDRSxXQUFBO0lBQ0Esd0JBQUE7SUFDQSw2QkFBQTtFQ3BISjtBQUNGO0FEK0hJO0VBNkNFLDBCQUFBO0FDektOO0FENkhNO0VBQ0UsWUFBQTtFQUNBLFdBQUE7RUFDQSwyQkFBQTtBQzNIUjtBRDZITTtFQUNFLGtCQUFBO0VBQ0EsV0FBQTtFQUNBLFdBQUE7RUFDQSxlQUFBO0VBQ0EsT0FBQTtFQUNBLGVBQUE7RUFDQSxjQUFBO0VBQ0EsK0JBQUE7QUMzSFI7QUQ0SFE7RUFDRSxrQkFBQTtFQUNBLFFBQUE7RUFDQSxXQUFBO0FDMUhWO0FEOEhNO0VBQ0UsUUFBQTtBQzVIUjtBRCtITTtFQUNFLGVBQUE7RUFDQSxtQkFBQTtFQUNBLCtCQUFBO0VBQ0EsZ0JBQUE7RUFDQSxjQUFBO0FDN0hSO0FEZ0lNO0VBQ0Usa0JBQUE7RUFDQSxxQkFBQTtFQUNBLGdCQUFBO0VBQ0Esa0JBQUE7RUFDQSxxQkFBQTtFQUNBLFVBQUE7RUFDQSx3QkFBQTtBQzlIUjtBRHVJSTtFQUNFLDBCQUFBO0FDcklOO0FEMklFO0VBQ0Usb0JBQUE7QUN6SUo7QUQ2SUU7RUFDRSxtQkFBQTtBQzNJSjtBRDhJRTtFQUNFLDJCQUFBO0FDNUlKO0FEK0lFO0VBQ0UscUJBQUE7RUFDQSxpQkFBQTtFQUNBLGVBQUE7RUFDQSxZQUFBO0VBQ0EsaUJBQUE7RUFDQSxjQUFBO0VBQ0EsZUFBQTtFQUNBLFNBQUE7RUFDQSxTQUFBO0VBQ0EsMkJBQUE7RUFDQSxrQkFBQTtBQzdJSjtBRDhJSTtFQUNFLGdCQUFBO0FDNUlOO0FEK0lJO0VBQ0csZ0JBQUE7QUM3SVA7QURpSkU7RUFDRSxjQUFBO0FDL0lKO0FEa0pFO0VBQ0UsZUFBQTtFQUNBLFFBQUE7RUFDQSxXQUFBO0VBQ0EsWUFBQTtFQUNBLGtCQUFBO0VBQ0EsbUJBQUE7RUFDQSxhQUFBO0VBQ0EsOEJBQUE7RUFDQSxtQkFBQTtFQUNBLFlBQUE7RUFDQSwrQ0FBQTtFQUNBLHVCQUFBO0FDaEpKO0FEaUpJO0VBQ0Usa0JBQUE7RUFDQSxTQUFBO0VBQ0EsK0JBQUE7RUFDQSxZQUFBO0VBQ0EsWUFBQTtBQy9JTjtBRGlKSTtFQUNFLGNBQUE7RUFDQSxhQUFBO0VBQ0EsOEJBQUE7RUFDQSxtQkFBQTtFQUNBLDhCQUFBO0VBQ0EsK0JBQUE7QUMvSU47QURnSk07RUFDRSxjQUFBO0VBQ0EsOEJBQUE7QUM5SVI7QURnSk07RUFDRSxXQUFBO0VBQ0EsWUFBQTtBQzlJUjtBRGdKTTtFQUNFLHVDQUFBO0FDOUlSO0FEbUpFO0VBQ0UseUNBQUE7QUNqSko7QURvSkU7RUFDRSxrQkFBQTtFQUNBLDRCQUFBO0FDbEpKO0FEcUpJO0VBQ0UsZ0NBQUE7QUNuSk47QUR1SkU7RUFDRSwyQkFBQTtFQUNBLDZCQUFBO0FDckpKO0FEd0pFO0VBQ0UsV0FBQTtFQUNBLGFBQUE7RUFDQSw2QkFBQTtBQ3RKSjtBRHlKRTtFQUNFLFVBQUE7RUFDQSxnQkFBQTtBQ3ZKSjtBRDBKRTtFQUNFLGVBQUE7RUFDQSxjQUFBO0FDeEpKO0FEOEpFO0VBRUUsaUJBQUE7RUFDQSwwQkFBQTtFQUNBLDZCQUFBO0FDN0pKO0FEZ0tFO0VBQ0Usa0JBQUE7QUM5Sko7QURtS0U7RUFDRSxrQkFBQTtFQUNBLHFCQUFBO0VBQ0EsUUFBQTtFQUNBLDJCQUFBO0VBQ0EsU0FBQTtFQUNBLFlBQUE7RUFDQSxXQUFBO0VBQ0EsWUFBQTtFQUNBLHlCQUFBO0FDaktKO0FEeUtFO0VBQ0UsU0FBQTtFQUNBLFVBQUE7QUN2S0o7QUQwS0U7RUFDRSx5QkFBQTtBQ3hLSjtBRDJLRTtFQUNFLHdCQUFBO0VBQ0Esa0JBQUE7RUFDQSxhQUFBO0VBQ0EseUJBQUE7RUFDQSxZQUFBO0VBQ0Esa0JBQUE7RUFDQSx1QkFBQTtFQUNBLGdCQUFBO0VBQ0EsbUJBQUE7RUFFQSwwQ0FBQTtBQzFLSjtBRDJLSTtFQUErQix3QkFBQTtFQUM3QiwwQ0FBQTtFQUNBLG1CQUFBO0VBQ0EsdUJBQUE7RUFDQSxnQkFBQTtFQUNBLGVBQUE7RUFDSCxXQUFBO0VBQ0csbUJBQUE7QUN4S047QUQwS0U7RUFBc0IsZ0JBQUE7RUFDbEIsMENBQUE7RUFDQSxtQkFBQTtFQUNBLHVCQUFBO0VBQ0EsZ0JBQUE7RUFDQSxlQUFBO0VBQ0gsV0FBQTtFQUNHLG1CQUFBO0FDdktOO0FEMEtJO0VBQ0UsMENBQUE7RUFDQSwyQkFBQTtBQ3hLTjtBRHNLSTtFQUNFLDBDQUFBO0VBQ0EsMkJBQUE7QUN4S047QUQyS0k7RUFDRSwwQ0FBQTtFQUNBLDJCQUFBO0FDektOO0FEOEtFO0VBQ0UsZ0JBQUE7QUM1S0o7QUQ2S0k7RUFDRSxtQkFBQTtFQUNBLG1CQUFBO0VBQ0EsZUFBQTtFQUVBLGNBQUE7QUM1S047QUQ4S0k7RUFDRSwrQkFBQTtFQUNBLGVBQUE7RUFDQSxhQUFBO0VBQ0EsbUJBQUE7RUFDQSwrQkFBQTtBQzVLTjtBRDZLTTtFQUNFLGNBQUE7RUFDQSxnQ0FBQTtFQUNBLGVBQUE7QUMzS1I7QUQ2S007RUFDRSxjQUFBO0FDM0tSO0FEaUxFO0VBQ0UsK0JBQUE7RUFDQSxlQUFBO0VBQ0EsYUFBQTtFQUNBLG1CQUFBO0VBQ0EsK0JBQUE7RUFDQSxtQkFBQTtBQy9LSjtBRGdMSTtFQUNFLGNBQUE7RUFDQSxnQ0FBQTtFQUNBLGVBQUE7RUFDQSxpQkFBQTtBQzlLTjtBRGdMSTtFQUNFLGNBQUE7QUM5S047QUR1TEU7RUFDRSxlQUFBO0VBQ0EsZ0JBQUE7RUFDQSxjQUFBO0FDckxKO0FEc0xJO0VBQ0UsaUJBQUE7RUFDQSxZQUFBO0FDcExOO0FEdUxJO0VBQ0UscUJBQUE7RUFDQSxnQkFBQTtFQUNBLDhCQUFBO0FDckxOO0FEeUxFO0VBQ0UsZUFBQTtBQ3ZMSjtBRDBMRTtFQUNFLHdCQUFBO0VBQ0EsY0FBQTtBQ3hMSjtBRDJMRTtFQUNFLHVCQUFBO0FDekxKO0FENExFO0VBQ0Usd0JBQUE7RUFDQSxjQUFBO0FDMUxKO0FEaU1JO0VBSUUsZ0JBQUE7RUFDQSw2QkFBQTtFQUNBLG1CQUFBO0FDbE1OO0FENkxNO0VBQ0UsaUJBQUE7QUMzTFI7QURrTU07RUFDRSxnQkFBQTtBQ2hNUjtBRHFNSTtFQUNFLGNBQUE7RUFDQSx1QkFBQTtFQUNBLG1CQUFBO0VBQ0EsaUJBQUE7QUNuTU47QURvTU07RUFDRSx5QkFBQTtFQUNBLFVBQUE7RUFDQSxpQkFBQTtBQ2xNUjtBRHNNSTtFQUNFLGdCQUFBO0FDcE1OO0FEdU1JO0VBQ0UsZ0JBQUE7RUFDQSxtQkFBQTtFQUNBLDZCQUFBO0VBQ0EseUJBQUE7RUFDQSx5QkFBQTtFQUNBLHlCQUFBO0FDck1OO0FEdU1NO0VBQ0UsaUJBQUE7QUNyTVI7QURzTVE7RUFDRSwyQkFBQTtFQUNBLFlBQUE7RUFDQSxXQUFBO0FDcE1WO0FEd01NO0VBQ0UsYUFBQTtFQUVBLGdCQUFBO0VBQ0EsK0JBQUE7QUN2TVI7QUR5TVE7RUFDRSxZQUFBO0VBQ0EsV0FBQTtFQUNBLGlCQUFBO0VBQ0EsZUFBQTtBQ3ZNVjtBRDBNUTtFQUNFLHFCQUFBO0FDeE1WO0FENk1NO0VBQ0Usb0JBQUE7QUMzTVI7QUQ4TU07RUFDRSxpQkFBQTtFQUNBLGVBQUE7RUFDQSxjQUFBO0FDNU1SO0FEK01NO0VBQ0UsWUFBQTtBQzdNUjtBRGtOVTtFQUNFLGVBQUE7QUNoTlo7QURrTlU7RUFDRSxxQkFBQTtFQUNBLDJCQUFBO0FDaE5aO0FENk5JO0VBQ0UsYUFBQTtFQUNBLDhCQUFBO0FDM05OO0FENE5NO0VBQ0UscUJBQUE7RUFDQSxXQUFBO0VBQ0EsZUFBQTtBQzFOUjtBRDROTTtFQUNFLHFCQUFBO0VBQ0EsV0FBQTtFQUNBLGVBQUE7QUMxTlI7QURnT007RUFDRSxxQkFBQTtFQUNBLFdBQUE7QUM5TlI7QURrT0k7RUFDRSwyQkFBQTtBQ2hPTjtBRGlPTTtFQUNFLHFCQUFBO0VBQ0EsV0FBQTtFQUNBLGdCQUFBO0FDL05SO0FEcU9NO0VBQ0UsYUFBQTtFQUNBLGVBQUE7RUFDQSw4QkFBQTtFQUNBLG1CQUFBO0FDbk9SO0FEb09RO0VBQ0UsaUJBQUE7RUFDQSxXQUFBO0FDbE9WO0FEd09JO0VBQ0UsMkJBQUE7QUN0T047QUQ0T1E7RUFDRSxVQUFBO0FDMU9WO0FEZ1BNO0VBQ0UsZUFBQTtFQUNBLFlBQUE7RUFDQSxXQUFBO0VBQ0EsMENBQUE7RUFDQSxnQkFBQTtBQzlPUjtBRCtPUTtFQUErQix3QkFBQTtFQUM3QiwwQ0FBQTtFQUNBLGdCQUFBO0FDNU9WO0FEOE9RO0VBQXNCLGdCQUFBO0VBQ3BCLDBDQUFBO0VBQ0EsZ0JBQUE7QUMzT1Y7QUQ2T1E7RUFDRSwwQ0FBQTtFQUNBLGdCQUFBO0FDM09WO0FEeU9RO0VBQ0UsMENBQUE7RUFDQSxnQkFBQTtBQzNPVjtBRDhPUTtFQUNFLDBDQUFBO0VBQ0EsZ0JBQUE7QUM1T1Y7QUR5UU07RUFJRSxhQUFBO0VBQ0EsOEJBQUE7QUMxUVI7QURzUVE7RUFDRSxPQUFBO0FDcFFWO0FEMFFNO0VBQ0UsaUJBQUE7RUFDQSxrQkFBQTtBQ3hRUjtBRHlRUTtFQUNFLFlBQUE7RUFDQSxXQUFBO0VBQ0EsMkJBQUE7QUN2UVY7QUR5UVE7RUFDRSxxQkFBQTtFQUNBLDJCQUFBO0FDdlFWO0FENlFNO0VBQ0UsMEJBQUE7QUMzUVI7QUQ0UVE7RUFDRSxVQUFBO0VBQ0Esa0JBQUE7RUFDQSxrQkFBQTtBQzFRVjtBRGtSSTtFQUNFLFdBQUE7RUFDQSxxQkFBQTtFQUNBLGtCQUFBO0FDaFJOO0FEaVJNO0VBQ0UscUJBQUE7RUFDQSwyQkFBQTtFQUNBLGlCQUFBO0VBQ0EsaUJBQUE7RUFDQSxxQkFBQTtBQy9RUjtBRG1STTtFQUNFLHFCQUFBO0FDalJSO0FEb1JNO0VBRUUsaUJBQUE7RUFDQSwrQkFBQTtBQ25SUjtBRHNSTTtFQUNFLFlBQUE7RUFDQSwrQkFBQTtBQ3BSUjtBRHVSTTtFQUNFLGVBQUE7RUFDQSwrQkFBQTtFQUNBLGlCQUFBO0FDclJSO0FEeVJJO0VBQ0UseUJBQUE7RUFDQSwyQkFBQTtBQ3ZSTjtBRHdSTTtFQUNFLGtCQUFBO0FDdFJSO0FEd1JNO0VBQ0UsbUJBQUE7QUN0UlI7QUR3Uk07RUFDRSxhQUFBO0VBQ0EseUJBQUE7QUN0UlI7QUR1UlE7RUFDRSx5QkFBQTtBQ3JSVjtBRHdSTTtFQUNFLGVBQUE7RUFDQSxtQkFBQTtFQUNBLG1CQUFBO0FDdFJSO0FEdVJRO0VBQ0UsK0JBQUE7QUNyUlY7QUR1UlE7RUFDRSxxQkFBQTtFQUNBLHlDQUFBO0FDclJWO0FEMFJRO0VBQ0UsWUFBQTtFQUNBLFdBQUE7RUFDQSwyQkFBQTtFQUNBLGtCQUFBO0FDeFJWO0FEMFJRO0VBQ0UscUJBQUE7RUFDQSxnQ0FBQTtBQ3hSVjtBRDZSSTtFQUNFLFdBQUE7RUFDQSxhQUFBO0VBQ0EsdUJBQUE7RUFDQSx5QkFBQTtFQUNBLGdCQUFBO0FDM1JOO0FENFJNO0VBQ0UsaUJBQUE7RUFDQSxZQUFBO0VBQ0EsZUFBQTtFQUNBLFdBQUE7RUFDQSx5QkFBQTtFQUNBLFlBQUE7RUFDQSwrQkFBQTtBQzFSUjtBRHVTRTtFQUNFLDJCQUFBO0VBQ0EsOEJBQUE7RUFDQSx5Q0FBQTtFQUNBLDBDQUFBO0FDclNKO0FEd1NFO0VBQ0UsMkJBQUE7QUN0U0o7QUR5U0U7RUFDRSwyQkFBQTtFQUNBLDJCQUFBO0VBQ0EsNEJBQUE7RUFDQSxtQkFBQTtFQUNBLHNDQUFBO0VBQ0EsdUNBQUE7QUN2U0o7QUQ0U0k7RUFDRSwyQkFBQTtBQzFTTjtBRDZTSTtFQUNFLDRCQUFBO0FDM1NOO0FEaVRFO0VBQ0UsNEJBQUE7QUMvU0o7QURvVEU7RUFDRSw0QkFBQTtBQ2xUSjtBRG1USTtFQUdFLHdCQUFBO0FDblROO0FEeVRFO0VBQ0UsNEJBQUE7QUN2VEo7QUQ4VEE7RUFDRSxhQUFBO0FDM1RGO0FEOFRBO0VBQ0UseUJBQUE7QUMzVEY7QUQ2VEE7RUFDRSxhQUFBO0FDMVRGO0FENlRBO0VBQ0UsV0FBQTtFQUNBLGtCQUFBO0VBQ0EsWUFBQTtFQUNBLFdBQUE7RUFDQSxxQkFBQTtBQzFURjtBRDZUQTtFQUNFLGdCQUFBO0VBQ0Esb0JBQUE7QUMxVEY7QUQ0VEE7RUFDRSxZQUFBO0VBQ0EsV0FBQTtFQUNBLHlCQUFBO0VBQ0EsY0FBQTtFQUNBLGVBQUE7RUFDQSxpQkFBQTtBQ3pURjtBRDBURTtFQUNFLFdBQUE7RUFDQSxZQUFBO0VBQ0Esa0JBQUE7QUN4VEo7QUQ0VEE7RUFDRTtJQUNFLFlBQUE7RUN6VEY7QUFDRjtBRDRUQTtFQUNFLGVBQUE7RUFDQSxZQUFBO0VBQ0EsYUFBQTtFQUNBLGdCQUFBO0VBQ0EsTUFBQTtFQUNBLE9BQUE7RUFDQSxZQUFBO0FDMVRGO0FENFRBO0VBQ0UsZUFBQTtFQUNBLFlBQUE7RUFDQSxhQUFBO0VBQ0EsOEJBQUE7RUFDQSxNQUFBO0VBQ0EsT0FBQTtFQUNBLGFBQUE7QUN6VEY7QUQyVEE7RUFDRSxXQUFBO0VBQ0EsWUFBQTtFQUNBLGNBQUE7RUFDQSx1Q0FBQTtFQUNBLGFBQUE7RUFDQSxzQkFBQTtFQUNBLDhCQUFBO0FDeFRGO0FEMFRBO0VBQ0UsWUFBQTtFQUNBLGtCQUFBO0VBQ0EsZUFBQTtBQ3ZURjtBRHlUQTtFQUNFLGNBQUE7QUN0VEY7QUR3VEE7RUFDRSwyQkFBQTtFQUNBLGNBQUE7RUFDQSxnQkFBQTtBQ3JURjtBRHdUQTtFQUNFLGVBQUE7RUFDQSxZQUFBO0VBQ0EsOEJBQUE7QUNyVEY7QUR1VEE7RUFDRSxhQUFBO0VBQ0EsZUFBQTtBQ3BURjtBRHFURTtFQUNFLE9BQUE7RUFDQSxlQUFBO0VBQ0EsWUFBQTtBQ25USjtBRHFURTtFQUNFLDZCQUFBO0VBQ0Esa0JBQUE7RUFDQSxxQkFBQTtBQ25USjtBRHNUQTtFQUNFLGVBQUE7RUFDQSxZQUFBO0FDblRGO0FEcVRBO0VBQ0UseUJBQUE7RUFDQSxXQUFBO0VBQ0EsYUFBQTtFQUNBLHlCQUFBO0VBQ0Esa0JBQUE7RUFDQSxrQkFBQTtBQ2xURjtBRG9UQTtFQUNFLDBVQUFBO0VBUUEsNEJBQUE7RUFDQSxtQ0FBQTtFQUNBLGFBQUE7RUFDQSx1QkFBQTtFQUNBLGtCQUFBO0VBQ0EsU0FBQTtFQUNBLFVBQUE7RUFDQSxrQkFBQTtBQ3hURjtBRDBUQTtFQUdFLGtCQUFBO0VBQ0EsdUJBQUE7RUFDQSx3QkFBQTtFQUNBLG9CQUFBO0tBQUEsaUJBQUE7RUFDQSxRQUFBO0VBQ0EsU0FBQTtFQUNBLGdDQUFBO0VBQ0EsZ0JBQUE7QUN6VEY7QUQ0VEE7RUFHRSxrQkFBQTtFQUNBLFFBQUE7RUFDQSxTQUFBO0VBQ0EsZ0NBQUE7QUMzVEYiLCJmaWxlIjoic3JjL2FwcC9jb3JlL2NvbXBvbmVudHMvbWVtYmVyLWluZm8tcmVnaXN0ZXIvbWVtYmVyLWluZm8tcmVnaXN0ZXIuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyJcclxuQGltcG9ydCBcIn5ib290c3RyYXAvc2Nzcy9mdW5jdGlvbnNcIjtcclxuQGltcG9ydCBcIn5ib290c3RyYXAvc2Nzcy92YXJpYWJsZXNcIjtcclxuQGltcG9ydCBcIn5ib290c3RyYXAvc2Nzcy9taXhpbnMvYnJlYWtwb2ludHNcIjtcclxuXHJcbi53cmFwcGVyLW1lbWJlcmluZm8tcmVnaXN0ZXJ7XHJcbiAgcG9zaXRpb246IHJlbGF0aXZlO1xyXG4gIGJhY2tncm91bmQtY29sb3I6IHdoaXRlO1xyXG4gIGZvbnQtZmFtaWx5OiBOb3RvU2Fuc1RDLVJlZ3VsYXI7XHJcbiAgcGFkZGluZy1ib3R0b206IDI1cHg7XHJcbiAgY29sb3I6YmxhY2s7XHJcbiAgd2lkdGg6IDEwMCU7XHJcblxyXG4gIC5jb250ZW50cGFuZSB7XHJcbiAgICBtYXgtd2lkdGg6Mzc2cHg7XHJcbiAgICBtYXJnaW46IDAgYXV0bztcclxuICB9XHJcbiAgLnRleHRhcmVhLXRpdGxlIHtcclxuICAgIHdpZHRoOmNhbGMoMTAwJSAtIDYwcHgpO1xyXG4gICAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG4gICAgZm9udC1zaXplOiAxMHB4O1xyXG4gICAgcGFkZGluZy10b3A6IDcwcHg7XHJcbiAgICBmb250LWZhbWlseTogTm90b1NhbnNUQy1MaWdodDtcclxuICAgIC50aXRsZXtcclxuICAgICAgZm9udC1zaXplOiAyMHB4O1xyXG4gICAgICBmb250LWZhbWlseTpOb3RvU2Fuc1RDLU1lZGl1bTtcclxuICAgIH1cclxuXHJcbiAgICAvLyAuZm9ybWFsbGF5b3V0IHtcclxuICAgIC8vICAgdGV4dC1hbGlnbjogbGVmdDtcclxuICAgIC8vICAgdHJhbnNmb3JtOiB0cmFuc2xhdGUoLTEzcHgsNXB4KTtcclxuICAgIC8vIH1cclxuXHJcbiAgICAudGV4dC10aXAge1xyXG4gICAgICBtYXJnaW4tdG9wOiA4cHg7XHJcbiAgICAgIGNvbG9yOiM3MzgzQTE7XHJcbiAgICAgIG1hcmdpbi1ib3R0b206IDUwcHg7XHJcbiAgICAgIGZvbnQtc2l6ZTogMTNweDtcclxuICAgICAgZm9udC1mYW1pbHk6IE5vdG9TYW5zVEMtUmVndWxhcjtcclxuICAgIH1cclxuXHJcbiAgfVxyXG4gIEBtZWRpYSBzY3JlZW4gYW5kIChtaW4td2lkdGg6IDc2MHB4KSB7XHJcblxyXG4gICAgLnRleHRhcmVhLXRpdGxlIHtcclxuICAgICAgcGFkZGluZy10b3A6IDkwcHg7XHJcbiAgICB9XHJcblxyXG4gICAgLnRpdGxlIHtcclxuICAgICAgbWF0LWljb257XHJcbiAgICAgICAgZm9udC1zaXplOiAyMHB4O1xyXG4gICAgICB9XHJcbiAgICB9XHJcblxyXG4gICAgLmNvbnRlbnRwYW5lIHtcclxuICAgICAgbWF4LXdpZHRoOjcxMHB4O1xyXG4gICAgICBtYXJnaW46IDAgYXV0bztcclxuICAgIH1cclxuXHJcbiAgICAucGhvbmVOdW1iZXIge1xyXG4gICAgICBib3JkZXItbGVmdC1jb2xvcjp0cmFuc3BhcmVudCAhaW1wb3J0YW50O1xyXG4gICAgfVxyXG5cclxuICAgIGlucHV0IHtcclxuICAgICAgYm9yZGVyOjFweCBzb2xpZCAjRTlFREYzICFpbXBvcnRhbnQ7XHJcbiAgICAgIGhlaWdodDo0MnB4ICFpbXBvcnRhbnQ7XHJcbiAgICB9XHJcblxyXG4gICAgLmZpZWxkLWlkY2FyZC1jYXRlZ29yeXtcclxuICAgICAgbWFyZ2luLXJpZ2h0OiAxMnB4O1xyXG4gICAgfVxyXG5cclxuICAgIC5maWVsZC1pZGNhcmR7XHJcbiAgICAgIGRpc3BsYXk6IGZsZXg7XHJcbiAgICAgIHdpZHRoOjEwMCU7XHJcbiAgICAgIGp1c3RpZnktY29udGVudDogc3BhY2UtYmV0d2VlbjtcclxuICAgICAgLmZpZWxkLWlkY2FyZC1jYXRlZ29yeSwuZmllbGQtaWRjYXJkLW51bWJlciB7XHJcbiAgICAgICAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xyXG4gICAgICAgIHdpZHRoOjQ4JSAhaW1wb3J0YW50O1xyXG4gICAgICB9XHJcblxyXG4gICAgICAuZmllbGQtaWRjYXJkLW51bWJlciB7XHJcbiAgICAgICAgdHJhbnNmb3JtOiB0cmFuc2xhdGVZKDBweCkgIWltcG9ydGFudDtcclxuICAgICAgICBpbnB1dHtcclxuICAgICAgICAgIGRpc3BsYXk6IGlubGluZS1ibG9jayAhaW1wb3J0YW50O1xyXG4gICAgICAgICAgd2lkdGg6IDEwMCU7XHJcbiAgICAgICAgfVxyXG4gICAgICB9XHJcblxyXG4gICAgfVxyXG5cclxuICAgIC5jb21wbGV0ZS10ZXh0LXNlY29uZGFyeS1wYXJ0e1xyXG4gICAgICBtYXJnaW4tdG9wOiAwcHggIWltcG9ydGFudDtcclxuICAgIH1cclxuICAgIC5jb25zZW50c3tcclxuICAgICAgbWFyZ2luLXRvcDogMjBweCAhaW1wb3J0YW50O1xyXG4gICAgfVxyXG5cclxuICAgIC8vIC5maWVsZC1pZGNhcmQtbnVtYmVyLnBjdmlld2xheW91dHtcclxuICAgIC8vICAgdHJhbnNmb3JtOiB0cmFuc2xhdGVZKDE4cHgpICFpbXBvcnRhbnQ7XHJcbiAgICAvLyAgIG1hcmdpbi1ib3R0b206IDIwcHg7XHJcbiAgICAvLyAgIC50aXAtaW52YWxpZCB7XHJcbiAgICAvLyAgICAgdHJhbnNmb3JtOiB0cmFuc2xhdGUoNTIlLCAwcHgpO1xyXG4gICAgLy8gICAgIHdpZHRoOiA1MDBweDtcclxuICAgIC8vICAgfVxyXG4gICAgLy8gfVxyXG5cclxuICAgIC8vIC5maWVsZC1pZGNhcmQtbnVtYmVye1xyXG4gICAgLy8gICB0cmFuc2Zvcm06IHRyYW5zbGF0ZVkoLTEwcHgpICFpbXBvcnRhbnQ7XHJcbiAgICAvLyB9XHJcblxyXG4gICAgLmZpZWxkLWFkZHJlc3N7XHJcblxyXG4gICAgICAuc3ViZmllbGR7XHJcbiAgICAgICAgZmxleC13cmFwOiB3cmFwO1xyXG4gICAgICAgIG1hdC1mb3JtLWZpZWxkOm50aC1jaGlsZCgxKXtcclxuICAgICAgICAgIHdpZHRoOjQ4JSAhaW1wb3J0YW50O1xyXG4gICAgICAgIH1cclxuICAgICAgICBtYXQtZm9ybS1maWVsZDpudGgtY2hpbGQoMil7XHJcbiAgICAgICAgICB3aWR0aDo0OCUgIWltcG9ydGFudDtcclxuICAgICAgICB9XHJcbiAgICAgICAgbWF0LWZvcm0tZmllbGQ6bnRoLWNoaWxkKDMpe1xyXG4gICAgICAgICAgd2lkdGg6MTAwJSAhaW1wb3J0YW50O1xyXG4gICAgICAgIH1cclxuXHJcbiAgICAgICAgbWF0LWZvcm0tZmllbGR7XHJcbiAgICAgICAgICBtYXJnaW4tYm90dG9tOiAxMHB4O1xyXG4gICAgICAgIH1cclxuICAgICAgfVxyXG4gICAgfVxyXG5cclxuXHJcblxyXG4gICAgLmZpZWxkLWJvcm5kYXRle1xyXG4gICAgICAuc3ViZmllbGR7XHJcbiAgICAgICAgbWF0LWZvcm0tZmllbGR7XHJcbiAgICAgICAgICB3aWR0aDozMiUgIWltcG9ydGFudDtcclxuICAgICAgICB9XHJcbiAgICAgIH1cclxuICAgIH1cclxuXHJcbiAgICAuY29udGFjdC1pbmZve1xyXG4gICAgICAudGl0bGV7XHJcbiAgICAgICAgaW1ne1xyXG4gICAgICAgICAgdHJhbnNmb3JtOiB0cmFuc2xhdGVZKC00cHgpICFpbXBvcnRhbnQ7XHJcbiAgICAgICAgICBtYXJnaW4tcmlnaHQ6IDEwcHggIWltcG9ydGFudDtcclxuICAgICAgICAgIGhlaWdodDogMjBweCAhaW1wb3J0YW50O1xyXG4gICAgICAgICAgd2lkdGg6IDIwcHggIWltcG9ydGFudDtcclxuICAgICAgICB9XHJcbiAgICAgIH1cclxuICAgIH1cclxuXHJcbiAgICAuc2lnbmF0dXJle1xyXG4gICAgICAudGl0bGV7XHJcbiAgICAgICAgaW1ne1xyXG4gICAgICAgICAgbWFyZ2luLXJpZ2h0OiAxMnB4O1xyXG4gICAgICAgICAgdHJhbnNmb3JtOiB0cmFuc2xhdGVZKC02cHgpO1xyXG4gICAgICAgIH1cclxuICAgICAgfVxyXG4gICAgfVxyXG5cclxuICAgIGlucHV0LC5pbnZhbGlke1xyXG4gICAgICBib3JkZXItcmFkaXVzOiA4cHggIWltcG9ydGFudDtcclxuICAgIH1cclxuXHJcblxyXG4gICAgLmZpZWxkLXBob25lIHtcclxuICAgICAgbWF0LWZvcm0tZmllbGR7XHJcbiAgICAgICAgd2lkdGg6MTAlICFpbXBvcnRhbnQ7XHJcbiAgICAgIH1cclxuXHJcbiAgICAgIC53YWxsbGluZSB7XHJcbiAgICAgICAgbGVmdDogMTAlICFpbXBvcnRhbnQ7XHJcbiAgICAgICAgd2lkdGg6IDJweCAhaW1wb3J0YW50O1xyXG5cclxuICAgICAgfVxyXG4gICAgfVxyXG5cclxuICAgIC5waG9uZU51bWJlcntcclxuICAgICAgYm9yZGVyLXRvcC1sZWZ0LXJhZGl1czogMCUgIWltcG9ydGFudDtcclxuICAgICAgYm9yZGVyLWJvdHRvbS1sZWZ0LXJhZGl1czogMCUgIWltcG9ydGFudDtcclxuICAgIH1cclxuXHJcbiAgICAuZGV0YWlsQWRkcmVzc3tcclxuICAgICAgaGVpZ2h0OiA4OHB4ICFpbXBvcnRhbnQ7XHJcbiAgICB9XHJcblxyXG4gICAgLmxvZ29iYXJ7XHJcbiAgICAgIC8vanVzdGlmeS1jb250ZW50OiBzcGFjZS1hcm91bmQgIWltcG9ydGFudDtcclxuICAgICAgcGFkZGluZzowcHggMjAlICFpbXBvcnRhbnQ7XHJcbiAgICAgIGhlaWdodDogNjBweCAhaW1wb3J0YW50O1xyXG4gICAgICAubG9nb3tcclxuICAgICAgICBwb3NpdGlvbjogc3RhdGljICFpbXBvcnRhbnQ7XHJcbiAgICAgICAgaGVpZ2h0OjQ4cHggIWltcG9ydGFudDtcclxuICAgICAgICB3aWR0aDoxNTBweCAhaW1wb3J0YW50O1xyXG4gICAgICB9XHJcblxyXG4gICAgICAvLyAuc2VsZWN0LWxhbmd1YWdlIHtcclxuICAgICAgLy8gICBwb3NpdGlvbjogYWJzb2x1dGU7XHJcbiAgICAgIC8vICAgbGVmdDpjYWxjKDUwJSArIDE4MHB4KTtcclxuICAgICAgLy8gICB0cmFuc2Zvcm06IHRyYW5zbGF0ZSgtNjAlLC01MCUpO1xyXG4gICAgICAvLyB9XHJcbiAgICB9XHJcblxyXG4gICAgLnNlbGVjdC1sYW5ndWFnZSB7XHJcbiAgICAgIGNvbG9yOiMwQTI3NDk7XHJcbiAgICAgIGRpc3BsYXk6IGZsZXg7XHJcbiAgICAgIGp1c3RpZnktY29udGVudDogc3BhY2UtYmV0d2VlbjtcclxuICAgICAgYWxpZ24taXRlbXM6IGNlbnRlcjtcclxuICAgICAgdHJhbnNmb3JtOiB0cmFuc2xhdGUoMHB4LDNweCk7XHJcbiAgICAgIGZvbnQtZmFtaWx5OiBOb3RvU2Fuc1RDLVJlZ3VsYXI7XHJcbiAgICB9XHJcblxyXG4gICAgLnRpdGxlIHtcclxuICAgICAgZm9udC1zaXplOiAyMHB4ICFpbXBvcnRhbnQ7XHJcbiAgICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlWSgtNXB4KTtcclxuICAgIH1cclxuXHJcbiAgICAudGV4dGFyZWEtdGl0bGV7XHJcbiAgICAgIC50aXRsZXtcclxuICAgICAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZVkoLTBweCk7XHJcbiAgICAgICAgZm9udC1zaXplOiAyOHB4ICFpbXBvcnRhbnQ7XHJcbiAgICAgICAgZm9udC1mYW1pbHk6Tm90b1NhbnNUQy1NZWRpdW07XHJcbiAgICAgIH1cclxuXHJcbiAgICAgIC50ZXh0LXRpcHtcclxuICAgICAgICBmb250LXNpemU6IDE2cHggIWltcG9ydGFudDtcclxuICAgICAgICBtYXJnaW4tYm90dG9tOiA4MHB4ICFpbXBvcnRhbnQ7XHJcbiAgICAgIH1cclxuICAgIH1cclxuXHJcbiAgICAuc2lnbmF0dXJlIHtcclxuXHJcbiAgICAgIC50aXAtaW52YWxpZHtcclxuICAgICAgICBmb250LXNpemU6IDE0cHg7XHJcbiAgICAgICAgZm9udC13ZWlnaHQ6IG5vcm1hbDtcclxuICAgICAgICAvL21hcmdpbi1ib3R0b206IDEycHggIWltcG9ydGFudDtcclxuICAgICAgICAuZXJyb3J7XHJcbiAgICAgICAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZSg2cHgsM3B4KSAhaW1wb3J0YW50O1xyXG4gICAgICAgIH1cclxuICAgICAgfVxyXG5cclxuICAgIH1cclxuXHJcbiAgICAuaW52b2ljZS1tZXNzYWdle1xyXG4gICAgICBmb250LXNpemU6IDE0cHggIWltcG9ydGFudDtcclxuICAgICAgLnN1YnRpdGxle1xyXG4gICAgICAgIC50ZXh0e1xyXG4gICAgICAgICAgc3BhbntcclxuICAgICAgICAgICAgdHJhbnNmb3JtOiB0cmFuc2xhdGVZKDJweCkgIWltcG9ydGFudDtcclxuICAgICAgICAgIH1cclxuICAgICAgICB9XHJcbiAgICAgIH1cclxuXHJcbiAgICAgIC50aXRsZXtcclxuICAgICAgICBtYXJnaW4tdG9wOiAtNDBweCAhaW1wb3J0YW50O1xyXG4gICAgICAgIHBhZGRpbmctYm90dG9tOiAxMHB4ICFpbXBvcnRhbnQ7XHJcbiAgICAgICAgaW1ne1xyXG4gICAgICAgICAgaGVpZ2h0OiAyMHB4ICFpbXBvcnRhbnQ7XHJcbiAgICAgICAgICB3aWR0aDogMjBweCAhaW1wb3J0YW50O1xyXG4gICAgICAgICAgdHJhbnNmb3JtOiB0cmFuc2xhdGVZKDBweCkgIWltcG9ydGFudDtcclxuICAgICAgICB9XHJcbiAgICAgIH1cclxuXHJcblxyXG4gICAgICAudGV4dGFyZWF7XHJcbiAgICAgICAgLmJhcntcclxuICAgICAgICAgIHBhZGRpbmc6IDZweCAwcHggIWltcG9ydGFudDtcclxuICAgICAgICAgIGltZ3tcclxuICAgICAgICAgICAgaGVpZ2h0OiAxNnB4ICFpbXBvcnRhbnQ7XHJcbiAgICAgICAgICAgIHdpZHRoOiAxNnB4ICFpbXBvcnRhbnQ7XHJcbiAgICAgICAgICAgIG1hcmdpbi1yaWdodDogOHB4ICFpbXBvcnRhbnQ7XHJcbiAgICAgICAgICAgIG1hcmdpbi10b3A6IDJweCAhaW1wb3J0YW50O1xyXG4gICAgICAgICAgfVxyXG4gICAgICAgIH1cclxuXHJcbiAgICAgICAgLmJhci1sb2NhdGlvbntcclxuICAgICAgICAgIHBhZGRpbmctYm90dG9tOiAxOHB4ICFpbXBvcnRhbnQ7XHJcbiAgICAgICAgfVxyXG4gICAgICB9XHJcblxyXG4gICAgICAuYmFyLXVzZXJuYW1lIHtcclxuICAgICAgICBmb250LXNpemU6IDE2cHggIWltcG9ydGFudDtcclxuICAgICAgfVxyXG4gICAgfVxyXG5cclxuICAgIC5wZXJzb24tbWVzc2FnZSB7XHJcbiAgICAgIC50aXRsZXtcclxuICAgICAgICBpbWd7XHJcbiAgICAgICAgICBoZWlnaHQ6IDIwcHggIWltcG9ydGFudDtcclxuICAgICAgICAgIHdpZHRoOiAyMHB4ICFpbXBvcnRhbnQ7XHJcbiAgICAgICAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZVkoLTJweCkgIWltcG9ydGFudDtcclxuICAgICAgICB9XHJcbiAgICAgICAgc3BhbntcclxuICAgICAgICAgIGRpc3BsYXk6IGlubGluZS1ibG9jaztcclxuICAgICAgICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlWSgycHgpO1xyXG4gICAgICAgIH1cclxuICAgICAgICAuc3Vie1xyXG4gICAgICAgICAgZm9udC1zaXplOiAxNHB4ICFpbXBvcnRhbnQ7XHJcbiAgICAgICAgICBtYXJnaW4tYm90dG9tOiAxNXB4ICFpbXBvcnRhbnQ7XHJcbiAgICAgICAgICBmb250LXNpemU6IDE0cHggIWltcG9ydGFudDtcclxuICAgICAgICAgIGZvbnQtZmFtaWx5OiBOb3RvU2Fuc1RDLVJlZ3VsYXI7XHJcbiAgICAgICAgICBmb250LXdlaWdodDogNDAwO1xyXG4gICAgICAgICAgY29sb3I6ICM3MzgzQTE7XHJcbiAgICAgICAgfVxyXG5cclxuXHJcblxyXG4gICAgICAgIC50aXB7XHJcbiAgICAgICAgICBwb3NpdGlvbjogYWJzb2x1dGUgIWltcG9ydGFudDtcclxuICAgICAgICAgIHJpZ2h0OiAtMzJweCAhaW1wb3J0YW50O1xyXG4gICAgICAgICAgd2lkdGg6IGF1dG8gIWltcG9ydGFudDtcclxuICAgICAgICAgIGRpc3BsYXk6IGlubGluZSAhaW1wb3J0YW50O1xyXG4gICAgICAgICAgdG9wOjUwJSAhaW1wb3J0YW50O1xyXG4gICAgICAgICAgdHJhbnNmb3JtOiB0cmFuc2xhdGVZKC01MCUpICFpbXBvcnRhbnQ7XHJcbiAgICAgICAgICBmb250LXNpemU6IDE0cHggIWltcG9ydGFudDtcclxuICAgICAgICAgIGNvbG9yOiAjNzM4M0ExICFpbXBvcnRhbnQ7XHJcbiAgICAgICAgICAuZWZmZWN0LWZvbnQtaW1we1xyXG4gICAgICAgICAgICBwb3NpdGlvbjogYWJzb2x1dGU7XHJcbiAgICAgICAgICAgIHRvcDowcHg7XHJcbiAgICAgICAgICAgIGxlZnQ6LTEwcHg7XHJcblxyXG4gICAgICAgICAgfVxyXG4gICAgICAgIH1cclxuXHJcbiAgICAgIH1cclxuICAgIH1cclxuXHJcbiAgICAuY3VzdG9tLWZyYW1le1xyXG4gICAgICAubm93cmFwe1xyXG4gICAgICAgIGRpc3BsYXk6IGlubGluZS1ibG9jayAhaW1wb3J0YW50O1xyXG4gICAgICB9XHJcbiAgICB9XHJcblxyXG5cclxuICAgIC5pbnZvaWNlLW1lc3NhZ2UgLmVmZmVjdC1wYWRkaW5nLWlubmVye1xyXG4gICAgICB3aWR0aDpjYWxjKDEwMCUgLSA0NXB4KSAhaW1wb3J0YW50O1xyXG4gICAgICBtYXJnaW46MCBhdXRvO1xyXG4gICAgfVxyXG5cclxuICAgIC5lZmZlY3QtcGFkZGluZy1pbm5lcntcclxuICAgICAgd2lkdGg6Y2FsYygxMDAlIC0gNnB4KSAhaW1wb3J0YW50O1xyXG4gICAgfVxyXG5cclxuICAgIC5zaWduYXR1cmUtcGFkIHtcclxuICAgICAgd2lkdGg6MTAwJTtcclxuICAgICAgaGVpZ2h0OjE4OHB4ICFpbXBvcnRhbnQ7XHJcbiAgICAgIGJvcmRlcjogMXB4IHNvbGlkIHRyYW5zcGFyZW50O1xyXG4gICAgfVxyXG5cclxuICB9XHJcblxyXG5cclxuXHJcblxyXG5cclxuXHJcblxyXG4gIC5wZXJzb24tbWVzc2FnZSB7XHJcbiAgICAudGl0bGUge1xyXG4gICAgICBpbWd7XHJcbiAgICAgICAgaGVpZ2h0OiAxNnB4O1xyXG4gICAgICAgIHdpZHRoOiAxNnB4O1xyXG4gICAgICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlWSgtNHB4KTtcclxuICAgICAgfVxyXG4gICAgICAudGlwe1xyXG4gICAgICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcclxuICAgICAgICByaWdodDogMTBweDtcclxuICAgICAgICB3aWR0aDogYXV0bztcclxuICAgICAgICBkaXNwbGF5OiBpbmxpbmU7XHJcbiAgICAgICAgdG9wOjclO1xyXG4gICAgICAgIGZvbnQtc2l6ZTogMTJweDtcclxuICAgICAgICBjb2xvcjogIzczODNBMTtcclxuICAgICAgICBmb250LWZhbWlseTogTm90b1NhbnNUQy1SZWd1bGFyO1xyXG4gICAgICAgIC5lZmZlY3QtZm9udC1pbXB7XHJcbiAgICAgICAgICBwb3NpdGlvbjogYWJzb2x1dGU7XHJcbiAgICAgICAgICB0b3A6MHB4O1xyXG4gICAgICAgICAgbGVmdDotMTBweDtcclxuICAgICAgICB9XHJcbiAgICAgIH1cclxuXHJcbiAgICAgIC5mb3JtYWxmaXgudGlwe1xyXG4gICAgICAgIHRvcDo1MiU7XHJcbiAgICAgIH1cclxuXHJcbiAgICAgIC5zdWJ7XHJcbiAgICAgICAgZm9udC1zaXplOiAxM3B4O1xyXG4gICAgICAgIG1hcmdpbi1ib3R0b206IDEwcHg7XHJcbiAgICAgICAgZm9udC1mYW1pbHk6IE5vdG9TYW5zVEMtUmVndWxhcjtcclxuICAgICAgICBmb250LXdlaWdodDogNDAwO1xyXG4gICAgICAgIGNvbG9yOiAjNzM4M0ExO1xyXG4gICAgICB9XHJcblxyXG4gICAgICBzcGFue1xyXG4gICAgICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcclxuICAgICAgICB3aGl0ZS1zcGFjZTogcHJlLXdyYXA7XHJcbiAgICAgICAgdGV4dC1hbGlnbjogbGVmdDtcclxuICAgICAgICBtYXJnaW4tYm90dG9tOiA0cHg7XHJcbiAgICAgICAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xyXG4gICAgICAgIHdpZHRoOiA5MCU7XHJcbiAgICAgICAgdmVydGljYWwtYWxpZ246IHRleHQtdG9wO1xyXG4gICAgICB9XHJcblxyXG5cclxuICAgICAgdHJhbnNmb3JtOiB0cmFuc2xhdGVZKDBweCk7XHJcbiAgICB9XHJcblxyXG5cclxuXHJcbiAgICAuZmllbGQtY2huYW1lIHtcclxuICAgICAgbWFyZ2luLXRvcDogMHB4ICFpbXBvcnRhbnQ7XHJcbiAgICB9XHJcbiAgfVxyXG5cclxuXHJcblxyXG4gIC5jb250YWN0LWluZm8sLnBlcnNvbi1tZXNzYWdle1xyXG4gICAgcGFkZGluZy1ib3R0b206IDIwcHg7XHJcblxyXG4gIH1cclxuXHJcbiAgLnBlcnNvbi1tZXNzYWdlLmZvcm1hbGxheW91dHtcclxuICAgIHBhZGRpbmctYm90dG9tOiAwcHg7XHJcbiAgfVxyXG5cclxuICAuZmllbGQtZW1haWwsLmZpZWxkLWFkZHJlc3N7XHJcbiAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZVkoLTlweCk7XHJcbiAgfVxyXG5cclxuICAuc3VjY2Vzc3BhZ2Uge1xyXG4gICAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xyXG4gICAgbWFyZ2luOiA2MHB4IGF1dG87XHJcbiAgICBwb3NpdGlvbjogZml4ZWQ7XHJcbiAgICB3aWR0aDozMzBweDtcclxuICAgIGZvbnQtd2VpZ2h0OiBib2xkO1xyXG4gICAgY29sb3I6IzBGNDY4NTtcclxuICAgIGZvbnQtc2l6ZTogMThweDtcclxuICAgIHRvcDo2MHB4O1xyXG4gICAgbGVmdDo1MCU7XHJcbiAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZVgoLTUwJSk7XHJcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbiAgICBpbWd7XHJcbiAgICAgIG1hcmdpbi10b3A6IDI1cHg7XHJcbiAgICB9XHJcblxyXG4gICAgZGl2e1xyXG4gICAgICAgbWFyZ2luLXRvcDogMjVweDtcclxuICAgIH1cclxuICB9XHJcblxyXG4gIC5mb250ZWZmZWN0IHtcclxuICAgIGNvbG9yOiNBQ0FDQUM7XHJcbiAgfVxyXG5cclxuICAubG9nb2JhciB7XHJcbiAgICBwb3NpdGlvbjogZml4ZWQ7XHJcbiAgICB0b3A6MHB4O1xyXG4gICAgd2lkdGg6MTAwJTtcclxuICAgIGhlaWdodDo2MHB4O1xyXG4gICAgcGFkZGluZy1sZWZ0OjE4cHg7XHJcbiAgICBwYWRkaW5nLXJpZ2h0OiAxMHB4O1xyXG4gICAgZGlzcGxheTogZmxleDtcclxuICAgIGp1c3RpZnktY29udGVudDogc3BhY2UtYmV0d2VlbjtcclxuICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7XHJcbiAgICB6LWluZGV4OiA5MDA7XHJcbiAgICBib3gtc2hhZG93OiAwcHggMnB4IDVweCAwcHggcmdiYSgwLDAsMCwwLjA2KTtcclxuICAgIGJhY2tncm91bmQtY29sb3I6IHdoaXRlO1xyXG4gICAgaW1nIHtcclxuICAgICAgcG9zaXRpb246IHJlbGF0aXZlO1xyXG4gICAgICBsZWZ0OjUwJTtcclxuICAgICAgdHJhbnNmb3JtOiB0cmFuc2xhdGUoLTUwJSwwcHgpO1xyXG4gICAgICBoZWlnaHQ6MzJweDtcclxuICAgICAgd2lkdGg6MTAwcHg7XHJcbiAgICB9XHJcbiAgICAuc2VsZWN0LWxhbmd1YWdle1xyXG4gICAgICBjb2xvcjojMEEyNzQ5O1xyXG4gICAgICBkaXNwbGF5OiBmbGV4O1xyXG4gICAgICBqdXN0aWZ5LWNvbnRlbnQ6IHNwYWNlLWJldHdlZW47XHJcbiAgICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7XHJcbiAgICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlKDBweCwzcHgpO1xyXG4gICAgICBmb250LWZhbWlseTogTm90b1NhbnNUQy1SZWd1bGFyO1xyXG4gICAgICBtYXQtaWNvbiB7XHJcbiAgICAgICAgY29sb3I6IzBBMjc0OTtcclxuICAgICAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZSg1cHgsMHB4KTtcclxuICAgICAgfVxyXG4gICAgICBtYXQtc2VsZWN0e1xyXG4gICAgICAgIHdpZHRoOjc4cHg7XHJcbiAgICAgICAgaGVpZ2h0OiAzMHB4O1xyXG4gICAgICB9XHJcbiAgICAgIC5tYXQtc2VsZWN0LWFycm93LXdyYXBwZXJ7XHJcbiAgICAgICAgdHJhbnNmb3JtOiB0cmFuc2xhdGVZKDEuM3B4KSAhaW1wb3J0YW50O1xyXG4gICAgICB9XHJcbiAgICB9XHJcbiAgfVxyXG5cclxuICAucGhvbmVOdW1iZXIuaW52YWxpZCB7XHJcbiAgICBib3JkZXItbGVmdC1jb2xvcjp0cmFuc3BhcmVudCAhaW1wb3J0YW50O1xyXG4gIH1cclxuXHJcbiAgLmludmFsaWR7XHJcbiAgICBib3JkZXItcmFkaXVzOiA1cHg7XHJcbiAgICBib3JkZXItY29sb3I6IHJlZCAhaW1wb3J0YW50O1xyXG4gICAgLy8gYm94LXNoYWRvdzogMCAwIDAgMXB4IHJlZDtcclxuICAgIC8vIC13ZWJraXQtYm94LXNoYWRvdzogMCAwIDAgMXB4IHJlZDtcclxuICAgIC5tYXQtY2hlY2tib3gtZnJhbWUge1xyXG4gICAgICBib3JkZXItY29sb3I6ICNGMzZBNkEgIWltcG9ydGFudDtcclxuICAgIH1cclxuICB9XHJcblxyXG4gIG1hdC1jaGVja2JveC5pbnZhbGlkIHtcclxuICAgIGJveC1zaGFkb3c6IG5vbmUgIWltcG9ydGFudDtcclxuICAgIGJvcmRlci1yYWRpdXM6IDBweCAhaW1wb3J0YW50O1xyXG4gIH1cclxuXHJcbiAgLnNpZ25hdHVyZS1wYWQge1xyXG4gICAgd2lkdGg6MTAwJTtcclxuICAgIGhlaWdodDoxNDBweDtcclxuICAgIGJvcmRlcjogMXB4IHNvbGlkIHRyYW5zcGFyZW50O1xyXG4gIH1cclxuXHJcbiAgLmVmZmVjdC1mb250LWltcHtcclxuICAgIGNvbG9yOnJlZDtcclxuICAgIG1hcmdpbi1sZWZ0OiA0cHg7XHJcbiAgfVxyXG5cclxuICBtYXQtaWNvbntcclxuICAgIGZvbnQtc2l6ZTogMTZweDtcclxuICAgIGNvbG9yOiNEMUQxRDE7XHJcblxyXG4gIH1cclxuXHJcblxyXG5cclxuICAucGhvbmVOdW1iZXJ7XHJcbiAgICAvLyBwb3NpdGlvbjogcmVsYXRpdmU7XHJcbiAgICBib3JkZXItbGVmdDogbm9uZTtcclxuICAgIGJvcmRlci10b3AtbGVmdC1yYWRpdXM6IDAlO1xyXG4gICAgYm9yZGVyLWJvdHRvbS1sZWZ0LXJhZGl1czogMCU7XHJcbiAgfVxyXG5cclxuICAucGhvbmVBcmVhQ29kZSB7XHJcbiAgICBwb3NpdGlvbjogcmVsYXRpdmU7XHJcbiAgfVxyXG5cclxuXHJcblxyXG4gIC5maWVsZC1waG9uZSAud2FsbGxpbmV7XHJcbiAgICBwb3NpdGlvbjogYWJzb2x1dGU7XHJcbiAgICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XHJcbiAgICB0b3A6NDYlO1xyXG4gICAgdHJhbnNmb3JtOiB0cmFuc2xhdGVZKC01MCUpO1xyXG4gICAgbGVmdDoyMyU7XHJcbiAgICB3aWR0aDoxLjVweDtcclxuICAgIGhlaWdodDogNDAlO1xyXG4gICAgei1pbmRleDogMTAwO1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogI0Q5REVFODtcclxuICB9XHJcblxyXG4gIC5maWVsZC1waG9uZSAuaW52YWxpZGZpeC53YWxsbGluZXtcclxuICAgIC8vIHRvcDozMCU7XHJcbiAgICAvLyBoZWlnaHQ6MzAlO1xyXG4gIH1cclxuXHJcbiAgZGl2e1xyXG4gICAgbWFyZ2luOjA7XHJcbiAgICBwYWRkaW5nOiAwO1xyXG4gIH1cclxuXHJcbiAgLmludmFsaWQgaW5wdXQge1xyXG4gICAgYm9yZGVyLWNvbG9yOiB0cmFuc3BhcmVudDtcclxuICB9XHJcblxyXG4gIGlucHV0IHtcclxuICAgIC13ZWJraXQtYXBwZWFyYW5jZTogbm9uZTtcclxuICAgIGJvcmRlci1yYWRpdXM6IDVweDtcclxuICAgIG91dGxpbmU6IG5vbmU7XHJcbiAgICBib3JkZXI6MXB4IHNvbGlkI0Q5REVFODtcclxuICAgIGhlaWdodDo0OHB4O1xyXG4gICAgcGFkZGluZy1sZWZ0OjEwcHg7XHJcbiAgICB0ZXh0LW92ZXJmbG93OiBlbGxpcHNpcztcclxuICAgIG92ZXJmbG93OiBoaWRkZW47XHJcbiAgICB3aGl0ZS1zcGFjZTogbm93cmFwO1xyXG4gICAgLy9ib3gtc2hhZG93OiBub25lO1xyXG4gICAgZm9udC1mYW1pbHk6IE5vdG9TYW5zVEMtUmVndWxhciAhaW1wb3J0YW50O1xyXG4gICAgJjo6LXdlYmtpdC1pbnB1dC1wbGFjZWhvbGRlciB7IC8qIENocm9tZS9PcGVyYS9TYWZhcmkgKi9cclxuICAgICAgZm9udC1mYW1pbHk6IE5vdG9TYW5zVEMtUmVndWxhciAhaW1wb3J0YW50O1xyXG4gICAgICB3aGl0ZS1zcGFjZTogbm93cmFwO1xyXG4gICAgICB0ZXh0LW92ZXJmbG93OiBlbGxpcHNpcztcclxuICAgICAgb3ZlcmZsb3c6IGhpZGRlbjtcclxuICAgICAgZm9udC1zaXplOiAxNHB4O1xyXG5cdFx0XHRjb2xvcjpncmV5O1xyXG4gICAgICBmb250LXdlaWdodDogbm9ybWFsO1xyXG5cdFx0fVxyXG5cdFx0Jjo6LW1vei1wbGFjZWhvbGRlciB7IC8qIEZpcmVmb3ggMTkrICovXHJcbiAgICAgIGZvbnQtZmFtaWx5OiBOb3RvU2Fuc1RDLVJlZ3VsYXIgIWltcG9ydGFudDtcclxuICAgICAgd2hpdGUtc3BhY2U6IG5vd3JhcDtcclxuICAgICAgdGV4dC1vdmVyZmxvdzogZWxsaXBzaXM7XHJcbiAgICAgIG92ZXJmbG93OiBoaWRkZW47XHJcbiAgICAgIGZvbnQtc2l6ZTogMTRweDtcclxuXHRcdFx0Y29sb3I6IGdyZXk7XHJcbiAgICAgIGZvbnQtd2VpZ2h0OiBub3JtYWw7XHJcblx0XHR9XHJcblxyXG4gICAgJjo6cGxhY2Vob2xkZXIge1xyXG4gICAgICBmb250LWZhbWlseTogTm90b1NhbnNUQy1SZWd1bGFyICFpbXBvcnRhbnQ7XHJcbiAgICAgIGZvbnQtd2VpZ2h0OiA0MDAgIWltcG9ydGFudDtcclxuICAgIH1cclxuXHJcbiAgICAmOi1tcy1pbnB1dC1wbGFjZWhvbGRlciB7XHJcbiAgICAgIGZvbnQtZmFtaWx5OiBOb3RvU2Fuc1RDLVJlZ3VsYXIgIWltcG9ydGFudDtcclxuICAgICAgZm9udC13ZWlnaHQ6IDQwMCAhaW1wb3J0YW50O1xyXG4gICAgfVxyXG5cclxuICB9XHJcblxyXG4gIC5maWVsZHtcclxuICAgIG1hcmdpbi10b3A6IDE0cHg7XHJcbiAgICAudGlwe1xyXG4gICAgICBwYWRkaW5nLWxlZnQ6IDEuMnB4O1xyXG4gICAgICBwYWRkaW5nLWJvdHRvbTogM3B4O1xyXG4gICAgICBmb250LXNpemU6IDE0cHg7XHJcbiAgICAgIC8vZm9udC13ZWlnaHQ6IGJvbGQ7XHJcbiAgICAgIGNvbG9yOiAjMEEyNzQ5O1xyXG4gICAgfVxyXG4gICAgLnRpcC1pbnZhbGlkIHtcclxuICAgICAgZm9udC1mYW1pbHk6IE5vdG9TYW5zVEMtUmVndWxhcjtcclxuICAgICAgZm9udC1zaXplOiAxMnB4O1xyXG4gICAgICBkaXNwbGF5OiBmbGV4O1xyXG4gICAgICBhbGlnbi1pdGVtczogY2VudGVyO1xyXG4gICAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZSgtNHB4LCAwcHgpO1xyXG4gICAgICBtYXQtaWNvbiB7XHJcbiAgICAgICAgY29sb3I6I0YzNkE2QTtcclxuICAgICAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZSg1cHgsIDMuNXB4KTtcclxuICAgICAgICBmb250LXNpemU6IDE4cHg7XHJcbiAgICAgIH1cclxuICAgICAgc3BhbiB7XHJcbiAgICAgICAgY29sb3I6ICNGMzZBNkE7XHJcbiAgICAgIH1cclxuICAgIH1cclxuICB9XHJcblxyXG5cclxuICAudGlwLWludmFsaWQge1xyXG4gICAgZm9udC1mYW1pbHk6IE5vdG9TYW5zVEMtUmVndWxhcjtcclxuICAgIGZvbnQtc2l6ZTogMTJweDtcclxuICAgIGRpc3BsYXk6IGZsZXg7XHJcbiAgICBhbGlnbi1pdGVtczogY2VudGVyO1xyXG4gICAgdHJhbnNmb3JtOiB0cmFuc2xhdGUoLTRweCwgMHB4KTtcclxuICAgIHdoaXRlLXNwYWNlOiBub3JtYWw7XHJcbiAgICBtYXQtaWNvbiB7XHJcbiAgICAgIGNvbG9yOiNGMzZBNkE7XHJcbiAgICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlKDVweCwgMy41cHgpO1xyXG4gICAgICBmb250LXNpemU6IDE4cHg7XHJcbiAgICAgIG1hcmdpbi1yaWdodDogNXB4O1xyXG4gICAgfVxyXG4gICAgc3BhbiB7XHJcbiAgICAgIGNvbG9yOiAjRjM2QTZBO1xyXG4gICAgfVxyXG5cclxuICB9XHJcblxyXG5cclxuXHJcblxyXG5cclxuICAudGl0bGUge1xyXG4gICAgZm9udC1zaXplOiAxNnB4O1xyXG4gICAgZm9udC13ZWlnaHQ6IDUwMDtcclxuICAgIGNvbG9yOiAjMEEyNzQ5O1xyXG4gICAgaW1ne1xyXG4gICAgICBtYXJnaW4tcmlnaHQ6IDVweDtcclxuICAgICAgaGVpZ2h0OiAxMDAlO1xyXG4gICAgfVxyXG5cclxuICAgIHNwYW57XHJcbiAgICAgIHdoaXRlLXNwYWNlOiBwcmUtd3JhcDtcclxuICAgICAgdGV4dC1hbGlnbjogbGVmdDtcclxuICAgICAgZm9udC1mYW1pbHk6IE5vdG9TYW5zVEMtTWVkaXVtO1xyXG4gICAgfVxyXG4gIH1cclxuXHJcbiAgLnRpcHtcclxuICAgIGZvbnQtc2l6ZTogMTRweDtcclxuICB9XHJcblxyXG4gIC5pbnZvaWNlLW1lc3NhZ2UgLmVmZmVjdC1wYWRkaW5nLWlubmVye1xyXG4gICAgd2lkdGg6Y2FsYygxMDAlIC0gMjBweCk7XHJcbiAgICBtYXJnaW46MCBhdXRvO1xyXG4gIH1cclxuXHJcbiAgLmVmZmVjdC1wYWRkaW5nLWlubmVye1xyXG4gICAgd2lkdGg6Y2FsYygxMDAlIC0gNnB4KTtcclxuICB9XHJcblxyXG4gIC5tYWluZm9ybS5lZmZlY3QtcGFkZGluZy1pbm5lciwudGV4dGFyZWEtdGl0bGUuZWZmZWN0LXBhZGRpbmctaW5uZXJ7XHJcbiAgICB3aWR0aDpjYWxjKDEwMCUgLSA0NXB4KTtcclxuICAgIG1hcmdpbjowIGF1dG87XHJcbiAgfVxyXG5cclxuXHJcblxyXG4gIC5tYWluZm9ybSB7XHJcblxyXG4gICAgPmRpdntcclxuICAgICAgPi50aXRsZXtcclxuICAgICAgICBtYXJnaW4tdG9wOi0yMHB4O1xyXG4gICAgICB9XHJcbiAgICAgIG1hcmdpbi10b3A6NDJweDtcclxuICAgICAgYm9yZGVyOjFweCBzb2xpZCB0cmFuc3BhcmVudDtcclxuICAgICAgYm9yZGVyLXJhZGl1czogMTBweDtcclxuICAgIH1cclxuICAgIC5wZXJzb24tbWVzc2FnZSwgLmludm9pY2UtbWVzc2FnZSwgLmNvbnRhY3QtaW5mbywgLmNvbnNlbnRzIHtcclxuICAgICAgLmVmZmVjdC1wYWRkaW5nLWlubmVye1xyXG4gICAgICAgIHBhZGRpbmctdG9wOjVweDtcclxuICAgICAgfVxyXG4gICAgfVxyXG5cclxuXHJcbiAgICAuY29uc2VudHN7XHJcbiAgICAgIGNvbG9yOiAjNzM4M0ExO1xyXG4gICAgICBib3JkZXI6IG5vbmUgIWltcG9ydGFudDtcclxuICAgICAgbWFyZ2luLWJvdHRvbTogNzBweDtcclxuICAgICAgbWFyZ2luLXRvcDogLTIwcHg7XHJcbiAgICAgIC5lZmZlY3QtcGFkZGluZy1pbm5lcntcclxuICAgICAgICBib3JkZXItY29sb3I6IHRyYW5zcGFyZW50O1xyXG4gICAgICAgIHdpZHRoOjk4JTtcclxuICAgICAgICBtYXJnaW4tdG9wOiAtMTBweDtcclxuICAgICAgfVxyXG4gICAgfVxyXG5cclxuICAgIC5mb3JtYWxsYXlvdXQuY29uc2VudHN7XHJcbiAgICAgIG1hcmdpbi10b3A6IDMwcHg7XHJcbiAgICB9XHJcblxyXG4gICAgLmludm9pY2UtbWVzc2FnZXtcclxuICAgICAgbWFyZ2luLXRvcDogNjVweDtcclxuICAgICAgbWFyZ2luLWJvdHRvbTogNjBweDtcclxuICAgICAgZm9udC1mYW1pbHk6IE5vdG9TYW5zVEMtTGlnaHQ7XHJcbiAgICAgIGNvbG9yOiAgIzczODNBMSAhaW1wb3J0YW50O1xyXG4gICAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjRjdGN0Y3O1xyXG4gICAgICBib3JkZXItY29sb3I6dHJhbnNwYXJlbnQgO1xyXG5cclxuICAgICAgLnRpdGxle1xyXG4gICAgICAgIG1hcmdpbi10b3A6IC0zMHB4O1xyXG4gICAgICAgIGltZ3tcclxuICAgICAgICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlWSgtNXB4KTtcclxuICAgICAgICAgIGhlaWdodDogMTZweDtcclxuICAgICAgICAgIHdpZHRoOiAxNnB4O1xyXG4gICAgICAgIH1cclxuICAgICAgfVxyXG5cclxuICAgICAgLmJhcntcclxuICAgICAgICBkaXNwbGF5OiBmbGV4O1xyXG4gICAgICAgIC8vIGFsaWduLWl0ZW1zOiBjZW50ZXI7XHJcbiAgICAgICAgcGFkZGluZzogNnB4IDBweDtcclxuICAgICAgICBmb250LWZhbWlseTogTm90b1NhbnNUQy1SZWd1bGFyO1xyXG5cclxuICAgICAgICBpbWd7XHJcbiAgICAgICAgICBoZWlnaHQ6IDE0cHg7XHJcbiAgICAgICAgICB3aWR0aDogMTRweDtcclxuICAgICAgICAgIG1hcmdpbi1yaWdodDogOHB4O1xyXG4gICAgICAgICAgbWFyZ2luLXRvcDogM3B4O1xyXG4gICAgICAgIH1cclxuXHJcbiAgICAgICAgc3BhbntcclxuICAgICAgICAgIGRpc3BsYXk6aW5saW5lLWJsb2NrO1xyXG5cclxuICAgICAgICB9XHJcbiAgICAgIH1cclxuXHJcbiAgICAgIC5iYXItbG9jYXRpb257XHJcbiAgICAgICAgcGFkZGluZy1ib3R0b206IDE4cHg7XHJcbiAgICAgIH1cclxuXHJcbiAgICAgIC5iYXItdXNlcm5hbWV7XHJcbiAgICAgICAgcGFkZGluZy10b3A6MThweDtcclxuICAgICAgICBmb250LXNpemU6IDE2cHg7XHJcbiAgICAgICAgY29sb3I6ICMwQTI3NDk7XHJcbiAgICAgIH1cclxuXHJcbiAgICAgIC50aXB7XHJcbiAgICAgICAgZmxvYXQ6IHJpZ2h0O1xyXG4gICAgICB9XHJcblxyXG4gICAgICAuc3VidGl0bGV7XHJcbiAgICAgICAgLnRleHR7XHJcbiAgICAgICAgICBtYXQtaWNvbntcclxuICAgICAgICAgICAgZm9udC1zaXplOiAyMHB4O1xyXG4gICAgICAgICAgfVxyXG4gICAgICAgICAgc3BhbntcclxuICAgICAgICAgICAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xyXG4gICAgICAgICAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZVkoLTNweCk7XHJcbiAgICAgICAgICB9XHJcbiAgICAgICAgfVxyXG4gICAgICB9XHJcbiAgICB9XHJcblxyXG4gICAgLy8gLnBlcnNvbi1tZXNzYWdlLC5jb250YWN0LWluZm97XHJcbiAgICAvLyAgIC5lZmZlY3QtcGFkZGluZy1pbm5lcntcclxuICAgIC8vICAgICBwYWRkaW5nLWJvdHRvbToxMHB4O1xyXG4gICAgLy8gICB9XHJcbiAgICAvLyB9XHJcblxyXG5cclxuICAgIC50ZXh0YXJlYS1pbnB1dCB7XHJcbiAgICAgIGRpc3BsYXk6IGZsZXg7XHJcbiAgICAgIGp1c3RpZnktY29udGVudDogc3BhY2UtYmV0d2VlbjtcclxuICAgICAgaW5wdXQ6bnRoLWNoaWxkKDEpe1xyXG4gICAgICAgIGRpc3BsYXk6IGlubGluZS1ibG9jaztcclxuICAgICAgICB3aWR0aDoxMDAlO1xyXG4gICAgICAgIGZsZXgtYmFzaXM6NDglO1xyXG4gICAgICB9XHJcbiAgICAgIGlucHV0Om50aC1jaGlsZCgyKXtcclxuICAgICAgICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XHJcbiAgICAgICAgd2lkdGg6MTAwJTtcclxuICAgICAgICBmbGV4LWJhc2lzOiA0OCU7XHJcbiAgICAgIH1cclxuXHJcbiAgICB9XHJcblxyXG4gICAgLmZpZWxkLWlkY2FyZC1jYXRlZ29yeSB7XHJcbiAgICAgIG1hdC1mb3JtLWZpZWxke1xyXG4gICAgICAgIGRpc3BsYXk6IGlubGluZS1ibG9jaztcclxuICAgICAgICB3aWR0aDoxMDAlO1xyXG4gICAgICB9XHJcbiAgICB9XHJcblxyXG4gICAgLmZpZWxkLWlkY2FyZC1udW1iZXJ7XHJcbiAgICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlWSgtNnB4KTtcclxuICAgICAgaW5wdXR7XHJcbiAgICAgICAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xyXG4gICAgICAgIHdpZHRoOjEwMCU7XHJcbiAgICAgICAgZmxleC1iYXNpczogMTAwJSA7XHJcbiAgICAgIH1cclxuICAgIH1cclxuXHJcblxyXG4gICAgLmZpZWxkLWJvcm5kYXRlLC5maWVsZC1hZGRyZXNze1xyXG4gICAgICAuc3ViZmllbGR7XHJcbiAgICAgICAgZGlzcGxheTogZmxleDtcclxuICAgICAgICBmbGV4LXdyYXA6IHdyYXA7XHJcbiAgICAgICAganVzdGlmeS1jb250ZW50OiBzcGFjZS1iZXR3ZWVuO1xyXG4gICAgICAgIG1hcmdpbi1ib3R0b206IC04cHg7XHJcbiAgICAgICAgbWF0LWZvcm0tZmllbGQge1xyXG4gICAgICAgICAgdGV4dC1hbGlnbjogdW5zZXQ7XHJcbiAgICAgICAgICB3aWR0aDoxMDAlO1xyXG4gICAgICAgIH1cclxuICAgICAgfVxyXG5cclxuICAgIH1cclxuXHJcbiAgICAuZmllbGQtYm9ybmRhdGV7XHJcbiAgICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlWSgtNHB4KTtcclxuICAgICAgLy8gLnRpcC1pbnZhbGlkIHtcclxuICAgICAgLy8gICBtYXJnaW4tYm90dG9tOiA1MHB4O1xyXG4gICAgICAvLyB9XHJcblxyXG4gICAgICAuc3ViZmllbGR7XHJcbiAgICAgICAgbWF0LWZvcm0tZmllbGQge1xyXG4gICAgICAgICAgd2lkdGg6MzIlO1xyXG4gICAgICAgIH1cclxuICAgICAgfVxyXG4gICAgfVxyXG5cclxuICAgIC5maWVsZC1hZGRyZXNze1xyXG4gICAgICBpbnB1dHtcclxuICAgICAgICBtYXJnaW4tdG9wOiA4cHg7XHJcbiAgICAgICAgaGVpZ2h0OjYwcHg7XHJcbiAgICAgICAgd2lkdGg6MTAwJTtcclxuICAgICAgICBmb250LWZhbWlseTpOb3RvU2Fuc1RDLVJlZ3VsYXIgIWltcG9ydGFudDtcclxuICAgICAgICBmb250LXdlaWdodDogNDAwO1xyXG4gICAgICAgICY6Oi13ZWJraXQtaW5wdXQtcGxhY2Vob2xkZXIgeyAvKiBDaHJvbWUvT3BlcmEvU2FmYXJpICovXHJcbiAgICAgICAgICBmb250LWZhbWlseTogTm90b1NhbnNUQy1SZWd1bGFyICFpbXBvcnRhbnQ7XHJcbiAgICAgICAgICBmb250LXdlaWdodDogNDAwO1xyXG4gICAgICAgIH1cclxuICAgICAgICAmOjotbW96LXBsYWNlaG9sZGVyIHsgLyogRmlyZWZveCAxOSsgKi9cclxuICAgICAgICAgIGZvbnQtZmFtaWx5OiBOb3RvU2Fuc1RDLVJlZ3VsYXIgIWltcG9ydGFudDtcclxuICAgICAgICAgIGZvbnQtd2VpZ2h0OiA0MDA7XHJcbiAgICAgICAgfVxyXG4gICAgICAgICY6OnBsYWNlaG9sZGVyIHtcclxuICAgICAgICAgIGZvbnQtZmFtaWx5OiBOb3RvU2Fuc1RDLVJlZ3VsYXIgIWltcG9ydGFudDtcclxuICAgICAgICAgIGZvbnQtd2VpZ2h0OiA0MDA7XHJcbiAgICAgICAgfVxyXG5cclxuICAgICAgICAmOi1tcy1pbnB1dC1wbGFjZWhvbGRlciB7XHJcbiAgICAgICAgICBmb250LWZhbWlseTogTm90b1NhbnNUQy1SZWd1bGFyICFpbXBvcnRhbnQ7XHJcbiAgICAgICAgICBmb250LXdlaWdodDogNDAwO1xyXG4gICAgICAgIH1cclxuICAgICAgfVxyXG4gICAgfVxyXG5cclxuXHJcbiAgICAvLyB0aWNrIC5waG9uZU51bWJlcntcclxuICAgIC8vICAgICAmOjotd2Via2l0LWlucHV0LXBsYWNlaG9sZGVyIHsgLyogQ2hyb21lL09wZXJhL1NhZmFyaSAqL1xyXG4gICAgLy8gICAgICAgZm9udC1mYW1pbHk6IE5vdG9TYW5zVEMtUmVndWxhciAhaW1wb3J0YW50O1xyXG4gICAgLy8gICAgICAgZm9udC13ZWlnaHQ6IDQwMCAhaW1wb3J0YW50O1xyXG4gICAgLy8gICAgIH1cclxuICAgIC8vICAgICAmOjotbW96LXBsYWNlaG9sZGVyIHsgLyogRmlyZWZveCAxOSsgKi9cclxuICAgIC8vICAgICAgIGZvbnQtZmFtaWx5OiBOb3RvU2Fuc1RDLVJlZ3VsYXIgIWltcG9ydGFudDtcclxuICAgIC8vICAgICAgIGZvbnQtd2VpZ2h0OiA0MDAgIWltcG9ydGFudDtcclxuICAgIC8vICAgICB9XHJcbiAgICAvLyAgICAgJjo6cGxhY2Vob2xkZXIge1xyXG4gICAgLy8gICAgICAgZm9udC1mYW1pbHk6IE5vdG9TYW5zVEMtUmVndWxhciAhaW1wb3J0YW50O1xyXG4gICAgLy8gICAgICAgZm9udC13ZWlnaHQ6IDQwMCAhaW1wb3J0YW50O1xyXG4gICAgLy8gICAgIH1cclxuXHJcbiAgICAvLyAgICAgJjotbXMtaW5wdXQtcGxhY2Vob2xkZXIge1xyXG4gICAgLy8gICAgICAgZm9udC1mYW1pbHk6IE5vdG9TYW5zVEMtUmVndWxhciAhaW1wb3J0YW50O1xyXG4gICAgLy8gICAgICAgZm9udC13ZWlnaHQ6IDQwMCAhaW1wb3J0YW50O1xyXG4gICAgLy8gICAgIH1cclxuXHJcbiAgICAvLyB9XHJcblxyXG5cclxuICAgIC5jb250YWN0LWluZm8ge1xyXG4gICAgICAuaW5mby1pbnB1dHtcclxuICAgICAgICBpbnB1dHtcclxuICAgICAgICAgIGZsZXg6MTtcclxuICAgICAgICB9XHJcbiAgICAgICAgZGlzcGxheTogZmxleDtcclxuICAgICAgICBqdXN0aWZ5LWNvbnRlbnQ6IHNwYWNlLWJldHdlZW47XHJcbiAgICAgIH1cclxuXHJcbiAgICAgIC50aXRsZXtcclxuICAgICAgICBtYXJnaW4tdG9wOiAtMTBweDtcclxuICAgICAgICBtYXJnaW4tYm90dG9tOiA1cHg7XHJcbiAgICAgICAgaW1ne1xyXG4gICAgICAgICAgaGVpZ2h0OiAxNnB4O1xyXG4gICAgICAgICAgd2lkdGg6IDE2cHg7XHJcbiAgICAgICAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZVkoLTVweCk7XHJcbiAgICAgICAgfVxyXG4gICAgICAgIHNwYW57XHJcbiAgICAgICAgICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XHJcbiAgICAgICAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZVkoLTNweCk7XHJcbiAgICAgICAgfVxyXG4gICAgICB9XHJcblxyXG5cclxuXHJcbiAgICAgIC5maWVsZC1waG9uZSB7XHJcbiAgICAgICAgbWFyZ2luLXRvcDogMHB4ICFpbXBvcnRhbnQ7XHJcbiAgICAgICAgbWF0LWZvcm0tZmllbGR7XHJcbiAgICAgICAgICB3aWR0aDoyNSU7XHJcbiAgICAgICAgICBib3JkZXItcmlnaHQ6IG5vbmU7XHJcbiAgICAgICAgICBtYXJnaW4tcmlnaHQ6IC0ycHg7XHJcbiAgICAgICAgfVxyXG5cclxuICAgICAgfVxyXG5cclxuICAgIH1cclxuXHJcblxyXG4gICAgLmN1c3RvbS1mcmFtZXtcclxuICAgICAgd2lkdGg6IDEwMCU7XHJcbiAgICAgIHdvcmQtd3JhcDogYnJlYWstd29yZDtcclxuICAgICAgd29yZC1icmVhazogbm9ybWFsO1xyXG4gICAgICAuaW52YWxpZHtcclxuICAgICAgICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XHJcbiAgICAgICAgYm94LXNoYWRvdzogbm9uZSAhaW1wb3J0YW50O1xyXG4gICAgICAgIGJvcmRlci1jb2xvcjogcmVkO1xyXG4gICAgICAgIGJvcmRlci1yYWRpdXM6IDAlO1xyXG4gICAgICAgIHRleHQtZGVjb3JhdGlvbjogbm9uZTtcclxuICAgICAgICAvL3RleHQtZGVjb3JhdGlvbi1jb2xvcjogcmVkO1xyXG4gICAgICB9XHJcblxyXG4gICAgICAuaW5saW5le1xyXG4gICAgICAgIGRpc3BsYXk6IGlubGluZS1ibG9jaztcclxuICAgICAgfVxyXG5cclxuICAgICAgLmZvbnRib2xkIHtcclxuICAgICAgICAvLyBjb2xvcjogYmxhY2s7XHJcbiAgICAgICAgZm9udC13ZWlnaHQ6IGJvbGQ7XHJcbiAgICAgICAgZm9udC1mYW1pbHk6IE5vdG9TYW5zVEMtUmVndWxhcjtcclxuICAgICAgfVxyXG5cclxuICAgICAgLmZvbnRibGFjayB7XHJcbiAgICAgICAgY29sb3I6IGJsYWNrO1xyXG4gICAgICAgIGZvbnQtZmFtaWx5OiBOb3RvU2Fuc1RDLVJlZ3VsYXI7XHJcbiAgICAgIH1cclxuXHJcbiAgICAgIC5kZXN7XHJcbiAgICAgICAgbWFyZ2luLXRvcDogNXB4O1xyXG4gICAgICAgIGZvbnQtZmFtaWx5OiBOb3RvU2Fuc1RDLVJlZ3VsYXI7XHJcbiAgICAgICAgbGluZS1oZWlnaHQ6IDIwcHg7XHJcbiAgICAgIH1cclxuICAgIH1cclxuXHJcbiAgICAuc2lnbmF0dXJlIHtcclxuICAgICAgYm9yZGVyLWNvbG9yOiB0cmFuc3BhcmVudDtcclxuICAgICAgbWFyZ2luLXRvcDogNDBweCAhaW1wb3J0YW50O1xyXG4gICAgICAud3JhcHBlcntcclxuICAgICAgICBwb3NpdGlvbjogcmVsYXRpdmU7XHJcbiAgICAgIH1cclxuICAgICAgY2FudmFzIHtcclxuICAgICAgICBib3JkZXItcmFkaXVzOiAxNnB4O1xyXG4gICAgICB9XHJcbiAgICAgIC50b29sYmFyLWJ0bntcclxuICAgICAgICBkaXNwbGF5OiBmbGV4O1xyXG4gICAgICAgIGp1c3RpZnktY29udGVudDogZmxleC1lbmQ7XHJcbiAgICAgICAgYnV0dG9ue1xyXG4gICAgICAgICAgYm9yZGVyOjFweCBzb2xpZCAjQUNBQ0FDO1xyXG4gICAgICAgIH1cclxuICAgICAgfVxyXG4gICAgICAudGlwLWludmFsaWR7XHJcbiAgICAgICAgZm9udC1zaXplOiAxMnB4O1xyXG4gICAgICAgIGZvbnQtd2VpZ2h0OiBub3JtYWw7XHJcbiAgICAgICAgbWFyZ2luLWJvdHRvbTogMTJweDtcclxuICAgICAgICAuZXJyb3J7XHJcbiAgICAgICAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZSg2cHgsLTRweCk7XHJcbiAgICAgICAgfVxyXG4gICAgICAgIHNwYW57XHJcbiAgICAgICAgICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XHJcbiAgICAgICAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZSg0cHgsMHB4KSAhaW1wb3J0YW50O1xyXG4gICAgICAgIH1cclxuICAgICAgfVxyXG5cclxuICAgICAgLnRpdGxle1xyXG4gICAgICAgIGltZ3tcclxuICAgICAgICAgIGhlaWdodDogMTZweDtcclxuICAgICAgICAgIHdpZHRoOiAxNnB4O1xyXG4gICAgICAgICAgdHJhbnNmb3JtOiB0cmFuc2xhdGVZKC01cHgpO1xyXG4gICAgICAgICAgbWFyZ2luLXJpZ2h0OiAxMHB4O1xyXG4gICAgICAgIH1cclxuICAgICAgICBzcGFue1xyXG4gICAgICAgICAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xyXG4gICAgICAgICAgdHJhbnNmb3JtOnRyYW5zbGF0ZSgtM3B4LC0zcHgpO1xyXG4gICAgICAgIH1cclxuICAgICAgfVxyXG4gICAgfVxyXG5cclxuICAgIC5idG4tc3VibWl0dGVke1xyXG4gICAgICB3aWR0aDoxMDAlO1xyXG4gICAgICBkaXNwbGF5OiBmbGV4O1xyXG4gICAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcclxuICAgICAgYm9yZGVyLWNvbG9yOiB0cmFuc3BhcmVudDtcclxuICAgICAgbWFyZ2luLXRvcDogMjRweDtcclxuICAgICAgYnV0dG9ue1xyXG4gICAgICAgIGxpbmUtaGVpZ2h0OiAzNXB4O1xyXG4gICAgICAgIGhlaWdodDo0NHB4O1xyXG4gICAgICAgIGZvbnQtc2l6ZTogMTRweDtcclxuICAgICAgICB3aWR0aDogMTAwJTtcclxuICAgICAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjMTg5M0ZGO1xyXG4gICAgICAgIGNvbG9yOiB3aGl0ZTtcclxuICAgICAgICBmb250LWZhbWlseTogTm90b1NhbnNUQy1SZWd1bGFyO1xyXG4gICAgICB9XHJcbiAgICB9XHJcbiAgfVxyXG5cclxuICAvLyAubWFpbmZvcm0ubGl0dGVyZml4IHtcclxuXHJcbiAgLy8gICA+ZGl2e1xyXG4gIC8vICAgICBtYXJnaW4tdG9wOjUycHggIWltcG9ydGFudDtcclxuICAvLyAgIH1cclxuICAvLyB9XHJcblxyXG5cclxuICAucGVyc29uLW1lc3NhZ2UuZm9ybWFsbGF5b3V0e1xyXG4gICAgbWFyZ2luLXRvcDogNTBweCAhaW1wb3J0YW50O1xyXG4gICAgYm9yZGVyLWJvdHRvbTogbm9uZSAhaW1wb3J0YW50O1xyXG4gICAgYm9yZGVyLWJvdHRvbS1sZWZ0LXJhZGl1czowcHggIWltcG9ydGFudDtcclxuICAgIGJvcmRlci1ib3R0b20tcmlnaHQtcmFkaXVzOjBweCAhaW1wb3J0YW50O1xyXG4gIH1cclxuXHJcbiAgLmludmFsaWRmaXguY29udGFjdC1pbmZve1xyXG4gICAgbWFyZ2luLXRvcDogNjBweCAhaW1wb3J0YW50O1xyXG4gIH1cclxuXHJcbiAgLmNvbnRhY3QtaW5mb3tcclxuICAgIGJvcmRlci10b3A6IG5vbmUgIWltcG9ydGFudDtcclxuICAgIG1hcmdpbi10b3A6IDY1cHggIWltcG9ydGFudDtcclxuICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlWSgtMzVweCk7XHJcbiAgICBwYWRkaW5nLWJvdHRvbTogMHB4O1xyXG4gICAgYm9yZGVyLXRvcC1sZWZ0LXJhZGl1czowcHggIWltcG9ydGFudDtcclxuICAgIGJvcmRlci10b3AtcmlnaHQtcmFkaXVzOjBweCAhaW1wb3J0YW50O1xyXG4gICAgLmVmZmVjdC1wYWRkaW5nLWlubmVyIHtcclxuICAgICAgLy90aWNrIGJvcmRlcjogbm9uZTtcclxuICAgIH1cclxuXHJcbiAgICAuZmllbGQtcGhvbmUucmVzaXplYnlib3JuIHtcclxuICAgICAgdHJhbnNmb3JtOiB0cmFuc2xhdGVZKC00cHgpO1xyXG4gICAgfVxyXG5cclxuICAgIC5maWVsZC1lbWFpbC5yZXNpemVieWJvcm4sLmZpZWxkLWFkZHJlc3MucmVzaXplYnlib3Jue1xyXG4gICAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZVkoLTEycHgpO1xyXG4gICAgfVxyXG4gIH1cclxuXHJcblxyXG5cclxuICAuY29udGFjdC1pbmZvLmZvcm1hbGxheW91dCB7XHJcbiAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZVkoLTUycHgpO1xyXG5cclxuICB9XHJcblxyXG5cclxuICAuY29udGFjdC1pbmZvLmZvcm1hbGxheW91dC5sYXlvdXRtb2RlbCB7XHJcbiAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZVkoLTUycHgpO1xyXG4gICAgLndhbGxsaW5le1xyXG4gICAgICAvLyB0b3A6OC43JTtcclxuICAgICAgLy8gaGVpZ2h0OjcuNSUgIWltcG9ydGFudDtcclxuICAgICAgZGlzcGxheTogbm9uZSAhaW1wb3J0YW50O1xyXG4gICAgfVxyXG4gIH1cclxuXHJcblxyXG5cclxuICAuY29uc2VudHMuZm9ybWFsbGF5b3V0LCAuc2lnbmF0dXJlLmZvcm1hbGxheW91dCwgLmJ0bi1zdWJtaXR0ZWQuZm9ybWFsbGF5b3V0e1xyXG4gICAgdHJhbnNmb3JtOiB0cmFuc2xhdGVZKC0zNnB4KTtcclxuICB9XHJcblxyXG5cclxuXHJcblxyXG59XHJcbi5hZ3JlZSB7XHJcbiAgZGlzcGxheTogZmxleDtcclxufVxyXG5cclxuLnBhZGRpbmctMCB7XHJcbiAgcGFkZGluZy10b3A6IDAgIWltcG9ydGFudDtcclxufVxyXG5pbnB1dCB7XHJcbiAgcGFkZGluZzogMTBweDtcclxufVxyXG5cclxuLnBob25lOjpiZWZvcmUge1xyXG4gIGNvbnRlbnQ6ICcnO1xyXG4gIHBvc2l0aW9uOiBhYnNvbHV0ZTtcclxuICB3aWR0aDogMS41cHg7XHJcbiAgaGVpZ2h0OiA1MCU7XHJcbiAgYmFja2dyb3VuZC1jb2xvcjogcmVkO1xyXG59XHJcblxyXG4ub2NyLWJ1dC1ib3h7XHJcbiAgcGFkZGluZy10b3A6IDVweDtcclxuICBwYWRkaW5nLWJvdHRvbTogMTBweDtcclxufVxyXG4ub2NyLWJ1dHtcclxuICBoZWlnaHQ6IDQ4cHg7XHJcbiAgd2lkdGg6IDEwMCU7XHJcbiAgYm9yZGVyOiAycHggc29saWQgIzE4OTNGRjtcclxuICBjb2xvcjogIzE4OTNGRjtcclxuICBmb250LXNpemU6IDE0cHg7XHJcbiAgZm9udC13ZWlnaHQ6IGJvbGQ7XHJcbiAgaW1ne1xyXG4gICAgd2lkdGg6IDI0cHg7XHJcbiAgICBoZWlnaHQ6IDI0cHg7XHJcbiAgICBtYXJnaW4tcmlnaHQ6IDEwcHg7XHJcbiAgfVxyXG59XHJcblxyXG5AbWVkaWEgc2NyZWVuIGFuZCAobWluLXdpZHRoOiA3NjBweCl7XHJcbiAgLm9jci1idXR7XHJcbiAgICBoZWlnaHQ6IDQycHg7XHJcbiAgfVxyXG59XHJcblxyXG4ub2NyLW1hc2stbGF5ZXJ7XHJcbiAgcG9zaXRpb246IGZpeGVkO1xyXG4gIHdpZHRoOiAxMDB2dztcclxuICBoZWlnaHQ6IDEwMHZoO1xyXG4gIGJhY2tncm91bmQ6ICNmZmY7XHJcbiAgdG9wOiAwO1xyXG4gIGxlZnQ6IDA7XHJcbiAgei1pbmRleDogOTk5O1xyXG59XHJcbi5vY3ItYm94e1xyXG4gIHBvc2l0aW9uOiBmaXhlZDtcclxuICB3aWR0aDogMTAwdnc7XHJcbiAgaGVpZ2h0OiAxMDB2aDtcclxuICBiYWNrZ3JvdW5kOiByZ2JhKDAsMCwwLDAuNSk7XHJcbiAgdG9wOiAwO1xyXG4gIGxlZnQ6IDA7XHJcbiAgei1pbmRleDogMTAwMDtcclxufVxyXG4ub2NyLWNvbnRlbnR7XHJcbiAgd2lkdGg6IDEwMCU7XHJcbiAgaGVpZ2h0OiAxMDAlO1xyXG4gIGNvbG9yOiAjRkZGRkZGO1xyXG4gIHBhZGRpbmc6IDU5cHggMjBweCAzNHB4IDIwcHggIWltcG9ydGFudDtcclxuICBkaXNwbGF5OiBmbGV4O1xyXG4gIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47XHJcbiAganVzdGlmeS1jb250ZW50OiBzcGFjZS1iZXR3ZWVuO1xyXG59XHJcbi5vY3Itc3VibWl0LC5vY3ItYmFja3tcclxuICBoZWlnaHQ6IDQ0cHg7XHJcbiAgYm9yZGVyLXJhZGl1czogNXB4O1xyXG4gIGZvbnQtc2l6ZTogMThweDtcclxufVxyXG4ub2NyLXN1Ym1pdHtcclxuICBjb2xvcjogIzE4OTNGRjtcclxufVxyXG4ub2NyLWJhY2t7XHJcbiAgYm9yZGVyOiAxLjVweCBzb2xpZCAjRkZGRkZGO1xyXG4gIGNvbG9yOiAjRkZGRkZGO1xyXG4gIG1hcmdpbi10b3A6IDEycHg7XHJcbn1cclxuXHJcbi5vY3ItdGl0bGV7XHJcbiAgZm9udC1zaXplOiAxNHB4O1xyXG4gIG9wYWNpdHk6IDAuODtcclxuICBtYXJnaW4tYm90dG9tOiAyMHB4ICFpbXBvcnRhbnQ7XHJcbn1cclxuLmlkLWNhcmQtYm94e1xyXG4gIGRpc3BsYXk6IGZsZXg7XHJcbiAgZm9udC1zaXplOiAxNnB4O1xyXG4gIGRpdntcclxuICAgIGZsZXg6IDE7XHJcbiAgICBwYWRkaW5nOiAxMHB4IDA7XHJcbiAgICBvcGFjaXR5OiAwLjg7XHJcbiAgfVxyXG4gIC5hY3RpdmV7XHJcbiAgICBib3JkZXItYm90dG9tOiAzcHggc29saWQgI2ZmZjtcclxuICAgIGJvcmRlci1yYWRpdXM6IDNweDtcclxuICAgIG9wYWNpdHk6IDEgIWltcG9ydGFudDtcclxuICB9XHJcbn1cclxuLm9jci1kZXNjcmliZXtcclxuICBmb250LXNpemU6IDE0cHg7XHJcbiAgb3BhY2l0eTogMC44O1xyXG59XHJcbi5vY3ItZ3JvdW5ke1xyXG4gIG1hcmdpbjogMzNweCAwICFpbXBvcnRhbnQ7XHJcbiAgd2lkdGg6IDEwMCU7XHJcbiAgaGVpZ2h0OiAxODBweDtcclxuICBib3JkZXI6IDJweCBzb2xpZCAjOTI5MjkyO1xyXG4gIHBvc2l0aW9uOiByZWxhdGl2ZTtcclxuICBib3JkZXItcmFkaXVzOiA1cHg7XHJcbn1cclxuLm9jcntcclxuICBiYWNrZ3JvdW5kOiBsaW5lYXItZ3JhZGllbnQoI2ZmZiwgI2ZmZikgbGVmdCB0b3AsXHJcbiAgbGluZWFyLWdyYWRpZW50KCNmZmYsICNmZmYpIGxlZnQgdG9wLFxyXG4gIGxpbmVhci1ncmFkaWVudCgjZmZmLCAjZmZmKSByaWdodCB0b3AsXHJcbiAgbGluZWFyLWdyYWRpZW50KCNmZmYsICNmZmYpIHJpZ2h0IHRvcCxcclxuICBsaW5lYXItZ3JhZGllbnQoI2ZmZiwgI2ZmZikgcmlnaHQgYm90dG9tLFxyXG4gIGxpbmVhci1ncmFkaWVudCgjZmZmLCAjZmZmKSByaWdodCBib3R0b20sXHJcbiAgbGluZWFyLWdyYWRpZW50KCNmZmYsICNmZmYpIGxlZnQgYm90dG9tLFxyXG4gIGxpbmVhci1ncmFkaWVudCgjZmZmLCAjZmZmKSBsZWZ0IGJvdHRvbTtcclxuICBiYWNrZ3JvdW5kLXJlcGVhdDogbm8tcmVwZWF0O1xyXG4gIGJhY2tncm91bmQtc2l6ZTogMnB4IDMwcHgsIDMwcHggMnB4O1xyXG4gIGhlaWdodDogMTgwcHg7XHJcbiAgd2lkdGg6IGNhbGMoMTAwJSArIDRweCk7XHJcbiAgcG9zaXRpb246IGFic29sdXRlO1xyXG4gIHRvcDogLTJweDtcclxuICBsZWZ0OiAtMnB4O1xyXG4gIGJvcmRlci1yYWRpdXM6IDVweDtcclxufVxyXG52aWRlb3tcclxuICAvLyB3aWR0aDogMTAwJTtcclxuICAvLyBoZWlnaHQ6IDE3NnB4O1xyXG4gIHBvc2l0aW9uOiBhYnNvbHV0ZTtcclxuICB3aWR0aDogY2FsYygxMDAlIC0gNHB4KTtcclxuICBoZWlnaHQ6IGNhbGMoMTAwJSAtIDRweCk7XHJcbiAgb2JqZWN0LWZpdDogY292ZXI7XHJcbiAgdG9wOiA1MCU7XHJcbiAgbGVmdDogNTAlO1xyXG4gIHRyYW5zZm9ybTogdHJhbnNsYXRlKC01MCUsIC01MCUpO1xyXG4gIGJhY2tncm91bmQ6ICNjY2M7XHJcbn1cclxuXHJcbmNhbnZhc3tcclxuICAvLyB3aWR0aDogY2FsYygxMDAlIC0gNHB4KTtcclxuICAvLyBoZWlnaHQ6IDE3NnB4O1xyXG4gIHBvc2l0aW9uOiBhYnNvbHV0ZTtcclxuICB0b3A6NTAlO1xyXG4gIGxlZnQ6NTAlO1xyXG4gIHRyYW5zZm9ybTogdHJhbnNsYXRlKC01MCUsLTUwJSk7XHJcbn1cclxuIiwiLndyYXBwZXItbWVtYmVyaW5mby1yZWdpc3RlciB7XG4gIHBvc2l0aW9uOiByZWxhdGl2ZTtcbiAgYmFja2dyb3VuZC1jb2xvcjogd2hpdGU7XG4gIGZvbnQtZmFtaWx5OiBOb3RvU2Fuc1RDLVJlZ3VsYXI7XG4gIHBhZGRpbmctYm90dG9tOiAyNXB4O1xuICBjb2xvcjogYmxhY2s7XG4gIHdpZHRoOiAxMDAlO1xufVxuLndyYXBwZXItbWVtYmVyaW5mby1yZWdpc3RlciAuY29udGVudHBhbmUge1xuICBtYXgtd2lkdGg6IDM3NnB4O1xuICBtYXJnaW46IDAgYXV0bztcbn1cbi53cmFwcGVyLW1lbWJlcmluZm8tcmVnaXN0ZXIgLnRleHRhcmVhLXRpdGxlIHtcbiAgd2lkdGg6IGNhbGMoMTAwJSAtIDYwcHgpO1xuICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gIGZvbnQtc2l6ZTogMTBweDtcbiAgcGFkZGluZy10b3A6IDcwcHg7XG4gIGZvbnQtZmFtaWx5OiBOb3RvU2Fuc1RDLUxpZ2h0O1xufVxuLndyYXBwZXItbWVtYmVyaW5mby1yZWdpc3RlciAudGV4dGFyZWEtdGl0bGUgLnRpdGxlIHtcbiAgZm9udC1zaXplOiAyMHB4O1xuICBmb250LWZhbWlseTogTm90b1NhbnNUQy1NZWRpdW07XG59XG4ud3JhcHBlci1tZW1iZXJpbmZvLXJlZ2lzdGVyIC50ZXh0YXJlYS10aXRsZSAudGV4dC10aXAge1xuICBtYXJnaW4tdG9wOiA4cHg7XG4gIGNvbG9yOiAjNzM4M0ExO1xuICBtYXJnaW4tYm90dG9tOiA1MHB4O1xuICBmb250LXNpemU6IDEzcHg7XG4gIGZvbnQtZmFtaWx5OiBOb3RvU2Fuc1RDLVJlZ3VsYXI7XG59XG5AbWVkaWEgc2NyZWVuIGFuZCAobWluLXdpZHRoOiA3NjBweCkge1xuICAud3JhcHBlci1tZW1iZXJpbmZvLXJlZ2lzdGVyIC50ZXh0YXJlYS10aXRsZSB7XG4gICAgcGFkZGluZy10b3A6IDkwcHg7XG4gIH1cbiAgLndyYXBwZXItbWVtYmVyaW5mby1yZWdpc3RlciAudGl0bGUgbWF0LWljb24ge1xuICAgIGZvbnQtc2l6ZTogMjBweDtcbiAgfVxuICAud3JhcHBlci1tZW1iZXJpbmZvLXJlZ2lzdGVyIC5jb250ZW50cGFuZSB7XG4gICAgbWF4LXdpZHRoOiA3MTBweDtcbiAgICBtYXJnaW46IDAgYXV0bztcbiAgfVxuICAud3JhcHBlci1tZW1iZXJpbmZvLXJlZ2lzdGVyIC5waG9uZU51bWJlciB7XG4gICAgYm9yZGVyLWxlZnQtY29sb3I6IHRyYW5zcGFyZW50ICFpbXBvcnRhbnQ7XG4gIH1cbiAgLndyYXBwZXItbWVtYmVyaW5mby1yZWdpc3RlciBpbnB1dCB7XG4gICAgYm9yZGVyOiAxcHggc29saWQgI0U5RURGMyAhaW1wb3J0YW50O1xuICAgIGhlaWdodDogNDJweCAhaW1wb3J0YW50O1xuICB9XG4gIC53cmFwcGVyLW1lbWJlcmluZm8tcmVnaXN0ZXIgLmZpZWxkLWlkY2FyZC1jYXRlZ29yeSB7XG4gICAgbWFyZ2luLXJpZ2h0OiAxMnB4O1xuICB9XG4gIC53cmFwcGVyLW1lbWJlcmluZm8tcmVnaXN0ZXIgLmZpZWxkLWlkY2FyZCB7XG4gICAgZGlzcGxheTogZmxleDtcbiAgICB3aWR0aDogMTAwJTtcbiAgICBqdXN0aWZ5LWNvbnRlbnQ6IHNwYWNlLWJldHdlZW47XG4gIH1cbiAgLndyYXBwZXItbWVtYmVyaW5mby1yZWdpc3RlciAuZmllbGQtaWRjYXJkIC5maWVsZC1pZGNhcmQtY2F0ZWdvcnksIC53cmFwcGVyLW1lbWJlcmluZm8tcmVnaXN0ZXIgLmZpZWxkLWlkY2FyZCAuZmllbGQtaWRjYXJkLW51bWJlciB7XG4gICAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xuICAgIHdpZHRoOiA0OCUgIWltcG9ydGFudDtcbiAgfVxuICAud3JhcHBlci1tZW1iZXJpbmZvLXJlZ2lzdGVyIC5maWVsZC1pZGNhcmQgLmZpZWxkLWlkY2FyZC1udW1iZXIge1xuICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlWSgwcHgpICFpbXBvcnRhbnQ7XG4gIH1cbiAgLndyYXBwZXItbWVtYmVyaW5mby1yZWdpc3RlciAuZmllbGQtaWRjYXJkIC5maWVsZC1pZGNhcmQtbnVtYmVyIGlucHV0IHtcbiAgICBkaXNwbGF5OiBpbmxpbmUtYmxvY2sgIWltcG9ydGFudDtcbiAgICB3aWR0aDogMTAwJTtcbiAgfVxuICAud3JhcHBlci1tZW1iZXJpbmZvLXJlZ2lzdGVyIC5jb21wbGV0ZS10ZXh0LXNlY29uZGFyeS1wYXJ0IHtcbiAgICBtYXJnaW4tdG9wOiAwcHggIWltcG9ydGFudDtcbiAgfVxuICAud3JhcHBlci1tZW1iZXJpbmZvLXJlZ2lzdGVyIC5jb25zZW50cyB7XG4gICAgbWFyZ2luLXRvcDogMjBweCAhaW1wb3J0YW50O1xuICB9XG4gIC53cmFwcGVyLW1lbWJlcmluZm8tcmVnaXN0ZXIgLmZpZWxkLWFkZHJlc3MgLnN1YmZpZWxkIHtcbiAgICBmbGV4LXdyYXA6IHdyYXA7XG4gIH1cbiAgLndyYXBwZXItbWVtYmVyaW5mby1yZWdpc3RlciAuZmllbGQtYWRkcmVzcyAuc3ViZmllbGQgbWF0LWZvcm0tZmllbGQ6bnRoLWNoaWxkKDEpIHtcbiAgICB3aWR0aDogNDglICFpbXBvcnRhbnQ7XG4gIH1cbiAgLndyYXBwZXItbWVtYmVyaW5mby1yZWdpc3RlciAuZmllbGQtYWRkcmVzcyAuc3ViZmllbGQgbWF0LWZvcm0tZmllbGQ6bnRoLWNoaWxkKDIpIHtcbiAgICB3aWR0aDogNDglICFpbXBvcnRhbnQ7XG4gIH1cbiAgLndyYXBwZXItbWVtYmVyaW5mby1yZWdpc3RlciAuZmllbGQtYWRkcmVzcyAuc3ViZmllbGQgbWF0LWZvcm0tZmllbGQ6bnRoLWNoaWxkKDMpIHtcbiAgICB3aWR0aDogMTAwJSAhaW1wb3J0YW50O1xuICB9XG4gIC53cmFwcGVyLW1lbWJlcmluZm8tcmVnaXN0ZXIgLmZpZWxkLWFkZHJlc3MgLnN1YmZpZWxkIG1hdC1mb3JtLWZpZWxkIHtcbiAgICBtYXJnaW4tYm90dG9tOiAxMHB4O1xuICB9XG4gIC53cmFwcGVyLW1lbWJlcmluZm8tcmVnaXN0ZXIgLmZpZWxkLWJvcm5kYXRlIC5zdWJmaWVsZCBtYXQtZm9ybS1maWVsZCB7XG4gICAgd2lkdGg6IDMyJSAhaW1wb3J0YW50O1xuICB9XG4gIC53cmFwcGVyLW1lbWJlcmluZm8tcmVnaXN0ZXIgLmNvbnRhY3QtaW5mbyAudGl0bGUgaW1nIHtcbiAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZVkoLTRweCkgIWltcG9ydGFudDtcbiAgICBtYXJnaW4tcmlnaHQ6IDEwcHggIWltcG9ydGFudDtcbiAgICBoZWlnaHQ6IDIwcHggIWltcG9ydGFudDtcbiAgICB3aWR0aDogMjBweCAhaW1wb3J0YW50O1xuICB9XG4gIC53cmFwcGVyLW1lbWJlcmluZm8tcmVnaXN0ZXIgLnNpZ25hdHVyZSAudGl0bGUgaW1nIHtcbiAgICBtYXJnaW4tcmlnaHQ6IDEycHg7XG4gICAgdHJhbnNmb3JtOiB0cmFuc2xhdGVZKC02cHgpO1xuICB9XG4gIC53cmFwcGVyLW1lbWJlcmluZm8tcmVnaXN0ZXIgaW5wdXQsIC53cmFwcGVyLW1lbWJlcmluZm8tcmVnaXN0ZXIgLmludmFsaWQge1xuICAgIGJvcmRlci1yYWRpdXM6IDhweCAhaW1wb3J0YW50O1xuICB9XG4gIC53cmFwcGVyLW1lbWJlcmluZm8tcmVnaXN0ZXIgLmZpZWxkLXBob25lIG1hdC1mb3JtLWZpZWxkIHtcbiAgICB3aWR0aDogMTAlICFpbXBvcnRhbnQ7XG4gIH1cbiAgLndyYXBwZXItbWVtYmVyaW5mby1yZWdpc3RlciAuZmllbGQtcGhvbmUgLndhbGxsaW5lIHtcbiAgICBsZWZ0OiAxMCUgIWltcG9ydGFudDtcbiAgICB3aWR0aDogMnB4ICFpbXBvcnRhbnQ7XG4gIH1cbiAgLndyYXBwZXItbWVtYmVyaW5mby1yZWdpc3RlciAucGhvbmVOdW1iZXIge1xuICAgIGJvcmRlci10b3AtbGVmdC1yYWRpdXM6IDAlICFpbXBvcnRhbnQ7XG4gICAgYm9yZGVyLWJvdHRvbS1sZWZ0LXJhZGl1czogMCUgIWltcG9ydGFudDtcbiAgfVxuICAud3JhcHBlci1tZW1iZXJpbmZvLXJlZ2lzdGVyIC5kZXRhaWxBZGRyZXNzIHtcbiAgICBoZWlnaHQ6IDg4cHggIWltcG9ydGFudDtcbiAgfVxuICAud3JhcHBlci1tZW1iZXJpbmZvLXJlZ2lzdGVyIC5sb2dvYmFyIHtcbiAgICBwYWRkaW5nOiAwcHggMjAlICFpbXBvcnRhbnQ7XG4gICAgaGVpZ2h0OiA2MHB4ICFpbXBvcnRhbnQ7XG4gIH1cbiAgLndyYXBwZXItbWVtYmVyaW5mby1yZWdpc3RlciAubG9nb2JhciAubG9nbyB7XG4gICAgcG9zaXRpb246IHN0YXRpYyAhaW1wb3J0YW50O1xuICAgIGhlaWdodDogNDhweCAhaW1wb3J0YW50O1xuICAgIHdpZHRoOiAxNTBweCAhaW1wb3J0YW50O1xuICB9XG4gIC53cmFwcGVyLW1lbWJlcmluZm8tcmVnaXN0ZXIgLnNlbGVjdC1sYW5ndWFnZSB7XG4gICAgY29sb3I6ICMwQTI3NDk7XG4gICAgZGlzcGxheTogZmxleDtcbiAgICBqdXN0aWZ5LWNvbnRlbnQ6IHNwYWNlLWJldHdlZW47XG4gICAgYWxpZ24taXRlbXM6IGNlbnRlcjtcbiAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZSgwcHgsIDNweCk7XG4gICAgZm9udC1mYW1pbHk6IE5vdG9TYW5zVEMtUmVndWxhcjtcbiAgfVxuICAud3JhcHBlci1tZW1iZXJpbmZvLXJlZ2lzdGVyIC50aXRsZSB7XG4gICAgZm9udC1zaXplOiAyMHB4ICFpbXBvcnRhbnQ7XG4gICAgdHJhbnNmb3JtOiB0cmFuc2xhdGVZKC01cHgpO1xuICB9XG4gIC53cmFwcGVyLW1lbWJlcmluZm8tcmVnaXN0ZXIgLnRleHRhcmVhLXRpdGxlIC50aXRsZSB7XG4gICAgdHJhbnNmb3JtOiB0cmFuc2xhdGVZKDBweCk7XG4gICAgZm9udC1zaXplOiAyOHB4ICFpbXBvcnRhbnQ7XG4gICAgZm9udC1mYW1pbHk6IE5vdG9TYW5zVEMtTWVkaXVtO1xuICB9XG4gIC53cmFwcGVyLW1lbWJlcmluZm8tcmVnaXN0ZXIgLnRleHRhcmVhLXRpdGxlIC50ZXh0LXRpcCB7XG4gICAgZm9udC1zaXplOiAxNnB4ICFpbXBvcnRhbnQ7XG4gICAgbWFyZ2luLWJvdHRvbTogODBweCAhaW1wb3J0YW50O1xuICB9XG4gIC53cmFwcGVyLW1lbWJlcmluZm8tcmVnaXN0ZXIgLnNpZ25hdHVyZSAudGlwLWludmFsaWQge1xuICAgIGZvbnQtc2l6ZTogMTRweDtcbiAgICBmb250LXdlaWdodDogbm9ybWFsO1xuICB9XG4gIC53cmFwcGVyLW1lbWJlcmluZm8tcmVnaXN0ZXIgLnNpZ25hdHVyZSAudGlwLWludmFsaWQgLmVycm9yIHtcbiAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZSg2cHgsIDNweCkgIWltcG9ydGFudDtcbiAgfVxuICAud3JhcHBlci1tZW1iZXJpbmZvLXJlZ2lzdGVyIC5pbnZvaWNlLW1lc3NhZ2Uge1xuICAgIGZvbnQtc2l6ZTogMTRweCAhaW1wb3J0YW50O1xuICB9XG4gIC53cmFwcGVyLW1lbWJlcmluZm8tcmVnaXN0ZXIgLmludm9pY2UtbWVzc2FnZSAuc3VidGl0bGUgLnRleHQgc3BhbiB7XG4gICAgdHJhbnNmb3JtOiB0cmFuc2xhdGVZKDJweCkgIWltcG9ydGFudDtcbiAgfVxuICAud3JhcHBlci1tZW1iZXJpbmZvLXJlZ2lzdGVyIC5pbnZvaWNlLW1lc3NhZ2UgLnRpdGxlIHtcbiAgICBtYXJnaW4tdG9wOiAtNDBweCAhaW1wb3J0YW50O1xuICAgIHBhZGRpbmctYm90dG9tOiAxMHB4ICFpbXBvcnRhbnQ7XG4gIH1cbiAgLndyYXBwZXItbWVtYmVyaW5mby1yZWdpc3RlciAuaW52b2ljZS1tZXNzYWdlIC50aXRsZSBpbWcge1xuICAgIGhlaWdodDogMjBweCAhaW1wb3J0YW50O1xuICAgIHdpZHRoOiAyMHB4ICFpbXBvcnRhbnQ7XG4gICAgdHJhbnNmb3JtOiB0cmFuc2xhdGVZKDBweCkgIWltcG9ydGFudDtcbiAgfVxuICAud3JhcHBlci1tZW1iZXJpbmZvLXJlZ2lzdGVyIC5pbnZvaWNlLW1lc3NhZ2UgLnRleHRhcmVhIC5iYXIge1xuICAgIHBhZGRpbmc6IDZweCAwcHggIWltcG9ydGFudDtcbiAgfVxuICAud3JhcHBlci1tZW1iZXJpbmZvLXJlZ2lzdGVyIC5pbnZvaWNlLW1lc3NhZ2UgLnRleHRhcmVhIC5iYXIgaW1nIHtcbiAgICBoZWlnaHQ6IDE2cHggIWltcG9ydGFudDtcbiAgICB3aWR0aDogMTZweCAhaW1wb3J0YW50O1xuICAgIG1hcmdpbi1yaWdodDogOHB4ICFpbXBvcnRhbnQ7XG4gICAgbWFyZ2luLXRvcDogMnB4ICFpbXBvcnRhbnQ7XG4gIH1cbiAgLndyYXBwZXItbWVtYmVyaW5mby1yZWdpc3RlciAuaW52b2ljZS1tZXNzYWdlIC50ZXh0YXJlYSAuYmFyLWxvY2F0aW9uIHtcbiAgICBwYWRkaW5nLWJvdHRvbTogMThweCAhaW1wb3J0YW50O1xuICB9XG4gIC53cmFwcGVyLW1lbWJlcmluZm8tcmVnaXN0ZXIgLmludm9pY2UtbWVzc2FnZSAuYmFyLXVzZXJuYW1lIHtcbiAgICBmb250LXNpemU6IDE2cHggIWltcG9ydGFudDtcbiAgfVxuICAud3JhcHBlci1tZW1iZXJpbmZvLXJlZ2lzdGVyIC5wZXJzb24tbWVzc2FnZSAudGl0bGUgaW1nIHtcbiAgICBoZWlnaHQ6IDIwcHggIWltcG9ydGFudDtcbiAgICB3aWR0aDogMjBweCAhaW1wb3J0YW50O1xuICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlWSgtMnB4KSAhaW1wb3J0YW50O1xuICB9XG4gIC53cmFwcGVyLW1lbWJlcmluZm8tcmVnaXN0ZXIgLnBlcnNvbi1tZXNzYWdlIC50aXRsZSBzcGFuIHtcbiAgICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XG4gICAgdHJhbnNmb3JtOiB0cmFuc2xhdGVZKDJweCk7XG4gIH1cbiAgLndyYXBwZXItbWVtYmVyaW5mby1yZWdpc3RlciAucGVyc29uLW1lc3NhZ2UgLnRpdGxlIC5zdWIge1xuICAgIGZvbnQtc2l6ZTogMTRweCAhaW1wb3J0YW50O1xuICAgIG1hcmdpbi1ib3R0b206IDE1cHggIWltcG9ydGFudDtcbiAgICBmb250LXNpemU6IDE0cHggIWltcG9ydGFudDtcbiAgICBmb250LWZhbWlseTogTm90b1NhbnNUQy1SZWd1bGFyO1xuICAgIGZvbnQtd2VpZ2h0OiA0MDA7XG4gICAgY29sb3I6ICM3MzgzQTE7XG4gIH1cbiAgLndyYXBwZXItbWVtYmVyaW5mby1yZWdpc3RlciAucGVyc29uLW1lc3NhZ2UgLnRpdGxlIC50aXAge1xuICAgIHBvc2l0aW9uOiBhYnNvbHV0ZSAhaW1wb3J0YW50O1xuICAgIHJpZ2h0OiAtMzJweCAhaW1wb3J0YW50O1xuICAgIHdpZHRoOiBhdXRvICFpbXBvcnRhbnQ7XG4gICAgZGlzcGxheTogaW5saW5lICFpbXBvcnRhbnQ7XG4gICAgdG9wOiA1MCUgIWltcG9ydGFudDtcbiAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZVkoLTUwJSkgIWltcG9ydGFudDtcbiAgICBmb250LXNpemU6IDE0cHggIWltcG9ydGFudDtcbiAgICBjb2xvcjogIzczODNBMSAhaW1wb3J0YW50O1xuICB9XG4gIC53cmFwcGVyLW1lbWJlcmluZm8tcmVnaXN0ZXIgLnBlcnNvbi1tZXNzYWdlIC50aXRsZSAudGlwIC5lZmZlY3QtZm9udC1pbXAge1xuICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgICB0b3A6IDBweDtcbiAgICBsZWZ0OiAtMTBweDtcbiAgfVxuICAud3JhcHBlci1tZW1iZXJpbmZvLXJlZ2lzdGVyIC5jdXN0b20tZnJhbWUgLm5vd3JhcCB7XG4gICAgZGlzcGxheTogaW5saW5lLWJsb2NrICFpbXBvcnRhbnQ7XG4gIH1cbiAgLndyYXBwZXItbWVtYmVyaW5mby1yZWdpc3RlciAuaW52b2ljZS1tZXNzYWdlIC5lZmZlY3QtcGFkZGluZy1pbm5lciB7XG4gICAgd2lkdGg6IGNhbGMoMTAwJSAtIDQ1cHgpICFpbXBvcnRhbnQ7XG4gICAgbWFyZ2luOiAwIGF1dG87XG4gIH1cbiAgLndyYXBwZXItbWVtYmVyaW5mby1yZWdpc3RlciAuZWZmZWN0LXBhZGRpbmctaW5uZXIge1xuICAgIHdpZHRoOiBjYWxjKDEwMCUgLSA2cHgpICFpbXBvcnRhbnQ7XG4gIH1cbiAgLndyYXBwZXItbWVtYmVyaW5mby1yZWdpc3RlciAuc2lnbmF0dXJlLXBhZCB7XG4gICAgd2lkdGg6IDEwMCU7XG4gICAgaGVpZ2h0OiAxODhweCAhaW1wb3J0YW50O1xuICAgIGJvcmRlcjogMXB4IHNvbGlkIHRyYW5zcGFyZW50O1xuICB9XG59XG4ud3JhcHBlci1tZW1iZXJpbmZvLXJlZ2lzdGVyIC5wZXJzb24tbWVzc2FnZSAudGl0bGUge1xuICB0cmFuc2Zvcm06IHRyYW5zbGF0ZVkoMHB4KTtcbn1cbi53cmFwcGVyLW1lbWJlcmluZm8tcmVnaXN0ZXIgLnBlcnNvbi1tZXNzYWdlIC50aXRsZSBpbWcge1xuICBoZWlnaHQ6IDE2cHg7XG4gIHdpZHRoOiAxNnB4O1xuICB0cmFuc2Zvcm06IHRyYW5zbGF0ZVkoLTRweCk7XG59XG4ud3JhcHBlci1tZW1iZXJpbmZvLXJlZ2lzdGVyIC5wZXJzb24tbWVzc2FnZSAudGl0bGUgLnRpcCB7XG4gIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgcmlnaHQ6IDEwcHg7XG4gIHdpZHRoOiBhdXRvO1xuICBkaXNwbGF5OiBpbmxpbmU7XG4gIHRvcDogNyU7XG4gIGZvbnQtc2l6ZTogMTJweDtcbiAgY29sb3I6ICM3MzgzQTE7XG4gIGZvbnQtZmFtaWx5OiBOb3RvU2Fuc1RDLVJlZ3VsYXI7XG59XG4ud3JhcHBlci1tZW1iZXJpbmZvLXJlZ2lzdGVyIC5wZXJzb24tbWVzc2FnZSAudGl0bGUgLnRpcCAuZWZmZWN0LWZvbnQtaW1wIHtcbiAgcG9zaXRpb246IGFic29sdXRlO1xuICB0b3A6IDBweDtcbiAgbGVmdDogLTEwcHg7XG59XG4ud3JhcHBlci1tZW1iZXJpbmZvLXJlZ2lzdGVyIC5wZXJzb24tbWVzc2FnZSAudGl0bGUgLmZvcm1hbGZpeC50aXAge1xuICB0b3A6IDUyJTtcbn1cbi53cmFwcGVyLW1lbWJlcmluZm8tcmVnaXN0ZXIgLnBlcnNvbi1tZXNzYWdlIC50aXRsZSAuc3ViIHtcbiAgZm9udC1zaXplOiAxM3B4O1xuICBtYXJnaW4tYm90dG9tOiAxMHB4O1xuICBmb250LWZhbWlseTogTm90b1NhbnNUQy1SZWd1bGFyO1xuICBmb250LXdlaWdodDogNDAwO1xuICBjb2xvcjogIzczODNBMTtcbn1cbi53cmFwcGVyLW1lbWJlcmluZm8tcmVnaXN0ZXIgLnBlcnNvbi1tZXNzYWdlIC50aXRsZSBzcGFuIHtcbiAgcG9zaXRpb246IHJlbGF0aXZlO1xuICB3aGl0ZS1zcGFjZTogcHJlLXdyYXA7XG4gIHRleHQtYWxpZ246IGxlZnQ7XG4gIG1hcmdpbi1ib3R0b206IDRweDtcbiAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xuICB3aWR0aDogOTAlO1xuICB2ZXJ0aWNhbC1hbGlnbjogdGV4dC10b3A7XG59XG4ud3JhcHBlci1tZW1iZXJpbmZvLXJlZ2lzdGVyIC5wZXJzb24tbWVzc2FnZSAuZmllbGQtY2huYW1lIHtcbiAgbWFyZ2luLXRvcDogMHB4ICFpbXBvcnRhbnQ7XG59XG4ud3JhcHBlci1tZW1iZXJpbmZvLXJlZ2lzdGVyIC5jb250YWN0LWluZm8sIC53cmFwcGVyLW1lbWJlcmluZm8tcmVnaXN0ZXIgLnBlcnNvbi1tZXNzYWdlIHtcbiAgcGFkZGluZy1ib3R0b206IDIwcHg7XG59XG4ud3JhcHBlci1tZW1iZXJpbmZvLXJlZ2lzdGVyIC5wZXJzb24tbWVzc2FnZS5mb3JtYWxsYXlvdXQge1xuICBwYWRkaW5nLWJvdHRvbTogMHB4O1xufVxuLndyYXBwZXItbWVtYmVyaW5mby1yZWdpc3RlciAuZmllbGQtZW1haWwsIC53cmFwcGVyLW1lbWJlcmluZm8tcmVnaXN0ZXIgLmZpZWxkLWFkZHJlc3Mge1xuICB0cmFuc2Zvcm06IHRyYW5zbGF0ZVkoLTlweCk7XG59XG4ud3JhcHBlci1tZW1iZXJpbmZvLXJlZ2lzdGVyIC5zdWNjZXNzcGFnZSB7XG4gIGRpc3BsYXk6IGlubGluZS1ibG9jaztcbiAgbWFyZ2luOiA2MHB4IGF1dG87XG4gIHBvc2l0aW9uOiBmaXhlZDtcbiAgd2lkdGg6IDMzMHB4O1xuICBmb250LXdlaWdodDogYm9sZDtcbiAgY29sb3I6ICMwRjQ2ODU7XG4gIGZvbnQtc2l6ZTogMThweDtcbiAgdG9wOiA2MHB4O1xuICBsZWZ0OiA1MCU7XG4gIHRyYW5zZm9ybTogdHJhbnNsYXRlWCgtNTAlKTtcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xufVxuLndyYXBwZXItbWVtYmVyaW5mby1yZWdpc3RlciAuc3VjY2Vzc3BhZ2UgaW1nIHtcbiAgbWFyZ2luLXRvcDogMjVweDtcbn1cbi53cmFwcGVyLW1lbWJlcmluZm8tcmVnaXN0ZXIgLnN1Y2Nlc3NwYWdlIGRpdiB7XG4gIG1hcmdpbi10b3A6IDI1cHg7XG59XG4ud3JhcHBlci1tZW1iZXJpbmZvLXJlZ2lzdGVyIC5mb250ZWZmZWN0IHtcbiAgY29sb3I6ICNBQ0FDQUM7XG59XG4ud3JhcHBlci1tZW1iZXJpbmZvLXJlZ2lzdGVyIC5sb2dvYmFyIHtcbiAgcG9zaXRpb246IGZpeGVkO1xuICB0b3A6IDBweDtcbiAgd2lkdGg6IDEwMCU7XG4gIGhlaWdodDogNjBweDtcbiAgcGFkZGluZy1sZWZ0OiAxOHB4O1xuICBwYWRkaW5nLXJpZ2h0OiAxMHB4O1xuICBkaXNwbGF5OiBmbGV4O1xuICBqdXN0aWZ5LWNvbnRlbnQ6IHNwYWNlLWJldHdlZW47XG4gIGFsaWduLWl0ZW1zOiBjZW50ZXI7XG4gIHotaW5kZXg6IDkwMDtcbiAgYm94LXNoYWRvdzogMHB4IDJweCA1cHggMHB4IHJnYmEoMCwgMCwgMCwgMC4wNik7XG4gIGJhY2tncm91bmQtY29sb3I6IHdoaXRlO1xufVxuLndyYXBwZXItbWVtYmVyaW5mby1yZWdpc3RlciAubG9nb2JhciBpbWcge1xuICBwb3NpdGlvbjogcmVsYXRpdmU7XG4gIGxlZnQ6IDUwJTtcbiAgdHJhbnNmb3JtOiB0cmFuc2xhdGUoLTUwJSwgMHB4KTtcbiAgaGVpZ2h0OiAzMnB4O1xuICB3aWR0aDogMTAwcHg7XG59XG4ud3JhcHBlci1tZW1iZXJpbmZvLXJlZ2lzdGVyIC5sb2dvYmFyIC5zZWxlY3QtbGFuZ3VhZ2Uge1xuICBjb2xvcjogIzBBMjc0OTtcbiAgZGlzcGxheTogZmxleDtcbiAganVzdGlmeS1jb250ZW50OiBzcGFjZS1iZXR3ZWVuO1xuICBhbGlnbi1pdGVtczogY2VudGVyO1xuICB0cmFuc2Zvcm06IHRyYW5zbGF0ZSgwcHgsIDNweCk7XG4gIGZvbnQtZmFtaWx5OiBOb3RvU2Fuc1RDLVJlZ3VsYXI7XG59XG4ud3JhcHBlci1tZW1iZXJpbmZvLXJlZ2lzdGVyIC5sb2dvYmFyIC5zZWxlY3QtbGFuZ3VhZ2UgbWF0LWljb24ge1xuICBjb2xvcjogIzBBMjc0OTtcbiAgdHJhbnNmb3JtOiB0cmFuc2xhdGUoNXB4LCAwcHgpO1xufVxuLndyYXBwZXItbWVtYmVyaW5mby1yZWdpc3RlciAubG9nb2JhciAuc2VsZWN0LWxhbmd1YWdlIG1hdC1zZWxlY3Qge1xuICB3aWR0aDogNzhweDtcbiAgaGVpZ2h0OiAzMHB4O1xufVxuLndyYXBwZXItbWVtYmVyaW5mby1yZWdpc3RlciAubG9nb2JhciAuc2VsZWN0LWxhbmd1YWdlIC5tYXQtc2VsZWN0LWFycm93LXdyYXBwZXIge1xuICB0cmFuc2Zvcm06IHRyYW5zbGF0ZVkoMS4zcHgpICFpbXBvcnRhbnQ7XG59XG4ud3JhcHBlci1tZW1iZXJpbmZvLXJlZ2lzdGVyIC5waG9uZU51bWJlci5pbnZhbGlkIHtcbiAgYm9yZGVyLWxlZnQtY29sb3I6IHRyYW5zcGFyZW50ICFpbXBvcnRhbnQ7XG59XG4ud3JhcHBlci1tZW1iZXJpbmZvLXJlZ2lzdGVyIC5pbnZhbGlkIHtcbiAgYm9yZGVyLXJhZGl1czogNXB4O1xuICBib3JkZXItY29sb3I6IHJlZCAhaW1wb3J0YW50O1xufVxuLndyYXBwZXItbWVtYmVyaW5mby1yZWdpc3RlciAuaW52YWxpZCAubWF0LWNoZWNrYm94LWZyYW1lIHtcbiAgYm9yZGVyLWNvbG9yOiAjRjM2QTZBICFpbXBvcnRhbnQ7XG59XG4ud3JhcHBlci1tZW1iZXJpbmZvLXJlZ2lzdGVyIG1hdC1jaGVja2JveC5pbnZhbGlkIHtcbiAgYm94LXNoYWRvdzogbm9uZSAhaW1wb3J0YW50O1xuICBib3JkZXItcmFkaXVzOiAwcHggIWltcG9ydGFudDtcbn1cbi53cmFwcGVyLW1lbWJlcmluZm8tcmVnaXN0ZXIgLnNpZ25hdHVyZS1wYWQge1xuICB3aWR0aDogMTAwJTtcbiAgaGVpZ2h0OiAxNDBweDtcbiAgYm9yZGVyOiAxcHggc29saWQgdHJhbnNwYXJlbnQ7XG59XG4ud3JhcHBlci1tZW1iZXJpbmZvLXJlZ2lzdGVyIC5lZmZlY3QtZm9udC1pbXAge1xuICBjb2xvcjogcmVkO1xuICBtYXJnaW4tbGVmdDogNHB4O1xufVxuLndyYXBwZXItbWVtYmVyaW5mby1yZWdpc3RlciBtYXQtaWNvbiB7XG4gIGZvbnQtc2l6ZTogMTZweDtcbiAgY29sb3I6ICNEMUQxRDE7XG59XG4ud3JhcHBlci1tZW1iZXJpbmZvLXJlZ2lzdGVyIC5waG9uZU51bWJlciB7XG4gIGJvcmRlci1sZWZ0OiBub25lO1xuICBib3JkZXItdG9wLWxlZnQtcmFkaXVzOiAwJTtcbiAgYm9yZGVyLWJvdHRvbS1sZWZ0LXJhZGl1czogMCU7XG59XG4ud3JhcHBlci1tZW1iZXJpbmZvLXJlZ2lzdGVyIC5waG9uZUFyZWFDb2RlIHtcbiAgcG9zaXRpb246IHJlbGF0aXZlO1xufVxuLndyYXBwZXItbWVtYmVyaW5mby1yZWdpc3RlciAuZmllbGQtcGhvbmUgLndhbGxsaW5lIHtcbiAgcG9zaXRpb246IGFic29sdXRlO1xuICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XG4gIHRvcDogNDYlO1xuICB0cmFuc2Zvcm06IHRyYW5zbGF0ZVkoLTUwJSk7XG4gIGxlZnQ6IDIzJTtcbiAgd2lkdGg6IDEuNXB4O1xuICBoZWlnaHQ6IDQwJTtcbiAgei1pbmRleDogMTAwO1xuICBiYWNrZ3JvdW5kLWNvbG9yOiAjRDlERUU4O1xufVxuLndyYXBwZXItbWVtYmVyaW5mby1yZWdpc3RlciBkaXYge1xuICBtYXJnaW46IDA7XG4gIHBhZGRpbmc6IDA7XG59XG4ud3JhcHBlci1tZW1iZXJpbmZvLXJlZ2lzdGVyIC5pbnZhbGlkIGlucHV0IHtcbiAgYm9yZGVyLWNvbG9yOiB0cmFuc3BhcmVudDtcbn1cbi53cmFwcGVyLW1lbWJlcmluZm8tcmVnaXN0ZXIgaW5wdXQge1xuICAtd2Via2l0LWFwcGVhcmFuY2U6IG5vbmU7XG4gIGJvcmRlci1yYWRpdXM6IDVweDtcbiAgb3V0bGluZTogbm9uZTtcbiAgYm9yZGVyOiAxcHggc29saWQgI0Q5REVFODtcbiAgaGVpZ2h0OiA0OHB4O1xuICBwYWRkaW5nLWxlZnQ6IDEwcHg7XG4gIHRleHQtb3ZlcmZsb3c6IGVsbGlwc2lzO1xuICBvdmVyZmxvdzogaGlkZGVuO1xuICB3aGl0ZS1zcGFjZTogbm93cmFwO1xuICBmb250LWZhbWlseTogTm90b1NhbnNUQy1SZWd1bGFyICFpbXBvcnRhbnQ7XG59XG4ud3JhcHBlci1tZW1iZXJpbmZvLXJlZ2lzdGVyIGlucHV0Ojotd2Via2l0LWlucHV0LXBsYWNlaG9sZGVyIHtcbiAgLyogQ2hyb21lL09wZXJhL1NhZmFyaSAqL1xuICBmb250LWZhbWlseTogTm90b1NhbnNUQy1SZWd1bGFyICFpbXBvcnRhbnQ7XG4gIHdoaXRlLXNwYWNlOiBub3dyYXA7XG4gIHRleHQtb3ZlcmZsb3c6IGVsbGlwc2lzO1xuICBvdmVyZmxvdzogaGlkZGVuO1xuICBmb250LXNpemU6IDE0cHg7XG4gIGNvbG9yOiBncmV5O1xuICBmb250LXdlaWdodDogbm9ybWFsO1xufVxuLndyYXBwZXItbWVtYmVyaW5mby1yZWdpc3RlciBpbnB1dDo6LW1vei1wbGFjZWhvbGRlciB7XG4gIC8qIEZpcmVmb3ggMTkrICovXG4gIGZvbnQtZmFtaWx5OiBOb3RvU2Fuc1RDLVJlZ3VsYXIgIWltcG9ydGFudDtcbiAgd2hpdGUtc3BhY2U6IG5vd3JhcDtcbiAgdGV4dC1vdmVyZmxvdzogZWxsaXBzaXM7XG4gIG92ZXJmbG93OiBoaWRkZW47XG4gIGZvbnQtc2l6ZTogMTRweDtcbiAgY29sb3I6IGdyZXk7XG4gIGZvbnQtd2VpZ2h0OiBub3JtYWw7XG59XG4ud3JhcHBlci1tZW1iZXJpbmZvLXJlZ2lzdGVyIGlucHV0OjpwbGFjZWhvbGRlciB7XG4gIGZvbnQtZmFtaWx5OiBOb3RvU2Fuc1RDLVJlZ3VsYXIgIWltcG9ydGFudDtcbiAgZm9udC13ZWlnaHQ6IDQwMCAhaW1wb3J0YW50O1xufVxuLndyYXBwZXItbWVtYmVyaW5mby1yZWdpc3RlciBpbnB1dDotbXMtaW5wdXQtcGxhY2Vob2xkZXIge1xuICBmb250LWZhbWlseTogTm90b1NhbnNUQy1SZWd1bGFyICFpbXBvcnRhbnQ7XG4gIGZvbnQtd2VpZ2h0OiA0MDAgIWltcG9ydGFudDtcbn1cbi53cmFwcGVyLW1lbWJlcmluZm8tcmVnaXN0ZXIgLmZpZWxkIHtcbiAgbWFyZ2luLXRvcDogMTRweDtcbn1cbi53cmFwcGVyLW1lbWJlcmluZm8tcmVnaXN0ZXIgLmZpZWxkIC50aXAge1xuICBwYWRkaW5nLWxlZnQ6IDEuMnB4O1xuICBwYWRkaW5nLWJvdHRvbTogM3B4O1xuICBmb250LXNpemU6IDE0cHg7XG4gIGNvbG9yOiAjMEEyNzQ5O1xufVxuLndyYXBwZXItbWVtYmVyaW5mby1yZWdpc3RlciAuZmllbGQgLnRpcC1pbnZhbGlkIHtcbiAgZm9udC1mYW1pbHk6IE5vdG9TYW5zVEMtUmVndWxhcjtcbiAgZm9udC1zaXplOiAxMnB4O1xuICBkaXNwbGF5OiBmbGV4O1xuICBhbGlnbi1pdGVtczogY2VudGVyO1xuICB0cmFuc2Zvcm06IHRyYW5zbGF0ZSgtNHB4LCAwcHgpO1xufVxuLndyYXBwZXItbWVtYmVyaW5mby1yZWdpc3RlciAuZmllbGQgLnRpcC1pbnZhbGlkIG1hdC1pY29uIHtcbiAgY29sb3I6ICNGMzZBNkE7XG4gIHRyYW5zZm9ybTogdHJhbnNsYXRlKDVweCwgMy41cHgpO1xuICBmb250LXNpemU6IDE4cHg7XG59XG4ud3JhcHBlci1tZW1iZXJpbmZvLXJlZ2lzdGVyIC5maWVsZCAudGlwLWludmFsaWQgc3BhbiB7XG4gIGNvbG9yOiAjRjM2QTZBO1xufVxuLndyYXBwZXItbWVtYmVyaW5mby1yZWdpc3RlciAudGlwLWludmFsaWQge1xuICBmb250LWZhbWlseTogTm90b1NhbnNUQy1SZWd1bGFyO1xuICBmb250LXNpemU6IDEycHg7XG4gIGRpc3BsYXk6IGZsZXg7XG4gIGFsaWduLWl0ZW1zOiBjZW50ZXI7XG4gIHRyYW5zZm9ybTogdHJhbnNsYXRlKC00cHgsIDBweCk7XG4gIHdoaXRlLXNwYWNlOiBub3JtYWw7XG59XG4ud3JhcHBlci1tZW1iZXJpbmZvLXJlZ2lzdGVyIC50aXAtaW52YWxpZCBtYXQtaWNvbiB7XG4gIGNvbG9yOiAjRjM2QTZBO1xuICB0cmFuc2Zvcm06IHRyYW5zbGF0ZSg1cHgsIDMuNXB4KTtcbiAgZm9udC1zaXplOiAxOHB4O1xuICBtYXJnaW4tcmlnaHQ6IDVweDtcbn1cbi53cmFwcGVyLW1lbWJlcmluZm8tcmVnaXN0ZXIgLnRpcC1pbnZhbGlkIHNwYW4ge1xuICBjb2xvcjogI0YzNkE2QTtcbn1cbi53cmFwcGVyLW1lbWJlcmluZm8tcmVnaXN0ZXIgLnRpdGxlIHtcbiAgZm9udC1zaXplOiAxNnB4O1xuICBmb250LXdlaWdodDogNTAwO1xuICBjb2xvcjogIzBBMjc0OTtcbn1cbi53cmFwcGVyLW1lbWJlcmluZm8tcmVnaXN0ZXIgLnRpdGxlIGltZyB7XG4gIG1hcmdpbi1yaWdodDogNXB4O1xuICBoZWlnaHQ6IDEwMCU7XG59XG4ud3JhcHBlci1tZW1iZXJpbmZvLXJlZ2lzdGVyIC50aXRsZSBzcGFuIHtcbiAgd2hpdGUtc3BhY2U6IHByZS13cmFwO1xuICB0ZXh0LWFsaWduOiBsZWZ0O1xuICBmb250LWZhbWlseTogTm90b1NhbnNUQy1NZWRpdW07XG59XG4ud3JhcHBlci1tZW1iZXJpbmZvLXJlZ2lzdGVyIC50aXAge1xuICBmb250LXNpemU6IDE0cHg7XG59XG4ud3JhcHBlci1tZW1iZXJpbmZvLXJlZ2lzdGVyIC5pbnZvaWNlLW1lc3NhZ2UgLmVmZmVjdC1wYWRkaW5nLWlubmVyIHtcbiAgd2lkdGg6IGNhbGMoMTAwJSAtIDIwcHgpO1xuICBtYXJnaW46IDAgYXV0bztcbn1cbi53cmFwcGVyLW1lbWJlcmluZm8tcmVnaXN0ZXIgLmVmZmVjdC1wYWRkaW5nLWlubmVyIHtcbiAgd2lkdGg6IGNhbGMoMTAwJSAtIDZweCk7XG59XG4ud3JhcHBlci1tZW1iZXJpbmZvLXJlZ2lzdGVyIC5tYWluZm9ybS5lZmZlY3QtcGFkZGluZy1pbm5lciwgLndyYXBwZXItbWVtYmVyaW5mby1yZWdpc3RlciAudGV4dGFyZWEtdGl0bGUuZWZmZWN0LXBhZGRpbmctaW5uZXIge1xuICB3aWR0aDogY2FsYygxMDAlIC0gNDVweCk7XG4gIG1hcmdpbjogMCBhdXRvO1xufVxuLndyYXBwZXItbWVtYmVyaW5mby1yZWdpc3RlciAubWFpbmZvcm0gPiBkaXYge1xuICBtYXJnaW4tdG9wOiA0MnB4O1xuICBib3JkZXI6IDFweCBzb2xpZCB0cmFuc3BhcmVudDtcbiAgYm9yZGVyLXJhZGl1czogMTBweDtcbn1cbi53cmFwcGVyLW1lbWJlcmluZm8tcmVnaXN0ZXIgLm1haW5mb3JtID4gZGl2ID4gLnRpdGxlIHtcbiAgbWFyZ2luLXRvcDogLTIwcHg7XG59XG4ud3JhcHBlci1tZW1iZXJpbmZvLXJlZ2lzdGVyIC5tYWluZm9ybSAucGVyc29uLW1lc3NhZ2UgLmVmZmVjdC1wYWRkaW5nLWlubmVyLCAud3JhcHBlci1tZW1iZXJpbmZvLXJlZ2lzdGVyIC5tYWluZm9ybSAuaW52b2ljZS1tZXNzYWdlIC5lZmZlY3QtcGFkZGluZy1pbm5lciwgLndyYXBwZXItbWVtYmVyaW5mby1yZWdpc3RlciAubWFpbmZvcm0gLmNvbnRhY3QtaW5mbyAuZWZmZWN0LXBhZGRpbmctaW5uZXIsIC53cmFwcGVyLW1lbWJlcmluZm8tcmVnaXN0ZXIgLm1haW5mb3JtIC5jb25zZW50cyAuZWZmZWN0LXBhZGRpbmctaW5uZXIge1xuICBwYWRkaW5nLXRvcDogNXB4O1xufVxuLndyYXBwZXItbWVtYmVyaW5mby1yZWdpc3RlciAubWFpbmZvcm0gLmNvbnNlbnRzIHtcbiAgY29sb3I6ICM3MzgzQTE7XG4gIGJvcmRlcjogbm9uZSAhaW1wb3J0YW50O1xuICBtYXJnaW4tYm90dG9tOiA3MHB4O1xuICBtYXJnaW4tdG9wOiAtMjBweDtcbn1cbi53cmFwcGVyLW1lbWJlcmluZm8tcmVnaXN0ZXIgLm1haW5mb3JtIC5jb25zZW50cyAuZWZmZWN0LXBhZGRpbmctaW5uZXIge1xuICBib3JkZXItY29sb3I6IHRyYW5zcGFyZW50O1xuICB3aWR0aDogOTglO1xuICBtYXJnaW4tdG9wOiAtMTBweDtcbn1cbi53cmFwcGVyLW1lbWJlcmluZm8tcmVnaXN0ZXIgLm1haW5mb3JtIC5mb3JtYWxsYXlvdXQuY29uc2VudHMge1xuICBtYXJnaW4tdG9wOiAzMHB4O1xufVxuLndyYXBwZXItbWVtYmVyaW5mby1yZWdpc3RlciAubWFpbmZvcm0gLmludm9pY2UtbWVzc2FnZSB7XG4gIG1hcmdpbi10b3A6IDY1cHg7XG4gIG1hcmdpbi1ib3R0b206IDYwcHg7XG4gIGZvbnQtZmFtaWx5OiBOb3RvU2Fuc1RDLUxpZ2h0O1xuICBjb2xvcjogIzczODNBMSAhaW1wb3J0YW50O1xuICBiYWNrZ3JvdW5kLWNvbG9yOiAjRjdGN0Y3O1xuICBib3JkZXItY29sb3I6IHRyYW5zcGFyZW50O1xufVxuLndyYXBwZXItbWVtYmVyaW5mby1yZWdpc3RlciAubWFpbmZvcm0gLmludm9pY2UtbWVzc2FnZSAudGl0bGUge1xuICBtYXJnaW4tdG9wOiAtMzBweDtcbn1cbi53cmFwcGVyLW1lbWJlcmluZm8tcmVnaXN0ZXIgLm1haW5mb3JtIC5pbnZvaWNlLW1lc3NhZ2UgLnRpdGxlIGltZyB7XG4gIHRyYW5zZm9ybTogdHJhbnNsYXRlWSgtNXB4KTtcbiAgaGVpZ2h0OiAxNnB4O1xuICB3aWR0aDogMTZweDtcbn1cbi53cmFwcGVyLW1lbWJlcmluZm8tcmVnaXN0ZXIgLm1haW5mb3JtIC5pbnZvaWNlLW1lc3NhZ2UgLmJhciB7XG4gIGRpc3BsYXk6IGZsZXg7XG4gIHBhZGRpbmc6IDZweCAwcHg7XG4gIGZvbnQtZmFtaWx5OiBOb3RvU2Fuc1RDLVJlZ3VsYXI7XG59XG4ud3JhcHBlci1tZW1iZXJpbmZvLXJlZ2lzdGVyIC5tYWluZm9ybSAuaW52b2ljZS1tZXNzYWdlIC5iYXIgaW1nIHtcbiAgaGVpZ2h0OiAxNHB4O1xuICB3aWR0aDogMTRweDtcbiAgbWFyZ2luLXJpZ2h0OiA4cHg7XG4gIG1hcmdpbi10b3A6IDNweDtcbn1cbi53cmFwcGVyLW1lbWJlcmluZm8tcmVnaXN0ZXIgLm1haW5mb3JtIC5pbnZvaWNlLW1lc3NhZ2UgLmJhciBzcGFuIHtcbiAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xufVxuLndyYXBwZXItbWVtYmVyaW5mby1yZWdpc3RlciAubWFpbmZvcm0gLmludm9pY2UtbWVzc2FnZSAuYmFyLWxvY2F0aW9uIHtcbiAgcGFkZGluZy1ib3R0b206IDE4cHg7XG59XG4ud3JhcHBlci1tZW1iZXJpbmZvLXJlZ2lzdGVyIC5tYWluZm9ybSAuaW52b2ljZS1tZXNzYWdlIC5iYXItdXNlcm5hbWUge1xuICBwYWRkaW5nLXRvcDogMThweDtcbiAgZm9udC1zaXplOiAxNnB4O1xuICBjb2xvcjogIzBBMjc0OTtcbn1cbi53cmFwcGVyLW1lbWJlcmluZm8tcmVnaXN0ZXIgLm1haW5mb3JtIC5pbnZvaWNlLW1lc3NhZ2UgLnRpcCB7XG4gIGZsb2F0OiByaWdodDtcbn1cbi53cmFwcGVyLW1lbWJlcmluZm8tcmVnaXN0ZXIgLm1haW5mb3JtIC5pbnZvaWNlLW1lc3NhZ2UgLnN1YnRpdGxlIC50ZXh0IG1hdC1pY29uIHtcbiAgZm9udC1zaXplOiAyMHB4O1xufVxuLndyYXBwZXItbWVtYmVyaW5mby1yZWdpc3RlciAubWFpbmZvcm0gLmludm9pY2UtbWVzc2FnZSAuc3VidGl0bGUgLnRleHQgc3BhbiB7XG4gIGRpc3BsYXk6IGlubGluZS1ibG9jaztcbiAgdHJhbnNmb3JtOiB0cmFuc2xhdGVZKC0zcHgpO1xufVxuLndyYXBwZXItbWVtYmVyaW5mby1yZWdpc3RlciAubWFpbmZvcm0gLnRleHRhcmVhLWlucHV0IHtcbiAgZGlzcGxheTogZmxleDtcbiAganVzdGlmeS1jb250ZW50OiBzcGFjZS1iZXR3ZWVuO1xufVxuLndyYXBwZXItbWVtYmVyaW5mby1yZWdpc3RlciAubWFpbmZvcm0gLnRleHRhcmVhLWlucHV0IGlucHV0Om50aC1jaGlsZCgxKSB7XG4gIGRpc3BsYXk6IGlubGluZS1ibG9jaztcbiAgd2lkdGg6IDEwMCU7XG4gIGZsZXgtYmFzaXM6IDQ4JTtcbn1cbi53cmFwcGVyLW1lbWJlcmluZm8tcmVnaXN0ZXIgLm1haW5mb3JtIC50ZXh0YXJlYS1pbnB1dCBpbnB1dDpudGgtY2hpbGQoMikge1xuICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XG4gIHdpZHRoOiAxMDAlO1xuICBmbGV4LWJhc2lzOiA0OCU7XG59XG4ud3JhcHBlci1tZW1iZXJpbmZvLXJlZ2lzdGVyIC5tYWluZm9ybSAuZmllbGQtaWRjYXJkLWNhdGVnb3J5IG1hdC1mb3JtLWZpZWxkIHtcbiAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xuICB3aWR0aDogMTAwJTtcbn1cbi53cmFwcGVyLW1lbWJlcmluZm8tcmVnaXN0ZXIgLm1haW5mb3JtIC5maWVsZC1pZGNhcmQtbnVtYmVyIHtcbiAgdHJhbnNmb3JtOiB0cmFuc2xhdGVZKC02cHgpO1xufVxuLndyYXBwZXItbWVtYmVyaW5mby1yZWdpc3RlciAubWFpbmZvcm0gLmZpZWxkLWlkY2FyZC1udW1iZXIgaW5wdXQge1xuICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XG4gIHdpZHRoOiAxMDAlO1xuICBmbGV4LWJhc2lzOiAxMDAlO1xufVxuLndyYXBwZXItbWVtYmVyaW5mby1yZWdpc3RlciAubWFpbmZvcm0gLmZpZWxkLWJvcm5kYXRlIC5zdWJmaWVsZCwgLndyYXBwZXItbWVtYmVyaW5mby1yZWdpc3RlciAubWFpbmZvcm0gLmZpZWxkLWFkZHJlc3MgLnN1YmZpZWxkIHtcbiAgZGlzcGxheTogZmxleDtcbiAgZmxleC13cmFwOiB3cmFwO1xuICBqdXN0aWZ5LWNvbnRlbnQ6IHNwYWNlLWJldHdlZW47XG4gIG1hcmdpbi1ib3R0b206IC04cHg7XG59XG4ud3JhcHBlci1tZW1iZXJpbmZvLXJlZ2lzdGVyIC5tYWluZm9ybSAuZmllbGQtYm9ybmRhdGUgLnN1YmZpZWxkIG1hdC1mb3JtLWZpZWxkLCAud3JhcHBlci1tZW1iZXJpbmZvLXJlZ2lzdGVyIC5tYWluZm9ybSAuZmllbGQtYWRkcmVzcyAuc3ViZmllbGQgbWF0LWZvcm0tZmllbGQge1xuICB0ZXh0LWFsaWduOiB1bnNldDtcbiAgd2lkdGg6IDEwMCU7XG59XG4ud3JhcHBlci1tZW1iZXJpbmZvLXJlZ2lzdGVyIC5tYWluZm9ybSAuZmllbGQtYm9ybmRhdGUge1xuICB0cmFuc2Zvcm06IHRyYW5zbGF0ZVkoLTRweCk7XG59XG4ud3JhcHBlci1tZW1iZXJpbmZvLXJlZ2lzdGVyIC5tYWluZm9ybSAuZmllbGQtYm9ybmRhdGUgLnN1YmZpZWxkIG1hdC1mb3JtLWZpZWxkIHtcbiAgd2lkdGg6IDMyJTtcbn1cbi53cmFwcGVyLW1lbWJlcmluZm8tcmVnaXN0ZXIgLm1haW5mb3JtIC5maWVsZC1hZGRyZXNzIGlucHV0IHtcbiAgbWFyZ2luLXRvcDogOHB4O1xuICBoZWlnaHQ6IDYwcHg7XG4gIHdpZHRoOiAxMDAlO1xuICBmb250LWZhbWlseTogTm90b1NhbnNUQy1SZWd1bGFyICFpbXBvcnRhbnQ7XG4gIGZvbnQtd2VpZ2h0OiA0MDA7XG59XG4ud3JhcHBlci1tZW1iZXJpbmZvLXJlZ2lzdGVyIC5tYWluZm9ybSAuZmllbGQtYWRkcmVzcyBpbnB1dDo6LXdlYmtpdC1pbnB1dC1wbGFjZWhvbGRlciB7XG4gIC8qIENocm9tZS9PcGVyYS9TYWZhcmkgKi9cbiAgZm9udC1mYW1pbHk6IE5vdG9TYW5zVEMtUmVndWxhciAhaW1wb3J0YW50O1xuICBmb250LXdlaWdodDogNDAwO1xufVxuLndyYXBwZXItbWVtYmVyaW5mby1yZWdpc3RlciAubWFpbmZvcm0gLmZpZWxkLWFkZHJlc3MgaW5wdXQ6Oi1tb3otcGxhY2Vob2xkZXIge1xuICAvKiBGaXJlZm94IDE5KyAqL1xuICBmb250LWZhbWlseTogTm90b1NhbnNUQy1SZWd1bGFyICFpbXBvcnRhbnQ7XG4gIGZvbnQtd2VpZ2h0OiA0MDA7XG59XG4ud3JhcHBlci1tZW1iZXJpbmZvLXJlZ2lzdGVyIC5tYWluZm9ybSAuZmllbGQtYWRkcmVzcyBpbnB1dDo6cGxhY2Vob2xkZXIge1xuICBmb250LWZhbWlseTogTm90b1NhbnNUQy1SZWd1bGFyICFpbXBvcnRhbnQ7XG4gIGZvbnQtd2VpZ2h0OiA0MDA7XG59XG4ud3JhcHBlci1tZW1iZXJpbmZvLXJlZ2lzdGVyIC5tYWluZm9ybSAuZmllbGQtYWRkcmVzcyBpbnB1dDotbXMtaW5wdXQtcGxhY2Vob2xkZXIge1xuICBmb250LWZhbWlseTogTm90b1NhbnNUQy1SZWd1bGFyICFpbXBvcnRhbnQ7XG4gIGZvbnQtd2VpZ2h0OiA0MDA7XG59XG4ud3JhcHBlci1tZW1iZXJpbmZvLXJlZ2lzdGVyIC5tYWluZm9ybSAuY29udGFjdC1pbmZvIC5pbmZvLWlucHV0IHtcbiAgZGlzcGxheTogZmxleDtcbiAganVzdGlmeS1jb250ZW50OiBzcGFjZS1iZXR3ZWVuO1xufVxuLndyYXBwZXItbWVtYmVyaW5mby1yZWdpc3RlciAubWFpbmZvcm0gLmNvbnRhY3QtaW5mbyAuaW5mby1pbnB1dCBpbnB1dCB7XG4gIGZsZXg6IDE7XG59XG4ud3JhcHBlci1tZW1iZXJpbmZvLXJlZ2lzdGVyIC5tYWluZm9ybSAuY29udGFjdC1pbmZvIC50aXRsZSB7XG4gIG1hcmdpbi10b3A6IC0xMHB4O1xuICBtYXJnaW4tYm90dG9tOiA1cHg7XG59XG4ud3JhcHBlci1tZW1iZXJpbmZvLXJlZ2lzdGVyIC5tYWluZm9ybSAuY29udGFjdC1pbmZvIC50aXRsZSBpbWcge1xuICBoZWlnaHQ6IDE2cHg7XG4gIHdpZHRoOiAxNnB4O1xuICB0cmFuc2Zvcm06IHRyYW5zbGF0ZVkoLTVweCk7XG59XG4ud3JhcHBlci1tZW1iZXJpbmZvLXJlZ2lzdGVyIC5tYWluZm9ybSAuY29udGFjdC1pbmZvIC50aXRsZSBzcGFuIHtcbiAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xuICB0cmFuc2Zvcm06IHRyYW5zbGF0ZVkoLTNweCk7XG59XG4ud3JhcHBlci1tZW1iZXJpbmZvLXJlZ2lzdGVyIC5tYWluZm9ybSAuY29udGFjdC1pbmZvIC5maWVsZC1waG9uZSB7XG4gIG1hcmdpbi10b3A6IDBweCAhaW1wb3J0YW50O1xufVxuLndyYXBwZXItbWVtYmVyaW5mby1yZWdpc3RlciAubWFpbmZvcm0gLmNvbnRhY3QtaW5mbyAuZmllbGQtcGhvbmUgbWF0LWZvcm0tZmllbGQge1xuICB3aWR0aDogMjUlO1xuICBib3JkZXItcmlnaHQ6IG5vbmU7XG4gIG1hcmdpbi1yaWdodDogLTJweDtcbn1cbi53cmFwcGVyLW1lbWJlcmluZm8tcmVnaXN0ZXIgLm1haW5mb3JtIC5jdXN0b20tZnJhbWUge1xuICB3aWR0aDogMTAwJTtcbiAgd29yZC13cmFwOiBicmVhay13b3JkO1xuICB3b3JkLWJyZWFrOiBub3JtYWw7XG59XG4ud3JhcHBlci1tZW1iZXJpbmZvLXJlZ2lzdGVyIC5tYWluZm9ybSAuY3VzdG9tLWZyYW1lIC5pbnZhbGlkIHtcbiAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xuICBib3gtc2hhZG93OiBub25lICFpbXBvcnRhbnQ7XG4gIGJvcmRlci1jb2xvcjogcmVkO1xuICBib3JkZXItcmFkaXVzOiAwJTtcbiAgdGV4dC1kZWNvcmF0aW9uOiBub25lO1xufVxuLndyYXBwZXItbWVtYmVyaW5mby1yZWdpc3RlciAubWFpbmZvcm0gLmN1c3RvbS1mcmFtZSAuaW5saW5lIHtcbiAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xufVxuLndyYXBwZXItbWVtYmVyaW5mby1yZWdpc3RlciAubWFpbmZvcm0gLmN1c3RvbS1mcmFtZSAuZm9udGJvbGQge1xuICBmb250LXdlaWdodDogYm9sZDtcbiAgZm9udC1mYW1pbHk6IE5vdG9TYW5zVEMtUmVndWxhcjtcbn1cbi53cmFwcGVyLW1lbWJlcmluZm8tcmVnaXN0ZXIgLm1haW5mb3JtIC5jdXN0b20tZnJhbWUgLmZvbnRibGFjayB7XG4gIGNvbG9yOiBibGFjaztcbiAgZm9udC1mYW1pbHk6IE5vdG9TYW5zVEMtUmVndWxhcjtcbn1cbi53cmFwcGVyLW1lbWJlcmluZm8tcmVnaXN0ZXIgLm1haW5mb3JtIC5jdXN0b20tZnJhbWUgLmRlcyB7XG4gIG1hcmdpbi10b3A6IDVweDtcbiAgZm9udC1mYW1pbHk6IE5vdG9TYW5zVEMtUmVndWxhcjtcbiAgbGluZS1oZWlnaHQ6IDIwcHg7XG59XG4ud3JhcHBlci1tZW1iZXJpbmZvLXJlZ2lzdGVyIC5tYWluZm9ybSAuc2lnbmF0dXJlIHtcbiAgYm9yZGVyLWNvbG9yOiB0cmFuc3BhcmVudDtcbiAgbWFyZ2luLXRvcDogNDBweCAhaW1wb3J0YW50O1xufVxuLndyYXBwZXItbWVtYmVyaW5mby1yZWdpc3RlciAubWFpbmZvcm0gLnNpZ25hdHVyZSAud3JhcHBlciB7XG4gIHBvc2l0aW9uOiByZWxhdGl2ZTtcbn1cbi53cmFwcGVyLW1lbWJlcmluZm8tcmVnaXN0ZXIgLm1haW5mb3JtIC5zaWduYXR1cmUgY2FudmFzIHtcbiAgYm9yZGVyLXJhZGl1czogMTZweDtcbn1cbi53cmFwcGVyLW1lbWJlcmluZm8tcmVnaXN0ZXIgLm1haW5mb3JtIC5zaWduYXR1cmUgLnRvb2xiYXItYnRuIHtcbiAgZGlzcGxheTogZmxleDtcbiAganVzdGlmeS1jb250ZW50OiBmbGV4LWVuZDtcbn1cbi53cmFwcGVyLW1lbWJlcmluZm8tcmVnaXN0ZXIgLm1haW5mb3JtIC5zaWduYXR1cmUgLnRvb2xiYXItYnRuIGJ1dHRvbiB7XG4gIGJvcmRlcjogMXB4IHNvbGlkICNBQ0FDQUM7XG59XG4ud3JhcHBlci1tZW1iZXJpbmZvLXJlZ2lzdGVyIC5tYWluZm9ybSAuc2lnbmF0dXJlIC50aXAtaW52YWxpZCB7XG4gIGZvbnQtc2l6ZTogMTJweDtcbiAgZm9udC13ZWlnaHQ6IG5vcm1hbDtcbiAgbWFyZ2luLWJvdHRvbTogMTJweDtcbn1cbi53cmFwcGVyLW1lbWJlcmluZm8tcmVnaXN0ZXIgLm1haW5mb3JtIC5zaWduYXR1cmUgLnRpcC1pbnZhbGlkIC5lcnJvciB7XG4gIHRyYW5zZm9ybTogdHJhbnNsYXRlKDZweCwgLTRweCk7XG59XG4ud3JhcHBlci1tZW1iZXJpbmZvLXJlZ2lzdGVyIC5tYWluZm9ybSAuc2lnbmF0dXJlIC50aXAtaW52YWxpZCBzcGFuIHtcbiAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xuICB0cmFuc2Zvcm06IHRyYW5zbGF0ZSg0cHgsIDBweCkgIWltcG9ydGFudDtcbn1cbi53cmFwcGVyLW1lbWJlcmluZm8tcmVnaXN0ZXIgLm1haW5mb3JtIC5zaWduYXR1cmUgLnRpdGxlIGltZyB7XG4gIGhlaWdodDogMTZweDtcbiAgd2lkdGg6IDE2cHg7XG4gIHRyYW5zZm9ybTogdHJhbnNsYXRlWSgtNXB4KTtcbiAgbWFyZ2luLXJpZ2h0OiAxMHB4O1xufVxuLndyYXBwZXItbWVtYmVyaW5mby1yZWdpc3RlciAubWFpbmZvcm0gLnNpZ25hdHVyZSAudGl0bGUgc3BhbiB7XG4gIGRpc3BsYXk6IGlubGluZS1ibG9jaztcbiAgdHJhbnNmb3JtOiB0cmFuc2xhdGUoLTNweCwgLTNweCk7XG59XG4ud3JhcHBlci1tZW1iZXJpbmZvLXJlZ2lzdGVyIC5tYWluZm9ybSAuYnRuLXN1Ym1pdHRlZCB7XG4gIHdpZHRoOiAxMDAlO1xuICBkaXNwbGF5OiBmbGV4O1xuICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcbiAgYm9yZGVyLWNvbG9yOiB0cmFuc3BhcmVudDtcbiAgbWFyZ2luLXRvcDogMjRweDtcbn1cbi53cmFwcGVyLW1lbWJlcmluZm8tcmVnaXN0ZXIgLm1haW5mb3JtIC5idG4tc3VibWl0dGVkIGJ1dHRvbiB7XG4gIGxpbmUtaGVpZ2h0OiAzNXB4O1xuICBoZWlnaHQ6IDQ0cHg7XG4gIGZvbnQtc2l6ZTogMTRweDtcbiAgd2lkdGg6IDEwMCU7XG4gIGJhY2tncm91bmQtY29sb3I6ICMxODkzRkY7XG4gIGNvbG9yOiB3aGl0ZTtcbiAgZm9udC1mYW1pbHk6IE5vdG9TYW5zVEMtUmVndWxhcjtcbn1cbi53cmFwcGVyLW1lbWJlcmluZm8tcmVnaXN0ZXIgLnBlcnNvbi1tZXNzYWdlLmZvcm1hbGxheW91dCB7XG4gIG1hcmdpbi10b3A6IDUwcHggIWltcG9ydGFudDtcbiAgYm9yZGVyLWJvdHRvbTogbm9uZSAhaW1wb3J0YW50O1xuICBib3JkZXItYm90dG9tLWxlZnQtcmFkaXVzOiAwcHggIWltcG9ydGFudDtcbiAgYm9yZGVyLWJvdHRvbS1yaWdodC1yYWRpdXM6IDBweCAhaW1wb3J0YW50O1xufVxuLndyYXBwZXItbWVtYmVyaW5mby1yZWdpc3RlciAuaW52YWxpZGZpeC5jb250YWN0LWluZm8ge1xuICBtYXJnaW4tdG9wOiA2MHB4ICFpbXBvcnRhbnQ7XG59XG4ud3JhcHBlci1tZW1iZXJpbmZvLXJlZ2lzdGVyIC5jb250YWN0LWluZm8ge1xuICBib3JkZXItdG9wOiBub25lICFpbXBvcnRhbnQ7XG4gIG1hcmdpbi10b3A6IDY1cHggIWltcG9ydGFudDtcbiAgdHJhbnNmb3JtOiB0cmFuc2xhdGVZKC0zNXB4KTtcbiAgcGFkZGluZy1ib3R0b206IDBweDtcbiAgYm9yZGVyLXRvcC1sZWZ0LXJhZGl1czogMHB4ICFpbXBvcnRhbnQ7XG4gIGJvcmRlci10b3AtcmlnaHQtcmFkaXVzOiAwcHggIWltcG9ydGFudDtcbn1cbi53cmFwcGVyLW1lbWJlcmluZm8tcmVnaXN0ZXIgLmNvbnRhY3QtaW5mbyAuZmllbGQtcGhvbmUucmVzaXplYnlib3JuIHtcbiAgdHJhbnNmb3JtOiB0cmFuc2xhdGVZKC00cHgpO1xufVxuLndyYXBwZXItbWVtYmVyaW5mby1yZWdpc3RlciAuY29udGFjdC1pbmZvIC5maWVsZC1lbWFpbC5yZXNpemVieWJvcm4sIC53cmFwcGVyLW1lbWJlcmluZm8tcmVnaXN0ZXIgLmNvbnRhY3QtaW5mbyAuZmllbGQtYWRkcmVzcy5yZXNpemVieWJvcm4ge1xuICB0cmFuc2Zvcm06IHRyYW5zbGF0ZVkoLTEycHgpO1xufVxuLndyYXBwZXItbWVtYmVyaW5mby1yZWdpc3RlciAuY29udGFjdC1pbmZvLmZvcm1hbGxheW91dCB7XG4gIHRyYW5zZm9ybTogdHJhbnNsYXRlWSgtNTJweCk7XG59XG4ud3JhcHBlci1tZW1iZXJpbmZvLXJlZ2lzdGVyIC5jb250YWN0LWluZm8uZm9ybWFsbGF5b3V0LmxheW91dG1vZGVsIHtcbiAgdHJhbnNmb3JtOiB0cmFuc2xhdGVZKC01MnB4KTtcbn1cbi53cmFwcGVyLW1lbWJlcmluZm8tcmVnaXN0ZXIgLmNvbnRhY3QtaW5mby5mb3JtYWxsYXlvdXQubGF5b3V0bW9kZWwgLndhbGxsaW5lIHtcbiAgZGlzcGxheTogbm9uZSAhaW1wb3J0YW50O1xufVxuLndyYXBwZXItbWVtYmVyaW5mby1yZWdpc3RlciAuY29uc2VudHMuZm9ybWFsbGF5b3V0LCAud3JhcHBlci1tZW1iZXJpbmZvLXJlZ2lzdGVyIC5zaWduYXR1cmUuZm9ybWFsbGF5b3V0LCAud3JhcHBlci1tZW1iZXJpbmZvLXJlZ2lzdGVyIC5idG4tc3VibWl0dGVkLmZvcm1hbGxheW91dCB7XG4gIHRyYW5zZm9ybTogdHJhbnNsYXRlWSgtMzZweCk7XG59XG5cbi5hZ3JlZSB7XG4gIGRpc3BsYXk6IGZsZXg7XG59XG5cbi5wYWRkaW5nLTAge1xuICBwYWRkaW5nLXRvcDogMCAhaW1wb3J0YW50O1xufVxuXG5pbnB1dCB7XG4gIHBhZGRpbmc6IDEwcHg7XG59XG5cbi5waG9uZTo6YmVmb3JlIHtcbiAgY29udGVudDogXCJcIjtcbiAgcG9zaXRpb246IGFic29sdXRlO1xuICB3aWR0aDogMS41cHg7XG4gIGhlaWdodDogNTAlO1xuICBiYWNrZ3JvdW5kLWNvbG9yOiByZWQ7XG59XG5cbi5vY3ItYnV0LWJveCB7XG4gIHBhZGRpbmctdG9wOiA1cHg7XG4gIHBhZGRpbmctYm90dG9tOiAxMHB4O1xufVxuXG4ub2NyLWJ1dCB7XG4gIGhlaWdodDogNDhweDtcbiAgd2lkdGg6IDEwMCU7XG4gIGJvcmRlcjogMnB4IHNvbGlkICMxODkzRkY7XG4gIGNvbG9yOiAjMTg5M0ZGO1xuICBmb250LXNpemU6IDE0cHg7XG4gIGZvbnQtd2VpZ2h0OiBib2xkO1xufVxuLm9jci1idXQgaW1nIHtcbiAgd2lkdGg6IDI0cHg7XG4gIGhlaWdodDogMjRweDtcbiAgbWFyZ2luLXJpZ2h0OiAxMHB4O1xufVxuXG5AbWVkaWEgc2NyZWVuIGFuZCAobWluLXdpZHRoOiA3NjBweCkge1xuICAub2NyLWJ1dCB7XG4gICAgaGVpZ2h0OiA0MnB4O1xuICB9XG59XG4ub2NyLW1hc2stbGF5ZXIge1xuICBwb3NpdGlvbjogZml4ZWQ7XG4gIHdpZHRoOiAxMDB2dztcbiAgaGVpZ2h0OiAxMDB2aDtcbiAgYmFja2dyb3VuZDogI2ZmZjtcbiAgdG9wOiAwO1xuICBsZWZ0OiAwO1xuICB6LWluZGV4OiA5OTk7XG59XG5cbi5vY3ItYm94IHtcbiAgcG9zaXRpb246IGZpeGVkO1xuICB3aWR0aDogMTAwdnc7XG4gIGhlaWdodDogMTAwdmg7XG4gIGJhY2tncm91bmQ6IHJnYmEoMCwgMCwgMCwgMC41KTtcbiAgdG9wOiAwO1xuICBsZWZ0OiAwO1xuICB6LWluZGV4OiAxMDAwO1xufVxuXG4ub2NyLWNvbnRlbnQge1xuICB3aWR0aDogMTAwJTtcbiAgaGVpZ2h0OiAxMDAlO1xuICBjb2xvcjogI0ZGRkZGRjtcbiAgcGFkZGluZzogNTlweCAyMHB4IDM0cHggMjBweCAhaW1wb3J0YW50O1xuICBkaXNwbGF5OiBmbGV4O1xuICBmbGV4LWRpcmVjdGlvbjogY29sdW1uO1xuICBqdXN0aWZ5LWNvbnRlbnQ6IHNwYWNlLWJldHdlZW47XG59XG5cbi5vY3Itc3VibWl0LCAub2NyLWJhY2sge1xuICBoZWlnaHQ6IDQ0cHg7XG4gIGJvcmRlci1yYWRpdXM6IDVweDtcbiAgZm9udC1zaXplOiAxOHB4O1xufVxuXG4ub2NyLXN1Ym1pdCB7XG4gIGNvbG9yOiAjMTg5M0ZGO1xufVxuXG4ub2NyLWJhY2sge1xuICBib3JkZXI6IDEuNXB4IHNvbGlkICNGRkZGRkY7XG4gIGNvbG9yOiAjRkZGRkZGO1xuICBtYXJnaW4tdG9wOiAxMnB4O1xufVxuXG4ub2NyLXRpdGxlIHtcbiAgZm9udC1zaXplOiAxNHB4O1xuICBvcGFjaXR5OiAwLjg7XG4gIG1hcmdpbi1ib3R0b206IDIwcHggIWltcG9ydGFudDtcbn1cblxuLmlkLWNhcmQtYm94IHtcbiAgZGlzcGxheTogZmxleDtcbiAgZm9udC1zaXplOiAxNnB4O1xufVxuLmlkLWNhcmQtYm94IGRpdiB7XG4gIGZsZXg6IDE7XG4gIHBhZGRpbmc6IDEwcHggMDtcbiAgb3BhY2l0eTogMC44O1xufVxuLmlkLWNhcmQtYm94IC5hY3RpdmUge1xuICBib3JkZXItYm90dG9tOiAzcHggc29saWQgI2ZmZjtcbiAgYm9yZGVyLXJhZGl1czogM3B4O1xuICBvcGFjaXR5OiAxICFpbXBvcnRhbnQ7XG59XG5cbi5vY3ItZGVzY3JpYmUge1xuICBmb250LXNpemU6IDE0cHg7XG4gIG9wYWNpdHk6IDAuODtcbn1cblxuLm9jci1ncm91bmQge1xuICBtYXJnaW46IDMzcHggMCAhaW1wb3J0YW50O1xuICB3aWR0aDogMTAwJTtcbiAgaGVpZ2h0OiAxODBweDtcbiAgYm9yZGVyOiAycHggc29saWQgIzkyOTI5MjtcbiAgcG9zaXRpb246IHJlbGF0aXZlO1xuICBib3JkZXItcmFkaXVzOiA1cHg7XG59XG5cbi5vY3Ige1xuICBiYWNrZ3JvdW5kOiBsaW5lYXItZ3JhZGllbnQoI2ZmZiwgI2ZmZikgbGVmdCB0b3AsIGxpbmVhci1ncmFkaWVudCgjZmZmLCAjZmZmKSBsZWZ0IHRvcCwgbGluZWFyLWdyYWRpZW50KCNmZmYsICNmZmYpIHJpZ2h0IHRvcCwgbGluZWFyLWdyYWRpZW50KCNmZmYsICNmZmYpIHJpZ2h0IHRvcCwgbGluZWFyLWdyYWRpZW50KCNmZmYsICNmZmYpIHJpZ2h0IGJvdHRvbSwgbGluZWFyLWdyYWRpZW50KCNmZmYsICNmZmYpIHJpZ2h0IGJvdHRvbSwgbGluZWFyLWdyYWRpZW50KCNmZmYsICNmZmYpIGxlZnQgYm90dG9tLCBsaW5lYXItZ3JhZGllbnQoI2ZmZiwgI2ZmZikgbGVmdCBib3R0b207XG4gIGJhY2tncm91bmQtcmVwZWF0OiBuby1yZXBlYXQ7XG4gIGJhY2tncm91bmQtc2l6ZTogMnB4IDMwcHgsIDMwcHggMnB4O1xuICBoZWlnaHQ6IDE4MHB4O1xuICB3aWR0aDogY2FsYygxMDAlICsgNHB4KTtcbiAgcG9zaXRpb246IGFic29sdXRlO1xuICB0b3A6IC0ycHg7XG4gIGxlZnQ6IC0ycHg7XG4gIGJvcmRlci1yYWRpdXM6IDVweDtcbn1cblxudmlkZW8ge1xuICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gIHdpZHRoOiBjYWxjKDEwMCUgLSA0cHgpO1xuICBoZWlnaHQ6IGNhbGMoMTAwJSAtIDRweCk7XG4gIG9iamVjdC1maXQ6IGNvdmVyO1xuICB0b3A6IDUwJTtcbiAgbGVmdDogNTAlO1xuICB0cmFuc2Zvcm06IHRyYW5zbGF0ZSgtNTAlLCAtNTAlKTtcbiAgYmFja2dyb3VuZDogI2NjYztcbn1cblxuY2FudmFzIHtcbiAgcG9zaXRpb246IGFic29sdXRlO1xuICB0b3A6IDUwJTtcbiAgbGVmdDogNTAlO1xuICB0cmFuc2Zvcm06IHRyYW5zbGF0ZSgtNTAlLCAtNTAlKTtcbn0iXX0= */"] });
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipeBind1"](262, 233, "PRE_REGISTER.COMPLETE_REGISTER"));
+    } }, directives: [_angular_material_icon__WEBPACK_IMPORTED_MODULE_18__["MatIcon"], _angular_material_select__WEBPACK_IMPORTED_MODULE_19__["MatSelect"], _angular_material_core__WEBPACK_IMPORTED_MODULE_20__["MatOption"], _angular_common__WEBPACK_IMPORTED_MODULE_21__["NgIf"], _angular_forms__WEBPACK_IMPORTED_MODULE_2__["ɵangular_packages_forms_forms_y"], _angular_forms__WEBPACK_IMPORTED_MODULE_2__["NgControlStatusGroup"], _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormGroupDirective"], _angular_material_button__WEBPACK_IMPORTED_MODULE_22__["MatButton"], _angular_forms__WEBPACK_IMPORTED_MODULE_2__["DefaultValueAccessor"], _angular_forms__WEBPACK_IMPORTED_MODULE_2__["NgControlStatus"], _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormControlName"], _angular_common__WEBPACK_IMPORTED_MODULE_21__["NgClass"], _angular_flex_layout_extended__WEBPACK_IMPORTED_MODULE_23__["DefaultClassDirective"], _angular_material_radio__WEBPACK_IMPORTED_MODULE_24__["MatRadioGroup"], _angular_material_radio__WEBPACK_IMPORTED_MODULE_24__["MatRadioButton"], _angular_material_form_field__WEBPACK_IMPORTED_MODULE_25__["MatFormField"], _angular_material_form_field__WEBPACK_IMPORTED_MODULE_25__["MatLabel"], _angular_common__WEBPACK_IMPORTED_MODULE_21__["NgForOf"], _angular_material_checkbox__WEBPACK_IMPORTED_MODULE_26__["MatCheckbox"]], pipes: [_ngx_translate_core__WEBPACK_IMPORTED_MODULE_12__["TranslatePipe"], _angular_common__WEBPACK_IMPORTED_MODULE_21__["AsyncPipe"]], styles: [".wrapper-memberinfo-register[_ngcontent-%COMP%] {\n  position: relative;\n  background-color: white;\n  font-family: NotoSansTC-Regular;\n  padding-bottom: 25px;\n  color: black;\n  width: 100%;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .contentpane[_ngcontent-%COMP%] {\n  max-width: 376px;\n  margin: 0 auto;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .textarea-title[_ngcontent-%COMP%] {\n  width: calc(100% - 60px);\n  text-align: center;\n  font-size: 10px;\n  padding-top: 70px;\n  font-family: NotoSansTC-Light;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .textarea-title[_ngcontent-%COMP%]   .title[_ngcontent-%COMP%] {\n  font-size: 20px;\n  font-family: NotoSansTC-Medium;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .textarea-title[_ngcontent-%COMP%]   .text-tip[_ngcontent-%COMP%] {\n  margin-top: 8px;\n  color: #7383A1;\n  margin-bottom: 50px;\n  font-size: 13px;\n  font-family: NotoSansTC-Regular;\n}\n@media screen and (min-width: 760px) {\n  .wrapper-memberinfo-register[_ngcontent-%COMP%]   .textarea-title[_ngcontent-%COMP%] {\n    padding-top: 90px;\n  }\n  .wrapper-memberinfo-register[_ngcontent-%COMP%]   .title[_ngcontent-%COMP%]   mat-icon[_ngcontent-%COMP%] {\n    font-size: 20px;\n  }\n  .wrapper-memberinfo-register[_ngcontent-%COMP%]   .contentpane[_ngcontent-%COMP%] {\n    max-width: 710px;\n    margin: 0 auto;\n  }\n  .wrapper-memberinfo-register[_ngcontent-%COMP%]   .phoneNumber[_ngcontent-%COMP%] {\n    border-left-color: transparent !important;\n  }\n  .wrapper-memberinfo-register[_ngcontent-%COMP%]   input[_ngcontent-%COMP%] {\n    border: 1px solid #E9EDF3 !important;\n    height: 42px !important;\n  }\n  .wrapper-memberinfo-register[_ngcontent-%COMP%]   .field-idcard-category[_ngcontent-%COMP%] {\n    margin-right: 12px;\n  }\n  .wrapper-memberinfo-register[_ngcontent-%COMP%]   .field-idcard[_ngcontent-%COMP%] {\n    display: flex;\n    width: 100%;\n    justify-content: space-between;\n  }\n  .wrapper-memberinfo-register[_ngcontent-%COMP%]   .field-idcard[_ngcontent-%COMP%]   .field-idcard-category[_ngcontent-%COMP%], .wrapper-memberinfo-register[_ngcontent-%COMP%]   .field-idcard[_ngcontent-%COMP%]   .field-idcard-number[_ngcontent-%COMP%] {\n    display: inline-block;\n    width: 48% !important;\n  }\n  .wrapper-memberinfo-register[_ngcontent-%COMP%]   .field-idcard[_ngcontent-%COMP%]   .field-idcard-number[_ngcontent-%COMP%] {\n    transform: translateY(0px) !important;\n  }\n  .wrapper-memberinfo-register[_ngcontent-%COMP%]   .field-idcard[_ngcontent-%COMP%]   .field-idcard-number[_ngcontent-%COMP%]   input[_ngcontent-%COMP%] {\n    display: inline-block !important;\n    width: 100%;\n  }\n  .wrapper-memberinfo-register[_ngcontent-%COMP%]   .complete-text-secondary-part[_ngcontent-%COMP%] {\n    margin-top: 0px !important;\n  }\n  .wrapper-memberinfo-register[_ngcontent-%COMP%]   .consents[_ngcontent-%COMP%] {\n    margin-top: 20px !important;\n  }\n  .wrapper-memberinfo-register[_ngcontent-%COMP%]   .field-address[_ngcontent-%COMP%]   .subfield[_ngcontent-%COMP%] {\n    flex-wrap: wrap;\n  }\n  .wrapper-memberinfo-register[_ngcontent-%COMP%]   .field-address[_ngcontent-%COMP%]   .subfield[_ngcontent-%COMP%]   mat-form-field[_ngcontent-%COMP%]:nth-child(1) {\n    width: 48% !important;\n  }\n  .wrapper-memberinfo-register[_ngcontent-%COMP%]   .field-address[_ngcontent-%COMP%]   .subfield[_ngcontent-%COMP%]   mat-form-field[_ngcontent-%COMP%]:nth-child(2) {\n    width: 48% !important;\n  }\n  .wrapper-memberinfo-register[_ngcontent-%COMP%]   .field-address[_ngcontent-%COMP%]   .subfield[_ngcontent-%COMP%]   mat-form-field[_ngcontent-%COMP%]:nth-child(3) {\n    width: 100% !important;\n  }\n  .wrapper-memberinfo-register[_ngcontent-%COMP%]   .field-address[_ngcontent-%COMP%]   .subfield[_ngcontent-%COMP%]   mat-form-field[_ngcontent-%COMP%] {\n    margin-bottom: 10px;\n  }\n  .wrapper-memberinfo-register[_ngcontent-%COMP%]   .field-borndate[_ngcontent-%COMP%]   .subfield[_ngcontent-%COMP%]   mat-form-field[_ngcontent-%COMP%] {\n    width: 32% !important;\n  }\n  .wrapper-memberinfo-register[_ngcontent-%COMP%]   .contact-info[_ngcontent-%COMP%]   .title[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n    transform: translateY(-4px) !important;\n    margin-right: 10px !important;\n    height: 20px !important;\n    width: 20px !important;\n  }\n  .wrapper-memberinfo-register[_ngcontent-%COMP%]   .signature[_ngcontent-%COMP%]   .title[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n    margin-right: 12px;\n    transform: translateY(-6px);\n  }\n  .wrapper-memberinfo-register[_ngcontent-%COMP%]   input[_ngcontent-%COMP%], .wrapper-memberinfo-register[_ngcontent-%COMP%]   .invalid[_ngcontent-%COMP%] {\n    border-radius: 8px !important;\n  }\n  .wrapper-memberinfo-register[_ngcontent-%COMP%]   .field-phone[_ngcontent-%COMP%]   mat-form-field[_ngcontent-%COMP%] {\n    width: 10% !important;\n  }\n  .wrapper-memberinfo-register[_ngcontent-%COMP%]   .field-phone[_ngcontent-%COMP%]   .wallline[_ngcontent-%COMP%] {\n    left: 10% !important;\n    width: 2px !important;\n  }\n  .wrapper-memberinfo-register[_ngcontent-%COMP%]   .phoneNumber[_ngcontent-%COMP%] {\n    border-top-left-radius: 0% !important;\n    border-bottom-left-radius: 0% !important;\n  }\n  .wrapper-memberinfo-register[_ngcontent-%COMP%]   .detailAddress[_ngcontent-%COMP%] {\n    height: 88px !important;\n  }\n  .wrapper-memberinfo-register[_ngcontent-%COMP%]   .logobar[_ngcontent-%COMP%] {\n    padding: 0px 20% !important;\n    height: 60px !important;\n  }\n  .wrapper-memberinfo-register[_ngcontent-%COMP%]   .logobar[_ngcontent-%COMP%]   .logo[_ngcontent-%COMP%] {\n    position: static !important;\n    height: 48px !important;\n    width: 150px !important;\n  }\n  .wrapper-memberinfo-register[_ngcontent-%COMP%]   .select-language[_ngcontent-%COMP%] {\n    color: #0A2749;\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n    transform: translate(0px, 3px);\n    font-family: NotoSansTC-Regular;\n  }\n  .wrapper-memberinfo-register[_ngcontent-%COMP%]   .title[_ngcontent-%COMP%] {\n    font-size: 20px !important;\n    transform: translateY(-5px);\n  }\n  .wrapper-memberinfo-register[_ngcontent-%COMP%]   .textarea-title[_ngcontent-%COMP%]   .title[_ngcontent-%COMP%] {\n    transform: translateY(0px);\n    font-size: 28px !important;\n    font-family: NotoSansTC-Medium;\n  }\n  .wrapper-memberinfo-register[_ngcontent-%COMP%]   .textarea-title[_ngcontent-%COMP%]   .text-tip[_ngcontent-%COMP%] {\n    font-size: 16px !important;\n    margin-bottom: 80px !important;\n  }\n  .wrapper-memberinfo-register[_ngcontent-%COMP%]   .signature[_ngcontent-%COMP%]   .tip-invalid[_ngcontent-%COMP%] {\n    font-size: 14px;\n    font-weight: normal;\n  }\n  .wrapper-memberinfo-register[_ngcontent-%COMP%]   .signature[_ngcontent-%COMP%]   .tip-invalid[_ngcontent-%COMP%]   .error[_ngcontent-%COMP%] {\n    transform: translate(6px, 3px) !important;\n  }\n  .wrapper-memberinfo-register[_ngcontent-%COMP%]   .invoice-message[_ngcontent-%COMP%] {\n    font-size: 14px !important;\n  }\n  .wrapper-memberinfo-register[_ngcontent-%COMP%]   .invoice-message[_ngcontent-%COMP%]   .subtitle[_ngcontent-%COMP%]   .text[_ngcontent-%COMP%]   span[_ngcontent-%COMP%] {\n    transform: translateY(2px) !important;\n  }\n  .wrapper-memberinfo-register[_ngcontent-%COMP%]   .invoice-message[_ngcontent-%COMP%]   .title[_ngcontent-%COMP%] {\n    margin-top: -40px !important;\n    padding-bottom: 10px !important;\n  }\n  .wrapper-memberinfo-register[_ngcontent-%COMP%]   .invoice-message[_ngcontent-%COMP%]   .title[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n    height: 20px !important;\n    width: 20px !important;\n    transform: translateY(0px) !important;\n  }\n  .wrapper-memberinfo-register[_ngcontent-%COMP%]   .invoice-message[_ngcontent-%COMP%]   .textarea[_ngcontent-%COMP%]   .bar[_ngcontent-%COMP%] {\n    padding: 6px 0px !important;\n  }\n  .wrapper-memberinfo-register[_ngcontent-%COMP%]   .invoice-message[_ngcontent-%COMP%]   .textarea[_ngcontent-%COMP%]   .bar[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n    height: 16px !important;\n    width: 16px !important;\n    margin-right: 8px !important;\n    margin-top: 2px !important;\n  }\n  .wrapper-memberinfo-register[_ngcontent-%COMP%]   .invoice-message[_ngcontent-%COMP%]   .textarea[_ngcontent-%COMP%]   .bar-location[_ngcontent-%COMP%] {\n    padding-bottom: 18px !important;\n  }\n  .wrapper-memberinfo-register[_ngcontent-%COMP%]   .invoice-message[_ngcontent-%COMP%]   .bar-username[_ngcontent-%COMP%] {\n    font-size: 16px !important;\n  }\n  .wrapper-memberinfo-register[_ngcontent-%COMP%]   .person-message[_ngcontent-%COMP%]   .title[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n    height: 20px !important;\n    width: 20px !important;\n    transform: translateY(-2px) !important;\n  }\n  .wrapper-memberinfo-register[_ngcontent-%COMP%]   .person-message[_ngcontent-%COMP%]   .title[_ngcontent-%COMP%]   span[_ngcontent-%COMP%] {\n    display: inline-block;\n    transform: translateY(2px);\n  }\n  .wrapper-memberinfo-register[_ngcontent-%COMP%]   .person-message[_ngcontent-%COMP%]   .title[_ngcontent-%COMP%]   .sub[_ngcontent-%COMP%] {\n    font-size: 14px !important;\n    margin-bottom: 15px !important;\n    font-size: 14px !important;\n    font-family: NotoSansTC-Regular;\n    font-weight: 400;\n    color: #7383A1;\n  }\n  .wrapper-memberinfo-register[_ngcontent-%COMP%]   .person-message[_ngcontent-%COMP%]   .title[_ngcontent-%COMP%]   .tip[_ngcontent-%COMP%] {\n    position: absolute !important;\n    right: -32px !important;\n    width: auto !important;\n    display: inline !important;\n    top: 50% !important;\n    transform: translateY(-50%) !important;\n    font-size: 14px !important;\n    color: #7383A1 !important;\n  }\n  .wrapper-memberinfo-register[_ngcontent-%COMP%]   .person-message[_ngcontent-%COMP%]   .title[_ngcontent-%COMP%]   .tip[_ngcontent-%COMP%]   .effect-font-imp[_ngcontent-%COMP%] {\n    position: absolute;\n    top: 0px;\n    left: -10px;\n  }\n  .wrapper-memberinfo-register[_ngcontent-%COMP%]   .custom-frame[_ngcontent-%COMP%]   .nowrap[_ngcontent-%COMP%] {\n    display: inline-block !important;\n  }\n  .wrapper-memberinfo-register[_ngcontent-%COMP%]   .invoice-message[_ngcontent-%COMP%]   .effect-padding-inner[_ngcontent-%COMP%] {\n    width: calc(100% - 45px) !important;\n    margin: 0 auto;\n  }\n  .wrapper-memberinfo-register[_ngcontent-%COMP%]   .effect-padding-inner[_ngcontent-%COMP%] {\n    width: calc(100% - 6px) !important;\n  }\n  .wrapper-memberinfo-register[_ngcontent-%COMP%]   .signature-pad[_ngcontent-%COMP%] {\n    width: 100%;\n    height: 188px !important;\n    border: 1px solid transparent;\n  }\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .person-message[_ngcontent-%COMP%]   .title[_ngcontent-%COMP%] {\n  transform: translateY(0px);\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .person-message[_ngcontent-%COMP%]   .title[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  height: 16px;\n  width: 16px;\n  transform: translateY(-4px);\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .person-message[_ngcontent-%COMP%]   .title[_ngcontent-%COMP%]   .tip[_ngcontent-%COMP%] {\n  position: absolute;\n  right: 10px;\n  width: auto;\n  display: inline;\n  top: 7%;\n  font-size: 12px;\n  color: #7383A1;\n  font-family: NotoSansTC-Regular;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .person-message[_ngcontent-%COMP%]   .title[_ngcontent-%COMP%]   .tip[_ngcontent-%COMP%]   .effect-font-imp[_ngcontent-%COMP%] {\n  position: absolute;\n  top: 0px;\n  left: -10px;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .person-message[_ngcontent-%COMP%]   .title[_ngcontent-%COMP%]   .formalfix.tip[_ngcontent-%COMP%] {\n  top: 52%;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .person-message[_ngcontent-%COMP%]   .title[_ngcontent-%COMP%]   .sub[_ngcontent-%COMP%] {\n  font-size: 13px;\n  margin-bottom: 10px;\n  font-family: NotoSansTC-Regular;\n  font-weight: 400;\n  color: #7383A1;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .person-message[_ngcontent-%COMP%]   .title[_ngcontent-%COMP%]   span[_ngcontent-%COMP%] {\n  position: relative;\n  white-space: pre-wrap;\n  text-align: left;\n  margin-bottom: 4px;\n  display: inline-block;\n  width: 90%;\n  vertical-align: text-top;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .person-message[_ngcontent-%COMP%]   .field-chname[_ngcontent-%COMP%] {\n  margin-top: 0px !important;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .contact-info[_ngcontent-%COMP%], .wrapper-memberinfo-register[_ngcontent-%COMP%]   .person-message[_ngcontent-%COMP%] {\n  padding-bottom: 20px;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .person-message.formallayout[_ngcontent-%COMP%] {\n  padding-bottom: 0px;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .field-email[_ngcontent-%COMP%], .wrapper-memberinfo-register[_ngcontent-%COMP%]   .field-address[_ngcontent-%COMP%] {\n  transform: translateY(-9px);\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .successpage[_ngcontent-%COMP%] {\n  display: inline-block;\n  margin: 60px auto;\n  position: fixed;\n  width: 330px;\n  font-weight: bold;\n  color: #0F4685;\n  font-size: 18px;\n  top: 60px;\n  left: 50%;\n  transform: translateX(-50%);\n  text-align: center;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .successpage[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  margin-top: 25px;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .successpage[_ngcontent-%COMP%]   div[_ngcontent-%COMP%] {\n  margin-top: 25px;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .fonteffect[_ngcontent-%COMP%] {\n  color: #ACACAC;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .logobar[_ngcontent-%COMP%] {\n  position: fixed;\n  top: 0px;\n  width: 100%;\n  height: 60px;\n  padding-left: 18px;\n  padding-right: 10px;\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  z-index: 900;\n  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.06);\n  background-color: white;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .logobar[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  position: relative;\n  left: 50%;\n  transform: translate(-50%, 0px);\n  height: 32px;\n  width: 100px;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .logobar[_ngcontent-%COMP%]   .select-language[_ngcontent-%COMP%] {\n  color: #0A2749;\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  transform: translate(0px, 3px);\n  font-family: NotoSansTC-Regular;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .logobar[_ngcontent-%COMP%]   .select-language[_ngcontent-%COMP%]   mat-icon[_ngcontent-%COMP%] {\n  color: #0A2749;\n  transform: translate(5px, 0px);\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .logobar[_ngcontent-%COMP%]   .select-language[_ngcontent-%COMP%]   mat-select[_ngcontent-%COMP%] {\n  width: 78px;\n  height: 30px;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .logobar[_ngcontent-%COMP%]   .select-language[_ngcontent-%COMP%]   .mat-select-arrow-wrapper[_ngcontent-%COMP%] {\n  transform: translateY(1.3px) !important;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .phoneNumber.invalid[_ngcontent-%COMP%] {\n  border-left-color: transparent !important;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .invalid[_ngcontent-%COMP%] {\n  border-radius: 5px;\n  border-color: red !important;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .invalid[_ngcontent-%COMP%]   .mat-checkbox-frame[_ngcontent-%COMP%] {\n  border-color: #F36A6A !important;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   mat-checkbox.invalid[_ngcontent-%COMP%] {\n  box-shadow: none !important;\n  border-radius: 0px !important;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .signature-pad[_ngcontent-%COMP%] {\n  width: 100%;\n  height: 140px;\n  border: 1px solid transparent;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .effect-font-imp[_ngcontent-%COMP%] {\n  color: red;\n  margin-left: 4px;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   mat-icon[_ngcontent-%COMP%] {\n  font-size: 16px;\n  color: #D1D1D1;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .phoneNumber[_ngcontent-%COMP%] {\n  border-left: none;\n  border-top-left-radius: 0%;\n  border-bottom-left-radius: 0%;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .phoneAreaCode[_ngcontent-%COMP%] {\n  position: relative;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .field-phone[_ngcontent-%COMP%]   .wallline[_ngcontent-%COMP%] {\n  position: absolute;\n  display: inline-block;\n  top: 46%;\n  transform: translateY(-50%);\n  left: 23%;\n  width: 1.5px;\n  height: 40%;\n  z-index: 100;\n  background-color: #D9DEE8;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   div[_ngcontent-%COMP%] {\n  margin: 0;\n  padding: 0;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .invalid[_ngcontent-%COMP%]   input[_ngcontent-%COMP%] {\n  border-color: transparent;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   input[_ngcontent-%COMP%] {\n  -webkit-appearance: none;\n  border-radius: 5px;\n  outline: none;\n  border: 1px solid #D9DEE8;\n  height: 48px;\n  padding-left: 10px;\n  text-overflow: ellipsis;\n  overflow: hidden;\n  white-space: nowrap;\n  font-family: NotoSansTC-Regular !important;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   input[_ngcontent-%COMP%]::-webkit-input-placeholder {\n  \n  font-family: NotoSansTC-Regular !important;\n  white-space: nowrap;\n  text-overflow: ellipsis;\n  overflow: hidden;\n  font-size: 14px;\n  color: grey;\n  font-weight: normal;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   input[_ngcontent-%COMP%]::-moz-placeholder {\n  \n  font-family: NotoSansTC-Regular !important;\n  white-space: nowrap;\n  text-overflow: ellipsis;\n  overflow: hidden;\n  font-size: 14px;\n  color: grey;\n  font-weight: normal;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   input[_ngcontent-%COMP%]::-ms-input-placeholder {\n  font-family: NotoSansTC-Regular !important;\n  font-weight: 400 !important;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   input[_ngcontent-%COMP%]::placeholder {\n  font-family: NotoSansTC-Regular !important;\n  font-weight: 400 !important;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   input[_ngcontent-%COMP%]:-ms-input-placeholder {\n  font-family: NotoSansTC-Regular !important;\n  font-weight: 400 !important;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .field[_ngcontent-%COMP%] {\n  margin-top: 14px;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .field[_ngcontent-%COMP%]   .tip[_ngcontent-%COMP%] {\n  padding-left: 1.2px;\n  padding-bottom: 3px;\n  font-size: 14px;\n  color: #0A2749;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .field[_ngcontent-%COMP%]   .tip-invalid[_ngcontent-%COMP%] {\n  font-family: NotoSansTC-Regular;\n  font-size: 12px;\n  display: flex;\n  align-items: center;\n  transform: translate(-4px, 0px);\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .field[_ngcontent-%COMP%]   .tip-invalid[_ngcontent-%COMP%]   mat-icon[_ngcontent-%COMP%] {\n  color: #F36A6A;\n  transform: translate(5px, 3.5px);\n  font-size: 18px;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .field[_ngcontent-%COMP%]   .tip-invalid[_ngcontent-%COMP%]   span[_ngcontent-%COMP%] {\n  color: #F36A6A;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .tip-invalid[_ngcontent-%COMP%] {\n  font-family: NotoSansTC-Regular;\n  font-size: 12px;\n  display: flex;\n  align-items: center;\n  transform: translate(-4px, 0px);\n  white-space: normal;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .tip-invalid[_ngcontent-%COMP%]   mat-icon[_ngcontent-%COMP%] {\n  color: #F36A6A;\n  transform: translate(5px, 3.5px);\n  font-size: 18px;\n  margin-right: 5px;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .tip-invalid[_ngcontent-%COMP%]   span[_ngcontent-%COMP%] {\n  color: #F36A6A;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .title[_ngcontent-%COMP%] {\n  font-size: 16px;\n  font-weight: 500;\n  color: #0A2749;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .title[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  margin-right: 5px;\n  height: 100%;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .title[_ngcontent-%COMP%]   span[_ngcontent-%COMP%] {\n  white-space: pre-wrap;\n  text-align: left;\n  font-family: NotoSansTC-Medium;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .tip[_ngcontent-%COMP%] {\n  font-size: 14px;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .invoice-message[_ngcontent-%COMP%]   .effect-padding-inner[_ngcontent-%COMP%] {\n  width: calc(100% - 20px);\n  margin: 0 auto;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .effect-padding-inner[_ngcontent-%COMP%] {\n  width: calc(100% - 6px);\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .mainform.effect-padding-inner[_ngcontent-%COMP%], .wrapper-memberinfo-register[_ngcontent-%COMP%]   .textarea-title.effect-padding-inner[_ngcontent-%COMP%] {\n  width: calc(100% - 45px);\n  margin: 0 auto;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .mainform[_ngcontent-%COMP%]    > div[_ngcontent-%COMP%] {\n  margin-top: 42px;\n  border: 1px solid transparent;\n  border-radius: 10px;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .mainform[_ngcontent-%COMP%]    > div[_ngcontent-%COMP%]    > .title[_ngcontent-%COMP%] {\n  margin-top: -20px;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .mainform[_ngcontent-%COMP%]   .person-message[_ngcontent-%COMP%]   .effect-padding-inner[_ngcontent-%COMP%], .wrapper-memberinfo-register[_ngcontent-%COMP%]   .mainform[_ngcontent-%COMP%]   .invoice-message[_ngcontent-%COMP%]   .effect-padding-inner[_ngcontent-%COMP%], .wrapper-memberinfo-register[_ngcontent-%COMP%]   .mainform[_ngcontent-%COMP%]   .contact-info[_ngcontent-%COMP%]   .effect-padding-inner[_ngcontent-%COMP%], .wrapper-memberinfo-register[_ngcontent-%COMP%]   .mainform[_ngcontent-%COMP%]   .consents[_ngcontent-%COMP%]   .effect-padding-inner[_ngcontent-%COMP%] {\n  padding-top: 5px;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .mainform[_ngcontent-%COMP%]   .consents[_ngcontent-%COMP%] {\n  color: #7383A1;\n  border: none !important;\n  margin-bottom: 70px;\n  margin-top: -20px;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .mainform[_ngcontent-%COMP%]   .consents[_ngcontent-%COMP%]   .effect-padding-inner[_ngcontent-%COMP%] {\n  border-color: transparent;\n  width: 98%;\n  margin-top: -10px;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .mainform[_ngcontent-%COMP%]   .formallayout.consents[_ngcontent-%COMP%] {\n  margin-top: 30px;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .mainform[_ngcontent-%COMP%]   .invoice-message[_ngcontent-%COMP%] {\n  margin-top: 65px;\n  margin-bottom: 60px;\n  font-family: NotoSansTC-Light;\n  color: #7383A1 !important;\n  background-color: #F7F7F7;\n  border-color: transparent;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .mainform[_ngcontent-%COMP%]   .invoice-message[_ngcontent-%COMP%]   .title[_ngcontent-%COMP%] {\n  margin-top: -30px;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .mainform[_ngcontent-%COMP%]   .invoice-message[_ngcontent-%COMP%]   .title[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  transform: translateY(-5px);\n  height: 16px;\n  width: 16px;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .mainform[_ngcontent-%COMP%]   .invoice-message[_ngcontent-%COMP%]   .bar[_ngcontent-%COMP%] {\n  display: flex;\n  padding: 6px 0px;\n  font-family: NotoSansTC-Regular;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .mainform[_ngcontent-%COMP%]   .invoice-message[_ngcontent-%COMP%]   .bar[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  height: 14px;\n  width: 14px;\n  margin-right: 8px;\n  margin-top: 3px;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .mainform[_ngcontent-%COMP%]   .invoice-message[_ngcontent-%COMP%]   .bar[_ngcontent-%COMP%]   span[_ngcontent-%COMP%] {\n  display: inline-block;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .mainform[_ngcontent-%COMP%]   .invoice-message[_ngcontent-%COMP%]   .bar-location[_ngcontent-%COMP%] {\n  padding-bottom: 18px;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .mainform[_ngcontent-%COMP%]   .invoice-message[_ngcontent-%COMP%]   .bar-username[_ngcontent-%COMP%] {\n  padding-top: 18px;\n  font-size: 16px;\n  color: #0A2749;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .mainform[_ngcontent-%COMP%]   .invoice-message[_ngcontent-%COMP%]   .tip[_ngcontent-%COMP%] {\n  float: right;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .mainform[_ngcontent-%COMP%]   .invoice-message[_ngcontent-%COMP%]   .subtitle[_ngcontent-%COMP%]   .text[_ngcontent-%COMP%]   mat-icon[_ngcontent-%COMP%] {\n  font-size: 20px;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .mainform[_ngcontent-%COMP%]   .invoice-message[_ngcontent-%COMP%]   .subtitle[_ngcontent-%COMP%]   .text[_ngcontent-%COMP%]   span[_ngcontent-%COMP%] {\n  display: inline-block;\n  transform: translateY(-3px);\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .mainform[_ngcontent-%COMP%]   .textarea-input[_ngcontent-%COMP%] {\n  display: flex;\n  justify-content: space-between;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .mainform[_ngcontent-%COMP%]   .textarea-input[_ngcontent-%COMP%]   input[_ngcontent-%COMP%]:nth-child(1) {\n  display: inline-block;\n  width: 100%;\n  flex-basis: 48%;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .mainform[_ngcontent-%COMP%]   .textarea-input[_ngcontent-%COMP%]   input[_ngcontent-%COMP%]:nth-child(2) {\n  display: inline-block;\n  width: 100%;\n  flex-basis: 48%;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .mainform[_ngcontent-%COMP%]   .field-idcard-category[_ngcontent-%COMP%]   mat-form-field[_ngcontent-%COMP%] {\n  display: inline-block;\n  width: 100%;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .mainform[_ngcontent-%COMP%]   .field-idcard-number[_ngcontent-%COMP%] {\n  transform: translateY(-6px);\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .mainform[_ngcontent-%COMP%]   .field-idcard-number[_ngcontent-%COMP%]   input[_ngcontent-%COMP%] {\n  display: inline-block;\n  width: 100%;\n  flex-basis: 100%;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .mainform[_ngcontent-%COMP%]   .field-borndate[_ngcontent-%COMP%]   .subfield[_ngcontent-%COMP%], .wrapper-memberinfo-register[_ngcontent-%COMP%]   .mainform[_ngcontent-%COMP%]   .field-address[_ngcontent-%COMP%]   .subfield[_ngcontent-%COMP%] {\n  display: flex;\n  flex-wrap: wrap;\n  justify-content: space-between;\n  margin-bottom: -8px;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .mainform[_ngcontent-%COMP%]   .field-borndate[_ngcontent-%COMP%]   .subfield[_ngcontent-%COMP%]   mat-form-field[_ngcontent-%COMP%], .wrapper-memberinfo-register[_ngcontent-%COMP%]   .mainform[_ngcontent-%COMP%]   .field-address[_ngcontent-%COMP%]   .subfield[_ngcontent-%COMP%]   mat-form-field[_ngcontent-%COMP%] {\n  text-align: unset;\n  width: 100%;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .mainform[_ngcontent-%COMP%]   .field-borndate[_ngcontent-%COMP%] {\n  transform: translateY(-4px);\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .mainform[_ngcontent-%COMP%]   .field-borndate[_ngcontent-%COMP%]   .subfield[_ngcontent-%COMP%]   mat-form-field[_ngcontent-%COMP%] {\n  width: 32%;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .mainform[_ngcontent-%COMP%]   .field-address[_ngcontent-%COMP%]   input[_ngcontent-%COMP%] {\n  margin-top: 8px;\n  height: 60px;\n  width: 100%;\n  font-family: NotoSansTC-Regular !important;\n  font-weight: 400;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .mainform[_ngcontent-%COMP%]   .field-address[_ngcontent-%COMP%]   input[_ngcontent-%COMP%]::-webkit-input-placeholder {\n  \n  font-family: NotoSansTC-Regular !important;\n  font-weight: 400;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .mainform[_ngcontent-%COMP%]   .field-address[_ngcontent-%COMP%]   input[_ngcontent-%COMP%]::-moz-placeholder {\n  \n  font-family: NotoSansTC-Regular !important;\n  font-weight: 400;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .mainform[_ngcontent-%COMP%]   .field-address[_ngcontent-%COMP%]   input[_ngcontent-%COMP%]::-ms-input-placeholder {\n  font-family: NotoSansTC-Regular !important;\n  font-weight: 400;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .mainform[_ngcontent-%COMP%]   .field-address[_ngcontent-%COMP%]   input[_ngcontent-%COMP%]::placeholder {\n  font-family: NotoSansTC-Regular !important;\n  font-weight: 400;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .mainform[_ngcontent-%COMP%]   .field-address[_ngcontent-%COMP%]   input[_ngcontent-%COMP%]:-ms-input-placeholder {\n  font-family: NotoSansTC-Regular !important;\n  font-weight: 400;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .mainform[_ngcontent-%COMP%]   .contact-info[_ngcontent-%COMP%]   .info-input[_ngcontent-%COMP%] {\n  display: flex;\n  justify-content: space-between;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .mainform[_ngcontent-%COMP%]   .contact-info[_ngcontent-%COMP%]   .info-input[_ngcontent-%COMP%]   input[_ngcontent-%COMP%] {\n  flex: 1;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .mainform[_ngcontent-%COMP%]   .contact-info[_ngcontent-%COMP%]   .title[_ngcontent-%COMP%] {\n  margin-top: -10px;\n  margin-bottom: 5px;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .mainform[_ngcontent-%COMP%]   .contact-info[_ngcontent-%COMP%]   .title[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  height: 16px;\n  width: 16px;\n  transform: translateY(-5px);\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .mainform[_ngcontent-%COMP%]   .contact-info[_ngcontent-%COMP%]   .title[_ngcontent-%COMP%]   span[_ngcontent-%COMP%] {\n  display: inline-block;\n  transform: translateY(-3px);\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .mainform[_ngcontent-%COMP%]   .contact-info[_ngcontent-%COMP%]   .field-phone[_ngcontent-%COMP%] {\n  margin-top: 0px !important;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .mainform[_ngcontent-%COMP%]   .contact-info[_ngcontent-%COMP%]   .field-phone[_ngcontent-%COMP%]   mat-form-field[_ngcontent-%COMP%] {\n  width: 25%;\n  border-right: none;\n  margin-right: -2px;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .mainform[_ngcontent-%COMP%]   .custom-frame[_ngcontent-%COMP%] {\n  width: 100%;\n  word-wrap: break-word;\n  word-break: normal;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .mainform[_ngcontent-%COMP%]   .custom-frame[_ngcontent-%COMP%]   .invalid[_ngcontent-%COMP%] {\n  display: inline-block;\n  box-shadow: none !important;\n  border-color: red;\n  border-radius: 0%;\n  text-decoration: none;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .mainform[_ngcontent-%COMP%]   .custom-frame[_ngcontent-%COMP%]   .inline[_ngcontent-%COMP%] {\n  display: inline-block;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .mainform[_ngcontent-%COMP%]   .custom-frame[_ngcontent-%COMP%]   .fontbold[_ngcontent-%COMP%] {\n  font-weight: bold;\n  font-family: NotoSansTC-Regular;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .mainform[_ngcontent-%COMP%]   .custom-frame[_ngcontent-%COMP%]   .fontblack[_ngcontent-%COMP%] {\n  color: black;\n  font-family: NotoSansTC-Regular;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .mainform[_ngcontent-%COMP%]   .custom-frame[_ngcontent-%COMP%]   .des[_ngcontent-%COMP%] {\n  margin-top: 5px;\n  font-family: NotoSansTC-Regular;\n  line-height: 20px;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .mainform[_ngcontent-%COMP%]   .signature[_ngcontent-%COMP%] {\n  border-color: transparent;\n  margin-top: 40px !important;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .mainform[_ngcontent-%COMP%]   .signature[_ngcontent-%COMP%]   .wrapper[_ngcontent-%COMP%] {\n  position: relative;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .mainform[_ngcontent-%COMP%]   .signature[_ngcontent-%COMP%]   canvas[_ngcontent-%COMP%] {\n  border-radius: 16px;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .mainform[_ngcontent-%COMP%]   .signature[_ngcontent-%COMP%]   .toolbar-btn[_ngcontent-%COMP%] {\n  display: flex;\n  justify-content: flex-end;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .mainform[_ngcontent-%COMP%]   .signature[_ngcontent-%COMP%]   .toolbar-btn[_ngcontent-%COMP%]   button[_ngcontent-%COMP%] {\n  border: 1px solid #ACACAC;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .mainform[_ngcontent-%COMP%]   .signature[_ngcontent-%COMP%]   .tip-invalid[_ngcontent-%COMP%] {\n  font-size: 12px;\n  font-weight: normal;\n  margin-bottom: 12px;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .mainform[_ngcontent-%COMP%]   .signature[_ngcontent-%COMP%]   .tip-invalid[_ngcontent-%COMP%]   .error[_ngcontent-%COMP%] {\n  transform: translate(6px, -4px);\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .mainform[_ngcontent-%COMP%]   .signature[_ngcontent-%COMP%]   .tip-invalid[_ngcontent-%COMP%]   span[_ngcontent-%COMP%] {\n  display: inline-block;\n  transform: translate(4px, 0px) !important;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .mainform[_ngcontent-%COMP%]   .signature[_ngcontent-%COMP%]   .title[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  height: 16px;\n  width: 16px;\n  transform: translateY(-5px);\n  margin-right: 10px;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .mainform[_ngcontent-%COMP%]   .signature[_ngcontent-%COMP%]   .title[_ngcontent-%COMP%]   span[_ngcontent-%COMP%] {\n  display: inline-block;\n  transform: translate(-3px, -3px);\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .mainform[_ngcontent-%COMP%]   .btn-submitted[_ngcontent-%COMP%] {\n  width: 100%;\n  display: flex;\n  justify-content: center;\n  border-color: transparent;\n  margin-top: 24px;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .mainform[_ngcontent-%COMP%]   .btn-submitted[_ngcontent-%COMP%]   button[_ngcontent-%COMP%] {\n  line-height: 35px;\n  height: 44px;\n  font-size: 14px;\n  width: 100%;\n  background-color: #1893FF;\n  color: white;\n  font-family: NotoSansTC-Regular;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .person-message.formallayout[_ngcontent-%COMP%] {\n  margin-top: 50px !important;\n  border-bottom: none !important;\n  border-bottom-left-radius: 0px !important;\n  border-bottom-right-radius: 0px !important;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .invalidfix.contact-info[_ngcontent-%COMP%] {\n  margin-top: 60px !important;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .contact-info[_ngcontent-%COMP%] {\n  border-top: none !important;\n  margin-top: 65px !important;\n  transform: translateY(-35px);\n  padding-bottom: 0px;\n  border-top-left-radius: 0px !important;\n  border-top-right-radius: 0px !important;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .contact-info[_ngcontent-%COMP%]   .field-phone.resizebyborn[_ngcontent-%COMP%] {\n  transform: translateY(-4px);\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .contact-info[_ngcontent-%COMP%]   .field-email.resizebyborn[_ngcontent-%COMP%], .wrapper-memberinfo-register[_ngcontent-%COMP%]   .contact-info[_ngcontent-%COMP%]   .field-address.resizebyborn[_ngcontent-%COMP%] {\n  transform: translateY(-12px);\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .contact-info.formallayout[_ngcontent-%COMP%] {\n  transform: translateY(-52px);\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .contact-info.formallayout.layoutmodel[_ngcontent-%COMP%] {\n  transform: translateY(-52px);\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .contact-info.formallayout.layoutmodel[_ngcontent-%COMP%]   .wallline[_ngcontent-%COMP%] {\n  display: none !important;\n}\n.wrapper-memberinfo-register[_ngcontent-%COMP%]   .consents.formallayout[_ngcontent-%COMP%], .wrapper-memberinfo-register[_ngcontent-%COMP%]   .signature.formallayout[_ngcontent-%COMP%], .wrapper-memberinfo-register[_ngcontent-%COMP%]   .btn-submitted.formallayout[_ngcontent-%COMP%] {\n  transform: translateY(-36px);\n}\n.agree[_ngcontent-%COMP%] {\n  display: flex;\n}\n.padding-0[_ngcontent-%COMP%] {\n  padding-top: 0 !important;\n}\ninput[_ngcontent-%COMP%] {\n  padding: 10px;\n}\n.phone[_ngcontent-%COMP%]::before {\n  content: \"\";\n  position: absolute;\n  width: 1.5px;\n  height: 50%;\n  background-color: red;\n}\n.ocr-but-box[_ngcontent-%COMP%] {\n  padding-top: 5px;\n  padding-bottom: 10px;\n}\n.ocr-but[_ngcontent-%COMP%] {\n  height: 48px;\n  width: 100%;\n  border: 2px solid #1893FF;\n  color: #1893FF;\n  font-size: 14px;\n  font-weight: bold;\n  padding: 0;\n}\n.ocr-but[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  width: 24px;\n  height: 24px;\n  margin-right: 10px;\n}\n@media screen and (min-width: 760px) {\n  .ocr-but[_ngcontent-%COMP%] {\n    height: 42px;\n  }\n}\n.ocr-mask-layer[_ngcontent-%COMP%] {\n  position: fixed;\n  width: 100vw;\n  height: 100vh;\n  background: #fff;\n  top: 0;\n  left: 0;\n  z-index: 999;\n}\n.ocr-box[_ngcontent-%COMP%] {\n  position: fixed;\n  width: 100vw;\n  height: 100vh;\n  background: rgba(0, 0, 0, 0.5);\n  top: 0;\n  left: 0;\n  z-index: 1000;\n}\n.ocr-content[_ngcontent-%COMP%] {\n  width: 100%;\n  height: 100%;\n  color: #FFFFFF;\n  padding: 59px 20px 34px 20px !important;\n  display: flex;\n  flex-direction: column;\n  justify-content: space-between;\n}\n.ocr-submit[_ngcontent-%COMP%], .ocr-back[_ngcontent-%COMP%] {\n  height: 44px;\n  border-radius: 5px;\n  font-size: 18px;\n}\n.ocr-submit[_ngcontent-%COMP%] {\n  color: #1893FF;\n}\n.ocr-back[_ngcontent-%COMP%] {\n  border: 1.5px solid #FFFFFF;\n  color: #FFFFFF;\n  margin-top: 12px;\n}\n.ocr-title[_ngcontent-%COMP%] {\n  font-size: 14px;\n  opacity: 0.8;\n  margin-bottom: 20px !important;\n}\n.id-card-box[_ngcontent-%COMP%] {\n  display: flex;\n  font-size: 16px;\n}\n.id-card-box[_ngcontent-%COMP%]   div[_ngcontent-%COMP%] {\n  flex: 1;\n  padding: 10px 0;\n  opacity: 0.8;\n}\n.id-card-box[_ngcontent-%COMP%]   .active[_ngcontent-%COMP%] {\n  border-bottom: 3px solid #fff;\n  border-radius: 3px;\n  opacity: 1 !important;\n}\n.ocr-describe[_ngcontent-%COMP%] {\n  font-size: 14px;\n  opacity: 0.8;\n}\n.ocr-ground[_ngcontent-%COMP%] {\n  margin: 33px 0 !important;\n  width: 100%;\n  height: 180px;\n  border: 2px solid #929292;\n  position: relative;\n  border-radius: 5px;\n}\n.ocr[_ngcontent-%COMP%] {\n  background: linear-gradient(#fff, #fff) left top, linear-gradient(#fff, #fff) left top, linear-gradient(#fff, #fff) right top, linear-gradient(#fff, #fff) right top, linear-gradient(#fff, #fff) right bottom, linear-gradient(#fff, #fff) right bottom, linear-gradient(#fff, #fff) left bottom, linear-gradient(#fff, #fff) left bottom;\n  background-repeat: no-repeat;\n  background-size: 2px 30px, 30px 2px;\n  height: 180px;\n  width: calc(100% + 4px);\n  position: absolute;\n  top: -2px;\n  left: -2px;\n  border-radius: 5px;\n}\nvideo[_ngcontent-%COMP%] {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n}\ncanvas[_ngcontent-%COMP%] {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29yZS9jb21wb25lbnRzL21lbWJlci1pbmZvLXJlZ2lzdGVyL0Q6XFxMWkZcXEhLXFx1bWgtZ2xvYmFsLXByb2ZpbGVcXHByZS1yZWdpc3RyYXRpb24td2ViL3NyY1xcYXBwXFxjb3JlXFxjb21wb25lbnRzXFxtZW1iZXItaW5mby1yZWdpc3RlclxcbWVtYmVyLWluZm8tcmVnaXN0ZXIuY29tcG9uZW50LnNjc3MiLCJzcmMvYXBwL2NvcmUvY29tcG9uZW50cy9tZW1iZXItaW5mby1yZWdpc3Rlci9tZW1iZXItaW5mby1yZWdpc3Rlci5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFLQTtFQUNFLGtCQUFBO0VBQ0EsdUJBQUE7RUFDQSwrQkFBQTtFQUNBLG9CQUFBO0VBQ0EsWUFBQTtFQUNBLFdBQUE7QUNKRjtBRE1FO0VBQ0UsZ0JBQUE7RUFDQSxjQUFBO0FDSko7QURNRTtFQUNFLHdCQUFBO0VBQ0Esa0JBQUE7RUFDQSxlQUFBO0VBQ0EsaUJBQUE7RUFDQSw2QkFBQTtBQ0pKO0FES0k7RUFDRSxlQUFBO0VBQ0EsOEJBQUE7QUNITjtBRFdJO0VBQ0UsZUFBQTtFQUNBLGNBQUE7RUFDQSxtQkFBQTtFQUNBLGVBQUE7RUFDQSwrQkFBQTtBQ1ROO0FEYUU7RUFFRTtJQUNFLGlCQUFBO0VDWko7RURnQkk7SUFDRSxlQUFBO0VDZE47RURrQkU7SUFDRSxnQkFBQTtJQUNBLGNBQUE7RUNoQko7RURtQkU7SUFDRSx5Q0FBQTtFQ2pCSjtFRG9CRTtJQUNFLG9DQUFBO0lBQ0EsdUJBQUE7RUNsQko7RURxQkU7SUFDRSxrQkFBQTtFQ25CSjtFRHNCRTtJQUNFLGFBQUE7SUFDQSxXQUFBO0lBQ0EsOEJBQUE7RUNwQko7RURxQkk7SUFDRSxxQkFBQTtJQUNBLHFCQUFBO0VDbkJOO0VEc0JJO0lBQ0UscUNBQUE7RUNwQk47RURxQk07SUFDRSxnQ0FBQTtJQUNBLFdBQUE7RUNuQlI7RUR5QkU7SUFDRSwwQkFBQTtFQ3ZCSjtFRHlCRTtJQUNFLDJCQUFBO0VDdkJKO0VEeUNJO0lBQ0UsZUFBQTtFQ3ZDTjtFRHdDTTtJQUNFLHFCQUFBO0VDdENSO0VEd0NNO0lBQ0UscUJBQUE7RUN0Q1I7RUR3Q007SUFDRSxzQkFBQTtFQ3RDUjtFRHlDTTtJQUNFLG1CQUFBO0VDdkNSO0VEZ0RNO0lBQ0UscUJBQUE7RUM5Q1I7RURxRE07SUFDRSxzQ0FBQTtJQUNBLDZCQUFBO0lBQ0EsdUJBQUE7SUFDQSxzQkFBQTtFQ25EUjtFRDBETTtJQUNFLGtCQUFBO0lBQ0EsMkJBQUE7RUN4RFI7RUQ2REU7SUFDRSw2QkFBQTtFQzNESjtFRGdFSTtJQUNFLHFCQUFBO0VDOUROO0VEaUVJO0lBQ0Usb0JBQUE7SUFDQSxxQkFBQTtFQy9ETjtFRG9FRTtJQUNFLHFDQUFBO0lBQ0Esd0NBQUE7RUNsRUo7RURxRUU7SUFDRSx1QkFBQTtFQ25FSjtFRHNFRTtJQUVFLDJCQUFBO0lBQ0EsdUJBQUE7RUNyRUo7RURzRUk7SUFDRSwyQkFBQTtJQUNBLHVCQUFBO0lBQ0EsdUJBQUE7RUNwRU47RUQ4RUU7SUFDRSxjQUFBO0lBQ0EsYUFBQTtJQUNBLDhCQUFBO0lBQ0EsbUJBQUE7SUFDQSw4QkFBQTtJQUNBLCtCQUFBO0VDNUVKO0VEK0VFO0lBQ0UsMEJBQUE7SUFDQSwyQkFBQTtFQzdFSjtFRGlGSTtJQUNFLDBCQUFBO0lBQ0EsMEJBQUE7SUFDQSw4QkFBQTtFQy9FTjtFRGtGSTtJQUNFLDBCQUFBO0lBQ0EsOEJBQUE7RUNoRk47RURzRkk7SUFDRSxlQUFBO0lBQ0EsbUJBQUE7RUNwRk47RURzRk07SUFDRSx5Q0FBQTtFQ3BGUjtFRDBGRTtJQUNFLDBCQUFBO0VDeEZKO0VEMkZRO0lBQ0UscUNBQUE7RUN6RlY7RUQ4Rkk7SUFDRSw0QkFBQTtJQUNBLCtCQUFBO0VDNUZOO0VENkZNO0lBQ0UsdUJBQUE7SUFDQSxzQkFBQTtJQUNBLHFDQUFBO0VDM0ZSO0VEaUdNO0lBQ0UsMkJBQUE7RUMvRlI7RURnR1E7SUFDRSx1QkFBQTtJQUNBLHNCQUFBO0lBQ0EsNEJBQUE7SUFDQSwwQkFBQTtFQzlGVjtFRGtHTTtJQUNFLCtCQUFBO0VDaEdSO0VEb0dJO0lBQ0UsMEJBQUE7RUNsR047RUR3R007SUFDRSx1QkFBQTtJQUNBLHNCQUFBO0lBQ0Esc0NBQUE7RUN0R1I7RUR3R007SUFDRSxxQkFBQTtJQUNBLDBCQUFBO0VDdEdSO0VEd0dNO0lBQ0UsMEJBQUE7SUFDQSw4QkFBQTtJQUNBLDBCQUFBO0lBQ0EsK0JBQUE7SUFDQSxnQkFBQTtJQUNBLGNBQUE7RUN0R1I7RUQyR007SUFDRSw2QkFBQTtJQUNBLHVCQUFBO0lBQ0Esc0JBQUE7SUFDQSwwQkFBQTtJQUNBLG1CQUFBO0lBQ0Esc0NBQUE7SUFDQSwwQkFBQTtJQUNBLHlCQUFBO0VDekdSO0VEMEdRO0lBQ0Usa0JBQUE7SUFDQSxRQUFBO0lBQ0EsV0FBQTtFQ3hHVjtFRGlISTtJQUNFLGdDQUFBO0VDL0dOO0VEb0hFO0lBQ0UsbUNBQUE7SUFDQSxjQUFBO0VDbEhKO0VEcUhFO0lBQ0Usa0NBQUE7RUNuSEo7RURzSEU7SUFDRSxXQUFBO0lBQ0Esd0JBQUE7SUFDQSw2QkFBQTtFQ3BISjtBQUNGO0FEK0hJO0VBNkNFLDBCQUFBO0FDektOO0FENkhNO0VBQ0UsWUFBQTtFQUNBLFdBQUE7RUFDQSwyQkFBQTtBQzNIUjtBRDZITTtFQUNFLGtCQUFBO0VBQ0EsV0FBQTtFQUNBLFdBQUE7RUFDQSxlQUFBO0VBQ0EsT0FBQTtFQUNBLGVBQUE7RUFDQSxjQUFBO0VBQ0EsK0JBQUE7QUMzSFI7QUQ0SFE7RUFDRSxrQkFBQTtFQUNBLFFBQUE7RUFDQSxXQUFBO0FDMUhWO0FEOEhNO0VBQ0UsUUFBQTtBQzVIUjtBRCtITTtFQUNFLGVBQUE7RUFDQSxtQkFBQTtFQUNBLCtCQUFBO0VBQ0EsZ0JBQUE7RUFDQSxjQUFBO0FDN0hSO0FEZ0lNO0VBQ0Usa0JBQUE7RUFDQSxxQkFBQTtFQUNBLGdCQUFBO0VBQ0Esa0JBQUE7RUFDQSxxQkFBQTtFQUNBLFVBQUE7RUFDQSx3QkFBQTtBQzlIUjtBRHVJSTtFQUNFLDBCQUFBO0FDcklOO0FEMklFO0VBQ0Usb0JBQUE7QUN6SUo7QUQ2SUU7RUFDRSxtQkFBQTtBQzNJSjtBRDhJRTtFQUNFLDJCQUFBO0FDNUlKO0FEK0lFO0VBQ0UscUJBQUE7RUFDQSxpQkFBQTtFQUNBLGVBQUE7RUFDQSxZQUFBO0VBQ0EsaUJBQUE7RUFDQSxjQUFBO0VBQ0EsZUFBQTtFQUNBLFNBQUE7RUFDQSxTQUFBO0VBQ0EsMkJBQUE7RUFDQSxrQkFBQTtBQzdJSjtBRDhJSTtFQUNFLGdCQUFBO0FDNUlOO0FEK0lJO0VBQ0csZ0JBQUE7QUM3SVA7QURpSkU7RUFDRSxjQUFBO0FDL0lKO0FEa0pFO0VBQ0UsZUFBQTtFQUNBLFFBQUE7RUFDQSxXQUFBO0VBQ0EsWUFBQTtFQUNBLGtCQUFBO0VBQ0EsbUJBQUE7RUFDQSxhQUFBO0VBQ0EsOEJBQUE7RUFDQSxtQkFBQTtFQUNBLFlBQUE7RUFDQSwrQ0FBQTtFQUNBLHVCQUFBO0FDaEpKO0FEaUpJO0VBQ0Usa0JBQUE7RUFDQSxTQUFBO0VBQ0EsK0JBQUE7RUFDQSxZQUFBO0VBQ0EsWUFBQTtBQy9JTjtBRGlKSTtFQUNFLGNBQUE7RUFDQSxhQUFBO0VBQ0EsOEJBQUE7RUFDQSxtQkFBQTtFQUNBLDhCQUFBO0VBQ0EsK0JBQUE7QUMvSU47QURnSk07RUFDRSxjQUFBO0VBQ0EsOEJBQUE7QUM5SVI7QURnSk07RUFDRSxXQUFBO0VBQ0EsWUFBQTtBQzlJUjtBRGdKTTtFQUNFLHVDQUFBO0FDOUlSO0FEbUpFO0VBQ0UseUNBQUE7QUNqSko7QURvSkU7RUFDRSxrQkFBQTtFQUNBLDRCQUFBO0FDbEpKO0FEcUpJO0VBQ0UsZ0NBQUE7QUNuSk47QUR1SkU7RUFDRSwyQkFBQTtFQUNBLDZCQUFBO0FDckpKO0FEd0pFO0VBQ0UsV0FBQTtFQUNBLGFBQUE7RUFDQSw2QkFBQTtBQ3RKSjtBRHlKRTtFQUNFLFVBQUE7RUFDQSxnQkFBQTtBQ3ZKSjtBRDBKRTtFQUNFLGVBQUE7RUFDQSxjQUFBO0FDeEpKO0FEOEpFO0VBRUUsaUJBQUE7RUFDQSwwQkFBQTtFQUNBLDZCQUFBO0FDN0pKO0FEZ0tFO0VBQ0Usa0JBQUE7QUM5Sko7QURtS0U7RUFDRSxrQkFBQTtFQUNBLHFCQUFBO0VBQ0EsUUFBQTtFQUNBLDJCQUFBO0VBQ0EsU0FBQTtFQUNBLFlBQUE7RUFDQSxXQUFBO0VBQ0EsWUFBQTtFQUNBLHlCQUFBO0FDaktKO0FEeUtFO0VBQ0UsU0FBQTtFQUNBLFVBQUE7QUN2S0o7QUQwS0U7RUFDRSx5QkFBQTtBQ3hLSjtBRDJLRTtFQUNFLHdCQUFBO0VBQ0Esa0JBQUE7RUFDQSxhQUFBO0VBQ0EseUJBQUE7RUFDQSxZQUFBO0VBQ0Esa0JBQUE7RUFDQSx1QkFBQTtFQUNBLGdCQUFBO0VBQ0EsbUJBQUE7RUFFQSwwQ0FBQTtBQzFLSjtBRDJLSTtFQUErQix3QkFBQTtFQUM3QiwwQ0FBQTtFQUNBLG1CQUFBO0VBQ0EsdUJBQUE7RUFDQSxnQkFBQTtFQUNBLGVBQUE7RUFDSCxXQUFBO0VBQ0csbUJBQUE7QUN4S047QUQwS0U7RUFBc0IsZ0JBQUE7RUFDbEIsMENBQUE7RUFDQSxtQkFBQTtFQUNBLHVCQUFBO0VBQ0EsZ0JBQUE7RUFDQSxlQUFBO0VBQ0gsV0FBQTtFQUNHLG1CQUFBO0FDdktOO0FEMEtJO0VBQ0UsMENBQUE7RUFDQSwyQkFBQTtBQ3hLTjtBRHNLSTtFQUNFLDBDQUFBO0VBQ0EsMkJBQUE7QUN4S047QUQyS0k7RUFDRSwwQ0FBQTtFQUNBLDJCQUFBO0FDektOO0FEOEtFO0VBQ0UsZ0JBQUE7QUM1S0o7QUQ2S0k7RUFDRSxtQkFBQTtFQUNBLG1CQUFBO0VBQ0EsZUFBQTtFQUVBLGNBQUE7QUM1S047QUQ4S0k7RUFDRSwrQkFBQTtFQUNBLGVBQUE7RUFDQSxhQUFBO0VBQ0EsbUJBQUE7RUFDQSwrQkFBQTtBQzVLTjtBRDZLTTtFQUNFLGNBQUE7RUFDQSxnQ0FBQTtFQUNBLGVBQUE7QUMzS1I7QUQ2S007RUFDRSxjQUFBO0FDM0tSO0FEaUxFO0VBQ0UsK0JBQUE7RUFDQSxlQUFBO0VBQ0EsYUFBQTtFQUNBLG1CQUFBO0VBQ0EsK0JBQUE7RUFDQSxtQkFBQTtBQy9LSjtBRGdMSTtFQUNFLGNBQUE7RUFDQSxnQ0FBQTtFQUNBLGVBQUE7RUFDQSxpQkFBQTtBQzlLTjtBRGdMSTtFQUNFLGNBQUE7QUM5S047QUR1TEU7RUFDRSxlQUFBO0VBQ0EsZ0JBQUE7RUFDQSxjQUFBO0FDckxKO0FEc0xJO0VBQ0UsaUJBQUE7RUFDQSxZQUFBO0FDcExOO0FEdUxJO0VBQ0UscUJBQUE7RUFDQSxnQkFBQTtFQUNBLDhCQUFBO0FDckxOO0FEeUxFO0VBQ0UsZUFBQTtBQ3ZMSjtBRDBMRTtFQUNFLHdCQUFBO0VBQ0EsY0FBQTtBQ3hMSjtBRDJMRTtFQUNFLHVCQUFBO0FDekxKO0FENExFO0VBQ0Usd0JBQUE7RUFDQSxjQUFBO0FDMUxKO0FEaU1JO0VBSUUsZ0JBQUE7RUFDQSw2QkFBQTtFQUNBLG1CQUFBO0FDbE1OO0FENkxNO0VBQ0UsaUJBQUE7QUMzTFI7QURrTU07RUFDRSxnQkFBQTtBQ2hNUjtBRHFNSTtFQUNFLGNBQUE7RUFDQSx1QkFBQTtFQUNBLG1CQUFBO0VBQ0EsaUJBQUE7QUNuTU47QURvTU07RUFDRSx5QkFBQTtFQUNBLFVBQUE7RUFDQSxpQkFBQTtBQ2xNUjtBRHNNSTtFQUNFLGdCQUFBO0FDcE1OO0FEdU1JO0VBQ0UsZ0JBQUE7RUFDQSxtQkFBQTtFQUNBLDZCQUFBO0VBQ0EseUJBQUE7RUFDQSx5QkFBQTtFQUNBLHlCQUFBO0FDck1OO0FEdU1NO0VBQ0UsaUJBQUE7QUNyTVI7QURzTVE7RUFDRSwyQkFBQTtFQUNBLFlBQUE7RUFDQSxXQUFBO0FDcE1WO0FEd01NO0VBQ0UsYUFBQTtFQUVBLGdCQUFBO0VBQ0EsK0JBQUE7QUN2TVI7QUR5TVE7RUFDRSxZQUFBO0VBQ0EsV0FBQTtFQUNBLGlCQUFBO0VBQ0EsZUFBQTtBQ3ZNVjtBRDBNUTtFQUNFLHFCQUFBO0FDeE1WO0FENk1NO0VBQ0Usb0JBQUE7QUMzTVI7QUQ4TU07RUFDRSxpQkFBQTtFQUNBLGVBQUE7RUFDQSxjQUFBO0FDNU1SO0FEK01NO0VBQ0UsWUFBQTtBQzdNUjtBRGtOVTtFQUNFLGVBQUE7QUNoTlo7QURrTlU7RUFDRSxxQkFBQTtFQUNBLDJCQUFBO0FDaE5aO0FENk5JO0VBQ0UsYUFBQTtFQUNBLDhCQUFBO0FDM05OO0FENE5NO0VBQ0UscUJBQUE7RUFDQSxXQUFBO0VBQ0EsZUFBQTtBQzFOUjtBRDROTTtFQUNFLHFCQUFBO0VBQ0EsV0FBQTtFQUNBLGVBQUE7QUMxTlI7QURnT007RUFDRSxxQkFBQTtFQUNBLFdBQUE7QUM5TlI7QURrT0k7RUFDRSwyQkFBQTtBQ2hPTjtBRGlPTTtFQUNFLHFCQUFBO0VBQ0EsV0FBQTtFQUNBLGdCQUFBO0FDL05SO0FEcU9NO0VBQ0UsYUFBQTtFQUNBLGVBQUE7RUFDQSw4QkFBQTtFQUNBLG1CQUFBO0FDbk9SO0FEb09RO0VBQ0UsaUJBQUE7RUFDQSxXQUFBO0FDbE9WO0FEd09JO0VBQ0UsMkJBQUE7QUN0T047QUQ0T1E7RUFDRSxVQUFBO0FDMU9WO0FEZ1BNO0VBQ0UsZUFBQTtFQUNBLFlBQUE7RUFDQSxXQUFBO0VBQ0EsMENBQUE7RUFDQSxnQkFBQTtBQzlPUjtBRCtPUTtFQUErQix3QkFBQTtFQUM3QiwwQ0FBQTtFQUNBLGdCQUFBO0FDNU9WO0FEOE9RO0VBQXNCLGdCQUFBO0VBQ3BCLDBDQUFBO0VBQ0EsZ0JBQUE7QUMzT1Y7QUQ2T1E7RUFDRSwwQ0FBQTtFQUNBLGdCQUFBO0FDM09WO0FEeU9RO0VBQ0UsMENBQUE7RUFDQSxnQkFBQTtBQzNPVjtBRDhPUTtFQUNFLDBDQUFBO0VBQ0EsZ0JBQUE7QUM1T1Y7QUR5UU07RUFJRSxhQUFBO0VBQ0EsOEJBQUE7QUMxUVI7QURzUVE7RUFDRSxPQUFBO0FDcFFWO0FEMFFNO0VBQ0UsaUJBQUE7RUFDQSxrQkFBQTtBQ3hRUjtBRHlRUTtFQUNFLFlBQUE7RUFDQSxXQUFBO0VBQ0EsMkJBQUE7QUN2UVY7QUR5UVE7RUFDRSxxQkFBQTtFQUNBLDJCQUFBO0FDdlFWO0FENlFNO0VBQ0UsMEJBQUE7QUMzUVI7QUQ0UVE7RUFDRSxVQUFBO0VBQ0Esa0JBQUE7RUFDQSxrQkFBQTtBQzFRVjtBRGtSSTtFQUNFLFdBQUE7RUFDQSxxQkFBQTtFQUNBLGtCQUFBO0FDaFJOO0FEaVJNO0VBQ0UscUJBQUE7RUFDQSwyQkFBQTtFQUNBLGlCQUFBO0VBQ0EsaUJBQUE7RUFDQSxxQkFBQTtBQy9RUjtBRG1STTtFQUNFLHFCQUFBO0FDalJSO0FEb1JNO0VBRUUsaUJBQUE7RUFDQSwrQkFBQTtBQ25SUjtBRHNSTTtFQUNFLFlBQUE7RUFDQSwrQkFBQTtBQ3BSUjtBRHVSTTtFQUNFLGVBQUE7RUFDQSwrQkFBQTtFQUNBLGlCQUFBO0FDclJSO0FEeVJJO0VBQ0UseUJBQUE7RUFDQSwyQkFBQTtBQ3ZSTjtBRHdSTTtFQUNFLGtCQUFBO0FDdFJSO0FEd1JNO0VBQ0UsbUJBQUE7QUN0UlI7QUR3Uk07RUFDRSxhQUFBO0VBQ0EseUJBQUE7QUN0UlI7QUR1UlE7RUFDRSx5QkFBQTtBQ3JSVjtBRHdSTTtFQUNFLGVBQUE7RUFDQSxtQkFBQTtFQUNBLG1CQUFBO0FDdFJSO0FEdVJRO0VBQ0UsK0JBQUE7QUNyUlY7QUR1UlE7RUFDRSxxQkFBQTtFQUNBLHlDQUFBO0FDclJWO0FEMFJRO0VBQ0UsWUFBQTtFQUNBLFdBQUE7RUFDQSwyQkFBQTtFQUNBLGtCQUFBO0FDeFJWO0FEMFJRO0VBQ0UscUJBQUE7RUFDQSxnQ0FBQTtBQ3hSVjtBRDZSSTtFQUNFLFdBQUE7RUFDQSxhQUFBO0VBQ0EsdUJBQUE7RUFDQSx5QkFBQTtFQUNBLGdCQUFBO0FDM1JOO0FENFJNO0VBQ0UsaUJBQUE7RUFDQSxZQUFBO0VBQ0EsZUFBQTtFQUNBLFdBQUE7RUFDQSx5QkFBQTtFQUNBLFlBQUE7RUFDQSwrQkFBQTtBQzFSUjtBRHVTRTtFQUNFLDJCQUFBO0VBQ0EsOEJBQUE7RUFDQSx5Q0FBQTtFQUNBLDBDQUFBO0FDclNKO0FEd1NFO0VBQ0UsMkJBQUE7QUN0U0o7QUR5U0U7RUFDRSwyQkFBQTtFQUNBLDJCQUFBO0VBQ0EsNEJBQUE7RUFDQSxtQkFBQTtFQUNBLHNDQUFBO0VBQ0EsdUNBQUE7QUN2U0o7QUQ0U0k7RUFDRSwyQkFBQTtBQzFTTjtBRDZTSTtFQUNFLDRCQUFBO0FDM1NOO0FEaVRFO0VBQ0UsNEJBQUE7QUMvU0o7QURvVEU7RUFDRSw0QkFBQTtBQ2xUSjtBRG1USTtFQUdFLHdCQUFBO0FDblROO0FEeVRFO0VBQ0UsNEJBQUE7QUN2VEo7QUQ4VEE7RUFDRSxhQUFBO0FDM1RGO0FEOFRBO0VBQ0UseUJBQUE7QUMzVEY7QUQ2VEE7RUFDRSxhQUFBO0FDMVRGO0FENlRBO0VBQ0UsV0FBQTtFQUNBLGtCQUFBO0VBQ0EsWUFBQTtFQUNBLFdBQUE7RUFDQSxxQkFBQTtBQzFURjtBRDZUQTtFQUNFLGdCQUFBO0VBQ0Esb0JBQUE7QUMxVEY7QUQ0VEE7RUFDRSxZQUFBO0VBQ0EsV0FBQTtFQUNBLHlCQUFBO0VBQ0EsY0FBQTtFQUNBLGVBQUE7RUFDQSxpQkFBQTtFQUNBLFVBQUE7QUN6VEY7QUQwVEU7RUFDRSxXQUFBO0VBQ0EsWUFBQTtFQUNBLGtCQUFBO0FDeFRKO0FENFRBO0VBQ0U7SUFDRSxZQUFBO0VDelRGO0FBQ0Y7QUQ0VEE7RUFDRSxlQUFBO0VBQ0EsWUFBQTtFQUNBLGFBQUE7RUFDQSxnQkFBQTtFQUNBLE1BQUE7RUFDQSxPQUFBO0VBQ0EsWUFBQTtBQzFURjtBRDRUQTtFQUNFLGVBQUE7RUFDQSxZQUFBO0VBQ0EsYUFBQTtFQUNBLDhCQUFBO0VBQ0EsTUFBQTtFQUNBLE9BQUE7RUFDQSxhQUFBO0FDelRGO0FEMlRBO0VBQ0UsV0FBQTtFQUNBLFlBQUE7RUFDQSxjQUFBO0VBQ0EsdUNBQUE7RUFDQSxhQUFBO0VBQ0Esc0JBQUE7RUFDQSw4QkFBQTtBQ3hURjtBRDBUQTtFQUNFLFlBQUE7RUFDQSxrQkFBQTtFQUNBLGVBQUE7QUN2VEY7QUR5VEE7RUFDRSxjQUFBO0FDdFRGO0FEd1RBO0VBQ0UsMkJBQUE7RUFDQSxjQUFBO0VBQ0EsZ0JBQUE7QUNyVEY7QUR3VEE7RUFDRSxlQUFBO0VBQ0EsWUFBQTtFQUNBLDhCQUFBO0FDclRGO0FEdVRBO0VBQ0UsYUFBQTtFQUNBLGVBQUE7QUNwVEY7QURxVEU7RUFDRSxPQUFBO0VBQ0EsZUFBQTtFQUNBLFlBQUE7QUNuVEo7QURxVEU7RUFDRSw2QkFBQTtFQUNBLGtCQUFBO0VBQ0EscUJBQUE7QUNuVEo7QURzVEE7RUFDRSxlQUFBO0VBQ0EsWUFBQTtBQ25URjtBRHFUQTtFQUNFLHlCQUFBO0VBQ0EsV0FBQTtFQUNBLGFBQUE7RUFDQSx5QkFBQTtFQUNBLGtCQUFBO0VBQ0Esa0JBQUE7QUNsVEY7QURvVEE7RUFDRSwwVUFBQTtFQVFBLDRCQUFBO0VBQ0EsbUNBQUE7RUFDQSxhQUFBO0VBQ0EsdUJBQUE7RUFDQSxrQkFBQTtFQUNBLFNBQUE7RUFDQSxVQUFBO0VBQ0Esa0JBQUE7QUN4VEY7QUQwVEE7RUFHRSxrQkFBQTtFQUNBLFFBQUE7RUFDQSxTQUFBO0VBQ0EsZ0NBQUE7QUN6VEY7QUQ0VEE7RUFHRSxrQkFBQTtFQUNBLFFBQUE7RUFDQSxTQUFBO0VBQ0EsZ0NBQUE7QUMzVEYiLCJmaWxlIjoic3JjL2FwcC9jb3JlL2NvbXBvbmVudHMvbWVtYmVyLWluZm8tcmVnaXN0ZXIvbWVtYmVyLWluZm8tcmVnaXN0ZXIuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyJcclxuQGltcG9ydCBcIn5ib290c3RyYXAvc2Nzcy9mdW5jdGlvbnNcIjtcclxuQGltcG9ydCBcIn5ib290c3RyYXAvc2Nzcy92YXJpYWJsZXNcIjtcclxuQGltcG9ydCBcIn5ib290c3RyYXAvc2Nzcy9taXhpbnMvYnJlYWtwb2ludHNcIjtcclxuXHJcbi53cmFwcGVyLW1lbWJlcmluZm8tcmVnaXN0ZXJ7XHJcbiAgcG9zaXRpb246IHJlbGF0aXZlO1xyXG4gIGJhY2tncm91bmQtY29sb3I6IHdoaXRlO1xyXG4gIGZvbnQtZmFtaWx5OiBOb3RvU2Fuc1RDLVJlZ3VsYXI7XHJcbiAgcGFkZGluZy1ib3R0b206IDI1cHg7XHJcbiAgY29sb3I6YmxhY2s7XHJcbiAgd2lkdGg6IDEwMCU7XHJcblxyXG4gIC5jb250ZW50cGFuZSB7XHJcbiAgICBtYXgtd2lkdGg6Mzc2cHg7XHJcbiAgICBtYXJnaW46IDAgYXV0bztcclxuICB9XHJcbiAgLnRleHRhcmVhLXRpdGxlIHtcclxuICAgIHdpZHRoOmNhbGMoMTAwJSAtIDYwcHgpO1xyXG4gICAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG4gICAgZm9udC1zaXplOiAxMHB4O1xyXG4gICAgcGFkZGluZy10b3A6IDcwcHg7XHJcbiAgICBmb250LWZhbWlseTogTm90b1NhbnNUQy1MaWdodDtcclxuICAgIC50aXRsZXtcclxuICAgICAgZm9udC1zaXplOiAyMHB4O1xyXG4gICAgICBmb250LWZhbWlseTpOb3RvU2Fuc1RDLU1lZGl1bTtcclxuICAgIH1cclxuXHJcbiAgICAvLyAuZm9ybWFsbGF5b3V0IHtcclxuICAgIC8vICAgdGV4dC1hbGlnbjogbGVmdDtcclxuICAgIC8vICAgdHJhbnNmb3JtOiB0cmFuc2xhdGUoLTEzcHgsNXB4KTtcclxuICAgIC8vIH1cclxuXHJcbiAgICAudGV4dC10aXAge1xyXG4gICAgICBtYXJnaW4tdG9wOiA4cHg7XHJcbiAgICAgIGNvbG9yOiM3MzgzQTE7XHJcbiAgICAgIG1hcmdpbi1ib3R0b206IDUwcHg7XHJcbiAgICAgIGZvbnQtc2l6ZTogMTNweDtcclxuICAgICAgZm9udC1mYW1pbHk6IE5vdG9TYW5zVEMtUmVndWxhcjtcclxuICAgIH1cclxuICAgIFxyXG4gIH1cclxuICBAbWVkaWEgc2NyZWVuIGFuZCAobWluLXdpZHRoOiA3NjBweCkge1xyXG5cclxuICAgIC50ZXh0YXJlYS10aXRsZSB7XHJcbiAgICAgIHBhZGRpbmctdG9wOiA5MHB4O1xyXG4gICAgfVxyXG5cclxuICAgIC50aXRsZSB7XHJcbiAgICAgIG1hdC1pY29ue1xyXG4gICAgICAgIGZvbnQtc2l6ZTogMjBweDtcclxuICAgICAgfVxyXG4gICAgfVxyXG5cclxuICAgIC5jb250ZW50cGFuZSB7XHJcbiAgICAgIG1heC13aWR0aDo3MTBweDtcclxuICAgICAgbWFyZ2luOiAwIGF1dG87XHJcbiAgICB9XHJcblxyXG4gICAgLnBob25lTnVtYmVyIHtcclxuICAgICAgYm9yZGVyLWxlZnQtY29sb3I6dHJhbnNwYXJlbnQgIWltcG9ydGFudDtcclxuICAgIH1cclxuXHJcbiAgICBpbnB1dCB7XHJcbiAgICAgIGJvcmRlcjoxcHggc29saWQgI0U5RURGMyAhaW1wb3J0YW50O1xyXG4gICAgICBoZWlnaHQ6NDJweCAhaW1wb3J0YW50O1xyXG4gICAgfVxyXG5cclxuICAgIC5maWVsZC1pZGNhcmQtY2F0ZWdvcnl7XHJcbiAgICAgIG1hcmdpbi1yaWdodDogMTJweDtcclxuICAgIH1cclxuXHJcbiAgICAuZmllbGQtaWRjYXJke1xyXG4gICAgICBkaXNwbGF5OiBmbGV4O1xyXG4gICAgICB3aWR0aDoxMDAlO1xyXG4gICAgICBqdXN0aWZ5LWNvbnRlbnQ6IHNwYWNlLWJldHdlZW47XHJcbiAgICAgIC5maWVsZC1pZGNhcmQtY2F0ZWdvcnksLmZpZWxkLWlkY2FyZC1udW1iZXIge1xyXG4gICAgICAgIGRpc3BsYXk6IGlubGluZS1ibG9jaztcclxuICAgICAgICB3aWR0aDo0OCUgIWltcG9ydGFudDtcclxuICAgICAgfVxyXG5cclxuICAgICAgLmZpZWxkLWlkY2FyZC1udW1iZXIge1xyXG4gICAgICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlWSgwcHgpICFpbXBvcnRhbnQ7XHJcbiAgICAgICAgaW5wdXR7XHJcbiAgICAgICAgICBkaXNwbGF5OiBpbmxpbmUtYmxvY2sgIWltcG9ydGFudDtcclxuICAgICAgICAgIHdpZHRoOiAxMDAlO1xyXG4gICAgICAgIH1cclxuICAgICAgfVxyXG4gICAgICBcclxuICAgIH1cclxuXHJcbiAgICAuY29tcGxldGUtdGV4dC1zZWNvbmRhcnktcGFydHtcclxuICAgICAgbWFyZ2luLXRvcDogMHB4ICFpbXBvcnRhbnQ7XHJcbiAgICB9XHJcbiAgICAuY29uc2VudHN7XHJcbiAgICAgIG1hcmdpbi10b3A6IDIwcHggIWltcG9ydGFudDtcclxuICAgIH1cclxuXHJcbiAgICAvLyAuZmllbGQtaWRjYXJkLW51bWJlci5wY3ZpZXdsYXlvdXR7XHJcbiAgICAvLyAgIHRyYW5zZm9ybTogdHJhbnNsYXRlWSgxOHB4KSAhaW1wb3J0YW50O1xyXG4gICAgLy8gICBtYXJnaW4tYm90dG9tOiAyMHB4O1xyXG4gICAgLy8gICAudGlwLWludmFsaWQge1xyXG4gICAgLy8gICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlKDUyJSwgMHB4KTtcclxuICAgIC8vICAgICB3aWR0aDogNTAwcHg7XHJcbiAgICAvLyAgIH1cclxuICAgIC8vIH1cclxuXHJcbiAgICAvLyAuZmllbGQtaWRjYXJkLW51bWJlcntcclxuICAgIC8vICAgdHJhbnNmb3JtOiB0cmFuc2xhdGVZKC0xMHB4KSAhaW1wb3J0YW50O1xyXG4gICAgLy8gfVxyXG5cclxuICAgIC5maWVsZC1hZGRyZXNze1xyXG4gICAgICBcclxuICAgICAgLnN1YmZpZWxke1xyXG4gICAgICAgIGZsZXgtd3JhcDogd3JhcDtcclxuICAgICAgICBtYXQtZm9ybS1maWVsZDpudGgtY2hpbGQoMSl7XHJcbiAgICAgICAgICB3aWR0aDo0OCUgIWltcG9ydGFudDtcclxuICAgICAgICB9XHJcbiAgICAgICAgbWF0LWZvcm0tZmllbGQ6bnRoLWNoaWxkKDIpe1xyXG4gICAgICAgICAgd2lkdGg6NDglICFpbXBvcnRhbnQ7XHJcbiAgICAgICAgfVxyXG4gICAgICAgIG1hdC1mb3JtLWZpZWxkOm50aC1jaGlsZCgzKXtcclxuICAgICAgICAgIHdpZHRoOjEwMCUgIWltcG9ydGFudDtcclxuICAgICAgICB9XHJcblxyXG4gICAgICAgIG1hdC1mb3JtLWZpZWxke1xyXG4gICAgICAgICAgbWFyZ2luLWJvdHRvbTogMTBweDtcclxuICAgICAgICB9XHJcbiAgICAgIH1cclxuICAgIH1cclxuXHJcbiAgICBcclxuXHJcbiAgICAuZmllbGQtYm9ybmRhdGV7XHJcbiAgICAgIC5zdWJmaWVsZHtcclxuICAgICAgICBtYXQtZm9ybS1maWVsZHtcclxuICAgICAgICAgIHdpZHRoOjMyJSAhaW1wb3J0YW50O1xyXG4gICAgICAgIH1cclxuICAgICAgfVxyXG4gICAgfVxyXG5cclxuICAgIC5jb250YWN0LWluZm97XHJcbiAgICAgIC50aXRsZXtcclxuICAgICAgICBpbWd7XHJcbiAgICAgICAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZVkoLTRweCkgIWltcG9ydGFudDtcclxuICAgICAgICAgIG1hcmdpbi1yaWdodDogMTBweCAhaW1wb3J0YW50O1xyXG4gICAgICAgICAgaGVpZ2h0OiAyMHB4ICFpbXBvcnRhbnQ7XHJcbiAgICAgICAgICB3aWR0aDogMjBweCAhaW1wb3J0YW50O1xyXG4gICAgICAgIH1cclxuICAgICAgfVxyXG4gICAgfVxyXG5cclxuICAgIC5zaWduYXR1cmV7XHJcbiAgICAgIC50aXRsZXtcclxuICAgICAgICBpbWd7XHJcbiAgICAgICAgICBtYXJnaW4tcmlnaHQ6IDEycHg7XHJcbiAgICAgICAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZVkoLTZweCk7XHJcbiAgICAgICAgfVxyXG4gICAgICB9XHJcbiAgICB9XHJcblxyXG4gICAgaW5wdXQsLmludmFsaWR7XHJcbiAgICAgIGJvcmRlci1yYWRpdXM6IDhweCAhaW1wb3J0YW50O1xyXG4gICAgfVxyXG5cclxuXHJcbiAgICAuZmllbGQtcGhvbmUge1xyXG4gICAgICBtYXQtZm9ybS1maWVsZHtcclxuICAgICAgICB3aWR0aDoxMCUgIWltcG9ydGFudDtcclxuICAgICAgfVxyXG5cclxuICAgICAgLndhbGxsaW5lIHtcclxuICAgICAgICBsZWZ0OiAxMCUgIWltcG9ydGFudDtcclxuICAgICAgICB3aWR0aDogMnB4ICFpbXBvcnRhbnQ7XHJcblxyXG4gICAgICB9XHJcbiAgICB9XHJcblxyXG4gICAgLnBob25lTnVtYmVye1xyXG4gICAgICBib3JkZXItdG9wLWxlZnQtcmFkaXVzOiAwJSAhaW1wb3J0YW50O1xyXG4gICAgICBib3JkZXItYm90dG9tLWxlZnQtcmFkaXVzOiAwJSAhaW1wb3J0YW50O1xyXG4gICAgfVxyXG5cclxuICAgIC5kZXRhaWxBZGRyZXNze1xyXG4gICAgICBoZWlnaHQ6IDg4cHggIWltcG9ydGFudDtcclxuICAgIH1cclxuXHJcbiAgICAubG9nb2JhcntcclxuICAgICAgLy9qdXN0aWZ5LWNvbnRlbnQ6IHNwYWNlLWFyb3VuZCAhaW1wb3J0YW50O1xyXG4gICAgICBwYWRkaW5nOjBweCAyMCUgIWltcG9ydGFudDtcclxuICAgICAgaGVpZ2h0OiA2MHB4ICFpbXBvcnRhbnQ7XHJcbiAgICAgIC5sb2dve1xyXG4gICAgICAgIHBvc2l0aW9uOiBzdGF0aWMgIWltcG9ydGFudDtcclxuICAgICAgICBoZWlnaHQ6NDhweCAhaW1wb3J0YW50O1xyXG4gICAgICAgIHdpZHRoOjE1MHB4ICFpbXBvcnRhbnQ7XHJcbiAgICAgIH1cclxuXHJcbiAgICAgIC8vIC5zZWxlY3QtbGFuZ3VhZ2Uge1xyXG4gICAgICAvLyAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcclxuICAgICAgLy8gICBsZWZ0OmNhbGMoNTAlICsgMTgwcHgpO1xyXG4gICAgICAvLyAgIHRyYW5zZm9ybTogdHJhbnNsYXRlKC02MCUsLTUwJSk7XHJcbiAgICAgIC8vIH1cclxuICAgIH1cclxuICAgIFxyXG4gICAgLnNlbGVjdC1sYW5ndWFnZSB7XHJcbiAgICAgIGNvbG9yOiMwQTI3NDk7XHJcbiAgICAgIGRpc3BsYXk6IGZsZXg7XHJcbiAgICAgIGp1c3RpZnktY29udGVudDogc3BhY2UtYmV0d2VlbjtcclxuICAgICAgYWxpZ24taXRlbXM6IGNlbnRlcjtcclxuICAgICAgdHJhbnNmb3JtOiB0cmFuc2xhdGUoMHB4LDNweCk7XHJcbiAgICAgIGZvbnQtZmFtaWx5OiBOb3RvU2Fuc1RDLVJlZ3VsYXI7XHJcbiAgICB9XHJcblxyXG4gICAgLnRpdGxlIHtcclxuICAgICAgZm9udC1zaXplOiAyMHB4ICFpbXBvcnRhbnQ7XHJcbiAgICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlWSgtNXB4KTtcclxuICAgIH1cclxuXHJcbiAgICAudGV4dGFyZWEtdGl0bGV7XHJcbiAgICAgIC50aXRsZXtcclxuICAgICAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZVkoLTBweCk7XHJcbiAgICAgICAgZm9udC1zaXplOiAyOHB4ICFpbXBvcnRhbnQ7XHJcbiAgICAgICAgZm9udC1mYW1pbHk6Tm90b1NhbnNUQy1NZWRpdW07XHJcbiAgICAgIH1cclxuXHJcbiAgICAgIC50ZXh0LXRpcHtcclxuICAgICAgICBmb250LXNpemU6IDE2cHggIWltcG9ydGFudDtcclxuICAgICAgICBtYXJnaW4tYm90dG9tOiA4MHB4ICFpbXBvcnRhbnQ7XHJcbiAgICAgIH1cclxuICAgIH1cclxuXHJcbiAgICAuc2lnbmF0dXJlIHtcclxuICAgICBcclxuICAgICAgLnRpcC1pbnZhbGlke1xyXG4gICAgICAgIGZvbnQtc2l6ZTogMTRweDtcclxuICAgICAgICBmb250LXdlaWdodDogbm9ybWFsO1xyXG4gICAgICAgIC8vbWFyZ2luLWJvdHRvbTogMTJweCAhaW1wb3J0YW50O1xyXG4gICAgICAgIC5lcnJvcntcclxuICAgICAgICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlKDZweCwzcHgpICFpbXBvcnRhbnQ7XHJcbiAgICAgICAgfVxyXG4gICAgICB9XHJcblxyXG4gICAgfVxyXG5cclxuICAgIC5pbnZvaWNlLW1lc3NhZ2V7XHJcbiAgICAgIGZvbnQtc2l6ZTogMTRweCAhaW1wb3J0YW50O1xyXG4gICAgICAuc3VidGl0bGV7XHJcbiAgICAgICAgLnRleHR7XHJcbiAgICAgICAgICBzcGFue1xyXG4gICAgICAgICAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZVkoMnB4KSAhaW1wb3J0YW50O1xyXG4gICAgICAgICAgfVxyXG4gICAgICAgIH1cclxuICAgICAgfVxyXG5cclxuICAgICAgLnRpdGxle1xyXG4gICAgICAgIG1hcmdpbi10b3A6IC00MHB4ICFpbXBvcnRhbnQ7XHJcbiAgICAgICAgcGFkZGluZy1ib3R0b206IDEwcHggIWltcG9ydGFudDtcclxuICAgICAgICBpbWd7XHJcbiAgICAgICAgICBoZWlnaHQ6IDIwcHggIWltcG9ydGFudDtcclxuICAgICAgICAgIHdpZHRoOiAyMHB4ICFpbXBvcnRhbnQ7XHJcbiAgICAgICAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZVkoMHB4KSAhaW1wb3J0YW50O1xyXG4gICAgICAgIH1cclxuICAgICAgfVxyXG4gICAgICBcclxuXHJcbiAgICAgIC50ZXh0YXJlYXtcclxuICAgICAgICAuYmFye1xyXG4gICAgICAgICAgcGFkZGluZzogNnB4IDBweCAhaW1wb3J0YW50O1xyXG4gICAgICAgICAgaW1ne1xyXG4gICAgICAgICAgICBoZWlnaHQ6IDE2cHggIWltcG9ydGFudDtcclxuICAgICAgICAgICAgd2lkdGg6IDE2cHggIWltcG9ydGFudDtcclxuICAgICAgICAgICAgbWFyZ2luLXJpZ2h0OiA4cHggIWltcG9ydGFudDtcclxuICAgICAgICAgICAgbWFyZ2luLXRvcDogMnB4ICFpbXBvcnRhbnQ7XHJcbiAgICAgICAgICB9XHJcbiAgICAgICAgfVxyXG5cclxuICAgICAgICAuYmFyLWxvY2F0aW9ue1xyXG4gICAgICAgICAgcGFkZGluZy1ib3R0b206IDE4cHggIWltcG9ydGFudDtcclxuICAgICAgICB9XHJcbiAgICAgIH1cclxuXHJcbiAgICAgIC5iYXItdXNlcm5hbWUge1xyXG4gICAgICAgIGZvbnQtc2l6ZTogMTZweCAhaW1wb3J0YW50O1xyXG4gICAgICB9XHJcbiAgICB9XHJcblxyXG4gICAgLnBlcnNvbi1tZXNzYWdlIHtcclxuICAgICAgLnRpdGxle1xyXG4gICAgICAgIGltZ3tcclxuICAgICAgICAgIGhlaWdodDogMjBweCAhaW1wb3J0YW50O1xyXG4gICAgICAgICAgd2lkdGg6IDIwcHggIWltcG9ydGFudDtcclxuICAgICAgICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlWSgtMnB4KSAhaW1wb3J0YW50O1xyXG4gICAgICAgIH1cclxuICAgICAgICBzcGFue1xyXG4gICAgICAgICAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xyXG4gICAgICAgICAgdHJhbnNmb3JtOiB0cmFuc2xhdGVZKDJweCk7XHJcbiAgICAgICAgfVxyXG4gICAgICAgIC5zdWJ7XHJcbiAgICAgICAgICBmb250LXNpemU6IDE0cHggIWltcG9ydGFudDtcclxuICAgICAgICAgIG1hcmdpbi1ib3R0b206IDE1cHggIWltcG9ydGFudDtcclxuICAgICAgICAgIGZvbnQtc2l6ZTogMTRweCAhaW1wb3J0YW50O1xyXG4gICAgICAgICAgZm9udC1mYW1pbHk6IE5vdG9TYW5zVEMtUmVndWxhcjtcclxuICAgICAgICAgIGZvbnQtd2VpZ2h0OiA0MDA7XHJcbiAgICAgICAgICBjb2xvcjogIzczODNBMTtcclxuICAgICAgICB9XHJcblxyXG4gICAgICAgIFxyXG4gICAgICBcclxuICAgICAgICAudGlwe1xyXG4gICAgICAgICAgcG9zaXRpb246IGFic29sdXRlICFpbXBvcnRhbnQ7XHJcbiAgICAgICAgICByaWdodDogLTMycHggIWltcG9ydGFudDtcclxuICAgICAgICAgIHdpZHRoOiBhdXRvICFpbXBvcnRhbnQ7XHJcbiAgICAgICAgICBkaXNwbGF5OiBpbmxpbmUgIWltcG9ydGFudDtcclxuICAgICAgICAgIHRvcDo1MCUgIWltcG9ydGFudDtcclxuICAgICAgICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlWSgtNTAlKSAhaW1wb3J0YW50O1xyXG4gICAgICAgICAgZm9udC1zaXplOiAxNHB4ICFpbXBvcnRhbnQ7XHJcbiAgICAgICAgICBjb2xvcjogIzczODNBMSAhaW1wb3J0YW50O1xyXG4gICAgICAgICAgLmVmZmVjdC1mb250LWltcHtcclxuICAgICAgICAgICAgcG9zaXRpb246IGFic29sdXRlO1xyXG4gICAgICAgICAgICB0b3A6MHB4O1xyXG4gICAgICAgICAgICBsZWZ0Oi0xMHB4O1xyXG4gICAgICAgICAgIFxyXG4gICAgICAgICAgfVxyXG4gICAgICAgIH1cclxuICAgICAgICBcclxuICAgICAgfVxyXG4gICAgfVxyXG5cclxuICAgIC5jdXN0b20tZnJhbWV7XHJcbiAgICAgIC5ub3dyYXB7XHJcbiAgICAgICAgZGlzcGxheTogaW5saW5lLWJsb2NrICFpbXBvcnRhbnQ7XHJcbiAgICAgIH1cclxuICAgIH1cclxuXHJcblxyXG4gICAgLmludm9pY2UtbWVzc2FnZSAuZWZmZWN0LXBhZGRpbmctaW5uZXJ7XHJcbiAgICAgIHdpZHRoOmNhbGMoMTAwJSAtIDQ1cHgpICFpbXBvcnRhbnQ7XHJcbiAgICAgIG1hcmdpbjowIGF1dG87XHJcbiAgICB9XHJcblxyXG4gICAgLmVmZmVjdC1wYWRkaW5nLWlubmVye1xyXG4gICAgICB3aWR0aDpjYWxjKDEwMCUgLSA2cHgpICFpbXBvcnRhbnQ7XHJcbiAgICB9XHJcblxyXG4gICAgLnNpZ25hdHVyZS1wYWQge1xyXG4gICAgICB3aWR0aDoxMDAlO1xyXG4gICAgICBoZWlnaHQ6MTg4cHggIWltcG9ydGFudDtcclxuICAgICAgYm9yZGVyOiAxcHggc29saWQgdHJhbnNwYXJlbnQ7XHJcbiAgICB9XHJcbiAgXHJcbiAgfVxyXG5cclxuXHJcblxyXG5cclxuXHJcblxyXG5cclxuICAucGVyc29uLW1lc3NhZ2Uge1xyXG4gICAgLnRpdGxlIHtcclxuICAgICAgaW1ne1xyXG4gICAgICAgIGhlaWdodDogMTZweDtcclxuICAgICAgICB3aWR0aDogMTZweDtcclxuICAgICAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZVkoLTRweCk7XHJcbiAgICAgIH1cclxuICAgICAgLnRpcHtcclxuICAgICAgICBwb3NpdGlvbjogYWJzb2x1dGU7XHJcbiAgICAgICAgcmlnaHQ6IDEwcHg7XHJcbiAgICAgICAgd2lkdGg6IGF1dG87XHJcbiAgICAgICAgZGlzcGxheTogaW5saW5lO1xyXG4gICAgICAgIHRvcDo3JTtcclxuICAgICAgICBmb250LXNpemU6IDEycHg7XHJcbiAgICAgICAgY29sb3I6ICM3MzgzQTE7XHJcbiAgICAgICAgZm9udC1mYW1pbHk6IE5vdG9TYW5zVEMtUmVndWxhcjtcclxuICAgICAgICAuZWZmZWN0LWZvbnQtaW1we1xyXG4gICAgICAgICAgcG9zaXRpb246IGFic29sdXRlO1xyXG4gICAgICAgICAgdG9wOjBweDtcclxuICAgICAgICAgIGxlZnQ6LTEwcHg7XHJcbiAgICAgICAgfVxyXG4gICAgICB9XHJcblxyXG4gICAgICAuZm9ybWFsZml4LnRpcHtcclxuICAgICAgICB0b3A6NTIlO1xyXG4gICAgICB9XHJcblxyXG4gICAgICAuc3Vie1xyXG4gICAgICAgIGZvbnQtc2l6ZTogMTNweDtcclxuICAgICAgICBtYXJnaW4tYm90dG9tOiAxMHB4O1xyXG4gICAgICAgIGZvbnQtZmFtaWx5OiBOb3RvU2Fuc1RDLVJlZ3VsYXI7XHJcbiAgICAgICAgZm9udC13ZWlnaHQ6IDQwMDtcclxuICAgICAgICBjb2xvcjogIzczODNBMTtcclxuICAgICAgfVxyXG5cclxuICAgICAgc3BhbntcclxuICAgICAgICBwb3NpdGlvbjogcmVsYXRpdmU7XHJcbiAgICAgICAgd2hpdGUtc3BhY2U6IHByZS13cmFwO1xyXG4gICAgICAgIHRleHQtYWxpZ246IGxlZnQ7XHJcbiAgICAgICAgbWFyZ2luLWJvdHRvbTogNHB4O1xyXG4gICAgICAgIGRpc3BsYXk6IGlubGluZS1ibG9jaztcclxuICAgICAgICB3aWR0aDogOTAlO1xyXG4gICAgICAgIHZlcnRpY2FsLWFsaWduOiB0ZXh0LXRvcDtcclxuICAgICAgfVxyXG5cclxuXHJcbiAgICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlWSgwcHgpO1xyXG4gICAgfVxyXG5cclxuXHJcblxyXG4gICAgLmZpZWxkLWNobmFtZSB7XHJcbiAgICAgIG1hcmdpbi10b3A6IDBweCAhaW1wb3J0YW50O1xyXG4gICAgfVxyXG4gIH1cclxuXHJcbiAgXHJcblxyXG4gIC5jb250YWN0LWluZm8sLnBlcnNvbi1tZXNzYWdle1xyXG4gICAgcGFkZGluZy1ib3R0b206IDIwcHg7XHJcblxyXG4gIH1cclxuXHJcbiAgLnBlcnNvbi1tZXNzYWdlLmZvcm1hbGxheW91dHtcclxuICAgIHBhZGRpbmctYm90dG9tOiAwcHg7XHJcbiAgfVxyXG5cclxuICAuZmllbGQtZW1haWwsLmZpZWxkLWFkZHJlc3N7XHJcbiAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZVkoLTlweCk7XHJcbiAgfVxyXG5cclxuICAuc3VjY2Vzc3BhZ2Uge1xyXG4gICAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xyXG4gICAgbWFyZ2luOiA2MHB4IGF1dG87XHJcbiAgICBwb3NpdGlvbjogZml4ZWQ7XHJcbiAgICB3aWR0aDozMzBweDtcclxuICAgIGZvbnQtd2VpZ2h0OiBib2xkO1xyXG4gICAgY29sb3I6IzBGNDY4NTtcclxuICAgIGZvbnQtc2l6ZTogMThweDtcclxuICAgIHRvcDo2MHB4O1xyXG4gICAgbGVmdDo1MCU7XHJcbiAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZVgoLTUwJSk7XHJcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbiAgICBpbWd7XHJcbiAgICAgIG1hcmdpbi10b3A6IDI1cHg7XHJcbiAgICB9XHJcblxyXG4gICAgZGl2e1xyXG4gICAgICAgbWFyZ2luLXRvcDogMjVweDtcclxuICAgIH1cclxuICB9XHJcblxyXG4gIC5mb250ZWZmZWN0IHtcclxuICAgIGNvbG9yOiNBQ0FDQUM7XHJcbiAgfVxyXG5cclxuICAubG9nb2JhciB7XHJcbiAgICBwb3NpdGlvbjogZml4ZWQ7XHJcbiAgICB0b3A6MHB4O1xyXG4gICAgd2lkdGg6MTAwJTtcclxuICAgIGhlaWdodDo2MHB4O1xyXG4gICAgcGFkZGluZy1sZWZ0OjE4cHg7XHJcbiAgICBwYWRkaW5nLXJpZ2h0OiAxMHB4O1xyXG4gICAgZGlzcGxheTogZmxleDtcclxuICAgIGp1c3RpZnktY29udGVudDogc3BhY2UtYmV0d2VlbjtcclxuICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7XHJcbiAgICB6LWluZGV4OiA5MDA7XHJcbiAgICBib3gtc2hhZG93OiAwcHggMnB4IDVweCAwcHggcmdiYSgwLDAsMCwwLjA2KTtcclxuICAgIGJhY2tncm91bmQtY29sb3I6IHdoaXRlO1xyXG4gICAgaW1nIHtcclxuICAgICAgcG9zaXRpb246IHJlbGF0aXZlO1xyXG4gICAgICBsZWZ0OjUwJTtcclxuICAgICAgdHJhbnNmb3JtOiB0cmFuc2xhdGUoLTUwJSwwcHgpO1xyXG4gICAgICBoZWlnaHQ6MzJweDtcclxuICAgICAgd2lkdGg6MTAwcHg7XHJcbiAgICB9XHJcbiAgICAuc2VsZWN0LWxhbmd1YWdle1xyXG4gICAgICBjb2xvcjojMEEyNzQ5O1xyXG4gICAgICBkaXNwbGF5OiBmbGV4O1xyXG4gICAgICBqdXN0aWZ5LWNvbnRlbnQ6IHNwYWNlLWJldHdlZW47XHJcbiAgICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7XHJcbiAgICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlKDBweCwzcHgpO1xyXG4gICAgICBmb250LWZhbWlseTogTm90b1NhbnNUQy1SZWd1bGFyO1xyXG4gICAgICBtYXQtaWNvbiB7XHJcbiAgICAgICAgY29sb3I6IzBBMjc0OTtcclxuICAgICAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZSg1cHgsMHB4KTtcclxuICAgICAgfVxyXG4gICAgICBtYXQtc2VsZWN0e1xyXG4gICAgICAgIHdpZHRoOjc4cHg7XHJcbiAgICAgICAgaGVpZ2h0OiAzMHB4O1xyXG4gICAgICB9XHJcbiAgICAgIC5tYXQtc2VsZWN0LWFycm93LXdyYXBwZXJ7XHJcbiAgICAgICAgdHJhbnNmb3JtOiB0cmFuc2xhdGVZKDEuM3B4KSAhaW1wb3J0YW50O1xyXG4gICAgICB9XHJcbiAgICB9XHJcbiAgfVxyXG5cclxuICAucGhvbmVOdW1iZXIuaW52YWxpZCB7XHJcbiAgICBib3JkZXItbGVmdC1jb2xvcjp0cmFuc3BhcmVudCAhaW1wb3J0YW50O1xyXG4gIH1cclxuXHJcbiAgLmludmFsaWR7XHJcbiAgICBib3JkZXItcmFkaXVzOiA1cHg7ICAgXHJcbiAgICBib3JkZXItY29sb3I6IHJlZCAhaW1wb3J0YW50O1xyXG4gICAgLy8gYm94LXNoYWRvdzogMCAwIDAgMXB4IHJlZDtcclxuICAgIC8vIC13ZWJraXQtYm94LXNoYWRvdzogMCAwIDAgMXB4IHJlZDtcclxuICAgIC5tYXQtY2hlY2tib3gtZnJhbWUge1xyXG4gICAgICBib3JkZXItY29sb3I6ICNGMzZBNkEgIWltcG9ydGFudDtcclxuICAgIH1cclxuICB9XHJcblxyXG4gIG1hdC1jaGVja2JveC5pbnZhbGlkIHtcclxuICAgIGJveC1zaGFkb3c6IG5vbmUgIWltcG9ydGFudDtcclxuICAgIGJvcmRlci1yYWRpdXM6IDBweCAhaW1wb3J0YW50OyAgXHJcbiAgfVxyXG5cclxuICAuc2lnbmF0dXJlLXBhZCB7XHJcbiAgICB3aWR0aDoxMDAlO1xyXG4gICAgaGVpZ2h0OjE0MHB4O1xyXG4gICAgYm9yZGVyOiAxcHggc29saWQgdHJhbnNwYXJlbnQ7XHJcbiAgfVxyXG5cclxuICAuZWZmZWN0LWZvbnQtaW1we1xyXG4gICAgY29sb3I6cmVkO1xyXG4gICAgbWFyZ2luLWxlZnQ6IDRweDtcclxuICB9XHJcblxyXG4gIG1hdC1pY29ue1xyXG4gICAgZm9udC1zaXplOiAxNnB4O1xyXG4gICAgY29sb3I6I0QxRDFEMTtcclxuICAgIFxyXG4gIH1cclxuXHJcbiBcclxuXHJcbiAgLnBob25lTnVtYmVye1xyXG4gICAgLy8gcG9zaXRpb246IHJlbGF0aXZlO1xyXG4gICAgYm9yZGVyLWxlZnQ6IG5vbmU7XHJcbiAgICBib3JkZXItdG9wLWxlZnQtcmFkaXVzOiAwJTtcclxuICAgIGJvcmRlci1ib3R0b20tbGVmdC1yYWRpdXM6IDAlO1xyXG4gIH1cclxuXHJcbiAgLnBob25lQXJlYUNvZGUge1xyXG4gICAgcG9zaXRpb246IHJlbGF0aXZlO1xyXG4gIH1cclxuXHJcbiAgXHJcblxyXG4gIC5maWVsZC1waG9uZSAud2FsbGxpbmV7XHJcbiAgICBwb3NpdGlvbjogYWJzb2x1dGU7XHJcbiAgICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XHJcbiAgICB0b3A6NDYlO1xyXG4gICAgdHJhbnNmb3JtOiB0cmFuc2xhdGVZKC01MCUpO1xyXG4gICAgbGVmdDoyMyU7XHJcbiAgICB3aWR0aDoxLjVweDtcclxuICAgIGhlaWdodDogNDAlO1xyXG4gICAgei1pbmRleDogMTAwO1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogI0Q5REVFODtcclxuICB9XHJcblxyXG4gIC5maWVsZC1waG9uZSAuaW52YWxpZGZpeC53YWxsbGluZXtcclxuICAgIC8vIHRvcDozMCU7XHJcbiAgICAvLyBoZWlnaHQ6MzAlO1xyXG4gIH1cclxuXHJcbiAgZGl2e1xyXG4gICAgbWFyZ2luOjA7XHJcbiAgICBwYWRkaW5nOiAwO1xyXG4gIH1cclxuXHJcbiAgLmludmFsaWQgaW5wdXQge1xyXG4gICAgYm9yZGVyLWNvbG9yOiB0cmFuc3BhcmVudDtcclxuICB9XHJcblxyXG4gIGlucHV0IHtcclxuICAgIC13ZWJraXQtYXBwZWFyYW5jZTogbm9uZTtcclxuICAgIGJvcmRlci1yYWRpdXM6IDVweDtcclxuICAgIG91dGxpbmU6IG5vbmU7XHJcbiAgICBib3JkZXI6MXB4IHNvbGlkI0Q5REVFODtcclxuICAgIGhlaWdodDo0OHB4O1xyXG4gICAgcGFkZGluZy1sZWZ0OjEwcHg7XHJcbiAgICB0ZXh0LW92ZXJmbG93OiBlbGxpcHNpcztcclxuICAgIG92ZXJmbG93OiBoaWRkZW47XHJcbiAgICB3aGl0ZS1zcGFjZTogbm93cmFwO1xyXG4gICAgLy9ib3gtc2hhZG93OiBub25lO1xyXG4gICAgZm9udC1mYW1pbHk6IE5vdG9TYW5zVEMtUmVndWxhciAhaW1wb3J0YW50O1xyXG4gICAgJjo6LXdlYmtpdC1pbnB1dC1wbGFjZWhvbGRlciB7IC8qIENocm9tZS9PcGVyYS9TYWZhcmkgKi8gXHJcbiAgICAgIGZvbnQtZmFtaWx5OiBOb3RvU2Fuc1RDLVJlZ3VsYXIgIWltcG9ydGFudDtcclxuICAgICAgd2hpdGUtc3BhY2U6IG5vd3JhcDtcclxuICAgICAgdGV4dC1vdmVyZmxvdzogZWxsaXBzaXM7XHJcbiAgICAgIG92ZXJmbG93OiBoaWRkZW47XHJcbiAgICAgIGZvbnQtc2l6ZTogMTRweDtcclxuXHRcdFx0Y29sb3I6Z3JleTtcclxuICAgICAgZm9udC13ZWlnaHQ6IG5vcm1hbDtcclxuXHRcdH1cclxuXHRcdCY6Oi1tb3otcGxhY2Vob2xkZXIgeyAvKiBGaXJlZm94IDE5KyAqL1xyXG4gICAgICBmb250LWZhbWlseTogTm90b1NhbnNUQy1SZWd1bGFyICFpbXBvcnRhbnQ7XHJcbiAgICAgIHdoaXRlLXNwYWNlOiBub3dyYXA7XHJcbiAgICAgIHRleHQtb3ZlcmZsb3c6IGVsbGlwc2lzO1xyXG4gICAgICBvdmVyZmxvdzogaGlkZGVuOyAgXHJcbiAgICAgIGZvbnQtc2l6ZTogMTRweDtcclxuXHRcdFx0Y29sb3I6IGdyZXk7XHJcbiAgICAgIGZvbnQtd2VpZ2h0OiBub3JtYWw7XHJcblx0XHR9XHJcblxyXG4gICAgJjo6cGxhY2Vob2xkZXIge1xyXG4gICAgICBmb250LWZhbWlseTogTm90b1NhbnNUQy1SZWd1bGFyICFpbXBvcnRhbnQ7XHJcbiAgICAgIGZvbnQtd2VpZ2h0OiA0MDAgIWltcG9ydGFudDtcclxuICAgIH1cclxuICBcclxuICAgICY6LW1zLWlucHV0LXBsYWNlaG9sZGVyIHtcclxuICAgICAgZm9udC1mYW1pbHk6IE5vdG9TYW5zVEMtUmVndWxhciAhaW1wb3J0YW50O1xyXG4gICAgICBmb250LXdlaWdodDogNDAwICFpbXBvcnRhbnQ7XHJcbiAgICB9XHJcbiAgICBcclxuICB9XHJcblxyXG4gIC5maWVsZHtcclxuICAgIG1hcmdpbi10b3A6IDE0cHg7XHJcbiAgICAudGlwe1xyXG4gICAgICBwYWRkaW5nLWxlZnQ6IDEuMnB4O1xyXG4gICAgICBwYWRkaW5nLWJvdHRvbTogM3B4O1xyXG4gICAgICBmb250LXNpemU6IDE0cHg7XHJcbiAgICAgIC8vZm9udC13ZWlnaHQ6IGJvbGQ7XHJcbiAgICAgIGNvbG9yOiAjMEEyNzQ5O1xyXG4gICAgfVxyXG4gICAgLnRpcC1pbnZhbGlkIHtcclxuICAgICAgZm9udC1mYW1pbHk6IE5vdG9TYW5zVEMtUmVndWxhcjtcclxuICAgICAgZm9udC1zaXplOiAxMnB4O1xyXG4gICAgICBkaXNwbGF5OiBmbGV4O1xyXG4gICAgICBhbGlnbi1pdGVtczogY2VudGVyO1xyXG4gICAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZSgtNHB4LCAwcHgpO1xyXG4gICAgICBtYXQtaWNvbiB7XHJcbiAgICAgICAgY29sb3I6I0YzNkE2QTtcclxuICAgICAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZSg1cHgsIDMuNXB4KTtcclxuICAgICAgICBmb250LXNpemU6IDE4cHg7XHJcbiAgICAgIH1cclxuICAgICAgc3BhbiB7XHJcbiAgICAgICAgY29sb3I6ICNGMzZBNkE7XHJcbiAgICAgIH1cclxuICAgIH1cclxuICB9XHJcblxyXG5cclxuICAudGlwLWludmFsaWQge1xyXG4gICAgZm9udC1mYW1pbHk6IE5vdG9TYW5zVEMtUmVndWxhcjtcclxuICAgIGZvbnQtc2l6ZTogMTJweDtcclxuICAgIGRpc3BsYXk6IGZsZXg7XHJcbiAgICBhbGlnbi1pdGVtczogY2VudGVyO1xyXG4gICAgdHJhbnNmb3JtOiB0cmFuc2xhdGUoLTRweCwgMHB4KTtcclxuICAgIHdoaXRlLXNwYWNlOiBub3JtYWw7XHJcbiAgICBtYXQtaWNvbiB7XHJcbiAgICAgIGNvbG9yOiNGMzZBNkE7XHJcbiAgICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlKDVweCwgMy41cHgpO1xyXG4gICAgICBmb250LXNpemU6IDE4cHg7XHJcbiAgICAgIG1hcmdpbi1yaWdodDogNXB4O1xyXG4gICAgfVxyXG4gICAgc3BhbiB7XHJcbiAgICAgIGNvbG9yOiAjRjM2QTZBO1xyXG4gICAgfVxyXG4gICAgXHJcbiAgfVxyXG5cclxuXHJcbiAgXHJcbiAgXHJcblxyXG4gIC50aXRsZSB7XHJcbiAgICBmb250LXNpemU6IDE2cHg7XHJcbiAgICBmb250LXdlaWdodDogNTAwO1xyXG4gICAgY29sb3I6ICMwQTI3NDk7XHJcbiAgICBpbWd7XHJcbiAgICAgIG1hcmdpbi1yaWdodDogNXB4O1xyXG4gICAgICBoZWlnaHQ6IDEwMCU7XHJcbiAgICB9XHJcblxyXG4gICAgc3BhbntcclxuICAgICAgd2hpdGUtc3BhY2U6IHByZS13cmFwO1xyXG4gICAgICB0ZXh0LWFsaWduOiBsZWZ0O1xyXG4gICAgICBmb250LWZhbWlseTogTm90b1NhbnNUQy1NZWRpdW07XHJcbiAgICB9XHJcbiAgfVxyXG4gXHJcbiAgLnRpcHtcclxuICAgIGZvbnQtc2l6ZTogMTRweDtcclxuICB9XHJcblxyXG4gIC5pbnZvaWNlLW1lc3NhZ2UgLmVmZmVjdC1wYWRkaW5nLWlubmVye1xyXG4gICAgd2lkdGg6Y2FsYygxMDAlIC0gMjBweCk7XHJcbiAgICBtYXJnaW46MCBhdXRvO1xyXG4gIH1cclxuXHJcbiAgLmVmZmVjdC1wYWRkaW5nLWlubmVye1xyXG4gICAgd2lkdGg6Y2FsYygxMDAlIC0gNnB4KTtcclxuICB9XHJcblxyXG4gIC5tYWluZm9ybS5lZmZlY3QtcGFkZGluZy1pbm5lciwudGV4dGFyZWEtdGl0bGUuZWZmZWN0LXBhZGRpbmctaW5uZXJ7XHJcbiAgICB3aWR0aDpjYWxjKDEwMCUgLSA0NXB4KTtcclxuICAgIG1hcmdpbjowIGF1dG87XHJcbiAgfVxyXG5cclxuXHJcblxyXG4gIC5tYWluZm9ybSB7XHJcbiAgICBcclxuICAgID5kaXZ7XHJcbiAgICAgID4udGl0bGV7XHJcbiAgICAgICAgbWFyZ2luLXRvcDotMjBweDtcclxuICAgICAgfVxyXG4gICAgICBtYXJnaW4tdG9wOjQycHg7XHJcbiAgICAgIGJvcmRlcjoxcHggc29saWQgdHJhbnNwYXJlbnQ7XHJcbiAgICAgIGJvcmRlci1yYWRpdXM6IDEwcHg7XHJcbiAgICB9XHJcbiAgICAucGVyc29uLW1lc3NhZ2UsIC5pbnZvaWNlLW1lc3NhZ2UsIC5jb250YWN0LWluZm8sIC5jb25zZW50cyB7XHJcbiAgICAgIC5lZmZlY3QtcGFkZGluZy1pbm5lcntcclxuICAgICAgICBwYWRkaW5nLXRvcDo1cHg7XHJcbiAgICAgIH1cclxuICAgIH1cclxuXHJcblxyXG4gICAgLmNvbnNlbnRze1xyXG4gICAgICBjb2xvcjogIzczODNBMTtcclxuICAgICAgYm9yZGVyOiBub25lICFpbXBvcnRhbnQ7XHJcbiAgICAgIG1hcmdpbi1ib3R0b206IDcwcHg7XHJcbiAgICAgIG1hcmdpbi10b3A6IC0yMHB4O1xyXG4gICAgICAuZWZmZWN0LXBhZGRpbmctaW5uZXJ7XHJcbiAgICAgICAgYm9yZGVyLWNvbG9yOiB0cmFuc3BhcmVudDtcclxuICAgICAgICB3aWR0aDo5OCU7XHJcbiAgICAgICAgbWFyZ2luLXRvcDogLTEwcHg7XHJcbiAgICAgIH1cclxuICAgIH1cclxuXHJcbiAgICAuZm9ybWFsbGF5b3V0LmNvbnNlbnRze1xyXG4gICAgICBtYXJnaW4tdG9wOiAzMHB4O1xyXG4gICAgfVxyXG5cclxuICAgIC5pbnZvaWNlLW1lc3NhZ2V7XHJcbiAgICAgIG1hcmdpbi10b3A6IDY1cHg7XHJcbiAgICAgIG1hcmdpbi1ib3R0b206IDYwcHg7XHJcbiAgICAgIGZvbnQtZmFtaWx5OiBOb3RvU2Fuc1RDLUxpZ2h0O1xyXG4gICAgICBjb2xvcjogICM3MzgzQTEgIWltcG9ydGFudDtcclxuICAgICAgYmFja2dyb3VuZC1jb2xvcjogI0Y3RjdGNztcclxuICAgICAgYm9yZGVyLWNvbG9yOnRyYW5zcGFyZW50IDtcclxuXHJcbiAgICAgIC50aXRsZXtcclxuICAgICAgICBtYXJnaW4tdG9wOiAtMzBweDtcclxuICAgICAgICBpbWd7XHJcbiAgICAgICAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZVkoLTVweCk7XHJcbiAgICAgICAgICBoZWlnaHQ6IDE2cHg7XHJcbiAgICAgICAgICB3aWR0aDogMTZweDtcclxuICAgICAgICB9XHJcbiAgICAgIH1cclxuXHJcbiAgICAgIC5iYXJ7XHJcbiAgICAgICAgZGlzcGxheTogZmxleDtcclxuICAgICAgICAvLyBhbGlnbi1pdGVtczogY2VudGVyO1xyXG4gICAgICAgIHBhZGRpbmc6IDZweCAwcHg7XHJcbiAgICAgICAgZm9udC1mYW1pbHk6IE5vdG9TYW5zVEMtUmVndWxhcjtcclxuICAgICAgXHJcbiAgICAgICAgaW1ne1xyXG4gICAgICAgICAgaGVpZ2h0OiAxNHB4O1xyXG4gICAgICAgICAgd2lkdGg6IDE0cHg7XHJcbiAgICAgICAgICBtYXJnaW4tcmlnaHQ6IDhweDtcclxuICAgICAgICAgIG1hcmdpbi10b3A6IDNweDtcclxuICAgICAgICB9XHJcblxyXG4gICAgICAgIHNwYW57XHJcbiAgICAgICAgICBkaXNwbGF5OmlubGluZS1ibG9jaztcclxuXHJcbiAgICAgICAgfVxyXG4gICAgICB9XHJcblxyXG4gICAgICAuYmFyLWxvY2F0aW9ue1xyXG4gICAgICAgIHBhZGRpbmctYm90dG9tOiAxOHB4O1xyXG4gICAgICB9XHJcblxyXG4gICAgICAuYmFyLXVzZXJuYW1le1xyXG4gICAgICAgIHBhZGRpbmctdG9wOjE4cHg7XHJcbiAgICAgICAgZm9udC1zaXplOiAxNnB4O1xyXG4gICAgICAgIGNvbG9yOiAjMEEyNzQ5O1xyXG4gICAgICB9XHJcblxyXG4gICAgICAudGlwe1xyXG4gICAgICAgIGZsb2F0OiByaWdodDtcclxuICAgICAgfVxyXG5cclxuICAgICAgLnN1YnRpdGxle1xyXG4gICAgICAgIC50ZXh0e1xyXG4gICAgICAgICAgbWF0LWljb257XHJcbiAgICAgICAgICAgIGZvbnQtc2l6ZTogMjBweDtcclxuICAgICAgICAgIH1cclxuICAgICAgICAgIHNwYW57XHJcbiAgICAgICAgICAgIGRpc3BsYXk6IGlubGluZS1ibG9jaztcclxuICAgICAgICAgICAgdHJhbnNmb3JtOiB0cmFuc2xhdGVZKC0zcHgpO1xyXG4gICAgICAgICAgfVxyXG4gICAgICAgIH1cclxuICAgICAgfVxyXG4gICAgfVxyXG5cclxuICAgIC8vIC5wZXJzb24tbWVzc2FnZSwuY29udGFjdC1pbmZve1xyXG4gICAgLy8gICAuZWZmZWN0LXBhZGRpbmctaW5uZXJ7XHJcbiAgICAvLyAgICAgcGFkZGluZy1ib3R0b206MTBweDtcclxuICAgIC8vICAgfVxyXG4gICAgLy8gfVxyXG5cclxuICBcclxuICAgIC50ZXh0YXJlYS1pbnB1dCB7XHJcbiAgICAgIGRpc3BsYXk6IGZsZXg7XHJcbiAgICAgIGp1c3RpZnktY29udGVudDogc3BhY2UtYmV0d2VlbjtcclxuICAgICAgaW5wdXQ6bnRoLWNoaWxkKDEpe1xyXG4gICAgICAgIGRpc3BsYXk6IGlubGluZS1ibG9jaztcclxuICAgICAgICB3aWR0aDoxMDAlO1xyXG4gICAgICAgIGZsZXgtYmFzaXM6NDglO1xyXG4gICAgICB9XHJcbiAgICAgIGlucHV0Om50aC1jaGlsZCgyKXtcclxuICAgICAgICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XHJcbiAgICAgICAgd2lkdGg6MTAwJTtcclxuICAgICAgICBmbGV4LWJhc2lzOiA0OCU7XHJcbiAgICAgIH1cclxuXHJcbiAgICB9XHJcbiAgICAgIFxyXG4gICAgLmZpZWxkLWlkY2FyZC1jYXRlZ29yeSB7XHJcbiAgICAgIG1hdC1mb3JtLWZpZWxke1xyXG4gICAgICAgIGRpc3BsYXk6IGlubGluZS1ibG9jaztcclxuICAgICAgICB3aWR0aDoxMDAlO1xyXG4gICAgICB9XHJcbiAgICB9XHJcblxyXG4gICAgLmZpZWxkLWlkY2FyZC1udW1iZXJ7XHJcbiAgICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlWSgtNnB4KTtcclxuICAgICAgaW5wdXR7XHJcbiAgICAgICAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xyXG4gICAgICAgIHdpZHRoOjEwMCU7XHJcbiAgICAgICAgZmxleC1iYXNpczogMTAwJSA7XHJcbiAgICAgIH1cclxuICAgIH1cclxuXHJcblxyXG4gICAgLmZpZWxkLWJvcm5kYXRlLC5maWVsZC1hZGRyZXNze1xyXG4gICAgICAuc3ViZmllbGR7XHJcbiAgICAgICAgZGlzcGxheTogZmxleDtcclxuICAgICAgICBmbGV4LXdyYXA6IHdyYXA7XHJcbiAgICAgICAganVzdGlmeS1jb250ZW50OiBzcGFjZS1iZXR3ZWVuO1xyXG4gICAgICAgIG1hcmdpbi1ib3R0b206IC04cHg7XHJcbiAgICAgICAgbWF0LWZvcm0tZmllbGQge1xyXG4gICAgICAgICAgdGV4dC1hbGlnbjogdW5zZXQ7XHJcbiAgICAgICAgICB3aWR0aDoxMDAlO1xyXG4gICAgICAgIH1cclxuICAgICAgfVxyXG4gICAgXHJcbiAgICB9XHJcblxyXG4gICAgLmZpZWxkLWJvcm5kYXRle1xyXG4gICAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZVkoLTRweCk7XHJcbiAgICAgIC8vIC50aXAtaW52YWxpZCB7XHJcbiAgICAgIC8vICAgbWFyZ2luLWJvdHRvbTogNTBweDtcclxuICAgICAgLy8gfVxyXG5cclxuICAgICAgLnN1YmZpZWxke1xyXG4gICAgICAgIG1hdC1mb3JtLWZpZWxkIHtcclxuICAgICAgICAgIHdpZHRoOjMyJTtcclxuICAgICAgICB9XHJcbiAgICAgIH1cclxuICAgIH1cclxuXHJcbiAgICAuZmllbGQtYWRkcmVzc3tcclxuICAgICAgaW5wdXR7XHJcbiAgICAgICAgbWFyZ2luLXRvcDogOHB4O1xyXG4gICAgICAgIGhlaWdodDo2MHB4O1xyXG4gICAgICAgIHdpZHRoOjEwMCU7XHJcbiAgICAgICAgZm9udC1mYW1pbHk6Tm90b1NhbnNUQy1SZWd1bGFyICFpbXBvcnRhbnQ7XHJcbiAgICAgICAgZm9udC13ZWlnaHQ6IDQwMDtcclxuICAgICAgICAmOjotd2Via2l0LWlucHV0LXBsYWNlaG9sZGVyIHsgLyogQ2hyb21lL09wZXJhL1NhZmFyaSAqLyBcclxuICAgICAgICAgIGZvbnQtZmFtaWx5OiBOb3RvU2Fuc1RDLVJlZ3VsYXIgIWltcG9ydGFudDtcclxuICAgICAgICAgIGZvbnQtd2VpZ2h0OiA0MDA7XHJcbiAgICAgICAgfVxyXG4gICAgICAgICY6Oi1tb3otcGxhY2Vob2xkZXIgeyAvKiBGaXJlZm94IDE5KyAqL1xyXG4gICAgICAgICAgZm9udC1mYW1pbHk6IE5vdG9TYW5zVEMtUmVndWxhciAhaW1wb3J0YW50O1xyXG4gICAgICAgICAgZm9udC13ZWlnaHQ6IDQwMDtcclxuICAgICAgICB9XHJcbiAgICAgICAgJjo6cGxhY2Vob2xkZXIge1xyXG4gICAgICAgICAgZm9udC1mYW1pbHk6IE5vdG9TYW5zVEMtUmVndWxhciAhaW1wb3J0YW50O1xyXG4gICAgICAgICAgZm9udC13ZWlnaHQ6IDQwMDtcclxuICAgICAgICB9XHJcbiAgICAgIFxyXG4gICAgICAgICY6LW1zLWlucHV0LXBsYWNlaG9sZGVyIHtcclxuICAgICAgICAgIGZvbnQtZmFtaWx5OiBOb3RvU2Fuc1RDLVJlZ3VsYXIgIWltcG9ydGFudDtcclxuICAgICAgICAgIGZvbnQtd2VpZ2h0OiA0MDA7XHJcbiAgICAgICAgfVxyXG4gICAgICB9XHJcbiAgICB9XHJcblxyXG5cclxuICAgIC8vIHRpY2sgLnBob25lTnVtYmVye1xyXG4gICAgLy8gICAgICY6Oi13ZWJraXQtaW5wdXQtcGxhY2Vob2xkZXIgeyAvKiBDaHJvbWUvT3BlcmEvU2FmYXJpICovIFxyXG4gICAgLy8gICAgICAgZm9udC1mYW1pbHk6IE5vdG9TYW5zVEMtUmVndWxhciAhaW1wb3J0YW50O1xyXG4gICAgLy8gICAgICAgZm9udC13ZWlnaHQ6IDQwMCAhaW1wb3J0YW50O1xyXG4gICAgLy8gICAgIH1cclxuICAgIC8vICAgICAmOjotbW96LXBsYWNlaG9sZGVyIHsgLyogRmlyZWZveCAxOSsgKi9cclxuICAgIC8vICAgICAgIGZvbnQtZmFtaWx5OiBOb3RvU2Fuc1RDLVJlZ3VsYXIgIWltcG9ydGFudDtcclxuICAgIC8vICAgICAgIGZvbnQtd2VpZ2h0OiA0MDAgIWltcG9ydGFudDtcclxuICAgIC8vICAgICB9XHJcbiAgICAvLyAgICAgJjo6cGxhY2Vob2xkZXIge1xyXG4gICAgLy8gICAgICAgZm9udC1mYW1pbHk6IE5vdG9TYW5zVEMtUmVndWxhciAhaW1wb3J0YW50O1xyXG4gICAgLy8gICAgICAgZm9udC13ZWlnaHQ6IDQwMCAhaW1wb3J0YW50O1xyXG4gICAgLy8gICAgIH1cclxuICAgICAgXHJcbiAgICAvLyAgICAgJjotbXMtaW5wdXQtcGxhY2Vob2xkZXIge1xyXG4gICAgLy8gICAgICAgZm9udC1mYW1pbHk6IE5vdG9TYW5zVEMtUmVndWxhciAhaW1wb3J0YW50O1xyXG4gICAgLy8gICAgICAgZm9udC13ZWlnaHQ6IDQwMCAhaW1wb3J0YW50O1xyXG4gICAgLy8gICAgIH1cclxuICAgICAgXHJcbiAgICAvLyB9XHJcbiAgICBcclxuXHJcbiAgICAuY29udGFjdC1pbmZvIHtcclxuICAgICAgLmluZm8taW5wdXR7XHJcbiAgICAgICAgaW5wdXR7XHJcbiAgICAgICAgICBmbGV4OjE7XHJcbiAgICAgICAgfVxyXG4gICAgICAgIGRpc3BsYXk6IGZsZXg7XHJcbiAgICAgICAganVzdGlmeS1jb250ZW50OiBzcGFjZS1iZXR3ZWVuO1xyXG4gICAgICB9XHJcblxyXG4gICAgICAudGl0bGV7XHJcbiAgICAgICAgbWFyZ2luLXRvcDogLTEwcHg7XHJcbiAgICAgICAgbWFyZ2luLWJvdHRvbTogNXB4O1xyXG4gICAgICAgIGltZ3tcclxuICAgICAgICAgIGhlaWdodDogMTZweDtcclxuICAgICAgICAgIHdpZHRoOiAxNnB4O1xyXG4gICAgICAgICAgdHJhbnNmb3JtOiB0cmFuc2xhdGVZKC01cHgpO1xyXG4gICAgICAgIH1cclxuICAgICAgICBzcGFue1xyXG4gICAgICAgICAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xyXG4gICAgICAgICAgdHJhbnNmb3JtOiB0cmFuc2xhdGVZKC0zcHgpO1xyXG4gICAgICAgIH1cclxuICAgICAgfVxyXG5cclxuICAgICAgXHJcblxyXG4gICAgICAuZmllbGQtcGhvbmUge1xyXG4gICAgICAgIG1hcmdpbi10b3A6IDBweCAhaW1wb3J0YW50O1xyXG4gICAgICAgIG1hdC1mb3JtLWZpZWxke1xyXG4gICAgICAgICAgd2lkdGg6MjUlO1xyXG4gICAgICAgICAgYm9yZGVyLXJpZ2h0OiBub25lO1xyXG4gICAgICAgICAgbWFyZ2luLXJpZ2h0OiAtMnB4O1xyXG4gICAgICAgIH0gXHJcbiAgICAgICAgXHJcbiAgICAgIH1cclxuXHJcbiAgICB9XHJcblxyXG5cclxuICAgIC5jdXN0b20tZnJhbWV7XHJcbiAgICAgIHdpZHRoOiAxMDAlO1xyXG4gICAgICB3b3JkLXdyYXA6IGJyZWFrLXdvcmQ7ICBcclxuICAgICAgd29yZC1icmVhazogbm9ybWFsO1xyXG4gICAgICAuaW52YWxpZHtcclxuICAgICAgICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XHJcbiAgICAgICAgYm94LXNoYWRvdzogbm9uZSAhaW1wb3J0YW50O1xyXG4gICAgICAgIGJvcmRlci1jb2xvcjogcmVkO1xyXG4gICAgICAgIGJvcmRlci1yYWRpdXM6IDAlO1xyXG4gICAgICAgIHRleHQtZGVjb3JhdGlvbjogbm9uZTtcclxuICAgICAgICAvL3RleHQtZGVjb3JhdGlvbi1jb2xvcjogcmVkO1xyXG4gICAgICB9XHJcblxyXG4gICAgICAuaW5saW5le1xyXG4gICAgICAgIGRpc3BsYXk6IGlubGluZS1ibG9jaztcclxuICAgICAgfVxyXG5cclxuICAgICAgLmZvbnRib2xkIHtcclxuICAgICAgICAvLyBjb2xvcjogYmxhY2s7XHJcbiAgICAgICAgZm9udC13ZWlnaHQ6IGJvbGQ7XHJcbiAgICAgICAgZm9udC1mYW1pbHk6IE5vdG9TYW5zVEMtUmVndWxhcjtcclxuICAgICAgfVxyXG5cclxuICAgICAgLmZvbnRibGFjayB7XHJcbiAgICAgICAgY29sb3I6IGJsYWNrO1xyXG4gICAgICAgIGZvbnQtZmFtaWx5OiBOb3RvU2Fuc1RDLVJlZ3VsYXI7XHJcbiAgICAgIH1cclxuXHJcbiAgICAgIC5kZXN7XHJcbiAgICAgICAgbWFyZ2luLXRvcDogNXB4O1xyXG4gICAgICAgIGZvbnQtZmFtaWx5OiBOb3RvU2Fuc1RDLVJlZ3VsYXI7XHJcbiAgICAgICAgbGluZS1oZWlnaHQ6IDIwcHg7XHJcbiAgICAgIH1cclxuICAgIH1cclxuXHJcbiAgICAuc2lnbmF0dXJlIHtcclxuICAgICAgYm9yZGVyLWNvbG9yOiB0cmFuc3BhcmVudDtcclxuICAgICAgbWFyZ2luLXRvcDogNDBweCAhaW1wb3J0YW50O1xyXG4gICAgICAud3JhcHBlcntcclxuICAgICAgICBwb3NpdGlvbjogcmVsYXRpdmU7XHJcbiAgICAgIH1cclxuICAgICAgY2FudmFzIHtcclxuICAgICAgICBib3JkZXItcmFkaXVzOiAxNnB4O1xyXG4gICAgICB9XHJcbiAgICAgIC50b29sYmFyLWJ0bntcclxuICAgICAgICBkaXNwbGF5OiBmbGV4O1xyXG4gICAgICAgIGp1c3RpZnktY29udGVudDogZmxleC1lbmQ7XHJcbiAgICAgICAgYnV0dG9ue1xyXG4gICAgICAgICAgYm9yZGVyOjFweCBzb2xpZCAjQUNBQ0FDO1xyXG4gICAgICAgIH1cclxuICAgICAgfVxyXG4gICAgICAudGlwLWludmFsaWR7XHJcbiAgICAgICAgZm9udC1zaXplOiAxMnB4O1xyXG4gICAgICAgIGZvbnQtd2VpZ2h0OiBub3JtYWw7XHJcbiAgICAgICAgbWFyZ2luLWJvdHRvbTogMTJweDtcclxuICAgICAgICAuZXJyb3J7XHJcbiAgICAgICAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZSg2cHgsLTRweCk7XHJcbiAgICAgICAgfVxyXG4gICAgICAgIHNwYW57XHJcbiAgICAgICAgICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XHJcbiAgICAgICAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZSg0cHgsMHB4KSAhaW1wb3J0YW50O1xyXG4gICAgICAgIH1cclxuICAgICAgfVxyXG5cclxuICAgICAgLnRpdGxle1xyXG4gICAgICAgIGltZ3tcclxuICAgICAgICAgIGhlaWdodDogMTZweDtcclxuICAgICAgICAgIHdpZHRoOiAxNnB4O1xyXG4gICAgICAgICAgdHJhbnNmb3JtOiB0cmFuc2xhdGVZKC01cHgpO1xyXG4gICAgICAgICAgbWFyZ2luLXJpZ2h0OiAxMHB4O1xyXG4gICAgICAgIH1cclxuICAgICAgICBzcGFue1xyXG4gICAgICAgICAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xyXG4gICAgICAgICAgdHJhbnNmb3JtOnRyYW5zbGF0ZSgtM3B4LC0zcHgpO1xyXG4gICAgICAgIH1cclxuICAgICAgfVxyXG4gICAgfVxyXG5cclxuICAgIC5idG4tc3VibWl0dGVke1xyXG4gICAgICB3aWR0aDoxMDAlO1xyXG4gICAgICBkaXNwbGF5OiBmbGV4O1xyXG4gICAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcclxuICAgICAgYm9yZGVyLWNvbG9yOiB0cmFuc3BhcmVudDtcclxuICAgICAgbWFyZ2luLXRvcDogMjRweDtcclxuICAgICAgYnV0dG9ue1xyXG4gICAgICAgIGxpbmUtaGVpZ2h0OiAzNXB4O1xyXG4gICAgICAgIGhlaWdodDo0NHB4O1xyXG4gICAgICAgIGZvbnQtc2l6ZTogMTRweDtcclxuICAgICAgICB3aWR0aDogMTAwJTtcclxuICAgICAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjMTg5M0ZGO1xyXG4gICAgICAgIGNvbG9yOiB3aGl0ZTtcclxuICAgICAgICBmb250LWZhbWlseTogTm90b1NhbnNUQy1SZWd1bGFyO1xyXG4gICAgICB9XHJcbiAgICB9XHJcbiAgfVxyXG5cclxuICAvLyAubWFpbmZvcm0ubGl0dGVyZml4IHtcclxuICAgIFxyXG4gIC8vICAgPmRpdntcclxuICAvLyAgICAgbWFyZ2luLXRvcDo1MnB4ICFpbXBvcnRhbnQ7XHJcbiAgLy8gICB9XHJcbiAgLy8gfVxyXG5cclxuXHJcbiAgLnBlcnNvbi1tZXNzYWdlLmZvcm1hbGxheW91dHtcclxuICAgIG1hcmdpbi10b3A6IDUwcHggIWltcG9ydGFudDtcclxuICAgIGJvcmRlci1ib3R0b206IG5vbmUgIWltcG9ydGFudDtcclxuICAgIGJvcmRlci1ib3R0b20tbGVmdC1yYWRpdXM6MHB4ICFpbXBvcnRhbnQ7XHJcbiAgICBib3JkZXItYm90dG9tLXJpZ2h0LXJhZGl1czowcHggIWltcG9ydGFudDtcclxuICB9XHJcblxyXG4gIC5pbnZhbGlkZml4LmNvbnRhY3QtaW5mb3tcclxuICAgIG1hcmdpbi10b3A6IDYwcHggIWltcG9ydGFudDtcclxuICB9XHJcblxyXG4gIC5jb250YWN0LWluZm97XHJcbiAgICBib3JkZXItdG9wOiBub25lICFpbXBvcnRhbnQ7XHJcbiAgICBtYXJnaW4tdG9wOiA2NXB4ICFpbXBvcnRhbnQ7XHJcbiAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZVkoLTM1cHgpO1xyXG4gICAgcGFkZGluZy1ib3R0b206IDBweDtcclxuICAgIGJvcmRlci10b3AtbGVmdC1yYWRpdXM6MHB4ICFpbXBvcnRhbnQ7XHJcbiAgICBib3JkZXItdG9wLXJpZ2h0LXJhZGl1czowcHggIWltcG9ydGFudDtcclxuICAgIC5lZmZlY3QtcGFkZGluZy1pbm5lciB7XHJcbiAgICAgIC8vdGljayBib3JkZXI6IG5vbmU7XHJcbiAgICB9XHJcblxyXG4gICAgLmZpZWxkLXBob25lLnJlc2l6ZWJ5Ym9ybiB7XHJcbiAgICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlWSgtNHB4KTtcclxuICAgIH1cclxuXHJcbiAgICAuZmllbGQtZW1haWwucmVzaXplYnlib3JuLC5maWVsZC1hZGRyZXNzLnJlc2l6ZWJ5Ym9ybntcclxuICAgICAgdHJhbnNmb3JtOiB0cmFuc2xhdGVZKC0xMnB4KTtcclxuICAgIH1cclxuICB9XHJcblxyXG4gIFxyXG5cclxuICAuY29udGFjdC1pbmZvLmZvcm1hbGxheW91dCB7XHJcbiAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZVkoLTUycHgpO1xyXG4gICAgXHJcbiAgfVxyXG5cclxuXHJcbiAgLmNvbnRhY3QtaW5mby5mb3JtYWxsYXlvdXQubGF5b3V0bW9kZWwge1xyXG4gICAgdHJhbnNmb3JtOiB0cmFuc2xhdGVZKC01MnB4KTtcclxuICAgIC53YWxsbGluZXtcclxuICAgICAgLy8gdG9wOjguNyU7XHJcbiAgICAgIC8vIGhlaWdodDo3LjUlICFpbXBvcnRhbnQ7XHJcbiAgICAgIGRpc3BsYXk6IG5vbmUgIWltcG9ydGFudDtcclxuICAgIH1cclxuICB9XHJcblxyXG4gIFxyXG5cclxuICAuY29uc2VudHMuZm9ybWFsbGF5b3V0LCAuc2lnbmF0dXJlLmZvcm1hbGxheW91dCwgLmJ0bi1zdWJtaXR0ZWQuZm9ybWFsbGF5b3V0e1xyXG4gICAgdHJhbnNmb3JtOiB0cmFuc2xhdGVZKC0zNnB4KTtcclxuICB9XHJcblxyXG5cclxuXHJcblxyXG59XHJcbi5hZ3JlZSB7XHJcbiAgZGlzcGxheTogZmxleDtcclxufVxyXG5cclxuLnBhZGRpbmctMCB7XHJcbiAgcGFkZGluZy10b3A6IDAgIWltcG9ydGFudDtcclxufVxyXG5pbnB1dCB7XHJcbiAgcGFkZGluZzogMTBweDtcclxufVxyXG5cclxuLnBob25lOjpiZWZvcmUge1xyXG4gIGNvbnRlbnQ6ICcnO1xyXG4gIHBvc2l0aW9uOiBhYnNvbHV0ZTtcclxuICB3aWR0aDogMS41cHg7XHJcbiAgaGVpZ2h0OiA1MCU7XHJcbiAgYmFja2dyb3VuZC1jb2xvcjogcmVkO1xyXG59XHJcblxyXG4ub2NyLWJ1dC1ib3h7XHJcbiAgcGFkZGluZy10b3A6IDVweDtcclxuICBwYWRkaW5nLWJvdHRvbTogMTBweDtcclxufVxyXG4ub2NyLWJ1dHtcclxuICBoZWlnaHQ6IDQ4cHg7XHJcbiAgd2lkdGg6IDEwMCU7XHJcbiAgYm9yZGVyOiAycHggc29saWQgIzE4OTNGRjtcclxuICBjb2xvcjogIzE4OTNGRjtcclxuICBmb250LXNpemU6IDE0cHg7XHJcbiAgZm9udC13ZWlnaHQ6IGJvbGQ7XHJcbiAgcGFkZGluZzogMDtcclxuICBpbWd7XHJcbiAgICB3aWR0aDogMjRweDtcclxuICAgIGhlaWdodDogMjRweDtcclxuICAgIG1hcmdpbi1yaWdodDogMTBweDtcclxuICB9XHJcbn1cclxuXHJcbkBtZWRpYSBzY3JlZW4gYW5kIChtaW4td2lkdGg6IDc2MHB4KXtcclxuICAub2NyLWJ1dHtcclxuICAgIGhlaWdodDogNDJweDtcclxuICB9XHJcbn1cclxuXHJcbi5vY3ItbWFzay1sYXllcntcclxuICBwb3NpdGlvbjogZml4ZWQ7XHJcbiAgd2lkdGg6IDEwMHZ3O1xyXG4gIGhlaWdodDogMTAwdmg7XHJcbiAgYmFja2dyb3VuZDogI2ZmZjtcclxuICB0b3A6IDA7XHJcbiAgbGVmdDogMDtcclxuICB6LWluZGV4OiA5OTk7XHJcbn1cclxuLm9jci1ib3h7XHJcbiAgcG9zaXRpb246IGZpeGVkO1xyXG4gIHdpZHRoOiAxMDB2dztcclxuICBoZWlnaHQ6IDEwMHZoO1xyXG4gIGJhY2tncm91bmQ6IHJnYmEoMCwwLDAsMC41KTtcclxuICB0b3A6IDA7XHJcbiAgbGVmdDogMDtcclxuICB6LWluZGV4OiAxMDAwO1xyXG59XHJcbi5vY3ItY29udGVudHtcclxuICB3aWR0aDogMTAwJTtcclxuICBoZWlnaHQ6IDEwMCU7XHJcbiAgY29sb3I6ICNGRkZGRkY7XHJcbiAgcGFkZGluZzogNTlweCAyMHB4IDM0cHggMjBweCAhaW1wb3J0YW50O1xyXG4gIGRpc3BsYXk6IGZsZXg7XHJcbiAgZmxleC1kaXJlY3Rpb246IGNvbHVtbjtcclxuICBqdXN0aWZ5LWNvbnRlbnQ6IHNwYWNlLWJldHdlZW47XHJcbn1cclxuLm9jci1zdWJtaXQsLm9jci1iYWNre1xyXG4gIGhlaWdodDogNDRweDtcclxuICBib3JkZXItcmFkaXVzOiA1cHg7XHJcbiAgZm9udC1zaXplOiAxOHB4O1xyXG59XHJcbi5vY3Itc3VibWl0e1xyXG4gIGNvbG9yOiAjMTg5M0ZGO1xyXG59XHJcbi5vY3ItYmFja3tcclxuICBib3JkZXI6IDEuNXB4IHNvbGlkICNGRkZGRkY7XHJcbiAgY29sb3I6ICNGRkZGRkY7XHJcbiAgbWFyZ2luLXRvcDogMTJweDtcclxufVxyXG5cclxuLm9jci10aXRsZXtcclxuICBmb250LXNpemU6IDE0cHg7XHJcbiAgb3BhY2l0eTogMC44O1xyXG4gIG1hcmdpbi1ib3R0b206IDIwcHggIWltcG9ydGFudDtcclxufVxyXG4uaWQtY2FyZC1ib3h7XHJcbiAgZGlzcGxheTogZmxleDtcclxuICBmb250LXNpemU6IDE2cHg7XHJcbiAgZGl2e1xyXG4gICAgZmxleDogMTtcclxuICAgIHBhZGRpbmc6IDEwcHggMDtcclxuICAgIG9wYWNpdHk6IDAuODtcclxuICB9XHJcbiAgLmFjdGl2ZXtcclxuICAgIGJvcmRlci1ib3R0b206IDNweCBzb2xpZCAjZmZmO1xyXG4gICAgYm9yZGVyLXJhZGl1czogM3B4O1xyXG4gICAgb3BhY2l0eTogMSAhaW1wb3J0YW50O1xyXG4gIH1cclxufVxyXG4ub2NyLWRlc2NyaWJle1xyXG4gIGZvbnQtc2l6ZTogMTRweDtcclxuICBvcGFjaXR5OiAwLjg7XHJcbn1cclxuLm9jci1ncm91bmR7XHJcbiAgbWFyZ2luOiAzM3B4IDAgIWltcG9ydGFudDtcclxuICB3aWR0aDogMTAwJTtcclxuICBoZWlnaHQ6IDE4MHB4O1xyXG4gIGJvcmRlcjogMnB4IHNvbGlkICM5MjkyOTI7XHJcbiAgcG9zaXRpb246IHJlbGF0aXZlO1xyXG4gIGJvcmRlci1yYWRpdXM6IDVweDtcclxufVxyXG4ub2Nye1xyXG4gIGJhY2tncm91bmQ6IGxpbmVhci1ncmFkaWVudCgjZmZmLCAjZmZmKSBsZWZ0IHRvcCxcclxuICBsaW5lYXItZ3JhZGllbnQoI2ZmZiwgI2ZmZikgbGVmdCB0b3AsXHJcbiAgbGluZWFyLWdyYWRpZW50KCNmZmYsICNmZmYpIHJpZ2h0IHRvcCxcclxuICBsaW5lYXItZ3JhZGllbnQoI2ZmZiwgI2ZmZikgcmlnaHQgdG9wLFxyXG4gIGxpbmVhci1ncmFkaWVudCgjZmZmLCAjZmZmKSByaWdodCBib3R0b20sXHJcbiAgbGluZWFyLWdyYWRpZW50KCNmZmYsICNmZmYpIHJpZ2h0IGJvdHRvbSxcclxuICBsaW5lYXItZ3JhZGllbnQoI2ZmZiwgI2ZmZikgbGVmdCBib3R0b20sXHJcbiAgbGluZWFyLWdyYWRpZW50KCNmZmYsICNmZmYpIGxlZnQgYm90dG9tO1xyXG4gIGJhY2tncm91bmQtcmVwZWF0OiBuby1yZXBlYXQ7XHJcbiAgYmFja2dyb3VuZC1zaXplOiAycHggMzBweCwgMzBweCAycHg7XHJcbiAgaGVpZ2h0OiAxODBweDtcclxuICB3aWR0aDogY2FsYygxMDAlICsgNHB4KTtcclxuICBwb3NpdGlvbjogYWJzb2x1dGU7XHJcbiAgdG9wOiAtMnB4O1xyXG4gIGxlZnQ6IC0ycHg7XHJcbiAgYm9yZGVyLXJhZGl1czogNXB4O1xyXG59XHJcbnZpZGVve1xyXG4gIC8vIHdpZHRoOiAxMDAlO1xyXG4gIC8vIGhlaWdodDogMTc2cHg7XHJcbiAgcG9zaXRpb246IGFic29sdXRlO1xyXG4gIHRvcDo1MCU7XHJcbiAgbGVmdDo1MCU7XHJcbiAgdHJhbnNmb3JtOiB0cmFuc2xhdGUoLTUwJSwtNTAlKTtcclxufVxyXG5cclxuY2FudmFze1xyXG4gIC8vIHdpZHRoOiBjYWxjKDEwMCUgLSA0cHgpO1xyXG4gIC8vIGhlaWdodDogMTc2cHg7XHJcbiAgcG9zaXRpb246IGFic29sdXRlO1xyXG4gIHRvcDo1MCU7XHJcbiAgbGVmdDo1MCU7XHJcbiAgdHJhbnNmb3JtOiB0cmFuc2xhdGUoLTUwJSwtNTAlKTtcclxufSIsIi53cmFwcGVyLW1lbWJlcmluZm8tcmVnaXN0ZXIge1xuICBwb3NpdGlvbjogcmVsYXRpdmU7XG4gIGJhY2tncm91bmQtY29sb3I6IHdoaXRlO1xuICBmb250LWZhbWlseTogTm90b1NhbnNUQy1SZWd1bGFyO1xuICBwYWRkaW5nLWJvdHRvbTogMjVweDtcbiAgY29sb3I6IGJsYWNrO1xuICB3aWR0aDogMTAwJTtcbn1cbi53cmFwcGVyLW1lbWJlcmluZm8tcmVnaXN0ZXIgLmNvbnRlbnRwYW5lIHtcbiAgbWF4LXdpZHRoOiAzNzZweDtcbiAgbWFyZ2luOiAwIGF1dG87XG59XG4ud3JhcHBlci1tZW1iZXJpbmZvLXJlZ2lzdGVyIC50ZXh0YXJlYS10aXRsZSB7XG4gIHdpZHRoOiBjYWxjKDEwMCUgLSA2MHB4KTtcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xuICBmb250LXNpemU6IDEwcHg7XG4gIHBhZGRpbmctdG9wOiA3MHB4O1xuICBmb250LWZhbWlseTogTm90b1NhbnNUQy1MaWdodDtcbn1cbi53cmFwcGVyLW1lbWJlcmluZm8tcmVnaXN0ZXIgLnRleHRhcmVhLXRpdGxlIC50aXRsZSB7XG4gIGZvbnQtc2l6ZTogMjBweDtcbiAgZm9udC1mYW1pbHk6IE5vdG9TYW5zVEMtTWVkaXVtO1xufVxuLndyYXBwZXItbWVtYmVyaW5mby1yZWdpc3RlciAudGV4dGFyZWEtdGl0bGUgLnRleHQtdGlwIHtcbiAgbWFyZ2luLXRvcDogOHB4O1xuICBjb2xvcjogIzczODNBMTtcbiAgbWFyZ2luLWJvdHRvbTogNTBweDtcbiAgZm9udC1zaXplOiAxM3B4O1xuICBmb250LWZhbWlseTogTm90b1NhbnNUQy1SZWd1bGFyO1xufVxuQG1lZGlhIHNjcmVlbiBhbmQgKG1pbi13aWR0aDogNzYwcHgpIHtcbiAgLndyYXBwZXItbWVtYmVyaW5mby1yZWdpc3RlciAudGV4dGFyZWEtdGl0bGUge1xuICAgIHBhZGRpbmctdG9wOiA5MHB4O1xuICB9XG4gIC53cmFwcGVyLW1lbWJlcmluZm8tcmVnaXN0ZXIgLnRpdGxlIG1hdC1pY29uIHtcbiAgICBmb250LXNpemU6IDIwcHg7XG4gIH1cbiAgLndyYXBwZXItbWVtYmVyaW5mby1yZWdpc3RlciAuY29udGVudHBhbmUge1xuICAgIG1heC13aWR0aDogNzEwcHg7XG4gICAgbWFyZ2luOiAwIGF1dG87XG4gIH1cbiAgLndyYXBwZXItbWVtYmVyaW5mby1yZWdpc3RlciAucGhvbmVOdW1iZXIge1xuICAgIGJvcmRlci1sZWZ0LWNvbG9yOiB0cmFuc3BhcmVudCAhaW1wb3J0YW50O1xuICB9XG4gIC53cmFwcGVyLW1lbWJlcmluZm8tcmVnaXN0ZXIgaW5wdXQge1xuICAgIGJvcmRlcjogMXB4IHNvbGlkICNFOUVERjMgIWltcG9ydGFudDtcbiAgICBoZWlnaHQ6IDQycHggIWltcG9ydGFudDtcbiAgfVxuICAud3JhcHBlci1tZW1iZXJpbmZvLXJlZ2lzdGVyIC5maWVsZC1pZGNhcmQtY2F0ZWdvcnkge1xuICAgIG1hcmdpbi1yaWdodDogMTJweDtcbiAgfVxuICAud3JhcHBlci1tZW1iZXJpbmZvLXJlZ2lzdGVyIC5maWVsZC1pZGNhcmQge1xuICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgd2lkdGg6IDEwMCU7XG4gICAganVzdGlmeS1jb250ZW50OiBzcGFjZS1iZXR3ZWVuO1xuICB9XG4gIC53cmFwcGVyLW1lbWJlcmluZm8tcmVnaXN0ZXIgLmZpZWxkLWlkY2FyZCAuZmllbGQtaWRjYXJkLWNhdGVnb3J5LCAud3JhcHBlci1tZW1iZXJpbmZvLXJlZ2lzdGVyIC5maWVsZC1pZGNhcmQgLmZpZWxkLWlkY2FyZC1udW1iZXIge1xuICAgIGRpc3BsYXk6IGlubGluZS1ibG9jaztcbiAgICB3aWR0aDogNDglICFpbXBvcnRhbnQ7XG4gIH1cbiAgLndyYXBwZXItbWVtYmVyaW5mby1yZWdpc3RlciAuZmllbGQtaWRjYXJkIC5maWVsZC1pZGNhcmQtbnVtYmVyIHtcbiAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZVkoMHB4KSAhaW1wb3J0YW50O1xuICB9XG4gIC53cmFwcGVyLW1lbWJlcmluZm8tcmVnaXN0ZXIgLmZpZWxkLWlkY2FyZCAuZmllbGQtaWRjYXJkLW51bWJlciBpbnB1dCB7XG4gICAgZGlzcGxheTogaW5saW5lLWJsb2NrICFpbXBvcnRhbnQ7XG4gICAgd2lkdGg6IDEwMCU7XG4gIH1cbiAgLndyYXBwZXItbWVtYmVyaW5mby1yZWdpc3RlciAuY29tcGxldGUtdGV4dC1zZWNvbmRhcnktcGFydCB7XG4gICAgbWFyZ2luLXRvcDogMHB4ICFpbXBvcnRhbnQ7XG4gIH1cbiAgLndyYXBwZXItbWVtYmVyaW5mby1yZWdpc3RlciAuY29uc2VudHMge1xuICAgIG1hcmdpbi10b3A6IDIwcHggIWltcG9ydGFudDtcbiAgfVxuICAud3JhcHBlci1tZW1iZXJpbmZvLXJlZ2lzdGVyIC5maWVsZC1hZGRyZXNzIC5zdWJmaWVsZCB7XG4gICAgZmxleC13cmFwOiB3cmFwO1xuICB9XG4gIC53cmFwcGVyLW1lbWJlcmluZm8tcmVnaXN0ZXIgLmZpZWxkLWFkZHJlc3MgLnN1YmZpZWxkIG1hdC1mb3JtLWZpZWxkOm50aC1jaGlsZCgxKSB7XG4gICAgd2lkdGg6IDQ4JSAhaW1wb3J0YW50O1xuICB9XG4gIC53cmFwcGVyLW1lbWJlcmluZm8tcmVnaXN0ZXIgLmZpZWxkLWFkZHJlc3MgLnN1YmZpZWxkIG1hdC1mb3JtLWZpZWxkOm50aC1jaGlsZCgyKSB7XG4gICAgd2lkdGg6IDQ4JSAhaW1wb3J0YW50O1xuICB9XG4gIC53cmFwcGVyLW1lbWJlcmluZm8tcmVnaXN0ZXIgLmZpZWxkLWFkZHJlc3MgLnN1YmZpZWxkIG1hdC1mb3JtLWZpZWxkOm50aC1jaGlsZCgzKSB7XG4gICAgd2lkdGg6IDEwMCUgIWltcG9ydGFudDtcbiAgfVxuICAud3JhcHBlci1tZW1iZXJpbmZvLXJlZ2lzdGVyIC5maWVsZC1hZGRyZXNzIC5zdWJmaWVsZCBtYXQtZm9ybS1maWVsZCB7XG4gICAgbWFyZ2luLWJvdHRvbTogMTBweDtcbiAgfVxuICAud3JhcHBlci1tZW1iZXJpbmZvLXJlZ2lzdGVyIC5maWVsZC1ib3JuZGF0ZSAuc3ViZmllbGQgbWF0LWZvcm0tZmllbGQge1xuICAgIHdpZHRoOiAzMiUgIWltcG9ydGFudDtcbiAgfVxuICAud3JhcHBlci1tZW1iZXJpbmZvLXJlZ2lzdGVyIC5jb250YWN0LWluZm8gLnRpdGxlIGltZyB7XG4gICAgdHJhbnNmb3JtOiB0cmFuc2xhdGVZKC00cHgpICFpbXBvcnRhbnQ7XG4gICAgbWFyZ2luLXJpZ2h0OiAxMHB4ICFpbXBvcnRhbnQ7XG4gICAgaGVpZ2h0OiAyMHB4ICFpbXBvcnRhbnQ7XG4gICAgd2lkdGg6IDIwcHggIWltcG9ydGFudDtcbiAgfVxuICAud3JhcHBlci1tZW1iZXJpbmZvLXJlZ2lzdGVyIC5zaWduYXR1cmUgLnRpdGxlIGltZyB7XG4gICAgbWFyZ2luLXJpZ2h0OiAxMnB4O1xuICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlWSgtNnB4KTtcbiAgfVxuICAud3JhcHBlci1tZW1iZXJpbmZvLXJlZ2lzdGVyIGlucHV0LCAud3JhcHBlci1tZW1iZXJpbmZvLXJlZ2lzdGVyIC5pbnZhbGlkIHtcbiAgICBib3JkZXItcmFkaXVzOiA4cHggIWltcG9ydGFudDtcbiAgfVxuICAud3JhcHBlci1tZW1iZXJpbmZvLXJlZ2lzdGVyIC5maWVsZC1waG9uZSBtYXQtZm9ybS1maWVsZCB7XG4gICAgd2lkdGg6IDEwJSAhaW1wb3J0YW50O1xuICB9XG4gIC53cmFwcGVyLW1lbWJlcmluZm8tcmVnaXN0ZXIgLmZpZWxkLXBob25lIC53YWxsbGluZSB7XG4gICAgbGVmdDogMTAlICFpbXBvcnRhbnQ7XG4gICAgd2lkdGg6IDJweCAhaW1wb3J0YW50O1xuICB9XG4gIC53cmFwcGVyLW1lbWJlcmluZm8tcmVnaXN0ZXIgLnBob25lTnVtYmVyIHtcbiAgICBib3JkZXItdG9wLWxlZnQtcmFkaXVzOiAwJSAhaW1wb3J0YW50O1xuICAgIGJvcmRlci1ib3R0b20tbGVmdC1yYWRpdXM6IDAlICFpbXBvcnRhbnQ7XG4gIH1cbiAgLndyYXBwZXItbWVtYmVyaW5mby1yZWdpc3RlciAuZGV0YWlsQWRkcmVzcyB7XG4gICAgaGVpZ2h0OiA4OHB4ICFpbXBvcnRhbnQ7XG4gIH1cbiAgLndyYXBwZXItbWVtYmVyaW5mby1yZWdpc3RlciAubG9nb2JhciB7XG4gICAgcGFkZGluZzogMHB4IDIwJSAhaW1wb3J0YW50O1xuICAgIGhlaWdodDogNjBweCAhaW1wb3J0YW50O1xuICB9XG4gIC53cmFwcGVyLW1lbWJlcmluZm8tcmVnaXN0ZXIgLmxvZ29iYXIgLmxvZ28ge1xuICAgIHBvc2l0aW9uOiBzdGF0aWMgIWltcG9ydGFudDtcbiAgICBoZWlnaHQ6IDQ4cHggIWltcG9ydGFudDtcbiAgICB3aWR0aDogMTUwcHggIWltcG9ydGFudDtcbiAgfVxuICAud3JhcHBlci1tZW1iZXJpbmZvLXJlZ2lzdGVyIC5zZWxlY3QtbGFuZ3VhZ2Uge1xuICAgIGNvbG9yOiAjMEEyNzQ5O1xuICAgIGRpc3BsYXk6IGZsZXg7XG4gICAganVzdGlmeS1jb250ZW50OiBzcGFjZS1iZXR3ZWVuO1xuICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7XG4gICAgdHJhbnNmb3JtOiB0cmFuc2xhdGUoMHB4LCAzcHgpO1xuICAgIGZvbnQtZmFtaWx5OiBOb3RvU2Fuc1RDLVJlZ3VsYXI7XG4gIH1cbiAgLndyYXBwZXItbWVtYmVyaW5mby1yZWdpc3RlciAudGl0bGUge1xuICAgIGZvbnQtc2l6ZTogMjBweCAhaW1wb3J0YW50O1xuICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlWSgtNXB4KTtcbiAgfVxuICAud3JhcHBlci1tZW1iZXJpbmZvLXJlZ2lzdGVyIC50ZXh0YXJlYS10aXRsZSAudGl0bGUge1xuICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlWSgwcHgpO1xuICAgIGZvbnQtc2l6ZTogMjhweCAhaW1wb3J0YW50O1xuICAgIGZvbnQtZmFtaWx5OiBOb3RvU2Fuc1RDLU1lZGl1bTtcbiAgfVxuICAud3JhcHBlci1tZW1iZXJpbmZvLXJlZ2lzdGVyIC50ZXh0YXJlYS10aXRsZSAudGV4dC10aXAge1xuICAgIGZvbnQtc2l6ZTogMTZweCAhaW1wb3J0YW50O1xuICAgIG1hcmdpbi1ib3R0b206IDgwcHggIWltcG9ydGFudDtcbiAgfVxuICAud3JhcHBlci1tZW1iZXJpbmZvLXJlZ2lzdGVyIC5zaWduYXR1cmUgLnRpcC1pbnZhbGlkIHtcbiAgICBmb250LXNpemU6IDE0cHg7XG4gICAgZm9udC13ZWlnaHQ6IG5vcm1hbDtcbiAgfVxuICAud3JhcHBlci1tZW1iZXJpbmZvLXJlZ2lzdGVyIC5zaWduYXR1cmUgLnRpcC1pbnZhbGlkIC5lcnJvciB7XG4gICAgdHJhbnNmb3JtOiB0cmFuc2xhdGUoNnB4LCAzcHgpICFpbXBvcnRhbnQ7XG4gIH1cbiAgLndyYXBwZXItbWVtYmVyaW5mby1yZWdpc3RlciAuaW52b2ljZS1tZXNzYWdlIHtcbiAgICBmb250LXNpemU6IDE0cHggIWltcG9ydGFudDtcbiAgfVxuICAud3JhcHBlci1tZW1iZXJpbmZvLXJlZ2lzdGVyIC5pbnZvaWNlLW1lc3NhZ2UgLnN1YnRpdGxlIC50ZXh0IHNwYW4ge1xuICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlWSgycHgpICFpbXBvcnRhbnQ7XG4gIH1cbiAgLndyYXBwZXItbWVtYmVyaW5mby1yZWdpc3RlciAuaW52b2ljZS1tZXNzYWdlIC50aXRsZSB7XG4gICAgbWFyZ2luLXRvcDogLTQwcHggIWltcG9ydGFudDtcbiAgICBwYWRkaW5nLWJvdHRvbTogMTBweCAhaW1wb3J0YW50O1xuICB9XG4gIC53cmFwcGVyLW1lbWJlcmluZm8tcmVnaXN0ZXIgLmludm9pY2UtbWVzc2FnZSAudGl0bGUgaW1nIHtcbiAgICBoZWlnaHQ6IDIwcHggIWltcG9ydGFudDtcbiAgICB3aWR0aDogMjBweCAhaW1wb3J0YW50O1xuICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlWSgwcHgpICFpbXBvcnRhbnQ7XG4gIH1cbiAgLndyYXBwZXItbWVtYmVyaW5mby1yZWdpc3RlciAuaW52b2ljZS1tZXNzYWdlIC50ZXh0YXJlYSAuYmFyIHtcbiAgICBwYWRkaW5nOiA2cHggMHB4ICFpbXBvcnRhbnQ7XG4gIH1cbiAgLndyYXBwZXItbWVtYmVyaW5mby1yZWdpc3RlciAuaW52b2ljZS1tZXNzYWdlIC50ZXh0YXJlYSAuYmFyIGltZyB7XG4gICAgaGVpZ2h0OiAxNnB4ICFpbXBvcnRhbnQ7XG4gICAgd2lkdGg6IDE2cHggIWltcG9ydGFudDtcbiAgICBtYXJnaW4tcmlnaHQ6IDhweCAhaW1wb3J0YW50O1xuICAgIG1hcmdpbi10b3A6IDJweCAhaW1wb3J0YW50O1xuICB9XG4gIC53cmFwcGVyLW1lbWJlcmluZm8tcmVnaXN0ZXIgLmludm9pY2UtbWVzc2FnZSAudGV4dGFyZWEgLmJhci1sb2NhdGlvbiB7XG4gICAgcGFkZGluZy1ib3R0b206IDE4cHggIWltcG9ydGFudDtcbiAgfVxuICAud3JhcHBlci1tZW1iZXJpbmZvLXJlZ2lzdGVyIC5pbnZvaWNlLW1lc3NhZ2UgLmJhci11c2VybmFtZSB7XG4gICAgZm9udC1zaXplOiAxNnB4ICFpbXBvcnRhbnQ7XG4gIH1cbiAgLndyYXBwZXItbWVtYmVyaW5mby1yZWdpc3RlciAucGVyc29uLW1lc3NhZ2UgLnRpdGxlIGltZyB7XG4gICAgaGVpZ2h0OiAyMHB4ICFpbXBvcnRhbnQ7XG4gICAgd2lkdGg6IDIwcHggIWltcG9ydGFudDtcbiAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZVkoLTJweCkgIWltcG9ydGFudDtcbiAgfVxuICAud3JhcHBlci1tZW1iZXJpbmZvLXJlZ2lzdGVyIC5wZXJzb24tbWVzc2FnZSAudGl0bGUgc3BhbiB7XG4gICAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xuICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlWSgycHgpO1xuICB9XG4gIC53cmFwcGVyLW1lbWJlcmluZm8tcmVnaXN0ZXIgLnBlcnNvbi1tZXNzYWdlIC50aXRsZSAuc3ViIHtcbiAgICBmb250LXNpemU6IDE0cHggIWltcG9ydGFudDtcbiAgICBtYXJnaW4tYm90dG9tOiAxNXB4ICFpbXBvcnRhbnQ7XG4gICAgZm9udC1zaXplOiAxNHB4ICFpbXBvcnRhbnQ7XG4gICAgZm9udC1mYW1pbHk6IE5vdG9TYW5zVEMtUmVndWxhcjtcbiAgICBmb250LXdlaWdodDogNDAwO1xuICAgIGNvbG9yOiAjNzM4M0ExO1xuICB9XG4gIC53cmFwcGVyLW1lbWJlcmluZm8tcmVnaXN0ZXIgLnBlcnNvbi1tZXNzYWdlIC50aXRsZSAudGlwIHtcbiAgICBwb3NpdGlvbjogYWJzb2x1dGUgIWltcG9ydGFudDtcbiAgICByaWdodDogLTMycHggIWltcG9ydGFudDtcbiAgICB3aWR0aDogYXV0byAhaW1wb3J0YW50O1xuICAgIGRpc3BsYXk6IGlubGluZSAhaW1wb3J0YW50O1xuICAgIHRvcDogNTAlICFpbXBvcnRhbnQ7XG4gICAgdHJhbnNmb3JtOiB0cmFuc2xhdGVZKC01MCUpICFpbXBvcnRhbnQ7XG4gICAgZm9udC1zaXplOiAxNHB4ICFpbXBvcnRhbnQ7XG4gICAgY29sb3I6ICM3MzgzQTEgIWltcG9ydGFudDtcbiAgfVxuICAud3JhcHBlci1tZW1iZXJpbmZvLXJlZ2lzdGVyIC5wZXJzb24tbWVzc2FnZSAudGl0bGUgLnRpcCAuZWZmZWN0LWZvbnQtaW1wIHtcbiAgICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gICAgdG9wOiAwcHg7XG4gICAgbGVmdDogLTEwcHg7XG4gIH1cbiAgLndyYXBwZXItbWVtYmVyaW5mby1yZWdpc3RlciAuY3VzdG9tLWZyYW1lIC5ub3dyYXAge1xuICAgIGRpc3BsYXk6IGlubGluZS1ibG9jayAhaW1wb3J0YW50O1xuICB9XG4gIC53cmFwcGVyLW1lbWJlcmluZm8tcmVnaXN0ZXIgLmludm9pY2UtbWVzc2FnZSAuZWZmZWN0LXBhZGRpbmctaW5uZXIge1xuICAgIHdpZHRoOiBjYWxjKDEwMCUgLSA0NXB4KSAhaW1wb3J0YW50O1xuICAgIG1hcmdpbjogMCBhdXRvO1xuICB9XG4gIC53cmFwcGVyLW1lbWJlcmluZm8tcmVnaXN0ZXIgLmVmZmVjdC1wYWRkaW5nLWlubmVyIHtcbiAgICB3aWR0aDogY2FsYygxMDAlIC0gNnB4KSAhaW1wb3J0YW50O1xuICB9XG4gIC53cmFwcGVyLW1lbWJlcmluZm8tcmVnaXN0ZXIgLnNpZ25hdHVyZS1wYWQge1xuICAgIHdpZHRoOiAxMDAlO1xuICAgIGhlaWdodDogMTg4cHggIWltcG9ydGFudDtcbiAgICBib3JkZXI6IDFweCBzb2xpZCB0cmFuc3BhcmVudDtcbiAgfVxufVxuLndyYXBwZXItbWVtYmVyaW5mby1yZWdpc3RlciAucGVyc29uLW1lc3NhZ2UgLnRpdGxlIHtcbiAgdHJhbnNmb3JtOiB0cmFuc2xhdGVZKDBweCk7XG59XG4ud3JhcHBlci1tZW1iZXJpbmZvLXJlZ2lzdGVyIC5wZXJzb24tbWVzc2FnZSAudGl0bGUgaW1nIHtcbiAgaGVpZ2h0OiAxNnB4O1xuICB3aWR0aDogMTZweDtcbiAgdHJhbnNmb3JtOiB0cmFuc2xhdGVZKC00cHgpO1xufVxuLndyYXBwZXItbWVtYmVyaW5mby1yZWdpc3RlciAucGVyc29uLW1lc3NhZ2UgLnRpdGxlIC50aXAge1xuICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gIHJpZ2h0OiAxMHB4O1xuICB3aWR0aDogYXV0bztcbiAgZGlzcGxheTogaW5saW5lO1xuICB0b3A6IDclO1xuICBmb250LXNpemU6IDEycHg7XG4gIGNvbG9yOiAjNzM4M0ExO1xuICBmb250LWZhbWlseTogTm90b1NhbnNUQy1SZWd1bGFyO1xufVxuLndyYXBwZXItbWVtYmVyaW5mby1yZWdpc3RlciAucGVyc29uLW1lc3NhZ2UgLnRpdGxlIC50aXAgLmVmZmVjdC1mb250LWltcCB7XG4gIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgdG9wOiAwcHg7XG4gIGxlZnQ6IC0xMHB4O1xufVxuLndyYXBwZXItbWVtYmVyaW5mby1yZWdpc3RlciAucGVyc29uLW1lc3NhZ2UgLnRpdGxlIC5mb3JtYWxmaXgudGlwIHtcbiAgdG9wOiA1MiU7XG59XG4ud3JhcHBlci1tZW1iZXJpbmZvLXJlZ2lzdGVyIC5wZXJzb24tbWVzc2FnZSAudGl0bGUgLnN1YiB7XG4gIGZvbnQtc2l6ZTogMTNweDtcbiAgbWFyZ2luLWJvdHRvbTogMTBweDtcbiAgZm9udC1mYW1pbHk6IE5vdG9TYW5zVEMtUmVndWxhcjtcbiAgZm9udC13ZWlnaHQ6IDQwMDtcbiAgY29sb3I6ICM3MzgzQTE7XG59XG4ud3JhcHBlci1tZW1iZXJpbmZvLXJlZ2lzdGVyIC5wZXJzb24tbWVzc2FnZSAudGl0bGUgc3BhbiB7XG4gIHBvc2l0aW9uOiByZWxhdGl2ZTtcbiAgd2hpdGUtc3BhY2U6IHByZS13cmFwO1xuICB0ZXh0LWFsaWduOiBsZWZ0O1xuICBtYXJnaW4tYm90dG9tOiA0cHg7XG4gIGRpc3BsYXk6IGlubGluZS1ibG9jaztcbiAgd2lkdGg6IDkwJTtcbiAgdmVydGljYWwtYWxpZ246IHRleHQtdG9wO1xufVxuLndyYXBwZXItbWVtYmVyaW5mby1yZWdpc3RlciAucGVyc29uLW1lc3NhZ2UgLmZpZWxkLWNobmFtZSB7XG4gIG1hcmdpbi10b3A6IDBweCAhaW1wb3J0YW50O1xufVxuLndyYXBwZXItbWVtYmVyaW5mby1yZWdpc3RlciAuY29udGFjdC1pbmZvLCAud3JhcHBlci1tZW1iZXJpbmZvLXJlZ2lzdGVyIC5wZXJzb24tbWVzc2FnZSB7XG4gIHBhZGRpbmctYm90dG9tOiAyMHB4O1xufVxuLndyYXBwZXItbWVtYmVyaW5mby1yZWdpc3RlciAucGVyc29uLW1lc3NhZ2UuZm9ybWFsbGF5b3V0IHtcbiAgcGFkZGluZy1ib3R0b206IDBweDtcbn1cbi53cmFwcGVyLW1lbWJlcmluZm8tcmVnaXN0ZXIgLmZpZWxkLWVtYWlsLCAud3JhcHBlci1tZW1iZXJpbmZvLXJlZ2lzdGVyIC5maWVsZC1hZGRyZXNzIHtcbiAgdHJhbnNmb3JtOiB0cmFuc2xhdGVZKC05cHgpO1xufVxuLndyYXBwZXItbWVtYmVyaW5mby1yZWdpc3RlciAuc3VjY2Vzc3BhZ2Uge1xuICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XG4gIG1hcmdpbjogNjBweCBhdXRvO1xuICBwb3NpdGlvbjogZml4ZWQ7XG4gIHdpZHRoOiAzMzBweDtcbiAgZm9udC13ZWlnaHQ6IGJvbGQ7XG4gIGNvbG9yOiAjMEY0Njg1O1xuICBmb250LXNpemU6IDE4cHg7XG4gIHRvcDogNjBweDtcbiAgbGVmdDogNTAlO1xuICB0cmFuc2Zvcm06IHRyYW5zbGF0ZVgoLTUwJSk7XG4gIHRleHQtYWxpZ246IGNlbnRlcjtcbn1cbi53cmFwcGVyLW1lbWJlcmluZm8tcmVnaXN0ZXIgLnN1Y2Nlc3NwYWdlIGltZyB7XG4gIG1hcmdpbi10b3A6IDI1cHg7XG59XG4ud3JhcHBlci1tZW1iZXJpbmZvLXJlZ2lzdGVyIC5zdWNjZXNzcGFnZSBkaXYge1xuICBtYXJnaW4tdG9wOiAyNXB4O1xufVxuLndyYXBwZXItbWVtYmVyaW5mby1yZWdpc3RlciAuZm9udGVmZmVjdCB7XG4gIGNvbG9yOiAjQUNBQ0FDO1xufVxuLndyYXBwZXItbWVtYmVyaW5mby1yZWdpc3RlciAubG9nb2JhciB7XG4gIHBvc2l0aW9uOiBmaXhlZDtcbiAgdG9wOiAwcHg7XG4gIHdpZHRoOiAxMDAlO1xuICBoZWlnaHQ6IDYwcHg7XG4gIHBhZGRpbmctbGVmdDogMThweDtcbiAgcGFkZGluZy1yaWdodDogMTBweDtcbiAgZGlzcGxheTogZmxleDtcbiAganVzdGlmeS1jb250ZW50OiBzcGFjZS1iZXR3ZWVuO1xuICBhbGlnbi1pdGVtczogY2VudGVyO1xuICB6LWluZGV4OiA5MDA7XG4gIGJveC1zaGFkb3c6IDBweCAycHggNXB4IDBweCByZ2JhKDAsIDAsIDAsIDAuMDYpO1xuICBiYWNrZ3JvdW5kLWNvbG9yOiB3aGl0ZTtcbn1cbi53cmFwcGVyLW1lbWJlcmluZm8tcmVnaXN0ZXIgLmxvZ29iYXIgaW1nIHtcbiAgcG9zaXRpb246IHJlbGF0aXZlO1xuICBsZWZ0OiA1MCU7XG4gIHRyYW5zZm9ybTogdHJhbnNsYXRlKC01MCUsIDBweCk7XG4gIGhlaWdodDogMzJweDtcbiAgd2lkdGg6IDEwMHB4O1xufVxuLndyYXBwZXItbWVtYmVyaW5mby1yZWdpc3RlciAubG9nb2JhciAuc2VsZWN0LWxhbmd1YWdlIHtcbiAgY29sb3I6ICMwQTI3NDk7XG4gIGRpc3BsYXk6IGZsZXg7XG4gIGp1c3RpZnktY29udGVudDogc3BhY2UtYmV0d2VlbjtcbiAgYWxpZ24taXRlbXM6IGNlbnRlcjtcbiAgdHJhbnNmb3JtOiB0cmFuc2xhdGUoMHB4LCAzcHgpO1xuICBmb250LWZhbWlseTogTm90b1NhbnNUQy1SZWd1bGFyO1xufVxuLndyYXBwZXItbWVtYmVyaW5mby1yZWdpc3RlciAubG9nb2JhciAuc2VsZWN0LWxhbmd1YWdlIG1hdC1pY29uIHtcbiAgY29sb3I6ICMwQTI3NDk7XG4gIHRyYW5zZm9ybTogdHJhbnNsYXRlKDVweCwgMHB4KTtcbn1cbi53cmFwcGVyLW1lbWJlcmluZm8tcmVnaXN0ZXIgLmxvZ29iYXIgLnNlbGVjdC1sYW5ndWFnZSBtYXQtc2VsZWN0IHtcbiAgd2lkdGg6IDc4cHg7XG4gIGhlaWdodDogMzBweDtcbn1cbi53cmFwcGVyLW1lbWJlcmluZm8tcmVnaXN0ZXIgLmxvZ29iYXIgLnNlbGVjdC1sYW5ndWFnZSAubWF0LXNlbGVjdC1hcnJvdy13cmFwcGVyIHtcbiAgdHJhbnNmb3JtOiB0cmFuc2xhdGVZKDEuM3B4KSAhaW1wb3J0YW50O1xufVxuLndyYXBwZXItbWVtYmVyaW5mby1yZWdpc3RlciAucGhvbmVOdW1iZXIuaW52YWxpZCB7XG4gIGJvcmRlci1sZWZ0LWNvbG9yOiB0cmFuc3BhcmVudCAhaW1wb3J0YW50O1xufVxuLndyYXBwZXItbWVtYmVyaW5mby1yZWdpc3RlciAuaW52YWxpZCB7XG4gIGJvcmRlci1yYWRpdXM6IDVweDtcbiAgYm9yZGVyLWNvbG9yOiByZWQgIWltcG9ydGFudDtcbn1cbi53cmFwcGVyLW1lbWJlcmluZm8tcmVnaXN0ZXIgLmludmFsaWQgLm1hdC1jaGVja2JveC1mcmFtZSB7XG4gIGJvcmRlci1jb2xvcjogI0YzNkE2QSAhaW1wb3J0YW50O1xufVxuLndyYXBwZXItbWVtYmVyaW5mby1yZWdpc3RlciBtYXQtY2hlY2tib3guaW52YWxpZCB7XG4gIGJveC1zaGFkb3c6IG5vbmUgIWltcG9ydGFudDtcbiAgYm9yZGVyLXJhZGl1czogMHB4ICFpbXBvcnRhbnQ7XG59XG4ud3JhcHBlci1tZW1iZXJpbmZvLXJlZ2lzdGVyIC5zaWduYXR1cmUtcGFkIHtcbiAgd2lkdGg6IDEwMCU7XG4gIGhlaWdodDogMTQwcHg7XG4gIGJvcmRlcjogMXB4IHNvbGlkIHRyYW5zcGFyZW50O1xufVxuLndyYXBwZXItbWVtYmVyaW5mby1yZWdpc3RlciAuZWZmZWN0LWZvbnQtaW1wIHtcbiAgY29sb3I6IHJlZDtcbiAgbWFyZ2luLWxlZnQ6IDRweDtcbn1cbi53cmFwcGVyLW1lbWJlcmluZm8tcmVnaXN0ZXIgbWF0LWljb24ge1xuICBmb250LXNpemU6IDE2cHg7XG4gIGNvbG9yOiAjRDFEMUQxO1xufVxuLndyYXBwZXItbWVtYmVyaW5mby1yZWdpc3RlciAucGhvbmVOdW1iZXIge1xuICBib3JkZXItbGVmdDogbm9uZTtcbiAgYm9yZGVyLXRvcC1sZWZ0LXJhZGl1czogMCU7XG4gIGJvcmRlci1ib3R0b20tbGVmdC1yYWRpdXM6IDAlO1xufVxuLndyYXBwZXItbWVtYmVyaW5mby1yZWdpc3RlciAucGhvbmVBcmVhQ29kZSB7XG4gIHBvc2l0aW9uOiByZWxhdGl2ZTtcbn1cbi53cmFwcGVyLW1lbWJlcmluZm8tcmVnaXN0ZXIgLmZpZWxkLXBob25lIC53YWxsbGluZSB7XG4gIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xuICB0b3A6IDQ2JTtcbiAgdHJhbnNmb3JtOiB0cmFuc2xhdGVZKC01MCUpO1xuICBsZWZ0OiAyMyU7XG4gIHdpZHRoOiAxLjVweDtcbiAgaGVpZ2h0OiA0MCU7XG4gIHotaW5kZXg6IDEwMDtcbiAgYmFja2dyb3VuZC1jb2xvcjogI0Q5REVFODtcbn1cbi53cmFwcGVyLW1lbWJlcmluZm8tcmVnaXN0ZXIgZGl2IHtcbiAgbWFyZ2luOiAwO1xuICBwYWRkaW5nOiAwO1xufVxuLndyYXBwZXItbWVtYmVyaW5mby1yZWdpc3RlciAuaW52YWxpZCBpbnB1dCB7XG4gIGJvcmRlci1jb2xvcjogdHJhbnNwYXJlbnQ7XG59XG4ud3JhcHBlci1tZW1iZXJpbmZvLXJlZ2lzdGVyIGlucHV0IHtcbiAgLXdlYmtpdC1hcHBlYXJhbmNlOiBub25lO1xuICBib3JkZXItcmFkaXVzOiA1cHg7XG4gIG91dGxpbmU6IG5vbmU7XG4gIGJvcmRlcjogMXB4IHNvbGlkICNEOURFRTg7XG4gIGhlaWdodDogNDhweDtcbiAgcGFkZGluZy1sZWZ0OiAxMHB4O1xuICB0ZXh0LW92ZXJmbG93OiBlbGxpcHNpcztcbiAgb3ZlcmZsb3c6IGhpZGRlbjtcbiAgd2hpdGUtc3BhY2U6IG5vd3JhcDtcbiAgZm9udC1mYW1pbHk6IE5vdG9TYW5zVEMtUmVndWxhciAhaW1wb3J0YW50O1xufVxuLndyYXBwZXItbWVtYmVyaW5mby1yZWdpc3RlciBpbnB1dDo6LXdlYmtpdC1pbnB1dC1wbGFjZWhvbGRlciB7XG4gIC8qIENocm9tZS9PcGVyYS9TYWZhcmkgKi9cbiAgZm9udC1mYW1pbHk6IE5vdG9TYW5zVEMtUmVndWxhciAhaW1wb3J0YW50O1xuICB3aGl0ZS1zcGFjZTogbm93cmFwO1xuICB0ZXh0LW92ZXJmbG93OiBlbGxpcHNpcztcbiAgb3ZlcmZsb3c6IGhpZGRlbjtcbiAgZm9udC1zaXplOiAxNHB4O1xuICBjb2xvcjogZ3JleTtcbiAgZm9udC13ZWlnaHQ6IG5vcm1hbDtcbn1cbi53cmFwcGVyLW1lbWJlcmluZm8tcmVnaXN0ZXIgaW5wdXQ6Oi1tb3otcGxhY2Vob2xkZXIge1xuICAvKiBGaXJlZm94IDE5KyAqL1xuICBmb250LWZhbWlseTogTm90b1NhbnNUQy1SZWd1bGFyICFpbXBvcnRhbnQ7XG4gIHdoaXRlLXNwYWNlOiBub3dyYXA7XG4gIHRleHQtb3ZlcmZsb3c6IGVsbGlwc2lzO1xuICBvdmVyZmxvdzogaGlkZGVuO1xuICBmb250LXNpemU6IDE0cHg7XG4gIGNvbG9yOiBncmV5O1xuICBmb250LXdlaWdodDogbm9ybWFsO1xufVxuLndyYXBwZXItbWVtYmVyaW5mby1yZWdpc3RlciBpbnB1dDo6cGxhY2Vob2xkZXIge1xuICBmb250LWZhbWlseTogTm90b1NhbnNUQy1SZWd1bGFyICFpbXBvcnRhbnQ7XG4gIGZvbnQtd2VpZ2h0OiA0MDAgIWltcG9ydGFudDtcbn1cbi53cmFwcGVyLW1lbWJlcmluZm8tcmVnaXN0ZXIgaW5wdXQ6LW1zLWlucHV0LXBsYWNlaG9sZGVyIHtcbiAgZm9udC1mYW1pbHk6IE5vdG9TYW5zVEMtUmVndWxhciAhaW1wb3J0YW50O1xuICBmb250LXdlaWdodDogNDAwICFpbXBvcnRhbnQ7XG59XG4ud3JhcHBlci1tZW1iZXJpbmZvLXJlZ2lzdGVyIC5maWVsZCB7XG4gIG1hcmdpbi10b3A6IDE0cHg7XG59XG4ud3JhcHBlci1tZW1iZXJpbmZvLXJlZ2lzdGVyIC5maWVsZCAudGlwIHtcbiAgcGFkZGluZy1sZWZ0OiAxLjJweDtcbiAgcGFkZGluZy1ib3R0b206IDNweDtcbiAgZm9udC1zaXplOiAxNHB4O1xuICBjb2xvcjogIzBBMjc0OTtcbn1cbi53cmFwcGVyLW1lbWJlcmluZm8tcmVnaXN0ZXIgLmZpZWxkIC50aXAtaW52YWxpZCB7XG4gIGZvbnQtZmFtaWx5OiBOb3RvU2Fuc1RDLVJlZ3VsYXI7XG4gIGZvbnQtc2l6ZTogMTJweDtcbiAgZGlzcGxheTogZmxleDtcbiAgYWxpZ24taXRlbXM6IGNlbnRlcjtcbiAgdHJhbnNmb3JtOiB0cmFuc2xhdGUoLTRweCwgMHB4KTtcbn1cbi53cmFwcGVyLW1lbWJlcmluZm8tcmVnaXN0ZXIgLmZpZWxkIC50aXAtaW52YWxpZCBtYXQtaWNvbiB7XG4gIGNvbG9yOiAjRjM2QTZBO1xuICB0cmFuc2Zvcm06IHRyYW5zbGF0ZSg1cHgsIDMuNXB4KTtcbiAgZm9udC1zaXplOiAxOHB4O1xufVxuLndyYXBwZXItbWVtYmVyaW5mby1yZWdpc3RlciAuZmllbGQgLnRpcC1pbnZhbGlkIHNwYW4ge1xuICBjb2xvcjogI0YzNkE2QTtcbn1cbi53cmFwcGVyLW1lbWJlcmluZm8tcmVnaXN0ZXIgLnRpcC1pbnZhbGlkIHtcbiAgZm9udC1mYW1pbHk6IE5vdG9TYW5zVEMtUmVndWxhcjtcbiAgZm9udC1zaXplOiAxMnB4O1xuICBkaXNwbGF5OiBmbGV4O1xuICBhbGlnbi1pdGVtczogY2VudGVyO1xuICB0cmFuc2Zvcm06IHRyYW5zbGF0ZSgtNHB4LCAwcHgpO1xuICB3aGl0ZS1zcGFjZTogbm9ybWFsO1xufVxuLndyYXBwZXItbWVtYmVyaW5mby1yZWdpc3RlciAudGlwLWludmFsaWQgbWF0LWljb24ge1xuICBjb2xvcjogI0YzNkE2QTtcbiAgdHJhbnNmb3JtOiB0cmFuc2xhdGUoNXB4LCAzLjVweCk7XG4gIGZvbnQtc2l6ZTogMThweDtcbiAgbWFyZ2luLXJpZ2h0OiA1cHg7XG59XG4ud3JhcHBlci1tZW1iZXJpbmZvLXJlZ2lzdGVyIC50aXAtaW52YWxpZCBzcGFuIHtcbiAgY29sb3I6ICNGMzZBNkE7XG59XG4ud3JhcHBlci1tZW1iZXJpbmZvLXJlZ2lzdGVyIC50aXRsZSB7XG4gIGZvbnQtc2l6ZTogMTZweDtcbiAgZm9udC13ZWlnaHQ6IDUwMDtcbiAgY29sb3I6ICMwQTI3NDk7XG59XG4ud3JhcHBlci1tZW1iZXJpbmZvLXJlZ2lzdGVyIC50aXRsZSBpbWcge1xuICBtYXJnaW4tcmlnaHQ6IDVweDtcbiAgaGVpZ2h0OiAxMDAlO1xufVxuLndyYXBwZXItbWVtYmVyaW5mby1yZWdpc3RlciAudGl0bGUgc3BhbiB7XG4gIHdoaXRlLXNwYWNlOiBwcmUtd3JhcDtcbiAgdGV4dC1hbGlnbjogbGVmdDtcbiAgZm9udC1mYW1pbHk6IE5vdG9TYW5zVEMtTWVkaXVtO1xufVxuLndyYXBwZXItbWVtYmVyaW5mby1yZWdpc3RlciAudGlwIHtcbiAgZm9udC1zaXplOiAxNHB4O1xufVxuLndyYXBwZXItbWVtYmVyaW5mby1yZWdpc3RlciAuaW52b2ljZS1tZXNzYWdlIC5lZmZlY3QtcGFkZGluZy1pbm5lciB7XG4gIHdpZHRoOiBjYWxjKDEwMCUgLSAyMHB4KTtcbiAgbWFyZ2luOiAwIGF1dG87XG59XG4ud3JhcHBlci1tZW1iZXJpbmZvLXJlZ2lzdGVyIC5lZmZlY3QtcGFkZGluZy1pbm5lciB7XG4gIHdpZHRoOiBjYWxjKDEwMCUgLSA2cHgpO1xufVxuLndyYXBwZXItbWVtYmVyaW5mby1yZWdpc3RlciAubWFpbmZvcm0uZWZmZWN0LXBhZGRpbmctaW5uZXIsIC53cmFwcGVyLW1lbWJlcmluZm8tcmVnaXN0ZXIgLnRleHRhcmVhLXRpdGxlLmVmZmVjdC1wYWRkaW5nLWlubmVyIHtcbiAgd2lkdGg6IGNhbGMoMTAwJSAtIDQ1cHgpO1xuICBtYXJnaW46IDAgYXV0bztcbn1cbi53cmFwcGVyLW1lbWJlcmluZm8tcmVnaXN0ZXIgLm1haW5mb3JtID4gZGl2IHtcbiAgbWFyZ2luLXRvcDogNDJweDtcbiAgYm9yZGVyOiAxcHggc29saWQgdHJhbnNwYXJlbnQ7XG4gIGJvcmRlci1yYWRpdXM6IDEwcHg7XG59XG4ud3JhcHBlci1tZW1iZXJpbmZvLXJlZ2lzdGVyIC5tYWluZm9ybSA+IGRpdiA+IC50aXRsZSB7XG4gIG1hcmdpbi10b3A6IC0yMHB4O1xufVxuLndyYXBwZXItbWVtYmVyaW5mby1yZWdpc3RlciAubWFpbmZvcm0gLnBlcnNvbi1tZXNzYWdlIC5lZmZlY3QtcGFkZGluZy1pbm5lciwgLndyYXBwZXItbWVtYmVyaW5mby1yZWdpc3RlciAubWFpbmZvcm0gLmludm9pY2UtbWVzc2FnZSAuZWZmZWN0LXBhZGRpbmctaW5uZXIsIC53cmFwcGVyLW1lbWJlcmluZm8tcmVnaXN0ZXIgLm1haW5mb3JtIC5jb250YWN0LWluZm8gLmVmZmVjdC1wYWRkaW5nLWlubmVyLCAud3JhcHBlci1tZW1iZXJpbmZvLXJlZ2lzdGVyIC5tYWluZm9ybSAuY29uc2VudHMgLmVmZmVjdC1wYWRkaW5nLWlubmVyIHtcbiAgcGFkZGluZy10b3A6IDVweDtcbn1cbi53cmFwcGVyLW1lbWJlcmluZm8tcmVnaXN0ZXIgLm1haW5mb3JtIC5jb25zZW50cyB7XG4gIGNvbG9yOiAjNzM4M0ExO1xuICBib3JkZXI6IG5vbmUgIWltcG9ydGFudDtcbiAgbWFyZ2luLWJvdHRvbTogNzBweDtcbiAgbWFyZ2luLXRvcDogLTIwcHg7XG59XG4ud3JhcHBlci1tZW1iZXJpbmZvLXJlZ2lzdGVyIC5tYWluZm9ybSAuY29uc2VudHMgLmVmZmVjdC1wYWRkaW5nLWlubmVyIHtcbiAgYm9yZGVyLWNvbG9yOiB0cmFuc3BhcmVudDtcbiAgd2lkdGg6IDk4JTtcbiAgbWFyZ2luLXRvcDogLTEwcHg7XG59XG4ud3JhcHBlci1tZW1iZXJpbmZvLXJlZ2lzdGVyIC5tYWluZm9ybSAuZm9ybWFsbGF5b3V0LmNvbnNlbnRzIHtcbiAgbWFyZ2luLXRvcDogMzBweDtcbn1cbi53cmFwcGVyLW1lbWJlcmluZm8tcmVnaXN0ZXIgLm1haW5mb3JtIC5pbnZvaWNlLW1lc3NhZ2Uge1xuICBtYXJnaW4tdG9wOiA2NXB4O1xuICBtYXJnaW4tYm90dG9tOiA2MHB4O1xuICBmb250LWZhbWlseTogTm90b1NhbnNUQy1MaWdodDtcbiAgY29sb3I6ICM3MzgzQTEgIWltcG9ydGFudDtcbiAgYmFja2dyb3VuZC1jb2xvcjogI0Y3RjdGNztcbiAgYm9yZGVyLWNvbG9yOiB0cmFuc3BhcmVudDtcbn1cbi53cmFwcGVyLW1lbWJlcmluZm8tcmVnaXN0ZXIgLm1haW5mb3JtIC5pbnZvaWNlLW1lc3NhZ2UgLnRpdGxlIHtcbiAgbWFyZ2luLXRvcDogLTMwcHg7XG59XG4ud3JhcHBlci1tZW1iZXJpbmZvLXJlZ2lzdGVyIC5tYWluZm9ybSAuaW52b2ljZS1tZXNzYWdlIC50aXRsZSBpbWcge1xuICB0cmFuc2Zvcm06IHRyYW5zbGF0ZVkoLTVweCk7XG4gIGhlaWdodDogMTZweDtcbiAgd2lkdGg6IDE2cHg7XG59XG4ud3JhcHBlci1tZW1iZXJpbmZvLXJlZ2lzdGVyIC5tYWluZm9ybSAuaW52b2ljZS1tZXNzYWdlIC5iYXIge1xuICBkaXNwbGF5OiBmbGV4O1xuICBwYWRkaW5nOiA2cHggMHB4O1xuICBmb250LWZhbWlseTogTm90b1NhbnNUQy1SZWd1bGFyO1xufVxuLndyYXBwZXItbWVtYmVyaW5mby1yZWdpc3RlciAubWFpbmZvcm0gLmludm9pY2UtbWVzc2FnZSAuYmFyIGltZyB7XG4gIGhlaWdodDogMTRweDtcbiAgd2lkdGg6IDE0cHg7XG4gIG1hcmdpbi1yaWdodDogOHB4O1xuICBtYXJnaW4tdG9wOiAzcHg7XG59XG4ud3JhcHBlci1tZW1iZXJpbmZvLXJlZ2lzdGVyIC5tYWluZm9ybSAuaW52b2ljZS1tZXNzYWdlIC5iYXIgc3BhbiB7XG4gIGRpc3BsYXk6IGlubGluZS1ibG9jaztcbn1cbi53cmFwcGVyLW1lbWJlcmluZm8tcmVnaXN0ZXIgLm1haW5mb3JtIC5pbnZvaWNlLW1lc3NhZ2UgLmJhci1sb2NhdGlvbiB7XG4gIHBhZGRpbmctYm90dG9tOiAxOHB4O1xufVxuLndyYXBwZXItbWVtYmVyaW5mby1yZWdpc3RlciAubWFpbmZvcm0gLmludm9pY2UtbWVzc2FnZSAuYmFyLXVzZXJuYW1lIHtcbiAgcGFkZGluZy10b3A6IDE4cHg7XG4gIGZvbnQtc2l6ZTogMTZweDtcbiAgY29sb3I6ICMwQTI3NDk7XG59XG4ud3JhcHBlci1tZW1iZXJpbmZvLXJlZ2lzdGVyIC5tYWluZm9ybSAuaW52b2ljZS1tZXNzYWdlIC50aXAge1xuICBmbG9hdDogcmlnaHQ7XG59XG4ud3JhcHBlci1tZW1iZXJpbmZvLXJlZ2lzdGVyIC5tYWluZm9ybSAuaW52b2ljZS1tZXNzYWdlIC5zdWJ0aXRsZSAudGV4dCBtYXQtaWNvbiB7XG4gIGZvbnQtc2l6ZTogMjBweDtcbn1cbi53cmFwcGVyLW1lbWJlcmluZm8tcmVnaXN0ZXIgLm1haW5mb3JtIC5pbnZvaWNlLW1lc3NhZ2UgLnN1YnRpdGxlIC50ZXh0IHNwYW4ge1xuICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XG4gIHRyYW5zZm9ybTogdHJhbnNsYXRlWSgtM3B4KTtcbn1cbi53cmFwcGVyLW1lbWJlcmluZm8tcmVnaXN0ZXIgLm1haW5mb3JtIC50ZXh0YXJlYS1pbnB1dCB7XG4gIGRpc3BsYXk6IGZsZXg7XG4gIGp1c3RpZnktY29udGVudDogc3BhY2UtYmV0d2Vlbjtcbn1cbi53cmFwcGVyLW1lbWJlcmluZm8tcmVnaXN0ZXIgLm1haW5mb3JtIC50ZXh0YXJlYS1pbnB1dCBpbnB1dDpudGgtY2hpbGQoMSkge1xuICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XG4gIHdpZHRoOiAxMDAlO1xuICBmbGV4LWJhc2lzOiA0OCU7XG59XG4ud3JhcHBlci1tZW1iZXJpbmZvLXJlZ2lzdGVyIC5tYWluZm9ybSAudGV4dGFyZWEtaW5wdXQgaW5wdXQ6bnRoLWNoaWxkKDIpIHtcbiAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xuICB3aWR0aDogMTAwJTtcbiAgZmxleC1iYXNpczogNDglO1xufVxuLndyYXBwZXItbWVtYmVyaW5mby1yZWdpc3RlciAubWFpbmZvcm0gLmZpZWxkLWlkY2FyZC1jYXRlZ29yeSBtYXQtZm9ybS1maWVsZCB7XG4gIGRpc3BsYXk6IGlubGluZS1ibG9jaztcbiAgd2lkdGg6IDEwMCU7XG59XG4ud3JhcHBlci1tZW1iZXJpbmZvLXJlZ2lzdGVyIC5tYWluZm9ybSAuZmllbGQtaWRjYXJkLW51bWJlciB7XG4gIHRyYW5zZm9ybTogdHJhbnNsYXRlWSgtNnB4KTtcbn1cbi53cmFwcGVyLW1lbWJlcmluZm8tcmVnaXN0ZXIgLm1haW5mb3JtIC5maWVsZC1pZGNhcmQtbnVtYmVyIGlucHV0IHtcbiAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xuICB3aWR0aDogMTAwJTtcbiAgZmxleC1iYXNpczogMTAwJTtcbn1cbi53cmFwcGVyLW1lbWJlcmluZm8tcmVnaXN0ZXIgLm1haW5mb3JtIC5maWVsZC1ib3JuZGF0ZSAuc3ViZmllbGQsIC53cmFwcGVyLW1lbWJlcmluZm8tcmVnaXN0ZXIgLm1haW5mb3JtIC5maWVsZC1hZGRyZXNzIC5zdWJmaWVsZCB7XG4gIGRpc3BsYXk6IGZsZXg7XG4gIGZsZXgtd3JhcDogd3JhcDtcbiAganVzdGlmeS1jb250ZW50OiBzcGFjZS1iZXR3ZWVuO1xuICBtYXJnaW4tYm90dG9tOiAtOHB4O1xufVxuLndyYXBwZXItbWVtYmVyaW5mby1yZWdpc3RlciAubWFpbmZvcm0gLmZpZWxkLWJvcm5kYXRlIC5zdWJmaWVsZCBtYXQtZm9ybS1maWVsZCwgLndyYXBwZXItbWVtYmVyaW5mby1yZWdpc3RlciAubWFpbmZvcm0gLmZpZWxkLWFkZHJlc3MgLnN1YmZpZWxkIG1hdC1mb3JtLWZpZWxkIHtcbiAgdGV4dC1hbGlnbjogdW5zZXQ7XG4gIHdpZHRoOiAxMDAlO1xufVxuLndyYXBwZXItbWVtYmVyaW5mby1yZWdpc3RlciAubWFpbmZvcm0gLmZpZWxkLWJvcm5kYXRlIHtcbiAgdHJhbnNmb3JtOiB0cmFuc2xhdGVZKC00cHgpO1xufVxuLndyYXBwZXItbWVtYmVyaW5mby1yZWdpc3RlciAubWFpbmZvcm0gLmZpZWxkLWJvcm5kYXRlIC5zdWJmaWVsZCBtYXQtZm9ybS1maWVsZCB7XG4gIHdpZHRoOiAzMiU7XG59XG4ud3JhcHBlci1tZW1iZXJpbmZvLXJlZ2lzdGVyIC5tYWluZm9ybSAuZmllbGQtYWRkcmVzcyBpbnB1dCB7XG4gIG1hcmdpbi10b3A6IDhweDtcbiAgaGVpZ2h0OiA2MHB4O1xuICB3aWR0aDogMTAwJTtcbiAgZm9udC1mYW1pbHk6IE5vdG9TYW5zVEMtUmVndWxhciAhaW1wb3J0YW50O1xuICBmb250LXdlaWdodDogNDAwO1xufVxuLndyYXBwZXItbWVtYmVyaW5mby1yZWdpc3RlciAubWFpbmZvcm0gLmZpZWxkLWFkZHJlc3MgaW5wdXQ6Oi13ZWJraXQtaW5wdXQtcGxhY2Vob2xkZXIge1xuICAvKiBDaHJvbWUvT3BlcmEvU2FmYXJpICovXG4gIGZvbnQtZmFtaWx5OiBOb3RvU2Fuc1RDLVJlZ3VsYXIgIWltcG9ydGFudDtcbiAgZm9udC13ZWlnaHQ6IDQwMDtcbn1cbi53cmFwcGVyLW1lbWJlcmluZm8tcmVnaXN0ZXIgLm1haW5mb3JtIC5maWVsZC1hZGRyZXNzIGlucHV0OjotbW96LXBsYWNlaG9sZGVyIHtcbiAgLyogRmlyZWZveCAxOSsgKi9cbiAgZm9udC1mYW1pbHk6IE5vdG9TYW5zVEMtUmVndWxhciAhaW1wb3J0YW50O1xuICBmb250LXdlaWdodDogNDAwO1xufVxuLndyYXBwZXItbWVtYmVyaW5mby1yZWdpc3RlciAubWFpbmZvcm0gLmZpZWxkLWFkZHJlc3MgaW5wdXQ6OnBsYWNlaG9sZGVyIHtcbiAgZm9udC1mYW1pbHk6IE5vdG9TYW5zVEMtUmVndWxhciAhaW1wb3J0YW50O1xuICBmb250LXdlaWdodDogNDAwO1xufVxuLndyYXBwZXItbWVtYmVyaW5mby1yZWdpc3RlciAubWFpbmZvcm0gLmZpZWxkLWFkZHJlc3MgaW5wdXQ6LW1zLWlucHV0LXBsYWNlaG9sZGVyIHtcbiAgZm9udC1mYW1pbHk6IE5vdG9TYW5zVEMtUmVndWxhciAhaW1wb3J0YW50O1xuICBmb250LXdlaWdodDogNDAwO1xufVxuLndyYXBwZXItbWVtYmVyaW5mby1yZWdpc3RlciAubWFpbmZvcm0gLmNvbnRhY3QtaW5mbyAuaW5mby1pbnB1dCB7XG4gIGRpc3BsYXk6IGZsZXg7XG4gIGp1c3RpZnktY29udGVudDogc3BhY2UtYmV0d2Vlbjtcbn1cbi53cmFwcGVyLW1lbWJlcmluZm8tcmVnaXN0ZXIgLm1haW5mb3JtIC5jb250YWN0LWluZm8gLmluZm8taW5wdXQgaW5wdXQge1xuICBmbGV4OiAxO1xufVxuLndyYXBwZXItbWVtYmVyaW5mby1yZWdpc3RlciAubWFpbmZvcm0gLmNvbnRhY3QtaW5mbyAudGl0bGUge1xuICBtYXJnaW4tdG9wOiAtMTBweDtcbiAgbWFyZ2luLWJvdHRvbTogNXB4O1xufVxuLndyYXBwZXItbWVtYmVyaW5mby1yZWdpc3RlciAubWFpbmZvcm0gLmNvbnRhY3QtaW5mbyAudGl0bGUgaW1nIHtcbiAgaGVpZ2h0OiAxNnB4O1xuICB3aWR0aDogMTZweDtcbiAgdHJhbnNmb3JtOiB0cmFuc2xhdGVZKC01cHgpO1xufVxuLndyYXBwZXItbWVtYmVyaW5mby1yZWdpc3RlciAubWFpbmZvcm0gLmNvbnRhY3QtaW5mbyAudGl0bGUgc3BhbiB7XG4gIGRpc3BsYXk6IGlubGluZS1ibG9jaztcbiAgdHJhbnNmb3JtOiB0cmFuc2xhdGVZKC0zcHgpO1xufVxuLndyYXBwZXItbWVtYmVyaW5mby1yZWdpc3RlciAubWFpbmZvcm0gLmNvbnRhY3QtaW5mbyAuZmllbGQtcGhvbmUge1xuICBtYXJnaW4tdG9wOiAwcHggIWltcG9ydGFudDtcbn1cbi53cmFwcGVyLW1lbWJlcmluZm8tcmVnaXN0ZXIgLm1haW5mb3JtIC5jb250YWN0LWluZm8gLmZpZWxkLXBob25lIG1hdC1mb3JtLWZpZWxkIHtcbiAgd2lkdGg6IDI1JTtcbiAgYm9yZGVyLXJpZ2h0OiBub25lO1xuICBtYXJnaW4tcmlnaHQ6IC0ycHg7XG59XG4ud3JhcHBlci1tZW1iZXJpbmZvLXJlZ2lzdGVyIC5tYWluZm9ybSAuY3VzdG9tLWZyYW1lIHtcbiAgd2lkdGg6IDEwMCU7XG4gIHdvcmQtd3JhcDogYnJlYWstd29yZDtcbiAgd29yZC1icmVhazogbm9ybWFsO1xufVxuLndyYXBwZXItbWVtYmVyaW5mby1yZWdpc3RlciAubWFpbmZvcm0gLmN1c3RvbS1mcmFtZSAuaW52YWxpZCB7XG4gIGRpc3BsYXk6IGlubGluZS1ibG9jaztcbiAgYm94LXNoYWRvdzogbm9uZSAhaW1wb3J0YW50O1xuICBib3JkZXItY29sb3I6IHJlZDtcbiAgYm9yZGVyLXJhZGl1czogMCU7XG4gIHRleHQtZGVjb3JhdGlvbjogbm9uZTtcbn1cbi53cmFwcGVyLW1lbWJlcmluZm8tcmVnaXN0ZXIgLm1haW5mb3JtIC5jdXN0b20tZnJhbWUgLmlubGluZSB7XG4gIGRpc3BsYXk6IGlubGluZS1ibG9jaztcbn1cbi53cmFwcGVyLW1lbWJlcmluZm8tcmVnaXN0ZXIgLm1haW5mb3JtIC5jdXN0b20tZnJhbWUgLmZvbnRib2xkIHtcbiAgZm9udC13ZWlnaHQ6IGJvbGQ7XG4gIGZvbnQtZmFtaWx5OiBOb3RvU2Fuc1RDLVJlZ3VsYXI7XG59XG4ud3JhcHBlci1tZW1iZXJpbmZvLXJlZ2lzdGVyIC5tYWluZm9ybSAuY3VzdG9tLWZyYW1lIC5mb250YmxhY2sge1xuICBjb2xvcjogYmxhY2s7XG4gIGZvbnQtZmFtaWx5OiBOb3RvU2Fuc1RDLVJlZ3VsYXI7XG59XG4ud3JhcHBlci1tZW1iZXJpbmZvLXJlZ2lzdGVyIC5tYWluZm9ybSAuY3VzdG9tLWZyYW1lIC5kZXMge1xuICBtYXJnaW4tdG9wOiA1cHg7XG4gIGZvbnQtZmFtaWx5OiBOb3RvU2Fuc1RDLVJlZ3VsYXI7XG4gIGxpbmUtaGVpZ2h0OiAyMHB4O1xufVxuLndyYXBwZXItbWVtYmVyaW5mby1yZWdpc3RlciAubWFpbmZvcm0gLnNpZ25hdHVyZSB7XG4gIGJvcmRlci1jb2xvcjogdHJhbnNwYXJlbnQ7XG4gIG1hcmdpbi10b3A6IDQwcHggIWltcG9ydGFudDtcbn1cbi53cmFwcGVyLW1lbWJlcmluZm8tcmVnaXN0ZXIgLm1haW5mb3JtIC5zaWduYXR1cmUgLndyYXBwZXIge1xuICBwb3NpdGlvbjogcmVsYXRpdmU7XG59XG4ud3JhcHBlci1tZW1iZXJpbmZvLXJlZ2lzdGVyIC5tYWluZm9ybSAuc2lnbmF0dXJlIGNhbnZhcyB7XG4gIGJvcmRlci1yYWRpdXM6IDE2cHg7XG59XG4ud3JhcHBlci1tZW1iZXJpbmZvLXJlZ2lzdGVyIC5tYWluZm9ybSAuc2lnbmF0dXJlIC50b29sYmFyLWJ0biB7XG4gIGRpc3BsYXk6IGZsZXg7XG4gIGp1c3RpZnktY29udGVudDogZmxleC1lbmQ7XG59XG4ud3JhcHBlci1tZW1iZXJpbmZvLXJlZ2lzdGVyIC5tYWluZm9ybSAuc2lnbmF0dXJlIC50b29sYmFyLWJ0biBidXR0b24ge1xuICBib3JkZXI6IDFweCBzb2xpZCAjQUNBQ0FDO1xufVxuLndyYXBwZXItbWVtYmVyaW5mby1yZWdpc3RlciAubWFpbmZvcm0gLnNpZ25hdHVyZSAudGlwLWludmFsaWQge1xuICBmb250LXNpemU6IDEycHg7XG4gIGZvbnQtd2VpZ2h0OiBub3JtYWw7XG4gIG1hcmdpbi1ib3R0b206IDEycHg7XG59XG4ud3JhcHBlci1tZW1iZXJpbmZvLXJlZ2lzdGVyIC5tYWluZm9ybSAuc2lnbmF0dXJlIC50aXAtaW52YWxpZCAuZXJyb3Ige1xuICB0cmFuc2Zvcm06IHRyYW5zbGF0ZSg2cHgsIC00cHgpO1xufVxuLndyYXBwZXItbWVtYmVyaW5mby1yZWdpc3RlciAubWFpbmZvcm0gLnNpZ25hdHVyZSAudGlwLWludmFsaWQgc3BhbiB7XG4gIGRpc3BsYXk6IGlubGluZS1ibG9jaztcbiAgdHJhbnNmb3JtOiB0cmFuc2xhdGUoNHB4LCAwcHgpICFpbXBvcnRhbnQ7XG59XG4ud3JhcHBlci1tZW1iZXJpbmZvLXJlZ2lzdGVyIC5tYWluZm9ybSAuc2lnbmF0dXJlIC50aXRsZSBpbWcge1xuICBoZWlnaHQ6IDE2cHg7XG4gIHdpZHRoOiAxNnB4O1xuICB0cmFuc2Zvcm06IHRyYW5zbGF0ZVkoLTVweCk7XG4gIG1hcmdpbi1yaWdodDogMTBweDtcbn1cbi53cmFwcGVyLW1lbWJlcmluZm8tcmVnaXN0ZXIgLm1haW5mb3JtIC5zaWduYXR1cmUgLnRpdGxlIHNwYW4ge1xuICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XG4gIHRyYW5zZm9ybTogdHJhbnNsYXRlKC0zcHgsIC0zcHgpO1xufVxuLndyYXBwZXItbWVtYmVyaW5mby1yZWdpc3RlciAubWFpbmZvcm0gLmJ0bi1zdWJtaXR0ZWQge1xuICB3aWR0aDogMTAwJTtcbiAgZGlzcGxheTogZmxleDtcbiAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XG4gIGJvcmRlci1jb2xvcjogdHJhbnNwYXJlbnQ7XG4gIG1hcmdpbi10b3A6IDI0cHg7XG59XG4ud3JhcHBlci1tZW1iZXJpbmZvLXJlZ2lzdGVyIC5tYWluZm9ybSAuYnRuLXN1Ym1pdHRlZCBidXR0b24ge1xuICBsaW5lLWhlaWdodDogMzVweDtcbiAgaGVpZ2h0OiA0NHB4O1xuICBmb250LXNpemU6IDE0cHg7XG4gIHdpZHRoOiAxMDAlO1xuICBiYWNrZ3JvdW5kLWNvbG9yOiAjMTg5M0ZGO1xuICBjb2xvcjogd2hpdGU7XG4gIGZvbnQtZmFtaWx5OiBOb3RvU2Fuc1RDLVJlZ3VsYXI7XG59XG4ud3JhcHBlci1tZW1iZXJpbmZvLXJlZ2lzdGVyIC5wZXJzb24tbWVzc2FnZS5mb3JtYWxsYXlvdXQge1xuICBtYXJnaW4tdG9wOiA1MHB4ICFpbXBvcnRhbnQ7XG4gIGJvcmRlci1ib3R0b206IG5vbmUgIWltcG9ydGFudDtcbiAgYm9yZGVyLWJvdHRvbS1sZWZ0LXJhZGl1czogMHB4ICFpbXBvcnRhbnQ7XG4gIGJvcmRlci1ib3R0b20tcmlnaHQtcmFkaXVzOiAwcHggIWltcG9ydGFudDtcbn1cbi53cmFwcGVyLW1lbWJlcmluZm8tcmVnaXN0ZXIgLmludmFsaWRmaXguY29udGFjdC1pbmZvIHtcbiAgbWFyZ2luLXRvcDogNjBweCAhaW1wb3J0YW50O1xufVxuLndyYXBwZXItbWVtYmVyaW5mby1yZWdpc3RlciAuY29udGFjdC1pbmZvIHtcbiAgYm9yZGVyLXRvcDogbm9uZSAhaW1wb3J0YW50O1xuICBtYXJnaW4tdG9wOiA2NXB4ICFpbXBvcnRhbnQ7XG4gIHRyYW5zZm9ybTogdHJhbnNsYXRlWSgtMzVweCk7XG4gIHBhZGRpbmctYm90dG9tOiAwcHg7XG4gIGJvcmRlci10b3AtbGVmdC1yYWRpdXM6IDBweCAhaW1wb3J0YW50O1xuICBib3JkZXItdG9wLXJpZ2h0LXJhZGl1czogMHB4ICFpbXBvcnRhbnQ7XG59XG4ud3JhcHBlci1tZW1iZXJpbmZvLXJlZ2lzdGVyIC5jb250YWN0LWluZm8gLmZpZWxkLXBob25lLnJlc2l6ZWJ5Ym9ybiB7XG4gIHRyYW5zZm9ybTogdHJhbnNsYXRlWSgtNHB4KTtcbn1cbi53cmFwcGVyLW1lbWJlcmluZm8tcmVnaXN0ZXIgLmNvbnRhY3QtaW5mbyAuZmllbGQtZW1haWwucmVzaXplYnlib3JuLCAud3JhcHBlci1tZW1iZXJpbmZvLXJlZ2lzdGVyIC5jb250YWN0LWluZm8gLmZpZWxkLWFkZHJlc3MucmVzaXplYnlib3JuIHtcbiAgdHJhbnNmb3JtOiB0cmFuc2xhdGVZKC0xMnB4KTtcbn1cbi53cmFwcGVyLW1lbWJlcmluZm8tcmVnaXN0ZXIgLmNvbnRhY3QtaW5mby5mb3JtYWxsYXlvdXQge1xuICB0cmFuc2Zvcm06IHRyYW5zbGF0ZVkoLTUycHgpO1xufVxuLndyYXBwZXItbWVtYmVyaW5mby1yZWdpc3RlciAuY29udGFjdC1pbmZvLmZvcm1hbGxheW91dC5sYXlvdXRtb2RlbCB7XG4gIHRyYW5zZm9ybTogdHJhbnNsYXRlWSgtNTJweCk7XG59XG4ud3JhcHBlci1tZW1iZXJpbmZvLXJlZ2lzdGVyIC5jb250YWN0LWluZm8uZm9ybWFsbGF5b3V0LmxheW91dG1vZGVsIC53YWxsbGluZSB7XG4gIGRpc3BsYXk6IG5vbmUgIWltcG9ydGFudDtcbn1cbi53cmFwcGVyLW1lbWJlcmluZm8tcmVnaXN0ZXIgLmNvbnNlbnRzLmZvcm1hbGxheW91dCwgLndyYXBwZXItbWVtYmVyaW5mby1yZWdpc3RlciAuc2lnbmF0dXJlLmZvcm1hbGxheW91dCwgLndyYXBwZXItbWVtYmVyaW5mby1yZWdpc3RlciAuYnRuLXN1Ym1pdHRlZC5mb3JtYWxsYXlvdXQge1xuICB0cmFuc2Zvcm06IHRyYW5zbGF0ZVkoLTM2cHgpO1xufVxuXG4uYWdyZWUge1xuICBkaXNwbGF5OiBmbGV4O1xufVxuXG4ucGFkZGluZy0wIHtcbiAgcGFkZGluZy10b3A6IDAgIWltcG9ydGFudDtcbn1cblxuaW5wdXQge1xuICBwYWRkaW5nOiAxMHB4O1xufVxuXG4ucGhvbmU6OmJlZm9yZSB7XG4gIGNvbnRlbnQ6IFwiXCI7XG4gIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgd2lkdGg6IDEuNXB4O1xuICBoZWlnaHQ6IDUwJTtcbiAgYmFja2dyb3VuZC1jb2xvcjogcmVkO1xufVxuXG4ub2NyLWJ1dC1ib3gge1xuICBwYWRkaW5nLXRvcDogNXB4O1xuICBwYWRkaW5nLWJvdHRvbTogMTBweDtcbn1cblxuLm9jci1idXQge1xuICBoZWlnaHQ6IDQ4cHg7XG4gIHdpZHRoOiAxMDAlO1xuICBib3JkZXI6IDJweCBzb2xpZCAjMTg5M0ZGO1xuICBjb2xvcjogIzE4OTNGRjtcbiAgZm9udC1zaXplOiAxNHB4O1xuICBmb250LXdlaWdodDogYm9sZDtcbiAgcGFkZGluZzogMDtcbn1cbi5vY3ItYnV0IGltZyB7XG4gIHdpZHRoOiAyNHB4O1xuICBoZWlnaHQ6IDI0cHg7XG4gIG1hcmdpbi1yaWdodDogMTBweDtcbn1cblxuQG1lZGlhIHNjcmVlbiBhbmQgKG1pbi13aWR0aDogNzYwcHgpIHtcbiAgLm9jci1idXQge1xuICAgIGhlaWdodDogNDJweDtcbiAgfVxufVxuLm9jci1tYXNrLWxheWVyIHtcbiAgcG9zaXRpb246IGZpeGVkO1xuICB3aWR0aDogMTAwdnc7XG4gIGhlaWdodDogMTAwdmg7XG4gIGJhY2tncm91bmQ6ICNmZmY7XG4gIHRvcDogMDtcbiAgbGVmdDogMDtcbiAgei1pbmRleDogOTk5O1xufVxuXG4ub2NyLWJveCB7XG4gIHBvc2l0aW9uOiBmaXhlZDtcbiAgd2lkdGg6IDEwMHZ3O1xuICBoZWlnaHQ6IDEwMHZoO1xuICBiYWNrZ3JvdW5kOiByZ2JhKDAsIDAsIDAsIDAuNSk7XG4gIHRvcDogMDtcbiAgbGVmdDogMDtcbiAgei1pbmRleDogMTAwMDtcbn1cblxuLm9jci1jb250ZW50IHtcbiAgd2lkdGg6IDEwMCU7XG4gIGhlaWdodDogMTAwJTtcbiAgY29sb3I6ICNGRkZGRkY7XG4gIHBhZGRpbmc6IDU5cHggMjBweCAzNHB4IDIwcHggIWltcG9ydGFudDtcbiAgZGlzcGxheTogZmxleDtcbiAgZmxleC1kaXJlY3Rpb246IGNvbHVtbjtcbiAganVzdGlmeS1jb250ZW50OiBzcGFjZS1iZXR3ZWVuO1xufVxuXG4ub2NyLXN1Ym1pdCwgLm9jci1iYWNrIHtcbiAgaGVpZ2h0OiA0NHB4O1xuICBib3JkZXItcmFkaXVzOiA1cHg7XG4gIGZvbnQtc2l6ZTogMThweDtcbn1cblxuLm9jci1zdWJtaXQge1xuICBjb2xvcjogIzE4OTNGRjtcbn1cblxuLm9jci1iYWNrIHtcbiAgYm9yZGVyOiAxLjVweCBzb2xpZCAjRkZGRkZGO1xuICBjb2xvcjogI0ZGRkZGRjtcbiAgbWFyZ2luLXRvcDogMTJweDtcbn1cblxuLm9jci10aXRsZSB7XG4gIGZvbnQtc2l6ZTogMTRweDtcbiAgb3BhY2l0eTogMC44O1xuICBtYXJnaW4tYm90dG9tOiAyMHB4ICFpbXBvcnRhbnQ7XG59XG5cbi5pZC1jYXJkLWJveCB7XG4gIGRpc3BsYXk6IGZsZXg7XG4gIGZvbnQtc2l6ZTogMTZweDtcbn1cbi5pZC1jYXJkLWJveCBkaXYge1xuICBmbGV4OiAxO1xuICBwYWRkaW5nOiAxMHB4IDA7XG4gIG9wYWNpdHk6IDAuODtcbn1cbi5pZC1jYXJkLWJveCAuYWN0aXZlIHtcbiAgYm9yZGVyLWJvdHRvbTogM3B4IHNvbGlkICNmZmY7XG4gIGJvcmRlci1yYWRpdXM6IDNweDtcbiAgb3BhY2l0eTogMSAhaW1wb3J0YW50O1xufVxuXG4ub2NyLWRlc2NyaWJlIHtcbiAgZm9udC1zaXplOiAxNHB4O1xuICBvcGFjaXR5OiAwLjg7XG59XG5cbi5vY3ItZ3JvdW5kIHtcbiAgbWFyZ2luOiAzM3B4IDAgIWltcG9ydGFudDtcbiAgd2lkdGg6IDEwMCU7XG4gIGhlaWdodDogMTgwcHg7XG4gIGJvcmRlcjogMnB4IHNvbGlkICM5MjkyOTI7XG4gIHBvc2l0aW9uOiByZWxhdGl2ZTtcbiAgYm9yZGVyLXJhZGl1czogNXB4O1xufVxuXG4ub2NyIHtcbiAgYmFja2dyb3VuZDogbGluZWFyLWdyYWRpZW50KCNmZmYsICNmZmYpIGxlZnQgdG9wLCBsaW5lYXItZ3JhZGllbnQoI2ZmZiwgI2ZmZikgbGVmdCB0b3AsIGxpbmVhci1ncmFkaWVudCgjZmZmLCAjZmZmKSByaWdodCB0b3AsIGxpbmVhci1ncmFkaWVudCgjZmZmLCAjZmZmKSByaWdodCB0b3AsIGxpbmVhci1ncmFkaWVudCgjZmZmLCAjZmZmKSByaWdodCBib3R0b20sIGxpbmVhci1ncmFkaWVudCgjZmZmLCAjZmZmKSByaWdodCBib3R0b20sIGxpbmVhci1ncmFkaWVudCgjZmZmLCAjZmZmKSBsZWZ0IGJvdHRvbSwgbGluZWFyLWdyYWRpZW50KCNmZmYsICNmZmYpIGxlZnQgYm90dG9tO1xuICBiYWNrZ3JvdW5kLXJlcGVhdDogbm8tcmVwZWF0O1xuICBiYWNrZ3JvdW5kLXNpemU6IDJweCAzMHB4LCAzMHB4IDJweDtcbiAgaGVpZ2h0OiAxODBweDtcbiAgd2lkdGg6IGNhbGMoMTAwJSArIDRweCk7XG4gIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgdG9wOiAtMnB4O1xuICBsZWZ0OiAtMnB4O1xuICBib3JkZXItcmFkaXVzOiA1cHg7XG59XG5cbnZpZGVvIHtcbiAgcG9zaXRpb246IGFic29sdXRlO1xuICB0b3A6IDUwJTtcbiAgbGVmdDogNTAlO1xuICB0cmFuc2Zvcm06IHRyYW5zbGF0ZSgtNTAlLCAtNTAlKTtcbn1cblxuY2FudmFzIHtcbiAgcG9zaXRpb246IGFic29sdXRlO1xuICB0b3A6IDUwJTtcbiAgbGVmdDogNTAlO1xuICB0cmFuc2Zvcm06IHRyYW5zbGF0ZSgtNTAlLCAtNTAlKTtcbn0iXX0= */"] });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵsetClassMetadata"](MemberInfoRegisterComponent, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"],
         args: [{
@@ -2931,7 +3057,7 @@ MemberInfoRegisterComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_1__["
                 templateUrl: './member-info-register.component.html',
                 styleUrls: ['./member-info-register.component.scss']
             }]
-    }], function () { return [{ type: _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormBuilder"] }, { type: _app_core_services_api_service_member_service__WEBPACK_IMPORTED_MODULE_8__["MemberService"] }, { type: _ngx_translate_core__WEBPACK_IMPORTED_MODULE_9__["TranslateService"] }, { type: _app_core_services_front_end_service_session_service__WEBPACK_IMPORTED_MODULE_10__["SessionService"] }, { type: _app_core_services_front_end_service_layout_service__WEBPACK_IMPORTED_MODULE_11__["LayoutService"] }, { type: _angular_router__WEBPACK_IMPORTED_MODULE_12__["ActivatedRoute"] }, { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Renderer2"] }]; }, { signaturePad: [{
+    }], function () { return [{ type: _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormBuilder"] }, { type: _app_core_services_api_service_member_service__WEBPACK_IMPORTED_MODULE_11__["MemberService"] }, { type: _ngx_translate_core__WEBPACK_IMPORTED_MODULE_12__["TranslateService"] }, { type: _app_core_services_front_end_service_session_service__WEBPACK_IMPORTED_MODULE_13__["SessionService"] }, { type: _app_core_services_front_end_service_layout_service__WEBPACK_IMPORTED_MODULE_14__["LayoutService"] }, { type: _angular_router__WEBPACK_IMPORTED_MODULE_15__["ActivatedRoute"] }, { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Renderer2"] }, { type: _app_core_services_api_service_customer_information_service__WEBPACK_IMPORTED_MODULE_16__["CustomerInformationService"] }, { type: ngx_toastr__WEBPACK_IMPORTED_MODULE_17__["ToastrService"] }]; }, { signaturePad: [{
             type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewChild"],
             args: ['signaturePad', { static: false }]
         }], myBox: [{
@@ -3618,6 +3744,26 @@ class ErrorResponse {
 
 /***/ }),
 
+/***/ "./src/app/core/models/scan-card/card-request.ts":
+/*!*******************************************************!*\
+  !*** ./src/app/core/models/scan-card/card-request.ts ***!
+  \*******************************************************/
+/*! exports provided: CardRequest */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CardRequest", function() { return CardRequest; });
+class CardRequest {
+    constructor() {
+        this.idCardType = '';
+        this.imageBase64 = '';
+    }
+}
+
+
+/***/ }),
+
 /***/ "./src/app/core/pipes/amount-converter.pipe.ts":
 /*!*****************************************************!*\
   !*** ./src/app/core/pipes/amount-converter.pipe.ts ***!
@@ -3934,6 +4080,67 @@ CommonService.ɵprov = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineInj
 
 /***/ }),
 
+/***/ "./src/app/core/services/api-service/customer_information.service.ts":
+/*!***************************************************************************!*\
+  !*** ./src/app/core/services/api-service/customer_information.service.ts ***!
+  \***************************************************************************/
+/*! exports provided: CustomerInformationService */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CustomerInformationService", function() { return CustomerInformationService; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! rxjs/operators */ "./node_modules/rxjs/_esm2015/operators/index.js");
+/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/__ivy_ngcc__/fesm2015/http.js");
+/* harmony import */ var _env_environment__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @env/environment */ "./src/environments/environment.ts");
+/* harmony import */ var _common_service__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./common.service */ "./src/app/core/services/api-service/common.service.ts");
+/* harmony import */ var _ngx_translate_core__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @ngx-translate/core */ "./node_modules/@ngx-translate/core/__ivy_ngcc__/fesm2015/ngx-translate-core.js");
+
+
+
+
+
+
+
+
+class CustomerInformationService {
+    constructor(httpClient, commonService, translate) {
+        this.httpClient = httpClient;
+        this.commonService = commonService;
+        this.translate = translate;
+    }
+    get(secretKey) {
+        let params = new _angular_common_http__WEBPACK_IMPORTED_MODULE_2__["HttpParams"]();
+        params = params.set('secretKey', secretKey);
+        return this.httpClient.get(`${_env_environment__WEBPACK_IMPORTED_MODULE_3__["environment"].API_END_POINT}/customer_informations`, {
+            headers: new _angular_common_http__WEBPACK_IMPORTED_MODULE_2__["HttpHeaders"]({
+                'Content-Type': 'application/json',
+            }),
+            params: params
+        }).pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_1__["catchError"])((error) => this.commonService.handleHttpError(error)));
+    }
+    scanOcr(request) {
+        // let body = JSON.stringify(request, this.commonService.internalPropsReplacer);
+        return this.httpClient.post(`${_env_environment__WEBPACK_IMPORTED_MODULE_3__["environment"].API_END_POINT}/id-card-ocr-request`, request, {
+            headers: new _angular_common_http__WEBPACK_IMPORTED_MODULE_2__["HttpHeaders"]({
+                'Content-Type': 'application/json',
+            }),
+        }).pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_1__["map"])(response => response), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_1__["catchError"])((error) => this.commonService.handleHttpError(error)));
+    }
+}
+CustomerInformationService.ɵfac = function CustomerInformationService_Factory(t) { return new (t || CustomerInformationService)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵinject"](_angular_common_http__WEBPACK_IMPORTED_MODULE_2__["HttpClient"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵinject"](_common_service__WEBPACK_IMPORTED_MODULE_4__["CommonService"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵinject"](_ngx_translate_core__WEBPACK_IMPORTED_MODULE_5__["TranslateService"])); };
+CustomerInformationService.ɵprov = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineInjectable"]({ token: CustomerInformationService, factory: CustomerInformationService.ɵfac, providedIn: 'root' });
+/*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](CustomerInformationService, [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"],
+        args: [{
+                providedIn: 'root'
+            }]
+    }], function () { return [{ type: _angular_common_http__WEBPACK_IMPORTED_MODULE_2__["HttpClient"] }, { type: _common_service__WEBPACK_IMPORTED_MODULE_4__["CommonService"] }, { type: _ngx_translate_core__WEBPACK_IMPORTED_MODULE_5__["TranslateService"] }]; }, null); })();
+
+
+/***/ }),
+
 /***/ "./src/app/core/services/api-service/member.service.ts":
 /*!*************************************************************!*\
   !*** ./src/app/core/services/api-service/member.service.ts ***!
@@ -4123,6 +4330,4070 @@ SessionService.ɵprov = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineIn
                 type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Inject"],
                 args: [_angular_core__WEBPACK_IMPORTED_MODULE_0__["PLATFORM_ID"]]
             }] }, { type: ngx_cookie_service__WEBPACK_IMPORTED_MODULE_3__["CookieService"] }, { type: ngx_permissions__WEBPACK_IMPORTED_MODULE_4__["NgxPermissionsService"] }]; }, null); })();
+
+
+/***/ }),
+
+/***/ "./src/app/core/utils/area.ts":
+/*!************************************!*\
+  !*** ./src/app/core/utils/area.ts ***!
+  \************************************/
+/*! exports provided: PROVINCE_LIST, CITY_LISTt, COUNTY_LIST */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "PROVINCE_LIST", function() { return PROVINCE_LIST; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CITY_LISTt", function() { return CITY_LISTt; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "COUNTY_LIST", function() { return COUNTY_LIST; });
+//省
+const PROVINCE_LIST = {
+    110000: '北京市',
+    120000: '天津市',
+    130000: '河北省',
+    140000: '山西省',
+    150000: '内蒙古自治区',
+    210000: '辽宁省',
+    220000: '吉林省',
+    230000: '黑龙江省',
+    310000: '上海市',
+    320000: '江苏省',
+    330000: '浙江省',
+    340000: '安徽省',
+    350000: '福建省',
+    360000: '江西省',
+    370000: '山东省',
+    410000: '河南省',
+    420000: '湖北省',
+    430000: '湖南省',
+    440000: '广东省',
+    450000: '广西壮族自治区',
+    460000: '海南省',
+    500000: '重庆市',
+    510000: '四川省',
+    520000: '贵州省',
+    530000: '云南省',
+    540000: '西藏自治区',
+    610000: '陕西省',
+    620000: '甘肃省',
+    630000: '青海省',
+    640000: '宁夏回族自治区',
+    650000: '新疆维吾尔自治区',
+    710000: '台湾省',
+    810000: '香港特别行政区',
+    820000: '澳门特别行政区',
+    900000: '海外',
+};
+//市
+const CITY_LISTt = {
+    110100: '北京市',
+    120100: '天津市',
+    130100: '石家庄市',
+    130200: '唐山市',
+    130300: '秦皇岛市',
+    130400: '邯郸市',
+    130500: '邢台市',
+    130600: '保定市',
+    130700: '张家口市',
+    130800: '承德市',
+    130900: '沧州市',
+    131000: '廊坊市',
+    131100: '衡水市',
+    140100: '太原市',
+    140200: '大同市',
+    140300: '阳泉市',
+    140400: '长治市',
+    140500: '晋城市',
+    140600: '朔州市',
+    140700: '晋中市',
+    140800: '运城市',
+    140900: '忻州市',
+    141000: '临汾市',
+    141100: '吕梁市',
+    150100: '呼和浩特市',
+    150200: '包头市',
+    150300: '乌海市',
+    150400: '赤峰市',
+    150500: '通辽市',
+    150600: '鄂尔多斯市',
+    150700: '呼伦贝尔市',
+    150800: '巴彦淖尔市',
+    150900: '乌兰察布市',
+    152200: '兴安盟',
+    152500: '锡林郭勒盟',
+    152900: '阿拉善盟',
+    210100: '沈阳市',
+    210200: '大连市',
+    210300: '鞍山市',
+    210400: '抚顺市',
+    210500: '本溪市',
+    210600: '丹东市',
+    210700: '锦州市',
+    210800: '营口市',
+    210900: '阜新市',
+    211000: '辽阳市',
+    211100: '盘锦市',
+    211200: '铁岭市',
+    211300: '朝阳市',
+    211400: '葫芦岛市',
+    220100: '长春市',
+    220200: '吉林市',
+    220300: '四平市',
+    220400: '辽源市',
+    220500: '通化市',
+    220600: '白山市',
+    220700: '松原市',
+    220800: '白城市',
+    222400: '延边朝鲜族自治州',
+    230100: '哈尔滨市',
+    230200: '齐齐哈尔市',
+    230300: '鸡西市',
+    230400: '鹤岗市',
+    230500: '双鸭山市',
+    230600: '大庆市',
+    230700: '伊春市',
+    230800: '佳木斯市',
+    230900: '七台河市',
+    231000: '牡丹江市',
+    231100: '黑河市',
+    231200: '绥化市',
+    232700: '大兴安岭地区',
+    310100: '上海市',
+    320100: '南京市',
+    320200: '无锡市',
+    320300: '徐州市',
+    320400: '常州市',
+    320500: '苏州市',
+    320600: '南通市',
+    320700: '连云港市',
+    320800: '淮安市',
+    320900: '盐城市',
+    321000: '扬州市',
+    321100: '镇江市',
+    321200: '泰州市',
+    321300: '宿迁市',
+    330100: '杭州市',
+    330200: '宁波市',
+    330300: '温州市',
+    330400: '嘉兴市',
+    330500: '湖州市',
+    330600: '绍兴市',
+    330700: '金华市',
+    330800: '衢州市',
+    330900: '舟山市',
+    331000: '台州市',
+    331100: '丽水市',
+    340100: '合肥市',
+    340200: '芜湖市',
+    340300: '蚌埠市',
+    340400: '淮南市',
+    340500: '马鞍山市',
+    340600: '淮北市',
+    340700: '铜陵市',
+    340800: '安庆市',
+    341000: '黄山市',
+    341100: '滁州市',
+    341200: '阜阳市',
+    341300: '宿州市',
+    341500: '六安市',
+    341600: '亳州市',
+    341700: '池州市',
+    341800: '宣城市',
+    350100: '福州市',
+    350200: '厦门市',
+    350300: '莆田市',
+    350400: '三明市',
+    350500: '泉州市',
+    350600: '漳州市',
+    350700: '南平市',
+    350800: '龙岩市',
+    350900: '宁德市',
+    360100: '南昌市',
+    360200: '景德镇市',
+    360300: '萍乡市',
+    360400: '九江市',
+    360500: '新余市',
+    360600: '鹰潭市',
+    360700: '赣州市',
+    360800: '吉安市',
+    360900: '宜春市',
+    361000: '抚州市',
+    361100: '上饶市',
+    370100: '济南市',
+    370200: '青岛市',
+    370300: '淄博市',
+    370400: '枣庄市',
+    370500: '东营市',
+    370600: '烟台市',
+    370700: '潍坊市',
+    370800: '济宁市',
+    370900: '泰安市',
+    371000: '威海市',
+    371100: '日照市',
+    371300: '临沂市',
+    371400: '德州市',
+    371500: '聊城市',
+    371600: '滨州市',
+    371700: '菏泽市',
+    410100: '郑州市',
+    410200: '开封市',
+    410300: '洛阳市',
+    410400: '平顶山市',
+    410500: '安阳市',
+    410600: '鹤壁市',
+    410700: '新乡市',
+    410800: '焦作市',
+    410900: '濮阳市',
+    411000: '许昌市',
+    411100: '漯河市',
+    411200: '三门峡市',
+    411300: '南阳市',
+    411400: '商丘市',
+    411500: '信阳市',
+    411600: '周口市',
+    411700: '驻马店市',
+    419000: '省直辖县',
+    420100: '武汉市',
+    420200: '黄石市',
+    420300: '十堰市',
+    420500: '宜昌市',
+    420600: '襄阳市',
+    420700: '鄂州市',
+    420800: '荆门市',
+    420900: '孝感市',
+    421000: '荆州市',
+    421100: '黄冈市',
+    421200: '咸宁市',
+    421300: '随州市',
+    422800: '恩施土家族苗族自治州',
+    429000: '省直辖县',
+    430100: '长沙市',
+    430200: '株洲市',
+    430300: '湘潭市',
+    430400: '衡阳市',
+    430500: '邵阳市',
+    430600: '岳阳市',
+    430700: '常德市',
+    430800: '张家界市',
+    430900: '益阳市',
+    431000: '郴州市',
+    431100: '永州市',
+    431200: '怀化市',
+    431300: '娄底市',
+    433100: '湘西土家族苗族自治州',
+    440100: '广州市',
+    440200: '韶关市',
+    440300: '深圳市',
+    440400: '珠海市',
+    440500: '汕头市',
+    440600: '佛山市',
+    440700: '江门市',
+    440800: '湛江市',
+    440900: '茂名市',
+    441200: '肇庆市',
+    441300: '惠州市',
+    441400: '梅州市',
+    441500: '汕尾市',
+    441600: '河源市',
+    441700: '阳江市',
+    441800: '清远市',
+    441900: '东莞市',
+    442000: '中山市',
+    445100: '潮州市',
+    445200: '揭阳市',
+    445300: '云浮市',
+    450100: '南宁市',
+    450200: '柳州市',
+    450300: '桂林市',
+    450400: '梧州市',
+    450500: '北海市',
+    450600: '防城港市',
+    450700: '钦州市',
+    450800: '贵港市',
+    450900: '玉林市',
+    451000: '百色市',
+    451100: '贺州市',
+    451200: '河池市',
+    451300: '来宾市',
+    451400: '崇左市',
+    460100: '海口市',
+    460200: '三亚市',
+    460300: '三沙市',
+    460400: '儋州市',
+    469000: '省直辖县',
+    500100: '重庆市',
+    500200: '县',
+    510100: '成都市',
+    510300: '自贡市',
+    510400: '攀枝花市',
+    510500: '泸州市',
+    510600: '德阳市',
+    510700: '绵阳市',
+    510800: '广元市',
+    510900: '遂宁市',
+    511000: '内江市',
+    511100: '乐山市',
+    511300: '南充市',
+    511400: '眉山市',
+    511500: '宜宾市',
+    511600: '广安市',
+    511700: '达州市',
+    511800: '雅安市',
+    511900: '巴中市',
+    512000: '资阳市',
+    513200: '阿坝藏族羌族自治州',
+    513300: '甘孜藏族自治州',
+    513400: '凉山彝族自治州',
+    520100: '贵阳市',
+    520200: '六盘水市',
+    520300: '遵义市',
+    520400: '安顺市',
+    520500: '毕节市',
+    520600: '铜仁市',
+    522300: '黔西南布依族苗族自治州',
+    522600: '黔东南苗族侗族自治州',
+    522700: '黔南布依族苗族自治州',
+    530100: '昆明市',
+    530300: '曲靖市',
+    530400: '玉溪市',
+    530500: '保山市',
+    530600: '昭通市',
+    530700: '丽江市',
+    530800: '普洱市',
+    530900: '临沧市',
+    532300: '楚雄彝族自治州',
+    532500: '红河哈尼族彝族自治州',
+    532600: '文山壮族苗族自治州',
+    532800: '西双版纳傣族自治州',
+    532900: '大理白族自治州',
+    533100: '德宏傣族景颇族自治州',
+    533300: '怒江傈僳族自治州',
+    533400: '迪庆藏族自治州',
+    540100: '拉萨市',
+    540200: '日喀则市',
+    540300: '昌都市',
+    540400: '林芝市',
+    540500: '山南市',
+    540600: '那曲市',
+    542500: '阿里地区',
+    610100: '西安市',
+    610200: '铜川市',
+    610300: '宝鸡市',
+    610400: '咸阳市',
+    610500: '渭南市',
+    610600: '延安市',
+    610700: '汉中市',
+    610800: '榆林市',
+    610900: '安康市',
+    611000: '商洛市',
+    620100: '兰州市',
+    620200: '嘉峪关市',
+    620300: '金昌市',
+    620400: '白银市',
+    620500: '天水市',
+    620600: '武威市',
+    620700: '张掖市',
+    620800: '平凉市',
+    620900: '酒泉市',
+    621000: '庆阳市',
+    621100: '定西市',
+    621200: '陇南市',
+    622900: '临夏回族自治州',
+    623000: '甘南藏族自治州',
+    630100: '西宁市',
+    630200: '海东市',
+    632200: '海北藏族自治州',
+    632300: '黄南藏族自治州',
+    632500: '海南藏族自治州',
+    632600: '果洛藏族自治州',
+    632700: '玉树藏族自治州',
+    632800: '海西蒙古族藏族自治州',
+    640100: '银川市',
+    640200: '石嘴山市',
+    640300: '吴忠市',
+    640400: '固原市',
+    640500: '中卫市',
+    650100: '乌鲁木齐市',
+    650200: '克拉玛依市',
+    650400: '吐鲁番市',
+    650500: '哈密市',
+    652300: '昌吉回族自治州',
+    652700: '博尔塔拉蒙古自治州',
+    652800: '巴音郭楞蒙古自治州',
+    652900: '阿克苏地区',
+    653000: '克孜勒苏柯尔克孜自治州',
+    653100: '喀什地区',
+    653200: '和田地区',
+    654000: '伊犁哈萨克自治州',
+    654200: '塔城地区',
+    654300: '阿勒泰地区',
+    659000: '自治区直辖县级行政区划',
+    710100: '台北市',
+    710200: '高雄市',
+    710300: '台南市',
+    710400: '台中市',
+    710500: '金门县',
+    710600: '南投县',
+    710700: '基隆市',
+    710800: '新竹市',
+    710900: '嘉义市',
+    711100: '新北市',
+    711200: '宜兰县',
+    711300: '新竹县',
+    711400: '桃园县',
+    711500: '苗栗县',
+    711700: '彰化县',
+    711900: '嘉义县',
+    712100: '云林县',
+    712400: '屏东县',
+    712500: '台东县',
+    712600: '花莲县',
+    712700: '澎湖县',
+    712800: '连江县',
+    810100: '香港岛',
+    810200: '九龙',
+    810300: '新界',
+    820100: '澳门半岛',
+    820200: '离岛',
+    900400: '阿富汗',
+    900800: '阿尔巴尼亚',
+    901000: '南极洲',
+    901200: '阿尔及利亚',
+    901600: '美属萨摩亚',
+    902000: '安道尔',
+    902400: '安哥拉',
+    902800: '安提瓜和巴布达',
+    903100: '阿塞拜疆',
+    903200: '阿根廷',
+    903600: '澳大利亚',
+    904000: '奥地利',
+    904400: '巴哈马',
+    904800: '巴林',
+    905000: '孟加拉',
+    905100: '亚美尼亚',
+    905200: '巴巴多斯',
+    905600: '比利时',
+    906000: '百慕大',
+    906400: '不丹',
+    906800: '玻利维亚',
+    907000: '波黑',
+    907200: '博茨瓦纳',
+    907400: '布韦岛',
+    907600: '巴西',
+    908400: '伯利兹',
+    908600: '英属印度洋领地',
+    909000: '所罗门群岛',
+    909200: '英属维尔京群岛',
+    909600: '文莱',
+    910000: '保加利亚',
+    910400: '缅甸',
+    910800: '布隆迪',
+    911200: '白俄罗斯',
+    911600: '柬埔寨',
+    912000: '喀麦隆',
+    912400: '加拿大',
+    913200: '佛得角',
+    913600: '开曼群岛',
+    914000: '中非',
+    914400: '斯里兰卡',
+    914800: '乍得',
+    915200: '智利',
+    916200: '圣诞岛',
+    916600: '科科斯群岛',
+    917000: '哥伦比亚',
+    917400: '科摩罗',
+    917500: '马约特',
+    917800: '刚果（布）',
+    918000: '刚果（金）',
+    918400: '库克群岛',
+    918800: '哥斯达黎加',
+    919100: '克罗地亚',
+    919200: '古巴',
+    919600: '塞浦路斯',
+    920300: '捷克',
+    920400: '贝宁',
+    920800: '丹麦',
+    921200: '多米尼克',
+    921400: '多米尼加',
+    921800: '厄瓜多尔',
+    922200: '萨尔瓦多',
+    922600: '赤道几内亚',
+    923100: '埃塞俄比亚',
+    923200: '厄立特里亚',
+    923300: '爱沙尼亚',
+    923400: '法罗群岛',
+    923800: '马尔维纳斯群岛（ 福克兰）',
+    923900: '南乔治亚岛和南桑威奇群岛',
+    924200: '斐济群岛',
+    924600: '芬兰',
+    924800: '奥兰群岛',
+    925000: '法国',
+    925400: '法属圭亚那',
+    925800: '法属波利尼西亚',
+    926000: '法属南部领地',
+    926200: '吉布提',
+    926600: '加蓬',
+    926800: '格鲁吉亚',
+    927000: '冈比亚',
+    927500: '巴勒斯坦',
+    927600: '德国',
+    928800: '加纳',
+    929200: '直布罗陀',
+    929600: '基里巴斯',
+    930000: '希腊',
+    930400: '格陵兰',
+    930800: '格林纳达',
+    931200: '瓜德罗普',
+    931600: '关岛',
+    932000: '危地马拉',
+    932400: '几内亚',
+    932800: '圭亚那',
+    933200: '海地',
+    933400: '赫德岛和麦克唐纳群岛',
+    933600: '梵蒂冈',
+    934000: '洪都拉斯',
+    934800: '匈牙利',
+    935200: '冰岛',
+    935600: '印度',
+    936000: '印尼',
+    936400: '伊朗',
+    936800: '伊拉克',
+    937200: '爱尔兰',
+    937600: '以色列',
+    938000: '意大利',
+    938400: '科特迪瓦',
+    938800: '牙买加',
+    939200: '日本',
+    939800: '哈萨克斯坦',
+    940000: '约旦',
+    940400: '肯尼亚',
+    940800: '朝鲜 北朝鲜',
+    941000: '韩国',
+    941400: '科威特',
+    941700: '吉尔吉斯斯坦',
+    941800: '老挝',
+    942200: '黎巴嫩',
+    942600: '莱索托',
+    942800: '拉脱维亚',
+    943000: '利比里亚',
+    943400: '利比亚',
+    943800: '列支敦士登',
+    944000: '立陶宛',
+    944200: '卢森堡',
+    945000: '马达加斯加',
+    945400: '马拉维',
+    945800: '马来西亚',
+    946200: '马尔代夫',
+    946600: '马里',
+    947000: '马耳他',
+    947400: '马提尼克',
+    947800: '毛里塔尼亚',
+    948000: '毛里求斯',
+    948400: '墨西哥',
+    949200: '摩纳哥',
+    949600: '蒙古国',
+    949800: '摩尔多瓦',
+    949900: '黑山',
+    950000: '蒙塞拉特岛',
+    950400: '摩洛哥',
+    950800: '莫桑比克',
+    951200: '阿曼',
+    951600: '纳米比亚',
+    952000: '瑙鲁',
+    952400: '尼泊尔',
+    952800: '荷兰',
+    953300: '阿鲁巴',
+    953500: '荷兰加勒比区',
+    954000: '新喀里多尼亚',
+    954800: '瓦努阿图',
+    955400: '新西兰',
+    955800: '尼加拉瓜',
+    956200: '尼日尔',
+    956600: '尼日利亚',
+    957000: '纽埃',
+    957400: '诺福克岛',
+    957800: '挪威',
+    958000: '北马里亚纳群岛',
+    958100: '美国本土外小岛屿',
+    958300: '密克罗尼西亚联邦',
+    958400: '马绍尔群岛',
+    958500: '帕劳',
+    958600: '巴基斯坦',
+    959100: '巴拿马',
+    959800: '巴布亚新几内亚',
+    960000: '巴拉圭',
+    960400: '秘鲁',
+    960800: '菲律宾',
+    961200: '皮特凯恩群岛',
+    961600: '波兰',
+    962000: '葡萄牙',
+    962400: '几内亚比绍',
+    962600: '东帝汶',
+    963000: '波多黎各',
+    963400: '卡塔尔',
+    963800: '留尼汪',
+    964200: '罗马尼亚',
+    964300: '俄罗斯',
+    964600: '卢旺达',
+    965200: '圣巴泰勒米岛',
+    965400: '圣赫勒拿',
+    965900: '圣基茨和尼维斯',
+    966000: '安圭拉',
+    966200: '圣卢西亚',
+    966300: '法属圣马丁',
+    966600: '圣皮埃尔和密克隆',
+    967000: '圣文森特和格林纳丁斯',
+    967400: '圣马力诺',
+    967800: '圣多美和普林西比',
+    968200: '沙特阿拉伯',
+    968600: '塞内加尔',
+    968800: '塞尔维亚',
+    969000: '塞舌尔',
+    969400: '塞拉利昂',
+    970200: '新加坡',
+    970300: '斯洛伐克',
+    970400: '越南',
+    970500: '斯洛文尼亚',
+    970600: '索马里',
+    971000: '南非',
+    971600: '津巴布韦',
+    972400: '西班牙',
+    972800: '南苏丹',
+    972900: '苏丹',
+    973200: '西撒哈拉',
+    974000: '苏里南',
+    974400: '斯瓦尔巴群岛和 扬马延岛',
+    974800: '斯威士兰',
+    975200: '瑞典',
+    975600: '瑞士',
+    976000: '叙利亚',
+    976200: '塔吉克斯坦',
+    976400: '泰国',
+    976800: '多哥',
+    977200: '托克劳',
+    977600: '汤加',
+    978000: '特立尼达和多巴哥',
+    978400: '阿联酋',
+    978800: '突尼斯',
+    979200: '土耳其',
+    979500: '土库曼斯坦',
+    979600: '特克斯和凯科斯群岛',
+    979800: '图瓦卢',
+    980000: '乌干达',
+    980400: '乌克兰',
+    980700: '马其顿',
+    981800: '埃及',
+    982600: '英国',
+    983100: '根西岛',
+    983200: '泽西岛',
+    983300: '马恩岛',
+    983400: '坦桑尼亚',
+    984000: '美国',
+    985000: '美属维尔京群岛',
+    985400: '布基纳法索',
+    985800: '乌拉圭',
+    986000: '乌兹别克斯坦',
+    986200: '委内瑞拉',
+    987600: '瓦利斯和富图纳',
+    988200: '萨摩亚',
+    988700: '也门',
+    989400: '赞比亚',
+};
+//县/区
+const COUNTY_LIST = {
+    110101: '东城区',
+    110102: '西城区',
+    110105: '朝阳区',
+    110106: '丰台区',
+    110107: '石景山区',
+    110108: '海淀区',
+    110109: '门头沟区',
+    110111: '房山区',
+    110112: '通州区',
+    110113: '顺义区',
+    110114: '昌平区',
+    110115: '大兴区',
+    110116: '怀柔区',
+    110117: '平谷区',
+    110118: '密云区',
+    110119: '延庆区',
+    120101: '和平区',
+    120102: '河东区',
+    120103: '河西区',
+    120104: '南开区',
+    120105: '河北区',
+    120106: '红桥区',
+    120110: '东丽区',
+    120111: '西青区',
+    120112: '津南区',
+    120113: '北辰区',
+    120114: '武清区',
+    120115: '宝坻区',
+    120116: '滨海新区',
+    120117: '宁河区',
+    120118: '静海区',
+    120119: '蓟州区',
+    130102: '长安区',
+    130104: '桥西区',
+    130105: '新华区',
+    130107: '井陉矿区',
+    130108: '裕华区',
+    130109: '藁城区',
+    130110: '鹿泉区',
+    130111: '栾城区',
+    130121: '井陉县',
+    130123: '正定县',
+    130125: '行唐县',
+    130126: '灵寿县',
+    130127: '高邑县',
+    130128: '深泽县',
+    130129: '赞皇县',
+    130130: '无极县',
+    130131: '平山县',
+    130132: '元氏县',
+    130133: '赵县',
+    130181: '辛集市',
+    130183: '晋州市',
+    130184: '新乐市',
+    130202: '路南区',
+    130203: '路北区',
+    130204: '古冶区',
+    130205: '开平区',
+    130207: '丰南区',
+    130208: '丰润区',
+    130209: '曹妃甸区',
+    130224: '滦南县',
+    130225: '乐亭县',
+    130227: '迁西县',
+    130229: '玉田县',
+    130281: '遵化市',
+    130283: '迁安市',
+    130284: '滦州市',
+    130302: '海港区',
+    130303: '山海关区',
+    130304: '北戴河区',
+    130306: '抚宁区',
+    130321: '青龙满族自治县',
+    130322: '昌黎县',
+    130324: '卢龙县',
+    130390: '经济技术开发区',
+    130402: '邯山区',
+    130403: '丛台区',
+    130404: '复兴区',
+    130406: '峰峰矿区',
+    130407: '肥乡区',
+    130408: '永年区',
+    130423: '临漳县',
+    130424: '成安县',
+    130425: '大名县',
+    130426: '涉县',
+    130427: '磁县',
+    130430: '邱县',
+    130431: '鸡泽县',
+    130432: '广平县',
+    130433: '馆陶县',
+    130434: '魏县',
+    130435: '曲周县',
+    130481: '武安市',
+    130502: '桥东区',
+    130503: '桥西区',
+    130521: '邢台县',
+    130522: '临城县',
+    130523: '内丘县',
+    130524: '柏乡县',
+    130525: '隆尧县',
+    130526: '任县',
+    130527: '南和县',
+    130528: '宁晋县',
+    130529: '巨鹿县',
+    130530: '新河县',
+    130531: '广宗县',
+    130532: '平乡县',
+    130533: '威县',
+    130534: '清河县',
+    130535: '临西县',
+    130581: '南宫市',
+    130582: '沙河市',
+    130602: '竞秀区',
+    130606: '莲池区',
+    130607: '满城区',
+    130608: '清苑区',
+    130609: '徐水区',
+    130623: '涞水县',
+    130624: '阜平县',
+    130626: '定兴县',
+    130627: '唐县',
+    130628: '高阳县',
+    130629: '容城县',
+    130630: '涞源县',
+    130631: '望都县',
+    130632: '安新县',
+    130633: '易县',
+    130634: '曲阳县',
+    130635: '蠡县',
+    130636: '顺平县',
+    130637: '博野县',
+    130638: '雄县',
+    130681: '涿州市',
+    130682: '定州市',
+    130683: '安国市',
+    130684: '高碑店市',
+    130702: '桥东区',
+    130703: '桥西区',
+    130705: '宣化区',
+    130706: '下花园区',
+    130708: '万全区',
+    130709: '崇礼区',
+    130722: '张北县',
+    130723: '康保县',
+    130724: '沽源县',
+    130725: '尚义县',
+    130726: '蔚县',
+    130727: '阳原县',
+    130728: '怀安县',
+    130730: '怀来县',
+    130731: '涿鹿县',
+    130732: '赤城县',
+    130802: '双桥区',
+    130803: '双滦区',
+    130804: '鹰手营子矿区',
+    130821: '承德县',
+    130822: '兴隆县',
+    130824: '滦平县',
+    130825: '隆化县',
+    130826: '丰宁满族自治县',
+    130827: '宽城满族自治县',
+    130828: '围场满族蒙古族自治县',
+    130881: '平泉市',
+    130902: '新华区',
+    130903: '运河区',
+    130921: '沧县',
+    130922: '青县',
+    130923: '东光县',
+    130924: '海兴县',
+    130925: '盐山县',
+    130926: '肃宁县',
+    130927: '南皮县',
+    130928: '吴桥县',
+    130929: '献县',
+    130930: '孟村回族自治县',
+    130981: '泊头市',
+    130982: '任丘市',
+    130983: '黄骅市',
+    130984: '河间市',
+    131002: '安次区',
+    131003: '广阳区',
+    131022: '固安县',
+    131023: '永清县',
+    131024: '香河县',
+    131025: '大城县',
+    131026: '文安县',
+    131028: '大厂回族自治县',
+    131081: '霸州市',
+    131082: '三河市',
+    131090: '开发区',
+    131102: '桃城区',
+    131103: '冀州区',
+    131121: '枣强县',
+    131122: '武邑县',
+    131123: '武强县',
+    131124: '饶阳县',
+    131125: '安平县',
+    131126: '故城县',
+    131127: '景县',
+    131128: '阜城县',
+    131182: '深州市',
+    140105: '小店区',
+    140106: '迎泽区',
+    140107: '杏花岭区',
+    140108: '尖草坪区',
+    140109: '万柏林区',
+    140110: '晋源区',
+    140121: '清徐县',
+    140122: '阳曲县',
+    140123: '娄烦县',
+    140181: '古交市',
+    140212: '新荣区',
+    140213: '平城区',
+    140214: '云冈区',
+    140215: '云州区',
+    140221: '阳高县',
+    140222: '天镇县',
+    140223: '广灵县',
+    140224: '灵丘县',
+    140225: '浑源县',
+    140226: '左云县',
+    140302: '城区',
+    140303: '矿区',
+    140311: '郊区',
+    140321: '平定县',
+    140322: '盂县',
+    140403: '潞州区',
+    140404: '上党区',
+    140405: '屯留区',
+    140406: '潞城区',
+    140423: '襄垣县',
+    140425: '平顺县',
+    140426: '黎城县',
+    140427: '壶关县',
+    140428: '长子县',
+    140429: '武乡县',
+    140430: '沁县',
+    140431: '沁源县',
+    140502: '城区',
+    140521: '沁水县',
+    140522: '阳城县',
+    140524: '陵川县',
+    140525: '泽州县',
+    140581: '高平市',
+    140602: '朔城区',
+    140603: '平鲁区',
+    140621: '山阴县',
+    140622: '应县',
+    140623: '右玉县',
+    140681: '怀仁市',
+    140702: '榆次区',
+    140721: '榆社县',
+    140722: '左权县',
+    140723: '和顺县',
+    140724: '昔阳县',
+    140725: '寿阳县',
+    140726: '太谷县',
+    140727: '祁县',
+    140728: '平遥县',
+    140729: '灵石县',
+    140781: '介休市',
+    140802: '盐湖区',
+    140821: '临猗县',
+    140822: '万荣县',
+    140823: '闻喜县',
+    140824: '稷山县',
+    140825: '新绛县',
+    140826: '绛县',
+    140827: '垣曲县',
+    140828: '夏县',
+    140829: '平陆县',
+    140830: '芮城县',
+    140881: '永济市',
+    140882: '河津市',
+    140902: '忻府区',
+    140921: '定襄县',
+    140922: '五台县',
+    140923: '代县',
+    140924: '繁峙县',
+    140925: '宁武县',
+    140926: '静乐县',
+    140927: '神池县',
+    140928: '五寨县',
+    140929: '岢岚县',
+    140930: '河曲县',
+    140931: '保德县',
+    140932: '偏关县',
+    140981: '原平市',
+    141002: '尧都区',
+    141021: '曲沃县',
+    141022: '翼城县',
+    141023: '襄汾县',
+    141024: '洪洞县',
+    141025: '古县',
+    141026: '安泽县',
+    141027: '浮山县',
+    141028: '吉县',
+    141029: '乡宁县',
+    141030: '大宁县',
+    141031: '隰县',
+    141032: '永和县',
+    141033: '蒲县',
+    141034: '汾西县',
+    141081: '侯马市',
+    141082: '霍州市',
+    141102: '离石区',
+    141121: '文水县',
+    141122: '交城县',
+    141123: '兴县',
+    141124: '临县',
+    141125: '柳林县',
+    141126: '石楼县',
+    141127: '岚县',
+    141128: '方山县',
+    141129: '中阳县',
+    141130: '交口县',
+    141181: '孝义市',
+    141182: '汾阳市',
+    150102: '新城区',
+    150103: '回民区',
+    150104: '玉泉区',
+    150105: '赛罕区',
+    150121: '土默特左旗',
+    150122: '托克托县',
+    150123: '和林格尔县',
+    150124: '清水河县',
+    150125: '武川县',
+    150202: '东河区',
+    150203: '昆都仑区',
+    150204: '青山区',
+    150205: '石拐区',
+    150206: '白云鄂博矿区',
+    150207: '九原区',
+    150221: '土默特右旗',
+    150222: '固阳县',
+    150223: '达尔罕茂明安联合旗',
+    150302: '海勃湾区',
+    150303: '海南区',
+    150304: '乌达区',
+    150402: '红山区',
+    150403: '元宝山区',
+    150404: '松山区',
+    150421: '阿鲁科尔沁旗',
+    150422: '巴林左旗',
+    150423: '巴林右旗',
+    150424: '林西县',
+    150425: '克什克腾旗',
+    150426: '翁牛特旗',
+    150428: '喀喇沁旗',
+    150429: '宁城县',
+    150430: '敖汉旗',
+    150502: '科尔沁区',
+    150521: '科尔沁左翼中旗',
+    150522: '科尔沁左翼后旗',
+    150523: '开鲁县',
+    150524: '库伦旗',
+    150525: '奈曼旗',
+    150526: '扎鲁特旗',
+    150581: '霍林郭勒市',
+    150602: '东胜区',
+    150603: '康巴什区',
+    150621: '达拉特旗',
+    150622: '准格尔旗',
+    150623: '鄂托克前旗',
+    150624: '鄂托克旗',
+    150625: '杭锦旗',
+    150626: '乌审旗',
+    150627: '伊金霍洛旗',
+    150702: '海拉尔区',
+    150703: '扎赉诺尔区',
+    150721: '阿荣旗',
+    150722: '莫力达瓦达斡尔族自治旗',
+    150723: '鄂伦春自治旗',
+    150724: '鄂温克族自治旗',
+    150725: '陈巴尔虎旗',
+    150726: '新巴尔虎左旗',
+    150727: '新巴尔虎右旗',
+    150781: '满洲里市',
+    150782: '牙克石市',
+    150783: '扎兰屯市',
+    150784: '额尔古纳市',
+    150785: '根河市',
+    150802: '临河区',
+    150821: '五原县',
+    150822: '磴口县',
+    150823: '乌拉特前旗',
+    150824: '乌拉特中旗',
+    150825: '乌拉特后旗',
+    150826: '杭锦后旗',
+    150902: '集宁区',
+    150921: '卓资县',
+    150922: '化德县',
+    150923: '商都县',
+    150924: '兴和县',
+    150925: '凉城县',
+    150926: '察哈尔右翼前旗',
+    150927: '察哈尔右翼中旗',
+    150928: '察哈尔右翼后旗',
+    150929: '四子王旗',
+    150981: '丰镇市',
+    152201: '乌兰浩特市',
+    152202: '阿尔山市',
+    152221: '科尔沁右翼前旗',
+    152222: '科尔沁右翼中旗',
+    152223: '扎赉特旗',
+    152224: '突泉县',
+    152501: '二连浩特市',
+    152502: '锡林浩特市',
+    152522: '阿巴嘎旗',
+    152523: '苏尼特左旗',
+    152524: '苏尼特右旗',
+    152525: '东乌珠穆沁旗',
+    152526: '西乌珠穆沁旗',
+    152527: '太仆寺旗',
+    152528: '镶黄旗',
+    152529: '正镶白旗',
+    152530: '正蓝旗',
+    152531: '多伦县',
+    152921: '阿拉善左旗',
+    152922: '阿拉善右旗',
+    152923: '额济纳旗',
+    210102: '和平区',
+    210103: '沈河区',
+    210104: '大东区',
+    210105: '皇姑区',
+    210106: '铁西区',
+    210111: '苏家屯区',
+    210112: '浑南区',
+    210113: '沈北新区',
+    210114: '于洪区',
+    210115: '辽中区',
+    210123: '康平县',
+    210124: '法库县',
+    210181: '新民市',
+    210190: '经济技术开发区',
+    210202: '中山区',
+    210203: '西岗区',
+    210204: '沙河口区',
+    210211: '甘井子区',
+    210212: '旅顺口区',
+    210213: '金州区',
+    210214: '普兰店区',
+    210224: '长海县',
+    210281: '瓦房店市',
+    210283: '庄河市',
+    210302: '铁东区',
+    210303: '铁西区',
+    210304: '立山区',
+    210311: '千山区',
+    210321: '台安县',
+    210323: '岫岩满族自治县',
+    210381: '海城市',
+    210390: '高新区',
+    210402: '新抚区',
+    210403: '东洲区',
+    210404: '望花区',
+    210411: '顺城区',
+    210421: '抚顺县',
+    210422: '新宾满族自治县',
+    210423: '清原满族自治县',
+    210502: '平山区',
+    210503: '溪湖区',
+    210504: '明山区',
+    210505: '南芬区',
+    210521: '本溪满族自治县',
+    210522: '桓仁满族自治县',
+    210602: '元宝区',
+    210603: '振兴区',
+    210604: '振安区',
+    210624: '宽甸满族自治县',
+    210681: '东港市',
+    210682: '凤城市',
+    210702: '古塔区',
+    210703: '凌河区',
+    210711: '太和区',
+    210726: '黑山县',
+    210727: '义县',
+    210781: '凌海市',
+    210782: '北镇市',
+    210793: '经济技术开发区',
+    210802: '站前区',
+    210803: '西市区',
+    210804: '鲅鱼圈区',
+    210811: '老边区',
+    210881: '盖州市',
+    210882: '大石桥市',
+    210902: '海州区',
+    210903: '新邱区',
+    210904: '太平区',
+    210905: '清河门区',
+    210911: '细河区',
+    210921: '阜新蒙古族自治县',
+    210922: '彰武县',
+    211002: '白塔区',
+    211003: '文圣区',
+    211004: '宏伟区',
+    211005: '弓长岭区',
+    211011: '太子河区',
+    211021: '辽阳县',
+    211081: '灯塔市',
+    211102: '双台子区',
+    211103: '兴隆台区',
+    211104: '大洼区',
+    211122: '盘山县',
+    211202: '银州区',
+    211204: '清河区',
+    211221: '铁岭县',
+    211223: '西丰县',
+    211224: '昌图县',
+    211281: '调兵山市',
+    211282: '开原市',
+    211302: '双塔区',
+    211303: '龙城区',
+    211321: '朝阳县',
+    211322: '建平县',
+    211324: '喀喇沁左翼蒙古族自治县',
+    211381: '北票市',
+    211382: '凌源市',
+    211402: '连山区',
+    211403: '龙港区',
+    211404: '南票区',
+    211421: '绥中县',
+    211422: '建昌县',
+    211481: '兴城市',
+    220102: '南关区',
+    220103: '宽城区',
+    220104: '朝阳区',
+    220105: '二道区',
+    220106: '绿园区',
+    220112: '双阳区',
+    220113: '九台区',
+    220122: '农安县',
+    220182: '榆树市',
+    220183: '德惠市',
+    220192: '经济技术开发区',
+    220202: '昌邑区',
+    220203: '龙潭区',
+    220204: '船营区',
+    220211: '丰满区',
+    220221: '永吉县',
+    220281: '蛟河市',
+    220282: '桦甸市',
+    220283: '舒兰市',
+    220284: '磐石市',
+    220302: '铁西区',
+    220303: '铁东区',
+    220322: '梨树县',
+    220323: '伊通满族自治县',
+    220381: '公主岭市',
+    220382: '双辽市',
+    220402: '龙山区',
+    220403: '西安区',
+    220421: '东丰县',
+    220422: '东辽县',
+    220502: '东昌区',
+    220503: '二道江区',
+    220521: '通化县',
+    220523: '辉南县',
+    220524: '柳河县',
+    220581: '梅河口市',
+    220582: '集安市',
+    220602: '浑江区',
+    220605: '江源区',
+    220621: '抚松县',
+    220622: '靖宇县',
+    220623: '长白朝鲜族自治县',
+    220681: '临江市',
+    220702: '宁江区',
+    220721: '前郭尔罗斯蒙古族自治县',
+    220722: '长岭县',
+    220723: '乾安县',
+    220781: '扶余市',
+    220802: '洮北区',
+    220821: '镇赉县',
+    220822: '通榆县',
+    220881: '洮南市',
+    220882: '大安市',
+    222401: '延吉市',
+    222402: '图们市',
+    222403: '敦化市',
+    222404: '珲春市',
+    222405: '龙井市',
+    222406: '和龙市',
+    222424: '汪清县',
+    222426: '安图县',
+    230102: '道里区',
+    230103: '南岗区',
+    230104: '道外区',
+    230108: '平房区',
+    230109: '松北区',
+    230110: '香坊区',
+    230111: '呼兰区',
+    230112: '阿城区',
+    230113: '双城区',
+    230123: '依兰县',
+    230124: '方正县',
+    230125: '宾县',
+    230126: '巴彦县',
+    230127: '木兰县',
+    230128: '通河县',
+    230129: '延寿县',
+    230183: '尚志市',
+    230184: '五常市',
+    230202: '龙沙区',
+    230203: '建华区',
+    230204: '铁锋区',
+    230205: '昂昂溪区',
+    230206: '富拉尔基区',
+    230207: '碾子山区',
+    230208: '梅里斯达斡尔族区',
+    230221: '龙江县',
+    230223: '依安县',
+    230224: '泰来县',
+    230225: '甘南县',
+    230227: '富裕县',
+    230229: '克山县',
+    230230: '克东县',
+    230231: '拜泉县',
+    230281: '讷河市',
+    230302: '鸡冠区',
+    230303: '恒山区',
+    230304: '滴道区',
+    230305: '梨树区',
+    230306: '城子河区',
+    230307: '麻山区',
+    230321: '鸡东县',
+    230381: '虎林市',
+    230382: '密山市',
+    230402: '向阳区',
+    230403: '工农区',
+    230404: '南山区',
+    230405: '兴安区',
+    230406: '东山区',
+    230407: '兴山区',
+    230421: '萝北县',
+    230422: '绥滨县',
+    230502: '尖山区',
+    230503: '岭东区',
+    230505: '四方台区',
+    230506: '宝山区',
+    230521: '集贤县',
+    230522: '友谊县',
+    230523: '宝清县',
+    230524: '饶河县',
+    230602: '萨尔图区',
+    230603: '龙凤区',
+    230604: '让胡路区',
+    230605: '红岗区',
+    230606: '大同区',
+    230621: '肇州县',
+    230622: '肇源县',
+    230623: '林甸县',
+    230624: '杜尔伯特蒙古族自治县',
+    230702: '伊春区',
+    230703: '南岔区',
+    230704: '友好区',
+    230705: '西林区',
+    230706: '翠峦区',
+    230707: '新青区',
+    230708: '美溪区',
+    230709: '金山屯区',
+    230710: '五营区',
+    230711: '乌马河区',
+    230712: '汤旺河区',
+    230713: '带岭区',
+    230714: '乌伊岭区',
+    230715: '红星区',
+    230716: '上甘岭区',
+    230722: '嘉荫县',
+    230781: '铁力市',
+    230803: '向阳区',
+    230804: '前进区',
+    230805: '东风区',
+    230811: '郊区',
+    230822: '桦南县',
+    230826: '桦川县',
+    230828: '汤原县',
+    230881: '同江市',
+    230882: '富锦市',
+    230883: '抚远市',
+    230902: '新兴区',
+    230903: '桃山区',
+    230904: '茄子河区',
+    230921: '勃利县',
+    231002: '东安区',
+    231003: '阳明区',
+    231004: '爱民区',
+    231005: '西安区',
+    231025: '林口县',
+    231081: '绥芬河市',
+    231083: '海林市',
+    231084: '宁安市',
+    231085: '穆棱市',
+    231086: '东宁市',
+    231102: '爱辉区',
+    231121: '嫩江县',
+    231123: '逊克县',
+    231124: '孙吴县',
+    231181: '北安市',
+    231182: '五大连池市',
+    231202: '北林区',
+    231221: '望奎县',
+    231222: '兰西县',
+    231223: '青冈县',
+    231224: '庆安县',
+    231225: '明水县',
+    231226: '绥棱县',
+    231281: '安达市',
+    231282: '肇东市',
+    231283: '海伦市',
+    232701: '漠河市',
+    232721: '呼玛县',
+    232722: '塔河县',
+    232790: '松岭区',
+    232791: '呼中区',
+    232792: '加格达奇区',
+    232793: '新林区',
+    310101: '黄浦区',
+    310104: '徐汇区',
+    310105: '长宁区',
+    310106: '静安区',
+    310107: '普陀区',
+    310109: '虹口区',
+    310110: '杨浦区',
+    310112: '闵行区',
+    310113: '宝山区',
+    310114: '嘉定区',
+    310115: '浦东新区',
+    310116: '金山区',
+    310117: '松江区',
+    310118: '青浦区',
+    310120: '奉贤区',
+    310151: '崇明区',
+    320102: '玄武区',
+    320104: '秦淮区',
+    320105: '建邺区',
+    320106: '鼓楼区',
+    320111: '浦口区',
+    320113: '栖霞区',
+    320114: '雨花台区',
+    320115: '江宁区',
+    320116: '六合区',
+    320117: '溧水区',
+    320118: '高淳区',
+    320205: '锡山区',
+    320206: '惠山区',
+    320211: '滨湖区',
+    320213: '梁溪区',
+    320214: '新吴区',
+    320281: '江阴市',
+    320282: '宜兴市',
+    320302: '鼓楼区',
+    320303: '云龙区',
+    320305: '贾汪区',
+    320311: '泉山区',
+    320312: '铜山区',
+    320321: '丰县',
+    320322: '沛县',
+    320324: '睢宁县',
+    320381: '新沂市',
+    320382: '邳州市',
+    320391: '工业园区',
+    320402: '天宁区',
+    320404: '钟楼区',
+    320411: '新北区',
+    320412: '武进区',
+    320413: '金坛区',
+    320481: '溧阳市',
+    320505: '虎丘区',
+    320506: '吴中区',
+    320507: '相城区',
+    320508: '姑苏区',
+    320509: '吴江区',
+    320581: '常熟市',
+    320582: '张家港市',
+    320583: '昆山市',
+    320585: '太仓市',
+    320590: '工业园区',
+    320591: '高新区',
+    320602: '崇川区',
+    320611: '港闸区',
+    320612: '通州区',
+    320623: '如东县',
+    320681: '启东市',
+    320682: '如皋市',
+    320684: '海门市',
+    320685: '海安市',
+    320691: '高新区',
+    320703: '连云区',
+    320706: '海州区',
+    320707: '赣榆区',
+    320722: '东海县',
+    320723: '灌云县',
+    320724: '灌南县',
+    320803: '淮安区',
+    320804: '淮阴区',
+    320812: '清江浦区',
+    320813: '洪泽区',
+    320826: '涟水县',
+    320830: '盱眙县',
+    320831: '金湖县',
+    320890: '经济开发区',
+    320902: '亭湖区',
+    320903: '盐都区',
+    320904: '大丰区',
+    320921: '响水县',
+    320922: '滨海县',
+    320923: '阜宁县',
+    320924: '射阳县',
+    320925: '建湖县',
+    320981: '东台市',
+    321002: '广陵区',
+    321003: '邗江区',
+    321012: '江都区',
+    321023: '宝应县',
+    321081: '仪征市',
+    321084: '高邮市',
+    321090: '经济开发区',
+    321102: '京口区',
+    321111: '润州区',
+    321112: '丹徒区',
+    321181: '丹阳市',
+    321182: '扬中市',
+    321183: '句容市',
+    321202: '海陵区',
+    321203: '高港区',
+    321204: '姜堰区',
+    321281: '兴化市',
+    321282: '靖江市',
+    321283: '泰兴市',
+    321302: '宿城区',
+    321311: '宿豫区',
+    321322: '沭阳县',
+    321323: '泗阳县',
+    321324: '泗洪县',
+    330102: '上城区',
+    330103: '下城区',
+    330104: '江干区',
+    330105: '拱墅区',
+    330106: '西湖区',
+    330108: '滨江区',
+    330109: '萧山区',
+    330110: '余杭区',
+    330111: '富阳区',
+    330112: '临安区',
+    330122: '桐庐县',
+    330127: '淳安县',
+    330182: '建德市',
+    330203: '海曙区',
+    330205: '江北区',
+    330206: '北仑区',
+    330211: '镇海区',
+    330212: '鄞州区',
+    330213: '奉化区',
+    330225: '象山县',
+    330226: '宁海县',
+    330281: '余姚市',
+    330282: '慈溪市',
+    330302: '鹿城区',
+    330303: '龙湾区',
+    330304: '瓯海区',
+    330305: '洞头区',
+    330324: '永嘉县',
+    330326: '平阳县',
+    330327: '苍南县',
+    330328: '文成县',
+    330329: '泰顺县',
+    330381: '瑞安市',
+    330382: '乐清市',
+    330402: '南湖区',
+    330411: '秀洲区',
+    330421: '嘉善县',
+    330424: '海盐县',
+    330481: '海宁市',
+    330482: '平湖市',
+    330483: '桐乡市',
+    330502: '吴兴区',
+    330503: '南浔区',
+    330521: '德清县',
+    330522: '长兴县',
+    330523: '安吉县',
+    330602: '越城区',
+    330603: '柯桥区',
+    330604: '上虞区',
+    330624: '新昌县',
+    330681: '诸暨市',
+    330683: '嵊州市',
+    330702: '婺城区',
+    330703: '金东区',
+    330723: '武义县',
+    330726: '浦江县',
+    330727: '磐安县',
+    330781: '兰溪市',
+    330782: '义乌市',
+    330783: '东阳市',
+    330784: '永康市',
+    330802: '柯城区',
+    330803: '衢江区',
+    330822: '常山县',
+    330824: '开化县',
+    330825: '龙游县',
+    330881: '江山市',
+    330902: '定海区',
+    330903: '普陀区',
+    330921: '岱山县',
+    330922: '嵊泗县',
+    331002: '椒江区',
+    331003: '黄岩区',
+    331004: '路桥区',
+    331022: '三门县',
+    331023: '天台县',
+    331024: '仙居县',
+    331081: '温岭市',
+    331082: '临海市',
+    331083: '玉环市',
+    331102: '莲都区',
+    331121: '青田县',
+    331122: '缙云县',
+    331123: '遂昌县',
+    331124: '松阳县',
+    331125: '云和县',
+    331126: '庆元县',
+    331127: '景宁畲族自治县',
+    331181: '龙泉市',
+    340102: '瑶海区',
+    340103: '庐阳区',
+    340104: '蜀山区',
+    340111: '包河区',
+    340121: '长丰县',
+    340122: '肥东县',
+    340123: '肥西县',
+    340124: '庐江县',
+    340181: '巢湖市',
+    340190: '高新技术开发区',
+    340191: '经济技术开发区',
+    340202: '镜湖区',
+    340203: '弋江区',
+    340207: '鸠江区',
+    340208: '三山区',
+    340221: '芜湖县',
+    340222: '繁昌县',
+    340223: '南陵县',
+    340225: '无为县',
+    340302: '龙子湖区',
+    340303: '蚌山区',
+    340304: '禹会区',
+    340311: '淮上区',
+    340321: '怀远县',
+    340322: '五河县',
+    340323: '固镇县',
+    340402: '大通区',
+    340403: '田家庵区',
+    340404: '谢家集区',
+    340405: '八公山区',
+    340406: '潘集区',
+    340421: '凤台县',
+    340422: '寿县',
+    340503: '花山区',
+    340504: '雨山区',
+    340506: '博望区',
+    340521: '当涂县',
+    340522: '含山县',
+    340523: '和县',
+    340602: '杜集区',
+    340603: '相山区',
+    340604: '烈山区',
+    340621: '濉溪县',
+    340705: '铜官区',
+    340706: '义安区',
+    340711: '郊区',
+    340722: '枞阳县',
+    340802: '迎江区',
+    340803: '大观区',
+    340811: '宜秀区',
+    340822: '怀宁县',
+    340824: '潜山县',
+    340825: '太湖县',
+    340826: '宿松县',
+    340827: '望江县',
+    340828: '岳西县',
+    340881: '桐城市',
+    341002: '屯溪区',
+    341003: '黄山区',
+    341004: '徽州区',
+    341021: '歙县',
+    341022: '休宁县',
+    341023: '黟县',
+    341024: '祁门县',
+    341102: '琅琊区',
+    341103: '南谯区',
+    341122: '来安县',
+    341124: '全椒县',
+    341125: '定远县',
+    341126: '凤阳县',
+    341181: '天长市',
+    341182: '明光市',
+    341202: '颍州区',
+    341203: '颍东区',
+    341204: '颍泉区',
+    341221: '临泉县',
+    341222: '太和县',
+    341225: '阜南县',
+    341226: '颍上县',
+    341282: '界首市',
+    341302: '埇桥区',
+    341321: '砀山县',
+    341322: '萧县',
+    341323: '灵璧县',
+    341324: '泗县',
+    341390: '经济开发区',
+    341502: '金安区',
+    341503: '裕安区',
+    341504: '叶集区',
+    341522: '霍邱县',
+    341523: '舒城县',
+    341524: '金寨县',
+    341525: '霍山县',
+    341602: '谯城区',
+    341621: '涡阳县',
+    341622: '蒙城县',
+    341623: '利辛县',
+    341702: '贵池区',
+    341721: '东至县',
+    341722: '石台县',
+    341723: '青阳县',
+    341802: '宣州区',
+    341821: '郎溪县',
+    341822: '广德县',
+    341823: '泾县',
+    341824: '绩溪县',
+    341825: '旌德县',
+    341881: '宁国市',
+    350102: '鼓楼区',
+    350103: '台江区',
+    350104: '仓山区',
+    350105: '马尾区',
+    350111: '晋安区',
+    350112: '长乐区',
+    350121: '闽侯县',
+    350122: '连江县',
+    350123: '罗源县',
+    350124: '闽清县',
+    350125: '永泰县',
+    350128: '平潭县',
+    350181: '福清市',
+    350203: '思明区',
+    350205: '海沧区',
+    350206: '湖里区',
+    350211: '集美区',
+    350212: '同安区',
+    350213: '翔安区',
+    350302: '城厢区',
+    350303: '涵江区',
+    350304: '荔城区',
+    350305: '秀屿区',
+    350322: '仙游县',
+    350402: '梅列区',
+    350403: '三元区',
+    350421: '明溪县',
+    350423: '清流县',
+    350424: '宁化县',
+    350425: '大田县',
+    350426: '尤溪县',
+    350427: '沙县',
+    350428: '将乐县',
+    350429: '泰宁县',
+    350430: '建宁县',
+    350481: '永安市',
+    350502: '鲤城区',
+    350503: '丰泽区',
+    350504: '洛江区',
+    350505: '泉港区',
+    350521: '惠安县',
+    350524: '安溪县',
+    350525: '永春县',
+    350526: '德化县',
+    350527: '金门县',
+    350581: '石狮市',
+    350582: '晋江市',
+    350583: '南安市',
+    350602: '芗城区',
+    350603: '龙文区',
+    350622: '云霄县',
+    350623: '漳浦县',
+    350624: '诏安县',
+    350625: '长泰县',
+    350626: '东山县',
+    350627: '南靖县',
+    350628: '平和县',
+    350629: '华安县',
+    350681: '龙海市',
+    350702: '延平区',
+    350703: '建阳区',
+    350721: '顺昌县',
+    350722: '浦城县',
+    350723: '光泽县',
+    350724: '松溪县',
+    350725: '政和县',
+    350781: '邵武市',
+    350782: '武夷山市',
+    350783: '建瓯市',
+    350802: '新罗区',
+    350803: '永定区',
+    350821: '长汀县',
+    350823: '上杭县',
+    350824: '武平县',
+    350825: '连城县',
+    350881: '漳平市',
+    350902: '蕉城区',
+    350921: '霞浦县',
+    350922: '古田县',
+    350923: '屏南县',
+    350924: '寿宁县',
+    350925: '周宁县',
+    350926: '柘荣县',
+    350981: '福安市',
+    350982: '福鼎市',
+    360102: '东湖区',
+    360103: '西湖区',
+    360104: '青云谱区',
+    360105: '湾里区',
+    360111: '青山湖区',
+    360112: '新建区',
+    360121: '南昌县',
+    360123: '安义县',
+    360124: '进贤县',
+    360190: '经济技术开发区',
+    360192: '高新区',
+    360202: '昌江区',
+    360203: '珠山区',
+    360222: '浮梁县',
+    360281: '乐平市',
+    360302: '安源区',
+    360313: '湘东区',
+    360321: '莲花县',
+    360322: '上栗县',
+    360323: '芦溪县',
+    360402: '濂溪区',
+    360403: '浔阳区',
+    360404: '柴桑区',
+    360423: '武宁县',
+    360424: '修水县',
+    360425: '永修县',
+    360426: '德安县',
+    360428: '都昌县',
+    360429: '湖口县',
+    360430: '彭泽县',
+    360481: '瑞昌市',
+    360482: '共青城市',
+    360483: '庐山市',
+    360490: '经济技术开发区',
+    360502: '渝水区',
+    360521: '分宜县',
+    360602: '月湖区',
+    360603: '余江区',
+    360681: '贵溪市',
+    360702: '章贡区',
+    360703: '南康区',
+    360704: '赣县区',
+    360722: '信丰县',
+    360723: '大余县',
+    360724: '上犹县',
+    360725: '崇义县',
+    360726: '安远县',
+    360727: '龙南县',
+    360728: '定南县',
+    360729: '全南县',
+    360730: '宁都县',
+    360731: '于都县',
+    360732: '兴国县',
+    360733: '会昌县',
+    360734: '寻乌县',
+    360735: '石城县',
+    360781: '瑞金市',
+    360802: '吉州区',
+    360803: '青原区',
+    360821: '吉安县',
+    360822: '吉水县',
+    360823: '峡江县',
+    360824: '新干县',
+    360825: '永丰县',
+    360826: '泰和县',
+    360827: '遂川县',
+    360828: '万安县',
+    360829: '安福县',
+    360830: '永新县',
+    360881: '井冈山市',
+    360902: '袁州区',
+    360921: '奉新县',
+    360922: '万载县',
+    360923: '上高县',
+    360924: '宜丰县',
+    360925: '靖安县',
+    360926: '铜鼓县',
+    360981: '丰城市',
+    360982: '樟树市',
+    360983: '高安市',
+    361002: '临川区',
+    361003: '东乡区',
+    361021: '南城县',
+    361022: '黎川县',
+    361023: '南丰县',
+    361024: '崇仁县',
+    361025: '乐安县',
+    361026: '宜黄县',
+    361027: '金溪县',
+    361028: '资溪县',
+    361030: '广昌县',
+    361102: '信州区',
+    361103: '广丰区',
+    361121: '上饶县',
+    361123: '玉山县',
+    361124: '铅山县',
+    361125: '横峰县',
+    361126: '弋阳县',
+    361127: '余干县',
+    361128: '鄱阳县',
+    361129: '万年县',
+    361130: '婺源县',
+    361181: '德兴市',
+    370102: '历下区',
+    370103: '市中区',
+    370104: '槐荫区',
+    370105: '天桥区',
+    370112: '历城区',
+    370113: '长清区',
+    370114: '章丘区',
+    370115: '济阳区',
+    370116: '莱芜区',
+    370117: '钢城区',
+    370124: '平阴县',
+    370126: '商河县',
+    370190: '高新区',
+    370202: '市南区',
+    370203: '市北区',
+    370211: '黄岛区',
+    370212: '崂山区',
+    370213: '李沧区',
+    370214: '城阳区',
+    370215: '即墨区',
+    370281: '胶州市',
+    370283: '平度市',
+    370285: '莱西市',
+    370290: '开发区',
+    370302: '淄川区',
+    370303: '张店区',
+    370304: '博山区',
+    370305: '临淄区',
+    370306: '周村区',
+    370321: '桓台县',
+    370322: '高青县',
+    370323: '沂源县',
+    370402: '市中区',
+    370403: '薛城区',
+    370404: '峄城区',
+    370405: '台儿庄区',
+    370406: '山亭区',
+    370481: '滕州市',
+    370502: '东营区',
+    370503: '河口区',
+    370505: '垦利区',
+    370522: '利津县',
+    370523: '广饶县',
+    370602: '芝罘区',
+    370611: '福山区',
+    370612: '牟平区',
+    370613: '莱山区',
+    370634: '长岛县',
+    370681: '龙口市',
+    370682: '莱阳市',
+    370683: '莱州市',
+    370684: '蓬莱市',
+    370685: '招远市',
+    370686: '栖霞市',
+    370687: '海阳市',
+    370690: '开发区',
+    370702: '潍城区',
+    370703: '寒亭区',
+    370704: '坊子区',
+    370705: '奎文区',
+    370724: '临朐县',
+    370725: '昌乐县',
+    370781: '青州市',
+    370782: '诸城市',
+    370783: '寿光市',
+    370784: '安丘市',
+    370785: '高密市',
+    370786: '昌邑市',
+    370790: '开发区',
+    370791: '高新区',
+    370811: '任城区',
+    370812: '兖州区',
+    370826: '微山县',
+    370827: '鱼台县',
+    370828: '金乡县',
+    370829: '嘉祥县',
+    370830: '汶上县',
+    370831: '泗水县',
+    370832: '梁山县',
+    370881: '曲阜市',
+    370883: '邹城市',
+    370890: '高新区',
+    370902: '泰山区',
+    370911: '岱岳区',
+    370921: '宁阳县',
+    370923: '东平县',
+    370982: '新泰市',
+    370983: '肥城市',
+    371002: '环翠区',
+    371003: '文登区',
+    371082: '荣成市',
+    371083: '乳山市',
+    371091: '经济技术开发区',
+    371102: '东港区',
+    371103: '岚山区',
+    371121: '五莲县',
+    371122: '莒县',
+    371302: '兰山区',
+    371311: '罗庄区',
+    371312: '河东区',
+    371321: '沂南县',
+    371322: '郯城县',
+    371323: '沂水县',
+    371324: '兰陵县',
+    371325: '费县',
+    371326: '平邑县',
+    371327: '莒南县',
+    371328: '蒙阴县',
+    371329: '临沭县',
+    371402: '德城区',
+    371403: '陵城区',
+    371422: '宁津县',
+    371423: '庆云县',
+    371424: '临邑县',
+    371425: '齐河县',
+    371426: '平原县',
+    371427: '夏津县',
+    371428: '武城县',
+    371481: '乐陵市',
+    371482: '禹城市',
+    371502: '东昌府区',
+    371521: '阳谷县',
+    371522: '莘县',
+    371523: '茌平县',
+    371524: '东阿县',
+    371525: '冠县',
+    371526: '高唐县',
+    371581: '临清市',
+    371602: '滨城区',
+    371603: '沾化区',
+    371621: '惠民县',
+    371622: '阳信县',
+    371623: '无棣县',
+    371625: '博兴县',
+    371681: '邹平市',
+    371702: '牡丹区',
+    371703: '定陶区',
+    371721: '曹县',
+    371722: '单县',
+    371723: '成武县',
+    371724: '巨野县',
+    371725: '郓城县',
+    371726: '鄄城县',
+    371728: '东明县',
+    410102: '中原区',
+    410103: '二七区',
+    410104: '管城回族区',
+    410105: '金水区',
+    410106: '上街区',
+    410108: '惠济区',
+    410122: '中牟县',
+    410181: '巩义市',
+    410182: '荥阳市',
+    410183: '新密市',
+    410184: '新郑市',
+    410185: '登封市',
+    410190: '高新技术开发区',
+    410191: '经济技术开发区',
+    410202: '龙亭区',
+    410203: '顺河回族区',
+    410204: '鼓楼区',
+    410205: '禹王台区',
+    410212: '祥符区',
+    410221: '杞县',
+    410222: '通许县',
+    410223: '尉氏县',
+    410225: '兰考县',
+    410302: '老城区',
+    410303: '西工区',
+    410304: '瀍河回族区',
+    410305: '涧西区',
+    410306: '吉利区',
+    410311: '洛龙区',
+    410322: '孟津县',
+    410323: '新安县',
+    410324: '栾川县',
+    410325: '嵩县',
+    410326: '汝阳县',
+    410327: '宜阳县',
+    410328: '洛宁县',
+    410329: '伊川县',
+    410381: '偃师市',
+    410402: '新华区',
+    410403: '卫东区',
+    410404: '石龙区',
+    410411: '湛河区',
+    410421: '宝丰县',
+    410422: '叶县',
+    410423: '鲁山县',
+    410425: '郏县',
+    410481: '舞钢市',
+    410482: '汝州市',
+    410502: '文峰区',
+    410503: '北关区',
+    410505: '殷都区',
+    410506: '龙安区',
+    410522: '安阳县',
+    410523: '汤阴县',
+    410526: '滑县',
+    410527: '内黄县',
+    410581: '林州市',
+    410590: '开发区',
+    410602: '鹤山区',
+    410603: '山城区',
+    410611: '淇滨区',
+    410621: '浚县',
+    410622: '淇县',
+    410702: '红旗区',
+    410703: '卫滨区',
+    410704: '凤泉区',
+    410711: '牧野区',
+    410721: '新乡县',
+    410724: '获嘉县',
+    410725: '原阳县',
+    410726: '延津县',
+    410727: '封丘县',
+    410728: '长垣县',
+    410781: '卫辉市',
+    410782: '辉县市',
+    410802: '解放区',
+    410803: '中站区',
+    410804: '马村区',
+    410811: '山阳区',
+    410821: '修武县',
+    410822: '博爱县',
+    410823: '武陟县',
+    410825: '温县',
+    410882: '沁阳市',
+    410883: '孟州市',
+    410902: '华龙区',
+    410922: '清丰县',
+    410923: '南乐县',
+    410926: '范县',
+    410927: '台前县',
+    410928: '濮阳县',
+    411002: '魏都区',
+    411003: '建安区',
+    411024: '鄢陵县',
+    411025: '襄城县',
+    411081: '禹州市',
+    411082: '长葛市',
+    411102: '源汇区',
+    411103: '郾城区',
+    411104: '召陵区',
+    411121: '舞阳县',
+    411122: '临颍县',
+    411202: '湖滨区',
+    411203: '陕州区',
+    411221: '渑池县',
+    411224: '卢氏县',
+    411281: '义马市',
+    411282: '灵宝市',
+    411302: '宛城区',
+    411303: '卧龙区',
+    411321: '南召县',
+    411322: '方城县',
+    411323: '西峡县',
+    411324: '镇平县',
+    411325: '内乡县',
+    411326: '淅川县',
+    411327: '社旗县',
+    411328: '唐河县',
+    411329: '新野县',
+    411330: '桐柏县',
+    411381: '邓州市',
+    411402: '梁园区',
+    411403: '睢阳区',
+    411421: '民权县',
+    411422: '睢县',
+    411423: '宁陵县',
+    411424: '柘城县',
+    411425: '虞城县',
+    411426: '夏邑县',
+    411481: '永城市',
+    411502: '浉河区',
+    411503: '平桥区',
+    411521: '罗山县',
+    411522: '光山县',
+    411523: '新县',
+    411524: '商城县',
+    411525: '固始县',
+    411526: '潢川县',
+    411527: '淮滨县',
+    411528: '息县',
+    411602: '川汇区',
+    411621: '扶沟县',
+    411622: '西华县',
+    411623: '商水县',
+    411624: '沈丘县',
+    411625: '郸城县',
+    411626: '淮阳县',
+    411627: '太康县',
+    411628: '鹿邑县',
+    411681: '项城市',
+    411690: '经济开发区',
+    411702: '驿城区',
+    411721: '西平县',
+    411722: '上蔡县',
+    411723: '平舆县',
+    411724: '正阳县',
+    411725: '确山县',
+    411726: '泌阳县',
+    411727: '汝南县',
+    411728: '遂平县',
+    411729: '新蔡县',
+    419001: '济源市',
+    420102: '江岸区',
+    420103: '江汉区',
+    420104: '硚口区',
+    420105: '汉阳区',
+    420106: '武昌区',
+    420107: '青山区',
+    420111: '洪山区',
+    420112: '东西湖区',
+    420113: '汉南区',
+    420114: '蔡甸区',
+    420115: '江夏区',
+    420116: '黄陂区',
+    420117: '新洲区',
+    420202: '黄石港区',
+    420203: '西塞山区',
+    420204: '下陆区',
+    420205: '铁山区',
+    420222: '阳新县',
+    420281: '大冶市',
+    420302: '茅箭区',
+    420303: '张湾区',
+    420304: '郧阳区',
+    420322: '郧西县',
+    420323: '竹山县',
+    420324: '竹溪县',
+    420325: '房县',
+    420381: '丹江口市',
+    420502: '西陵区',
+    420503: '伍家岗区',
+    420504: '点军区',
+    420505: '猇亭区',
+    420506: '夷陵区',
+    420525: '远安县',
+    420526: '兴山县',
+    420527: '秭归县',
+    420528: '长阳土家族自治县',
+    420529: '五峰土家族自治县',
+    420581: '宜都市',
+    420582: '当阳市',
+    420583: '枝江市',
+    420590: '经济开发区',
+    420602: '襄城区',
+    420606: '樊城区',
+    420607: '襄州区',
+    420624: '南漳县',
+    420625: '谷城县',
+    420626: '保康县',
+    420682: '老河口市',
+    420683: '枣阳市',
+    420684: '宜城市',
+    420702: '梁子湖区',
+    420703: '华容区',
+    420704: '鄂城区',
+    420802: '东宝区',
+    420804: '掇刀区',
+    420822: '沙洋县',
+    420881: '钟祥市',
+    420882: '京山市',
+    420902: '孝南区',
+    420921: '孝昌县',
+    420922: '大悟县',
+    420923: '云梦县',
+    420981: '应城市',
+    420982: '安陆市',
+    420984: '汉川市',
+    421002: '沙市区',
+    421003: '荆州区',
+    421022: '公安县',
+    421023: '监利县',
+    421024: '江陵县',
+    421081: '石首市',
+    421083: '洪湖市',
+    421087: '松滋市',
+    421102: '黄州区',
+    421121: '团风县',
+    421122: '红安县',
+    421123: '罗田县',
+    421124: '英山县',
+    421125: '浠水县',
+    421126: '蕲春县',
+    421127: '黄梅县',
+    421181: '麻城市',
+    421182: '武穴市',
+    421202: '咸安区',
+    421221: '嘉鱼县',
+    421222: '通城县',
+    421223: '崇阳县',
+    421224: '通山县',
+    421281: '赤壁市',
+    421303: '曾都区',
+    421321: '随县',
+    421381: '广水市',
+    422801: '恩施市',
+    422802: '利川市',
+    422822: '建始县',
+    422823: '巴东县',
+    422825: '宣恩县',
+    422826: '咸丰县',
+    422827: '来凤县',
+    422828: '鹤峰县',
+    429004: '仙桃市',
+    429005: '潜江市',
+    429006: '天门市',
+    429021: '神农架林区',
+    430102: '芙蓉区',
+    430103: '天心区',
+    430104: '岳麓区',
+    430105: '开福区',
+    430111: '雨花区',
+    430112: '望城区',
+    430121: '长沙县',
+    430181: '浏阳市',
+    430182: '宁乡市',
+    430202: '荷塘区',
+    430203: '芦淞区',
+    430204: '石峰区',
+    430211: '天元区',
+    430212: '渌口区',
+    430223: '攸县',
+    430224: '茶陵县',
+    430225: '炎陵县',
+    430281: '醴陵市',
+    430302: '雨湖区',
+    430304: '岳塘区',
+    430321: '湘潭县',
+    430381: '湘乡市',
+    430382: '韶山市',
+    430405: '珠晖区',
+    430406: '雁峰区',
+    430407: '石鼓区',
+    430408: '蒸湘区',
+    430412: '南岳区',
+    430421: '衡阳县',
+    430422: '衡南县',
+    430423: '衡山县',
+    430424: '衡东县',
+    430426: '祁东县',
+    430481: '耒阳市',
+    430482: '常宁市',
+    430502: '双清区',
+    430503: '大祥区',
+    430511: '北塔区',
+    430521: '邵东县',
+    430522: '新邵县',
+    430523: '邵阳县',
+    430524: '隆回县',
+    430525: '洞口县',
+    430527: '绥宁县',
+    430528: '新宁县',
+    430529: '城步苗族自治县',
+    430581: '武冈市',
+    430602: '岳阳楼区',
+    430603: '云溪区',
+    430611: '君山区',
+    430621: '岳阳县',
+    430623: '华容县',
+    430624: '湘阴县',
+    430626: '平江县',
+    430681: '汨罗市',
+    430682: '临湘市',
+    430702: '武陵区',
+    430703: '鼎城区',
+    430721: '安乡县',
+    430722: '汉寿县',
+    430723: '澧县',
+    430724: '临澧县',
+    430725: '桃源县',
+    430726: '石门县',
+    430781: '津市市',
+    430802: '永定区',
+    430811: '武陵源区',
+    430821: '慈利县',
+    430822: '桑植县',
+    430902: '资阳区',
+    430903: '赫山区',
+    430921: '南县',
+    430922: '桃江县',
+    430923: '安化县',
+    430981: '沅江市',
+    431002: '北湖区',
+    431003: '苏仙区',
+    431021: '桂阳县',
+    431022: '宜章县',
+    431023: '永兴县',
+    431024: '嘉禾县',
+    431025: '临武县',
+    431026: '汝城县',
+    431027: '桂东县',
+    431028: '安仁县',
+    431081: '资兴市',
+    431102: '零陵区',
+    431103: '冷水滩区',
+    431121: '祁阳县',
+    431122: '东安县',
+    431123: '双牌县',
+    431124: '道县',
+    431125: '江永县',
+    431126: '宁远县',
+    431127: '蓝山县',
+    431128: '新田县',
+    431129: '江华瑶族自治县',
+    431202: '鹤城区',
+    431221: '中方县',
+    431222: '沅陵县',
+    431223: '辰溪县',
+    431224: '溆浦县',
+    431225: '会同县',
+    431226: '麻阳苗族自治县',
+    431227: '新晃侗族自治县',
+    431228: '芷江侗族自治县',
+    431229: '靖州苗族侗族自治县',
+    431230: '通道侗族自治县',
+    431281: '洪江市',
+    431302: '娄星区',
+    431321: '双峰县',
+    431322: '新化县',
+    431381: '冷水江市',
+    431382: '涟源市',
+    433101: '吉首市',
+    433122: '泸溪县',
+    433123: '凤凰县',
+    433124: '花垣县',
+    433125: '保靖县',
+    433126: '古丈县',
+    433127: '永顺县',
+    433130: '龙山县',
+    440103: '荔湾区',
+    440104: '越秀区',
+    440105: '海珠区',
+    440106: '天河区',
+    440111: '白云区',
+    440112: '黄埔区',
+    440113: '番禺区',
+    440114: '花都区',
+    440115: '南沙区',
+    440117: '从化区',
+    440118: '增城区',
+    440203: '武江区',
+    440204: '浈江区',
+    440205: '曲江区',
+    440222: '始兴县',
+    440224: '仁化县',
+    440229: '翁源县',
+    440232: '乳源瑶族自治县',
+    440233: '新丰县',
+    440281: '乐昌市',
+    440282: '南雄市',
+    440303: '罗湖区',
+    440304: '福田区',
+    440305: '南山区',
+    440306: '宝安区',
+    440307: '龙岗区',
+    440308: '盐田区',
+    440309: '龙华区',
+    440310: '坪山区',
+    440311: '光明区',
+    440402: '香洲区',
+    440403: '斗门区',
+    440404: '金湾区',
+    440507: '龙湖区',
+    440511: '金平区',
+    440512: '濠江区',
+    440513: '潮阳区',
+    440514: '潮南区',
+    440515: '澄海区',
+    440523: '南澳县',
+    440604: '禅城区',
+    440605: '南海区',
+    440606: '顺德区',
+    440607: '三水区',
+    440608: '高明区',
+    440703: '蓬江区',
+    440704: '江海区',
+    440705: '新会区',
+    440781: '台山市',
+    440783: '开平市',
+    440784: '鹤山市',
+    440785: '恩平市',
+    440802: '赤坎区',
+    440803: '霞山区',
+    440804: '坡头区',
+    440811: '麻章区',
+    440823: '遂溪县',
+    440825: '徐闻县',
+    440881: '廉江市',
+    440882: '雷州市',
+    440883: '吴川市',
+    440890: '经济技术开发区',
+    440902: '茂南区',
+    440904: '电白区',
+    440981: '高州市',
+    440982: '化州市',
+    440983: '信宜市',
+    441202: '端州区',
+    441203: '鼎湖区',
+    441204: '高要区',
+    441223: '广宁县',
+    441224: '怀集县',
+    441225: '封开县',
+    441226: '德庆县',
+    441284: '四会市',
+    441302: '惠城区',
+    441303: '惠阳区',
+    441322: '博罗县',
+    441323: '惠东县',
+    441324: '龙门县',
+    441402: '梅江区',
+    441403: '梅县区',
+    441422: '大埔县',
+    441423: '丰顺县',
+    441424: '五华县',
+    441426: '平远县',
+    441427: '蕉岭县',
+    441481: '兴宁市',
+    441502: '城区',
+    441521: '海丰县',
+    441523: '陆河县',
+    441581: '陆丰市',
+    441602: '源城区',
+    441621: '紫金县',
+    441622: '龙川县',
+    441623: '连平县',
+    441624: '和平县',
+    441625: '东源县',
+    441702: '江城区',
+    441704: '阳东区',
+    441721: '阳西县',
+    441781: '阳春市',
+    441802: '清城区',
+    441803: '清新区',
+    441821: '佛冈县',
+    441823: '阳山县',
+    441825: '连山壮族瑶族自治县',
+    441826: '连南瑶族自治县',
+    441881: '英德市',
+    441882: '连州市',
+    441901: '中堂镇',
+    441903: '南城街道办事处',
+    441904: '长安镇',
+    441905: '东坑镇',
+    441906: '樟木头镇',
+    441907: '莞城街道办事处',
+    441908: '石龙镇',
+    441909: '桥头镇',
+    441910: '万江街道办事处',
+    441911: '麻涌镇',
+    441912: '虎门镇',
+    441913: '谢岗镇',
+    441914: '石碣镇',
+    441915: '茶山镇',
+    441916: '东城街道办事处',
+    441917: '洪梅镇',
+    441918: '道滘镇',
+    441919: '高埗镇',
+    441920: '企石镇',
+    441921: '凤岗镇',
+    441922: '大岭山镇',
+    441923: '松山湖管委会',
+    441924: '清溪镇',
+    441925: '望牛墩镇',
+    441926: '厚街镇',
+    441927: '常平镇',
+    441928: '寮步镇',
+    441929: '石排镇',
+    441930: '横沥镇',
+    441931: '塘厦镇',
+    441932: '黄江镇',
+    441933: '大朗镇',
+    441934: '东莞港',
+    441935: '东莞生态园',
+    441990: '沙田镇',
+    442001: '南头镇',
+    442002: '神湾镇',
+    442003: '东凤镇',
+    442004: '五桂山街道办事处',
+    442005: '黄圃镇',
+    442006: '小榄镇',
+    442007: '石岐区街道办事处',
+    442008: '横栏镇',
+    442009: '三角镇',
+    442010: '三乡镇',
+    442011: '港口镇',
+    442012: '沙溪镇',
+    442013: '板芙镇',
+    442015: '东升镇',
+    442016: '阜沙镇',
+    442017: '民众镇',
+    442018: '东区街道办事处',
+    442019: '火炬开发区街道办事处',
+    442020: '西区街道办事处',
+    442021: '南区街道办事处',
+    442022: '古镇镇',
+    442023: '坦洲镇',
+    442024: '大涌镇',
+    442025: '南朗镇',
+    445102: '湘桥区',
+    445103: '潮安区',
+    445122: '饶平县',
+    445202: '榕城区',
+    445203: '揭东区',
+    445222: '揭西县',
+    445224: '惠来县',
+    445281: '普宁市',
+    445302: '云城区',
+    445303: '云安区',
+    445321: '新兴县',
+    445322: '郁南县',
+    445381: '罗定市',
+    450102: '兴宁区',
+    450103: '青秀区',
+    450105: '江南区',
+    450107: '西乡塘区',
+    450108: '良庆区',
+    450109: '邕宁区',
+    450110: '武鸣区',
+    450123: '隆安县',
+    450124: '马山县',
+    450125: '上林县',
+    450126: '宾阳县',
+    450127: '横县',
+    450202: '城中区',
+    450203: '鱼峰区',
+    450204: '柳南区',
+    450205: '柳北区',
+    450206: '柳江区',
+    450222: '柳城县',
+    450223: '鹿寨县',
+    450224: '融安县',
+    450225: '融水苗族自治县',
+    450226: '三江侗族自治县',
+    450302: '秀峰区',
+    450303: '叠彩区',
+    450304: '象山区',
+    450305: '七星区',
+    450311: '雁山区',
+    450312: '临桂区',
+    450321: '阳朔县',
+    450323: '灵川县',
+    450324: '全州县',
+    450325: '兴安县',
+    450326: '永福县',
+    450327: '灌阳县',
+    450328: '龙胜各族自治县',
+    450329: '资源县',
+    450330: '平乐县',
+    450332: '恭城瑶族自治县',
+    450381: '荔浦市',
+    450403: '万秀区',
+    450405: '长洲区',
+    450406: '龙圩区',
+    450421: '苍梧县',
+    450422: '藤县',
+    450423: '蒙山县',
+    450481: '岑溪市',
+    450502: '海城区',
+    450503: '银海区',
+    450512: '铁山港区',
+    450521: '合浦县',
+    450602: '港口区',
+    450603: '防城区',
+    450621: '上思县',
+    450681: '东兴市',
+    450702: '钦南区',
+    450703: '钦北区',
+    450721: '灵山县',
+    450722: '浦北县',
+    450802: '港北区',
+    450803: '港南区',
+    450804: '覃塘区',
+    450821: '平南县',
+    450881: '桂平市',
+    450902: '玉州区',
+    450903: '福绵区',
+    450921: '容县',
+    450922: '陆川县',
+    450923: '博白县',
+    450924: '兴业县',
+    450981: '北流市',
+    451002: '右江区',
+    451021: '田阳县',
+    451022: '田东县',
+    451023: '平果县',
+    451024: '德保县',
+    451026: '那坡县',
+    451027: '凌云县',
+    451028: '乐业县',
+    451029: '田林县',
+    451030: '西林县',
+    451031: '隆林各族自治县',
+    451081: '靖西市',
+    451102: '八步区',
+    451103: '平桂区',
+    451121: '昭平县',
+    451122: '钟山县',
+    451123: '富川瑶族自治县',
+    451202: '金城江区',
+    451203: '宜州区',
+    451221: '南丹县',
+    451222: '天峨县',
+    451223: '凤山县',
+    451224: '东兰县',
+    451225: '罗城仫佬族自治县',
+    451226: '环江毛南族自治县',
+    451227: '巴马瑶族自治县',
+    451228: '都安瑶族自治县',
+    451229: '大化瑶族自治县',
+    451302: '兴宾区',
+    451321: '忻城县',
+    451322: '象州县',
+    451323: '武宣县',
+    451324: '金秀瑶族自治县',
+    451381: '合山市',
+    451402: '江州区',
+    451421: '扶绥县',
+    451422: '宁明县',
+    451423: '龙州县',
+    451424: '大新县',
+    451425: '天等县',
+    451481: '凭祥市',
+    460105: '秀英区',
+    460106: '龙华区',
+    460107: '琼山区',
+    460108: '美兰区',
+    460202: '海棠区',
+    460203: '吉阳区',
+    460204: '天涯区',
+    460205: '崖州区',
+    460321: '西沙群岛',
+    460322: '南沙群岛',
+    460323: '中沙群岛的岛礁及其海域',
+    460401: '那大镇',
+    460402: '和庆镇',
+    460403: '南丰镇',
+    460404: '大成镇',
+    460405: '雅星镇',
+    460406: '兰洋镇',
+    460407: '光村镇',
+    460408: '木棠镇',
+    460409: '海头镇',
+    460410: '峨蔓镇',
+    460411: '王五镇',
+    460412: '白马井镇',
+    460413: '中和镇',
+    460414: '排浦镇',
+    460415: '东成镇',
+    460416: '新州镇',
+    460417: '洋浦经济开发区',
+    460418: '华南热作学院',
+    469001: '五指山市',
+    469002: '琼海市',
+    469005: '文昌市',
+    469006: '万宁市',
+    469007: '东方市',
+    469021: '定安县',
+    469022: '屯昌县',
+    469023: '澄迈县',
+    469024: '临高县',
+    469025: '白沙黎族自治县',
+    469026: '昌江黎族自治县',
+    469027: '乐东黎族自治县',
+    469028: '陵水黎族自治县',
+    469029: '保亭黎族苗族自治县',
+    469030: '琼中黎族苗族自治县',
+    500101: '万州区',
+    500102: '涪陵区',
+    500103: '渝中区',
+    500104: '大渡口区',
+    500105: '江北区',
+    500106: '沙坪坝区',
+    500107: '九龙坡区',
+    500108: '南岸区',
+    500109: '北碚区',
+    500110: '綦江区',
+    500111: '大足区',
+    500112: '渝北区',
+    500113: '巴南区',
+    500114: '黔江区',
+    500115: '长寿区',
+    500116: '江津区',
+    500117: '合川区',
+    500118: '永川区',
+    500119: '南川区',
+    500120: '璧山区',
+    500151: '铜梁区',
+    500152: '潼南区',
+    500153: '荣昌区',
+    500154: '开州区',
+    500155: '梁平区',
+    500156: '武隆区',
+    500229: '城口县',
+    500230: '丰都县',
+    500231: '垫江县',
+    500233: '忠县',
+    500235: '云阳县',
+    500236: '奉节县',
+    500237: '巫山县',
+    500238: '巫溪县',
+    500240: '石柱土家族自治县',
+    500241: '秀山土家族苗族自治县',
+    500242: '酉阳土家族苗族自治县',
+    500243: '彭水苗族土家族自治县',
+    510104: '锦江区',
+    510105: '青羊区',
+    510106: '金牛区',
+    510107: '武侯区',
+    510108: '成华区',
+    510112: '龙泉驿区',
+    510113: '青白江区',
+    510114: '新都区',
+    510115: '温江区',
+    510116: '双流区',
+    510117: '郫都区',
+    510121: '金堂县',
+    510129: '大邑县',
+    510131: '蒲江县',
+    510132: '新津县',
+    510181: '都江堰市',
+    510182: '彭州市',
+    510183: '邛崃市',
+    510184: '崇州市',
+    510185: '简阳市',
+    510191: '高新区',
+    510302: '自流井区',
+    510303: '贡井区',
+    510304: '大安区',
+    510311: '沿滩区',
+    510321: '荣县',
+    510322: '富顺县',
+    510402: '东区',
+    510403: '西区',
+    510411: '仁和区',
+    510421: '米易县',
+    510422: '盐边县',
+    510502: '江阳区',
+    510503: '纳溪区',
+    510504: '龙马潭区',
+    510521: '泸县',
+    510522: '合江县',
+    510524: '叙永县',
+    510525: '古蔺县',
+    510603: '旌阳区',
+    510604: '罗江区',
+    510623: '中江县',
+    510681: '广汉市',
+    510682: '什邡市',
+    510683: '绵竹市',
+    510703: '涪城区',
+    510704: '游仙区',
+    510705: '安州区',
+    510722: '三台县',
+    510723: '盐亭县',
+    510725: '梓潼县',
+    510726: '北川羌族自治县',
+    510727: '平武县',
+    510781: '江油市',
+    510791: '高新区',
+    510802: '利州区',
+    510811: '昭化区',
+    510812: '朝天区',
+    510821: '旺苍县',
+    510822: '青川县',
+    510823: '剑阁县',
+    510824: '苍溪县',
+    510903: '船山区',
+    510904: '安居区',
+    510921: '蓬溪县',
+    510922: '射洪县',
+    510923: '大英县',
+    511002: '市中区',
+    511011: '东兴区',
+    511024: '威远县',
+    511025: '资中县',
+    511083: '隆昌市',
+    511102: '市中区',
+    511111: '沙湾区',
+    511112: '五通桥区',
+    511113: '金口河区',
+    511123: '犍为县',
+    511124: '井研县',
+    511126: '夹江县',
+    511129: '沐川县',
+    511132: '峨边彝族自治县',
+    511133: '马边彝族自治县',
+    511181: '峨眉山市',
+    511302: '顺庆区',
+    511303: '高坪区',
+    511304: '嘉陵区',
+    511321: '南部县',
+    511322: '营山县',
+    511323: '蓬安县',
+    511324: '仪陇县',
+    511325: '西充县',
+    511381: '阆中市',
+    511402: '东坡区',
+    511403: '彭山区',
+    511421: '仁寿县',
+    511423: '洪雅县',
+    511424: '丹棱县',
+    511425: '青神县',
+    511502: '翠屏区',
+    511503: '南溪区',
+    511504: '叙州区',
+    511523: '江安县',
+    511524: '长宁县',
+    511525: '高县',
+    511526: '珙县',
+    511527: '筠连县',
+    511528: '兴文县',
+    511529: '屏山县',
+    511602: '广安区',
+    511603: '前锋区',
+    511621: '岳池县',
+    511622: '武胜县',
+    511623: '邻水县',
+    511681: '华蓥市',
+    511702: '通川区',
+    511703: '达川区',
+    511722: '宣汉县',
+    511723: '开江县',
+    511724: '大竹县',
+    511725: '渠县',
+    511781: '万源市',
+    511802: '雨城区',
+    511803: '名山区',
+    511822: '荥经县',
+    511823: '汉源县',
+    511824: '石棉县',
+    511825: '天全县',
+    511826: '芦山县',
+    511827: '宝兴县',
+    511902: '巴州区',
+    511903: '恩阳区',
+    511921: '通江县',
+    511922: '南江县',
+    511923: '平昌县',
+    512002: '雁江区',
+    512021: '安岳县',
+    512022: '乐至县',
+    513201: '马尔康市',
+    513221: '汶川县',
+    513222: '理县',
+    513223: '茂县',
+    513224: '松潘县',
+    513225: '九寨沟县',
+    513226: '金川县',
+    513227: '小金县',
+    513228: '黑水县',
+    513230: '壤塘县',
+    513231: '阿坝县',
+    513232: '若尔盖县',
+    513233: '红原县',
+    513301: '康定市',
+    513322: '泸定县',
+    513323: '丹巴县',
+    513324: '九龙县',
+    513325: '雅江县',
+    513326: '道孚县',
+    513327: '炉霍县',
+    513328: '甘孜县',
+    513329: '新龙县',
+    513330: '德格县',
+    513331: '白玉县',
+    513332: '石渠县',
+    513333: '色达县',
+    513334: '理塘县',
+    513335: '巴塘县',
+    513336: '乡城县',
+    513337: '稻城县',
+    513338: '得荣县',
+    513401: '西昌市',
+    513422: '木里藏族自治县',
+    513423: '盐源县',
+    513424: '德昌县',
+    513425: '会理县',
+    513426: '会东县',
+    513427: '宁南县',
+    513428: '普格县',
+    513429: '布拖县',
+    513430: '金阳县',
+    513431: '昭觉县',
+    513432: '喜德县',
+    513433: '冕宁县',
+    513434: '越西县',
+    513435: '甘洛县',
+    513436: '美姑县',
+    513437: '雷波县',
+    520102: '南明区',
+    520103: '云岩区',
+    520111: '花溪区',
+    520112: '乌当区',
+    520113: '白云区',
+    520115: '观山湖区',
+    520121: '开阳县',
+    520122: '息烽县',
+    520123: '修文县',
+    520181: '清镇市',
+    520201: '钟山区',
+    520203: '六枝特区',
+    520221: '水城县',
+    520281: '盘州市',
+    520302: '红花岗区',
+    520303: '汇川区',
+    520304: '播州区',
+    520322: '桐梓县',
+    520323: '绥阳县',
+    520324: '正安县',
+    520325: '道真仡佬族苗族自治县',
+    520326: '务川仡佬族苗族自治县',
+    520327: '凤冈县',
+    520328: '湄潭县',
+    520329: '余庆县',
+    520330: '习水县',
+    520381: '赤水市',
+    520382: '仁怀市',
+    520402: '西秀区',
+    520403: '平坝区',
+    520422: '普定县',
+    520423: '镇宁布依族苗族自治县',
+    520424: '关岭布依族苗族自治县',
+    520425: '紫云苗族布依族自治县',
+    520502: '七星关区',
+    520521: '大方县',
+    520522: '黔西县',
+    520523: '金沙县',
+    520524: '织金县',
+    520525: '纳雍县',
+    520526: '威宁彝族回族苗族自治县',
+    520527: '赫章县',
+    520602: '碧江区',
+    520603: '万山区',
+    520621: '江口县',
+    520622: '玉屏侗族自治县',
+    520623: '石阡县',
+    520624: '思南县',
+    520625: '印江土家族苗族自治县',
+    520626: '德江县',
+    520627: '沿河土家族自治县',
+    520628: '松桃苗族自治县',
+    522301: '兴义市',
+    522302: '兴仁市',
+    522323: '普安县',
+    522324: '晴隆县',
+    522325: '贞丰县',
+    522326: '望谟县',
+    522327: '册亨县',
+    522328: '安龙县',
+    522601: '凯里市',
+    522622: '黄平县',
+    522623: '施秉县',
+    522624: '三穗县',
+    522625: '镇远县',
+    522626: '岑巩县',
+    522627: '天柱县',
+    522628: '锦屏县',
+    522629: '剑河县',
+    522630: '台江县',
+    522631: '黎平县',
+    522632: '榕江县',
+    522633: '从江县',
+    522634: '雷山县',
+    522635: '麻江县',
+    522636: '丹寨县',
+    522701: '都匀市',
+    522702: '福泉市',
+    522722: '荔波县',
+    522723: '贵定县',
+    522725: '瓮安县',
+    522726: '独山县',
+    522727: '平塘县',
+    522728: '罗甸县',
+    522729: '长顺县',
+    522730: '龙里县',
+    522731: '惠水县',
+    522732: '三都水族自治县',
+    530102: '五华区',
+    530103: '盘龙区',
+    530111: '官渡区',
+    530112: '西山区',
+    530113: '东川区',
+    530114: '呈贡区',
+    530115: '晋宁区',
+    530124: '富民县',
+    530125: '宜良县',
+    530126: '石林彝族自治县',
+    530127: '嵩明县',
+    530128: '禄劝彝族苗族自治县',
+    530129: '寻甸回族彝族自治县',
+    530181: '安宁市',
+    530302: '麒麟区',
+    530303: '沾益区',
+    530304: '马龙区',
+    530322: '陆良县',
+    530323: '师宗县',
+    530324: '罗平县',
+    530325: '富源县',
+    530326: '会泽县',
+    530381: '宣威市',
+    530402: '红塔区',
+    530403: '江川区',
+    530422: '澄江县',
+    530423: '通海县',
+    530424: '华宁县',
+    530425: '易门县',
+    530426: '峨山彝族自治县',
+    530427: '新平彝族傣族自治县',
+    530428: '元江哈尼族彝族傣族自治县',
+    530502: '隆阳区',
+    530521: '施甸县',
+    530523: '龙陵县',
+    530524: '昌宁县',
+    530581: '腾冲市',
+    530602: '昭阳区',
+    530621: '鲁甸县',
+    530622: '巧家县',
+    530623: '盐津县',
+    530624: '大关县',
+    530625: '永善县',
+    530626: '绥江县',
+    530627: '镇雄县',
+    530628: '彝良县',
+    530629: '威信县',
+    530681: '水富市',
+    530702: '古城区',
+    530721: '玉龙纳西族自治县',
+    530722: '永胜县',
+    530723: '华坪县',
+    530724: '宁蒗彝族自治县',
+    530802: '思茅区',
+    530821: '宁洱哈尼族彝族自治县',
+    530822: '墨江哈尼族自治县',
+    530823: '景东彝族自治县',
+    530824: '景谷傣族彝族自治县',
+    530825: '镇沅彝族哈尼族拉祜族自治县',
+    530826: '江城哈尼族彝族自治县',
+    530827: '孟连傣族拉祜族佤族自治县',
+    530828: '澜沧拉祜族自治县',
+    530829: '西盟佤族自治县',
+    530902: '临翔区',
+    530921: '凤庆县',
+    530922: '云县',
+    530923: '永德县',
+    530924: '镇康县',
+    530925: '双江拉祜族佤族布朗族傣族自治县',
+    530926: '耿马傣族佤族自治县',
+    530927: '沧源佤族自治县',
+    532301: '楚雄市',
+    532322: '双柏县',
+    532323: '牟定县',
+    532324: '南华县',
+    532325: '姚安县',
+    532326: '大姚县',
+    532327: '永仁县',
+    532328: '元谋县',
+    532329: '武定县',
+    532331: '禄丰县',
+    532501: '个旧市',
+    532502: '开远市',
+    532503: '蒙自市',
+    532504: '弥勒市',
+    532523: '屏边苗族自治县',
+    532524: '建水县',
+    532525: '石屏县',
+    532527: '泸西县',
+    532528: '元阳县',
+    532529: '红河县',
+    532530: '金平苗族瑶族傣族自治县',
+    532531: '绿春县',
+    532532: '河口瑶族自治县',
+    532601: '文山市',
+    532622: '砚山县',
+    532623: '西畴县',
+    532624: '麻栗坡县',
+    532625: '马关县',
+    532626: '丘北县',
+    532627: '广南县',
+    532628: '富宁县',
+    532801: '景洪市',
+    532822: '勐海县',
+    532823: '勐腊县',
+    532901: '大理市',
+    532922: '漾濞彝族自治县',
+    532923: '祥云县',
+    532924: '宾川县',
+    532925: '弥渡县',
+    532926: '南涧彝族自治县',
+    532927: '巍山彝族回族自治县',
+    532928: '永平县',
+    532929: '云龙县',
+    532930: '洱源县',
+    532931: '剑川县',
+    532932: '鹤庆县',
+    533102: '瑞丽市',
+    533103: '芒市',
+    533122: '梁河县',
+    533123: '盈江县',
+    533124: '陇川县',
+    533301: '泸水市',
+    533323: '福贡县',
+    533324: '贡山独龙族怒族自治县',
+    533325: '兰坪白族普米族自治县',
+    533401: '香格里拉市',
+    533422: '德钦县',
+    533423: '维西傈僳族自治县',
+    540102: '城关区',
+    540103: '堆龙德庆区',
+    540104: '达孜区',
+    540121: '林周县',
+    540122: '当雄县',
+    540123: '尼木县',
+    540124: '曲水县',
+    540127: '墨竹工卡县',
+    540202: '桑珠孜区',
+    540221: '南木林县',
+    540222: '江孜县',
+    540223: '定日县',
+    540224: '萨迦县',
+    540225: '拉孜县',
+    540226: '昂仁县',
+    540227: '谢通门县',
+    540228: '白朗县',
+    540229: '仁布县',
+    540230: '康马县',
+    540231: '定结县',
+    540232: '仲巴县',
+    540233: '亚东县',
+    540234: '吉隆县',
+    540235: '聂拉木县',
+    540236: '萨嘎县',
+    540237: '岗巴县',
+    540302: '卡若区',
+    540321: '江达县',
+    540322: '贡觉县',
+    540323: '类乌齐县',
+    540324: '丁青县',
+    540325: '察雅县',
+    540326: '八宿县',
+    540327: '左贡县',
+    540328: '芒康县',
+    540329: '洛隆县',
+    540330: '边坝县',
+    540402: '巴宜区',
+    540421: '工布江达县',
+    540422: '米林县',
+    540423: '墨脱县',
+    540424: '波密县',
+    540425: '察隅县',
+    540426: '朗县',
+    540502: '乃东区',
+    540521: '扎囊县',
+    540522: '贡嘎县',
+    540523: '桑日县',
+    540524: '琼结县',
+    540525: '曲松县',
+    540526: '措美县',
+    540527: '洛扎县',
+    540528: '加查县',
+    540529: '隆子县',
+    540530: '错那县',
+    540531: '浪卡子县',
+    540602: '色尼区',
+    540621: '嘉黎县',
+    540622: '比如县',
+    540623: '聂荣县',
+    540624: '安多县',
+    540625: '申扎县',
+    540626: '索县',
+    540627: '班戈县',
+    540628: '巴青县',
+    540629: '尼玛县',
+    540630: '双湖县',
+    542521: '普兰县',
+    542522: '札达县',
+    542523: '噶尔县',
+    542524: '日土县',
+    542525: '革吉县',
+    542526: '改则县',
+    542527: '措勤县',
+    610102: '新城区',
+    610103: '碑林区',
+    610104: '莲湖区',
+    610111: '灞桥区',
+    610112: '未央区',
+    610113: '雁塔区',
+    610114: '阎良区',
+    610115: '临潼区',
+    610116: '长安区',
+    610117: '高陵区',
+    610118: '鄠邑区',
+    610122: '蓝田县',
+    610124: '周至县',
+    610202: '王益区',
+    610203: '印台区',
+    610204: '耀州区',
+    610222: '宜君县',
+    610302: '渭滨区',
+    610303: '金台区',
+    610304: '陈仓区',
+    610322: '凤翔县',
+    610323: '岐山县',
+    610324: '扶风县',
+    610326: '眉县',
+    610327: '陇县',
+    610328: '千阳县',
+    610329: '麟游县',
+    610330: '凤县',
+    610331: '太白县',
+    610402: '秦都区',
+    610403: '杨陵区',
+    610404: '渭城区',
+    610422: '三原县',
+    610423: '泾阳县',
+    610424: '乾县',
+    610425: '礼泉县',
+    610426: '永寿县',
+    610428: '长武县',
+    610429: '旬邑县',
+    610430: '淳化县',
+    610431: '武功县',
+    610481: '兴平市',
+    610482: '彬州市',
+    610502: '临渭区',
+    610503: '华州区',
+    610522: '潼关县',
+    610523: '大荔县',
+    610524: '合阳县',
+    610525: '澄城县',
+    610526: '蒲城县',
+    610527: '白水县',
+    610528: '富平县',
+    610581: '韩城市',
+    610582: '华阴市',
+    610602: '宝塔区',
+    610603: '安塞区',
+    610621: '延长县',
+    610622: '延川县',
+    610623: '子长县',
+    610625: '志丹县',
+    610626: '吴起县',
+    610627: '甘泉县',
+    610628: '富县',
+    610629: '洛川县',
+    610630: '宜川县',
+    610631: '黄龙县',
+    610632: '黄陵县',
+    610702: '汉台区',
+    610703: '南郑区',
+    610722: '城固县',
+    610723: '洋县',
+    610724: '西乡县',
+    610725: '勉县',
+    610726: '宁强县',
+    610727: '略阳县',
+    610728: '镇巴县',
+    610729: '留坝县',
+    610730: '佛坪县',
+    610802: '榆阳区',
+    610803: '横山区',
+    610822: '府谷县',
+    610824: '靖边县',
+    610825: '定边县',
+    610826: '绥德县',
+    610827: '米脂县',
+    610828: '佳县',
+    610829: '吴堡县',
+    610830: '清涧县',
+    610831: '子洲县',
+    610881: '神木市',
+    610902: '汉滨区',
+    610921: '汉阴县',
+    610922: '石泉县',
+    610923: '宁陕县',
+    610924: '紫阳县',
+    610925: '岚皋县',
+    610926: '平利县',
+    610927: '镇坪县',
+    610928: '旬阳县',
+    610929: '白河县',
+    611002: '商州区',
+    611021: '洛南县',
+    611022: '丹凤县',
+    611023: '商南县',
+    611024: '山阳县',
+    611025: '镇安县',
+    611026: '柞水县',
+    620102: '城关区',
+    620103: '七里河区',
+    620104: '西固区',
+    620105: '安宁区',
+    620111: '红古区',
+    620121: '永登县',
+    620122: '皋兰县',
+    620123: '榆中县',
+    620201: '市辖区',
+    620290: '雄关区',
+    620291: '长城区',
+    620292: '镜铁区',
+    620293: '新城镇',
+    620294: '峪泉镇',
+    620295: '文殊镇',
+    620302: '金川区',
+    620321: '永昌县',
+    620402: '白银区',
+    620403: '平川区',
+    620421: '靖远县',
+    620422: '会宁县',
+    620423: '景泰县',
+    620502: '秦州区',
+    620503: '麦积区',
+    620521: '清水县',
+    620522: '秦安县',
+    620523: '甘谷县',
+    620524: '武山县',
+    620525: '张家川回族自治县',
+    620602: '凉州区',
+    620621: '民勤县',
+    620622: '古浪县',
+    620623: '天祝藏族自治县',
+    620702: '甘州区',
+    620721: '肃南裕固族自治县',
+    620722: '民乐县',
+    620723: '临泽县',
+    620724: '高台县',
+    620725: '山丹县',
+    620802: '崆峒区',
+    620821: '泾川县',
+    620822: '灵台县',
+    620823: '崇信县',
+    620825: '庄浪县',
+    620826: '静宁县',
+    620881: '华亭市',
+    620902: '肃州区',
+    620921: '金塔县',
+    620922: '瓜州县',
+    620923: '肃北蒙古族自治县',
+    620924: '阿克塞哈萨克族自治县',
+    620981: '玉门市',
+    620982: '敦煌市',
+    621002: '西峰区',
+    621021: '庆城县',
+    621022: '环县',
+    621023: '华池县',
+    621024: '合水县',
+    621025: '正宁县',
+    621026: '宁县',
+    621027: '镇原县',
+    621102: '安定区',
+    621121: '通渭县',
+    621122: '陇西县',
+    621123: '渭源县',
+    621124: '临洮县',
+    621125: '漳县',
+    621126: '岷县',
+    621202: '武都区',
+    621221: '成县',
+    621222: '文县',
+    621223: '宕昌县',
+    621224: '康县',
+    621225: '西和县',
+    621226: '礼县',
+    621227: '徽县',
+    621228: '两当县',
+    622901: '临夏市',
+    622921: '临夏县',
+    622922: '康乐县',
+    622923: '永靖县',
+    622924: '广河县',
+    622925: '和政县',
+    622926: '东乡族自治县',
+    622927: '积石山保安族东乡族撒拉族自治县',
+    623001: '合作市',
+    623021: '临潭县',
+    623022: '卓尼县',
+    623023: '舟曲县',
+    623024: '迭部县',
+    623025: '玛曲县',
+    623026: '碌曲县',
+    623027: '夏河县',
+    630102: '城东区',
+    630103: '城中区',
+    630104: '城西区',
+    630105: '城北区',
+    630121: '大通回族土族自治县',
+    630122: '湟中县',
+    630123: '湟源县',
+    630202: '乐都区',
+    630203: '平安区',
+    630222: '民和回族土族自治县',
+    630223: '互助土族自治县',
+    630224: '化隆回族自治县',
+    630225: '循化撒拉族自治县',
+    632221: '门源回族自治县',
+    632222: '祁连县',
+    632223: '海晏县',
+    632224: '刚察县',
+    632321: '同仁县',
+    632322: '尖扎县',
+    632323: '泽库县',
+    632324: '河南蒙古族自治县',
+    632521: '共和县',
+    632522: '同德县',
+    632523: '贵德县',
+    632524: '兴海县',
+    632525: '贵南县',
+    632621: '玛沁县',
+    632622: '班玛县',
+    632623: '甘德县',
+    632624: '达日县',
+    632625: '久治县',
+    632626: '玛多县',
+    632701: '玉树市',
+    632722: '杂多县',
+    632723: '称多县',
+    632724: '治多县',
+    632725: '囊谦县',
+    632726: '曲麻莱县',
+    632801: '格尔木市',
+    632802: '德令哈市',
+    632803: '茫崖市',
+    632821: '乌兰县',
+    632822: '都兰县',
+    632823: '天峻县',
+    640104: '兴庆区',
+    640105: '西夏区',
+    640106: '金凤区',
+    640121: '永宁县',
+    640122: '贺兰县',
+    640181: '灵武市',
+    640202: '大武口区',
+    640205: '惠农区',
+    640221: '平罗县',
+    640302: '利通区',
+    640303: '红寺堡区',
+    640323: '盐池县',
+    640324: '同心县',
+    640381: '青铜峡市',
+    640402: '原州区',
+    640422: '西吉县',
+    640423: '隆德县',
+    640424: '泾源县',
+    640425: '彭阳县',
+    640502: '沙坡头区',
+    640521: '中宁县',
+    640522: '海原县',
+    650102: '天山区',
+    650103: '沙依巴克区',
+    650104: '新市区',
+    650105: '水磨沟区',
+    650106: '头屯河区',
+    650107: '达坂城区',
+    650109: '米东区',
+    650121: '乌鲁木齐县',
+    650202: '独山子区',
+    650203: '克拉玛依区',
+    650204: '白碱滩区',
+    650205: '乌尔禾区',
+    650402: '高昌区',
+    650421: '鄯善县',
+    650422: '托克逊县',
+    650502: '伊州区',
+    650521: '巴里坤哈萨克自治县',
+    650522: '伊吾县',
+    652301: '昌吉市',
+    652302: '阜康市',
+    652323: '呼图壁县',
+    652324: '玛纳斯县',
+    652325: '奇台县',
+    652327: '吉木萨尔县',
+    652328: '木垒哈萨克自治县',
+    652701: '博乐市',
+    652702: '阿拉山口市',
+    652722: '精河县',
+    652723: '温泉县',
+    652801: '库尔勒市',
+    652822: '轮台县',
+    652823: '尉犁县',
+    652824: '若羌县',
+    652825: '且末县',
+    652826: '焉耆回族自治县',
+    652827: '和静县',
+    652828: '和硕县',
+    652829: '博湖县',
+    652901: '阿克苏市',
+    652922: '温宿县',
+    652923: '库车县',
+    652924: '沙雅县',
+    652925: '新和县',
+    652926: '拜城县',
+    652927: '乌什县',
+    652928: '阿瓦提县',
+    652929: '柯坪县',
+    653001: '阿图什市',
+    653022: '阿克陶县',
+    653023: '阿合奇县',
+    653024: '乌恰县',
+    653101: '喀什市',
+    653121: '疏附县',
+    653122: '疏勒县',
+    653123: '英吉沙县',
+    653124: '泽普县',
+    653125: '莎车县',
+    653126: '叶城县',
+    653127: '麦盖提县',
+    653128: '岳普湖县',
+    653129: '伽师县',
+    653130: '巴楚县',
+    653131: '塔什库尔干塔吉克自治县',
+    653201: '和田市',
+    653221: '和田县',
+    653222: '墨玉县',
+    653223: '皮山县',
+    653224: '洛浦县',
+    653225: '策勒县',
+    653226: '于田县',
+    653227: '民丰县',
+    654002: '伊宁市',
+    654003: '奎屯市',
+    654004: '霍尔果斯市',
+    654021: '伊宁县',
+    654022: '察布查尔锡伯自治县',
+    654023: '霍城县',
+    654024: '巩留县',
+    654025: '新源县',
+    654026: '昭苏县',
+    654027: '特克斯县',
+    654028: '尼勒克县',
+    654201: '塔城市',
+    654202: '乌苏市',
+    654221: '额敏县',
+    654223: '沙湾县',
+    654224: '托里县',
+    654225: '裕民县',
+    654226: '和布克赛尔蒙古自治县',
+    654301: '阿勒泰市',
+    654321: '布尔津县',
+    654322: '富蕴县',
+    654323: '福海县',
+    654324: '哈巴河县',
+    654325: '青河县',
+    654326: '吉木乃县',
+    659001: '石河子市',
+    659002: '阿拉尔市',
+    659003: '图木舒克市',
+    659004: '五家渠市',
+    659005: '北屯市',
+    659006: '铁门关市',
+    659007: '双河市',
+    659008: '可克达拉市',
+    659009: '昆玉市',
+    710101: '中正区',
+    710102: '大同区',
+    710103: '中山区',
+    710104: '松山区',
+    710105: '大安区',
+    710106: '万华区',
+    710107: '信义区',
+    710108: '士林区',
+    710109: '北投区',
+    710110: '内湖区',
+    710111: '南港区',
+    710112: '文山区',
+    710199: '其它区',
+    710201: '新兴区',
+    710202: '前金区',
+    710203: '芩雅区',
+    710204: '盐埕区',
+    710205: '鼓山区',
+    710206: '旗津区',
+    710207: '前镇区',
+    710208: '三民区',
+    710209: '左营区',
+    710210: '楠梓区',
+    710211: '小港区',
+    710241: '苓雅区',
+    710242: '仁武区',
+    710243: '大社区',
+    710244: '冈山区',
+    710245: '路竹区',
+    710246: '阿莲区',
+    710247: '田寮区',
+    710248: '燕巢区',
+    710249: '桥头区',
+    710250: '梓官区',
+    710251: '弥陀区',
+    710252: '永安区',
+    710253: '湖内区',
+    710254: '凤山区',
+    710255: '大寮区',
+    710256: '林园区',
+    710257: '鸟松区',
+    710258: '大树区',
+    710259: '旗山区',
+    710260: '美浓区',
+    710261: '六龟区',
+    710262: '内门区',
+    710263: '杉林区',
+    710264: '甲仙区',
+    710265: '桃源区',
+    710266: '那玛夏区',
+    710267: '茂林区',
+    710268: '茄萣区',
+    710299: '其它区',
+    710301: '中西区',
+    710302: '东区',
+    710303: '南区',
+    710304: '北区',
+    710305: '安平区',
+    710306: '安南区',
+    710339: '永康区',
+    710340: '归仁区',
+    710341: '新化区',
+    710342: '左镇区',
+    710343: '玉井区',
+    710344: '楠西区',
+    710345: '南化区',
+    710346: '仁德区',
+    710347: '关庙区',
+    710348: '龙崎区',
+    710349: '官田区',
+    710350: '麻豆区',
+    710351: '佳里区',
+    710352: '西港区',
+    710353: '七股区',
+    710354: '将军区',
+    710355: '学甲区',
+    710356: '北门区',
+    710357: '新营区',
+    710358: '后壁区',
+    710359: '白河区',
+    710360: '东山区',
+    710361: '六甲区',
+    710362: '下营区',
+    710363: '柳营区',
+    710364: '盐水区',
+    710365: '善化区',
+    710366: '大内区',
+    710367: '山上区',
+    710368: '新市区',
+    710369: '安定区',
+    710399: '其它区',
+    710401: '中区',
+    710402: '东区',
+    710403: '南区',
+    710404: '西区',
+    710405: '北区',
+    710406: '北屯区',
+    710407: '西屯区',
+    710408: '南屯区',
+    710431: '太平区',
+    710432: '大里区',
+    710433: '雾峰区',
+    710434: '乌日区',
+    710435: '丰原区',
+    710436: '后里区',
+    710437: '石冈区',
+    710438: '东势区',
+    710439: '和平区',
+    710440: '新社区',
+    710441: '潭子区',
+    710442: '大雅区',
+    710443: '神冈区',
+    710444: '大肚区',
+    710445: '沙鹿区',
+    710446: '龙井区',
+    710447: '梧栖区',
+    710448: '清水区',
+    710449: '大甲区',
+    710450: '外埔区',
+    710451: '大安区',
+    710499: '其它区',
+    710507: '金沙镇',
+    710508: '金湖镇',
+    710509: '金宁乡',
+    710510: '金城镇',
+    710511: '烈屿乡',
+    710512: '乌坵乡',
+    710614: '南投市',
+    710615: '中寮乡',
+    710616: '草屯镇',
+    710617: '国姓乡',
+    710618: '埔里镇',
+    710619: '仁爱乡',
+    710620: '名间乡',
+    710621: '集集镇',
+    710622: '水里乡',
+    710623: '鱼池乡',
+    710624: '信义乡',
+    710625: '竹山镇',
+    710626: '鹿谷乡',
+    710701: '仁爱区',
+    710702: '信义区',
+    710703: '中正区',
+    710704: '中山区',
+    710705: '安乐区',
+    710706: '暖暖区',
+    710707: '七堵区',
+    710799: '其它区',
+    710801: '东区',
+    710802: '北区',
+    710803: '香山区',
+    710899: '其它区',
+    710901: '东区',
+    710902: '西区',
+    710999: '其它区',
+    711130: '万里区',
+    711132: '板桥区',
+    711133: '汐止区',
+    711134: '深坑区',
+    711135: '石碇区',
+    711136: '瑞芳区',
+    711137: '平溪区',
+    711138: '双溪区',
+    711139: '贡寮区',
+    711140: '新店区',
+    711141: '坪林区',
+    711142: '乌来区',
+    711143: '永和区',
+    711144: '中和区',
+    711145: '土城区',
+    711146: '三峡区',
+    711147: '树林区',
+    711148: '莺歌区',
+    711149: '三重区',
+    711150: '新庄区',
+    711151: '泰山区',
+    711152: '林口区',
+    711153: '芦洲区',
+    711154: '五股区',
+    711155: '八里区',
+    711156: '淡水区',
+    711157: '三芝区',
+    711158: '石门区',
+    711287: '宜兰市',
+    711288: '头城镇',
+    711289: '礁溪乡',
+    711290: '壮围乡',
+    711291: '员山乡',
+    711292: '罗东镇',
+    711293: '三星乡',
+    711294: '大同乡',
+    711295: '五结乡',
+    711296: '冬山乡',
+    711297: '苏澳镇',
+    711298: '南澳乡',
+    711299: '钓鱼台',
+    711387: '竹北市',
+    711388: '湖口乡',
+    711389: '新丰乡',
+    711390: '新埔镇',
+    711391: '关西镇',
+    711392: '芎林乡',
+    711393: '宝山乡',
+    711394: '竹东镇',
+    711395: '五峰乡',
+    711396: '横山乡',
+    711397: '尖石乡',
+    711398: '北埔乡',
+    711399: '峨眉乡',
+    711414: '中坜区',
+    711415: '平镇区',
+    711417: '杨梅区',
+    711418: '新屋区',
+    711419: '观音区',
+    711420: '桃园区',
+    711421: '龟山区',
+    711422: '八德区',
+    711423: '大溪区',
+    711425: '大园区',
+    711426: '芦竹区',
+    711487: '中坜市',
+    711488: '平镇市',
+    711489: '龙潭乡',
+    711490: '杨梅市',
+    711491: '新屋乡',
+    711492: '观音乡',
+    711493: '桃园市',
+    711494: '龟山乡',
+    711495: '八德市',
+    711496: '大溪镇',
+    711497: '复兴乡',
+    711498: '大园乡',
+    711499: '芦竹乡',
+    711520: '头份市',
+    711582: '竹南镇',
+    711583: '头份镇',
+    711584: '三湾乡',
+    711585: '南庄乡',
+    711586: '狮潭乡',
+    711587: '后龙镇',
+    711588: '通霄镇',
+    711589: '苑里镇',
+    711590: '苗栗市',
+    711591: '造桥乡',
+    711592: '头屋乡',
+    711593: '公馆乡',
+    711594: '大湖乡',
+    711595: '泰安乡',
+    711596: '铜锣乡',
+    711597: '三义乡',
+    711598: '西湖乡',
+    711599: '卓兰镇',
+    711736: '员林市',
+    711774: '彰化市',
+    711775: '芬园乡',
+    711776: '花坛乡',
+    711777: '秀水乡',
+    711778: '鹿港镇',
+    711779: '福兴乡',
+    711780: '线西乡',
+    711781: '和美镇',
+    711782: '伸港乡',
+    711783: '员林镇',
+    711784: '社头乡',
+    711785: '永靖乡',
+    711786: '埔心乡',
+    711787: '溪湖镇',
+    711788: '大村乡',
+    711789: '埔盐乡',
+    711790: '田中镇',
+    711791: '北斗镇',
+    711792: '田尾乡',
+    711793: '埤头乡',
+    711794: '溪州乡',
+    711795: '竹塘乡',
+    711796: '二林镇',
+    711797: '大城乡',
+    711798: '芳苑乡',
+    711799: '二水乡',
+    711982: '番路乡',
+    711983: '梅山乡',
+    711984: '竹崎乡',
+    711985: '阿里山乡',
+    711986: '中埔乡',
+    711987: '大埔乡',
+    711988: '水上乡',
+    711989: '鹿草乡',
+    711990: '太保市',
+    711991: '朴子市',
+    711992: '东石乡',
+    711993: '六脚乡',
+    711994: '新港乡',
+    711995: '民雄乡',
+    711996: '大林镇',
+    711997: '溪口乡',
+    711998: '义竹乡',
+    711999: '布袋镇',
+    712180: '斗南镇',
+    712181: '大埤乡',
+    712182: '虎尾镇',
+    712183: '土库镇',
+    712184: '褒忠乡',
+    712185: '东势乡',
+    712186: '台西乡',
+    712187: '仑背乡',
+    712188: '麦寮乡',
+    712189: '斗六市',
+    712190: '林内乡',
+    712191: '古坑乡',
+    712192: '莿桐乡',
+    712193: '西螺镇',
+    712194: '二仑乡',
+    712195: '北港镇',
+    712196: '水林乡',
+    712197: '口湖乡',
+    712198: '四湖乡',
+    712199: '元长乡',
+    712451: '崁顶乡',
+    712467: '屏东市',
+    712468: '三地门乡',
+    712469: '雾台乡',
+    712470: '玛家乡',
+    712471: '九如乡',
+    712472: '里港乡',
+    712473: '高树乡',
+    712474: '盐埔乡',
+    712475: '长治乡',
+    712476: '麟洛乡',
+    712477: '竹田乡',
+    712478: '内埔乡',
+    712479: '万丹乡',
+    712480: '潮州镇',
+    712481: '泰武乡',
+    712482: '来义乡',
+    712483: '万峦乡',
+    712484: '莰顶乡',
+    712485: '新埤乡',
+    712486: '南州乡',
+    712487: '林边乡',
+    712488: '东港镇',
+    712489: '琉球乡',
+    712490: '佳冬乡',
+    712491: '新园乡',
+    712492: '枋寮乡',
+    712493: '枋山乡',
+    712494: '春日乡',
+    712495: '狮子乡',
+    712496: '车城乡',
+    712497: '牡丹乡',
+    712498: '恒春镇',
+    712499: '满州乡',
+    712584: '台东市',
+    712585: '绿岛乡',
+    712586: '兰屿乡',
+    712587: '延平乡',
+    712588: '卑南乡',
+    712589: '鹿野乡',
+    712590: '关山镇',
+    712591: '海端乡',
+    712592: '池上乡',
+    712593: '东河乡',
+    712594: '成功镇',
+    712595: '长滨乡',
+    712596: '金峰乡',
+    712597: '大武乡',
+    712598: '达仁乡',
+    712599: '太麻里乡',
+    712686: '花莲市',
+    712687: '新城乡',
+    712688: '太鲁阁',
+    712689: '秀林乡',
+    712690: '吉安乡',
+    712691: '寿丰乡',
+    712692: '凤林镇',
+    712693: '光复乡',
+    712694: '丰滨乡',
+    712695: '瑞穗乡',
+    712696: '万荣乡',
+    712697: '玉里镇',
+    712698: '卓溪乡',
+    712699: '富里乡',
+    712794: '马公市',
+    712795: '西屿乡',
+    712796: '望安乡',
+    712797: '七美乡',
+    712798: '白沙乡',
+    712799: '湖西乡',
+    712896: '南竿乡',
+    712897: '北竿乡',
+    712898: '东引乡',
+    712899: '莒光乡',
+    810101: '中西区',
+    810102: '湾仔区',
+    810103: '东区',
+    810104: '南区',
+    810201: '九龙城区',
+    810202: '油尖旺区',
+    810203: '深水埗区',
+    810204: '黄大仙区',
+    810205: '观塘区',
+    810301: '北区',
+    810302: '大埔区',
+    810303: '沙田区',
+    810304: '西贡区',
+    810305: '元朗区',
+    810306: '屯门区',
+    810307: '荃湾区',
+    810308: '葵青区',
+    810309: '离岛区',
+    820102: '花地玛堂区',
+    820103: '花王堂区',
+    820104: '望德堂区',
+    820105: '大堂区',
+    820106: '风顺堂区',
+    820202: '嘉模堂区',
+    820203: '路氹填海区',
+    820204: '圣方济各堂区',
+};
 
 
 /***/ }),

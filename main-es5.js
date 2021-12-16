@@ -3390,7 +3390,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           var data = this.managerObj.signaturePad.toDataURL('image/svg+xml');
           var path = atob(data.split(',')[1]);
           host.managerObj.signature = Object(_utils_judge_data__WEBPACK_IMPORTED_MODULE_3__["svgPathToGeoJson"])(path); //console output signature format
-          //console.log(JSON.stringify(host.managerObj.signature)); 
+          //console.log(JSON.stringify(host.managerObj.signature));
         }
       }, {
         key: "resizeCanvas",
@@ -3729,7 +3729,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
                     //     canvas: canvas, //自定义 canvas
                     //     width: width, //dom 原始宽度
                     //     height: height,
-                    //     scrollY: 0, 
+                    //     scrollY: 0,
                     //     scrollX: 0,
                     //     x: 0, // x坐标
                     //     y: 0, // y坐标
@@ -3793,7 +3793,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
           setTimeout(function () {
             var constraints = {
-              video: {// width:{max: this.ocr.nativeElement.clientWidth - 4}, 
+              video: {// width:{max: this.ocr.nativeElement.clientWidth - 4},
                 // height: {max :this.ocr.nativeElement.clientHeight - 4},
                 // facingMode: { exact: "environment" },
               },
@@ -3878,9 +3878,12 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
           var constraints = {
             audio: false,
-            video: {// width: this.videoWidth,
+            video: {
+              // width: this.videoWidth,
               // height: this.videoHeight,
-              // facingMode: { exact: "environment" },
+              facingMode: {
+                exact: "environment"
+              }
             }
           }; // this.getMedia();
 

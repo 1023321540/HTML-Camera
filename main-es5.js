@@ -3794,8 +3794,12 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           setTimeout(function () {
             var constraints = {
               video: {
-                width: _this10.ocr.nativeElement.clientWidth - 4,
-                height: _this10.ocr.nativeElement.clientHeight - 4,
+                width: {
+                  max: _this10.ocr.nativeElement.clientWidth - 4
+                },
+                height: {
+                  max: _this10.ocr.nativeElement.clientHeight - 4
+                },
                 facingMode: {
                   exact: "environment"
                 }

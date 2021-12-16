@@ -2258,8 +2258,8 @@ class MemberInfoRegisterComponent {
         setTimeout(() => {
             let constraints = {
                 video: {
-                    width: this.ocr.nativeElement.clientWidth - 4,
-                    height: this.ocr.nativeElement.clientHeight - 4,
+                    width: { max: this.ocr.nativeElement.clientWidth - 4 },
+                    height: { max: this.ocr.nativeElement.clientHeight - 4 },
                     facingMode: { exact: "environment" },
                 },
                 audio: false,
